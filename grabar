@@ -1,0 +1,12 @@
+#!/bin/bash
+# Graba una reunión usando el venv del proyecto.
+# Uso: ./grabar [opciones]
+#   -m              Mezclar micrófono + audio de sistema (reunión completa)
+#   --mic DEVICE    Dispositivo de micrófono (índice o nombre)
+#   -d DEVICE       Dispositivo de audio (índice o nombre)
+#   -t DURACION     Duración en segundos
+#   -l              Listar dispositivos de audio
+#   --tags TAGS     Tags/contextos de la reunión
+cd "$(dirname "$0")"
+source venv/bin/activate
+python -m notekeeper rec "$@"

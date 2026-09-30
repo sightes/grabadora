@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "notekeeper"
+version = "0.1.0"
+description = "CLI para grabar y transcribir reuniones"
+requires-python = ">=3.11"
+dependencies = [
+    "sounddevice>=0.5.0",
+    "soundfile>=0.13.0",
+    "numpy>=1.24.0",
+    "cffi>=1.0",
+    "faster-whisper>=1.1.0",
+    "python-dotenv>=1.0.0",
+    "rich>=14.0.0",
+]
+
+[project.scripts]
+notekeeper = "notekeeper.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["notekeeper*"]

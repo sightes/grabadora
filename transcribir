@@ -1,0 +1,5 @@
+#!/bin/bash
+# Transcribe los audios pendientes usando el venv del proyecto.
+cd "$(dirname "$0")"
+source venv/bin/activate
+python -m notekeeper transcript "$@"
