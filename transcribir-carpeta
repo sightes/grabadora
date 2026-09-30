@@ -1,0 +1,19 @@
+#!/bin/bash
+# Transcribe todos los audios de una carpeta específica.
+# Uso: ./transcribir-carpeta <carpeta>
+#   Los archivos de transcripción (.txt) se guardan en la misma carpeta.
+cd "$(dirname "$0")"
+source venv/bin/activate
+
+if [ -z "$1" ]; then
+    echo "Uso: ./transcribir-carpeta <carpeta>"
+    echo ""
+    echo "Transcribe todos los archivos de audio de la carpeta indicada."
+    echo "Los archivos .txt se guardan junto a cada audio."
+    echo ""
+    echo "Ejemplo:"
+    echo "  ./transcribir-carpeta ~/Grabaciones/reunion-2024"
+    exit 1
+fi
+
+python -m notekeeper transcript -f "$1"

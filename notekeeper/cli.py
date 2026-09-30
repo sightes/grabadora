@@ -3,6 +3,7 @@
 import argparse
 import re
 import sys
+from pathlib import Path
 
 
 def extract_tags(args_list: list[str]) -> tuple[list[str], list[str]]:
@@ -43,7 +44,67 @@ def cmd_transcript(args):
         get_audio_path,
         list_sessions,
     )
+    from notekeeper.config import AUDIO_EXTENSIONS
 
+    # Modo carpeta: transcribir todos los audios de una carpeta específica
+    if getattr(args, "folder", None):
+        folder = Path(args.folder)
+        if not folder.exists():
+            print(f"Carpeta no encontrada: {folder}")
+            sys.exit(1)
+        if not folder.is_dir():
+            print(f"No es una carpeta: {folder}")
+            sys.exit(1)
+
+        # Buscar archivos de audio en la carpeta
+        audio_files = sorted([
+            f for f in folder.iterdir()
+            if f.is_file() and f.suffix.lower() in AUDIO_EXTENSIONS
+        ])
+
+        if not audio_files:
+            print(f"No se encontraron archivos de audio en {folder}")
+            print(f"Extensiones soportadas: {', '.join(sorted(AUDIO_EXTENSIONS))}")
+            sys.exit(1)
+
+        # Filtrar los que ya tienen transcripción
+        untranscribed = []
+        for audio in audio_files:
+            transcript_path = audio.with_suffix('.txt')
+            if not transcript_path.exists():
+                untranscribed.append((audio, folder))
+
+        if not untranscribed:
+            print(f"Todos los audios en {folder} ya están transcritos.")
+            return
+
+        print(f"=== Notekeeper - Transcribir carpeta ({len(untranscribed)} archivos) ===\n")
+        print(f"Carpeta: {folder}\n")
+
+        model = load_model()
+
+        for audio_path, session_dir in untranscribed:
+            print(f"\n--- {audio_path.name} ---")
+            result = transcribe_file(audio_path, model=model)
+
+            transcript_text = format_transcript(result)
+            transcript_path = audio_path.with_suffix('.txt')
+            transcript_path.write_text(transcript_text, encoding="utf-8")
+
+            # Guardar segments.json junto al audio
+            segments_path = audio_path.with_suffix('.json')
+            import json
+            segments_path.write_text(
+                json.dumps(result["segments"], ensure_ascii=False, indent=2),
+                encoding="utf-8"
+            )
+
+            print(f"Guardado en {transcript_path.name}")
+
+        print(f"\n✓ {len(untranscribed)} transcripción(es) guardada(s) en {folder}")
+        return
+
+    # Modo original: transcribir sesiones de recordings/
     if getattr(args, "tag", None) and not args.session:
         sessions = list_sessions(tags=[args.tag])
         untranscribed = []
@@ -122,6 +183,7 @@ def main():
     tr = sub.add_parser("transcript", help="Transcribir audios pendientes")
     tr.add_argument("-s", "--session", type=str, help="ID de sesión específica")
     tr.add_argument("--tag", type=str, help="Solo transcribir sesiones con este tag")
+    tr.add_argument("-f", "--folder", type=str, help="Carpeta con audios a transcribir (guarda transcript en la misma carpeta)")
 
     # list
     li = sub.add_parser("list", help="Listar grabaciones")
