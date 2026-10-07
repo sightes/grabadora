@@ -45,17 +45,18 @@ def _print_header():
 
 def _print_help():
     cmds = [
-        ("/apuntes",    "seleccionar transcripciones y generar apuntes"),
-        ("/tareas",     "generar tareas y ejercicios desde transcripciones"),
-        ("/preguntas",  "listar todas las preguntas realizadas en clase"),
-        ("/comunicados","listar comunicados de actividades del doctorado"),
-        ("/pruebas",    "resumen de todo lo dicho sobre evaluación"),
-        ("/errores",    "identificar errores metodológicos y conceptuales"),
-        ("/full",       "generar todo: apuntes, tareas, preguntas, comunicados, pruebas, errores"),
-        ("/limpiar",    "limpiar historial de conversación"),
-        ("/modelo",     "ver modelo configurado"),
-        ("/ayuda",      "mostrar esta ayuda"),
-        ("/salir",      "salir del chat"),
+        ("/apuntes",         "seleccionar transcripciones y generar apuntes"),
+        ("/tareas",          "generar tareas y ejercicios desde transcripciones"),
+        ("/preguntas",       "listar todas las preguntas realizadas en clase"),
+        ("/comunicados",     "listar comunicados de actividades del doctorado"),
+        ("/pruebas",         "resumen de todo lo dicho sobre evaluación"),
+        ("/errores",         "identificar errores metodológicos y conceptuales"),
+        ("/analisisclase",   "análisis pedagógico: estructura, ánimo, dinámica"),
+        ("/full",            "generar todo: apuntes, tareas, preguntas, comunicados, pruebas, errores"),
+        ("/limpiar",         "limpiar historial de conversación"),
+        ("/modelo",          "ver modelo configurado"),
+        ("/ayuda",           "mostrar esta ayuda"),
+        ("/salir",           "salir del chat"),
     ]
     console.print()
     for cmd, desc in cmds:
@@ -794,6 +795,162 @@ FORMATO DE SALIDA OBLIGATORIO:
     return call_openrouter(messages, config)
 
 
+def generate_analisisclase(sessions: list[Path], config: dict) -> str:
+    """Genera análisis pedagógico de la clase."""
+    contents = []
+    for p in sessions:
+        text = get_transcript_text(p)
+        if text:
+            if p.is_dir():
+                try:
+                    name = p.name[:10]
+                except Exception:
+                    name = p.name
+            else:
+                name = p.stem
+            contents.append(f"## {name}\n\n{text[:15000]}")
+
+    if not contents:
+        return "no se encontró contenido en las transcripciones seleccionadas."
+
+    context = "\n\n---\n\n".join(contents)
+
+    system_prompt = """Eres un experto en pedagogía y análisis educativo que realiza un análisis profundo de clases grabadas.
+
+INSTRUCCIONES ESTRICTAS:
+- Analiza la ESTRUCTURA de la clase: inicio, desarrollo, cierre
+- Identifica el ÁNIMO y nivel de participación de los alumnos
+- Evalúa la DINÁMICA de comunicación profesor-alumnos
+- Detecta MOMENTOS CLAVE: cambios de tema, pausas, interacciones
+- Analiza la METODOLOGÍA didáctica utilizada
+- Identifica PATRONES de atención y desinterés
+- Evalúa la CLARIDAD de las explicaciones
+- Detecta GESTIÓN DEL TIEMPO: qué tanto se dedicó a cada tema
+
+ASPECTOS A ANALIZAR:
+1. **Estructura temporal:** Inicio, desarrollo, cierre
+2. **Ánimo de alumnos:** Participación, preguntas, silencios, risas
+3. **Metodología:** Tipo de enseñanza, recursos usados
+4. **Interacciones:** Diálogos, preguntas, respuestas
+5. **Momentos clave:** Picos de atención, confusiones, aclaraciones
+6. **Gestión del tiempo:** Distribución por temas
+
+FORMATO DE SALIDA OBLIGATORIO:
+
+# 🔬 Análisis Pedagógico de Clase
+
+## 📋 Resumen Ejecutivo
+- **Duración total:** [estimación]
+- **Estructura:** [bien estructurada / desorganizada / parcial]
+- **Ánimo general:** [activo / pasivo / mixto]
+- **Metodología principal:** [clase magistral / participativa / mixta]
+
+---
+
+## ⏱️ Estructura Temporal
+
+### 🟢 Inicio (primeros minutos)
+- **Actividad:** [qué se hizo al inicio]
+- **Duración estimada:** [minutos]
+- **Efectividad:** [buena / regular / mala]
+- **Observaciones:** [cómo arrancó la clase]
+
+### 🔵 Desarrollo (cuerpo principal)
+- **Temas cubiertos:**
+  1. [Tema 1] - [tiempo estimado]
+  2. [Tema 2] - [tiempo estimado]
+- **Transiciones:** [fluidas / abruptas / confusas]
+- **Ritmo:** [adecuado / rápido / lento]
+- **Profundidad:** [superficial / adecuada / profunda]
+
+### 🔴 Cierre (últimos minutos)
+- **Actividad:** [cómo terminó la clase]
+- **Resumen:** [hizo resumen / no]
+- **Tareas:** [asignó tareas / no]
+- **Despedida:** [formal / informal / abrupta]
+
+---
+
+## 😊 Ánimo y Participación de Alumnos
+
+### Nivel de Participación
+| Aspecto | Nivel | Evidencia |
+|---------|-------|-----------|
+| Preguntas | Alto/Medio/Bajo | [N preguntas detectadas] |
+| Intervenciones | Alto/Medio/Bajo | [N intervenciones] |
+| Atención | Alto/Medio/Bajo | [indicadores] |
+
+### Momentos de Mayor Participación
+- [minuto/tema] - [qué pasó]
+
+### Momentos de Menor Participación
+- [minuto/tema] - [qué pasó]
+
+### Indicadores de Ánimo
+- **Risas o momentos de humor:** [sí/no, cuándo]
+- **Silencios prolongados:** [cuándo, posible causa]
+- **Confusiones detectadas:** [cuándo, sobre qué]
+- **Entusiasmo:** [momentos de interés notable]
+
+---
+
+## 👨‍🏫 Análisis del Profesor
+
+### Estilo de Enseñanza
+- **Tipo:** [magistral / socrático / colaborativo / mixto]
+- **Claridad:** [alta / media / baja]
+- **Organización:** [buena / regular / mala]
+
+### Recursos Didácticos Usados
+- [pizarra / diapositivas / ejemplos / ejercicios / etc.]
+
+### Fortalezas del Profesor
+- [aspecto positivo 1]
+- [aspecto positivo 2]
+
+### Áreas de Mejora
+- [aspecto a mejorar 1]
+- [aspecto a mejorar 2]
+
+---
+
+## 📊 Distribución del Tiempo
+
+| Actividad | Tiempo Estimado | Porcentaje |
+|-----------|-----------------|------------|
+| Exposición teórica | [min] | [%] |
+| Preguntas/respuestas | [min] | [%] |
+| Ejercicios prácticos | [min] | [%] |
+| Organización/transiciones | [min] | [%] |
+| Otros | [min] | [%] |
+
+---
+
+## 💡 Momentos Clave Detectados
+
+### Momento 1: [Descripción]
+- **Tipo:** [explicación clave / confusión / aclaración / cambio de tema]
+- **Impacto:** [alto / medio / bajo]
+- **Detalle:** [qué pasó]
+
+### Momento 2: [Descripción]
+...
+
+---
+
+## 📝 Observaciones Generales
+- [patrones detectados]
+- [recomendaciones generales]
+- [notas sobre la dinámica de grupo]"""
+
+    messages = [
+        {"role": "system", "content": system_prompt},
+        {"role": "user", "content": f"Realiza un análisis pedagógico completo de esta clase:\n\n{context}"}
+    ]
+
+    return call_openrouter(messages, config)
+
+
 def generate_full(sessions: list[Path], config: dict) -> dict:
     """Genera todos los reportes: apuntes, tareas, preguntas, comunicados, pruebas, errores."""
     results = {}
@@ -1107,6 +1264,46 @@ def run_chatbot():
                     console.print()
                     history.append({"role": "user", "content": "/errores"})
                     history.append({"role": "assistant", "content": errores})
+                    continue
+
+                elif cmd == "/analisisclase":
+                    console.print(f"\n  [{YELLOW}]análisis de clase[/]")
+                    console.print(DIVIDER)
+                    sessions = select_transcripts()
+
+                    if not sessions:
+                        continue
+
+                    console.print(f"\n  [{DIM}]analizando pedagogía de {len(sessions)} transcripción(es)...[/]")
+
+                    with console.status(f"  [{VIOLET}]procesando[/]", spinner="dots"):
+                        analisis = generate_analisisclase(sessions, config)
+
+                    console.print()
+                    console.print(Panel(
+                        Markdown(analisis),
+                        border_style=DIM,
+                        box=MINIMAL,
+                        padding=(1, 2),
+                    ))
+
+                    console.print()
+                    save = _prompt("guardar en archivo? (s/n)")
+                    if save in ("s", "si", "y", "yes", ""):
+                        try:
+                            date_str = datetime.now().strftime("%Y-%m-%d_%H-%M")
+                            filename = f"analisis_clase_{date_str}.md"
+                        except Exception:
+                            filename = "analisis_clase.md"
+
+                        save_dir = sessions[0].parent if sessions and sessions[0].is_dir() else DATA_DIR
+                        filepath = save_dir / filename
+                        filepath.write_text(analisis, encoding="utf-8")
+                        console.print(f"  [{GREEN}]guardado[{DIM}] {filepath}[/]")
+
+                    console.print()
+                    history.append({"role": "user", "content": "/analisisclase"})
+                    history.append({"role": "assistant", "content": analisis})
                     continue
 
                 elif cmd == "/full":
