@@ -45,13 +45,15 @@ def _print_header():
 
 def _print_help():
     cmds = [
-        ("/apuntes",   "seleccionar transcripciones y generar apuntes"),
-        ("/tareas",    "generar tareas y ejercicios desde transcripciones"),
-        ("/preguntas", "listar todas las preguntas realizadas en clase"),
-        ("/limpiar",   "limpiar historial de conversación"),
-        ("/modelo",    "ver modelo configurado"),
-        ("/ayuda",     "mostrar esta ayuda"),
-        ("/salir",     "salir del chat"),
+        ("/apuntes",    "seleccionar transcripciones y generar apuntes"),
+        ("/tareas",     "generar tareas y ejercicios desde transcripciones"),
+        ("/preguntas",  "listar todas las preguntas realizadas en clase"),
+        ("/comunicados","listar comunicados de actividades del doctorado"),
+        ("/pruebas",    "resumen de todo lo dicho sobre evaluación"),
+        ("/limpiar",    "limpiar historial de conversación"),
+        ("/modelo",     "ver modelo configurado"),
+        ("/ayuda",      "mostrar esta ayuda"),
+        ("/salir",      "salir del chat"),
     ]
     console.print()
     for cmd, desc in cmds:
@@ -509,6 +511,178 @@ FORMATO DE SALIDA OBLIGATORIO:
     return call_openrouter(messages, config)
 
 
+def generate_comunicados(sessions: list[Path], config: dict) -> str:
+    """Extrae comunicados sobre actividades del doctorado."""
+    contents = []
+    for p in sessions:
+        text = get_transcript_text(p)
+        if text:
+            if p.is_dir():
+                try:
+                    name = p.name[:10]
+                except Exception:
+                    name = p.name
+            else:
+                name = p.stem
+            contents.append(f"## {name}\n\n{text[:15000]}")
+
+    if not contents:
+        return "no se encontró contenido en las transcripciones seleccionadas."
+
+    context = "\n\n---\n\n".join(contents)
+
+    system_prompt = """Eres un asistente académico que extrae comunicados oficiales de actividades de doctorado mencionados en clases.
+
+INSTRUCCIONES ESTRICTAS:
+- Identifica TODOS los comunicados mencionados por el profesor o coordinación
+- Incluye fechas, plazos y requisitos mencionados
+- Organiza por categorías: exámenes, inscripciones, plazos, eventos, requisitos
+- Si hay fechas límite, márcalas claramente
+- Incluye información de contacto si se menciona
+- Si un comunicado es urgente o tiene fecha próxima, márcalo
+- Captura información sobre: tesis, seminarios, publicaciones, defensas, cursos
+
+FORMATO DE SALIDA OBLIGATORIO:
+
+# 📢 Comunicados del Doctorado
+
+## 📋 Resumen
+- Total de comunicados: [N]
+- Próximos plazos: [lista breve]
+
+---
+
+## 📅 Próximas Fechas Importantes
+
+| Fecha | Actividad | Estado |
+|-------|-----------|--------|
+| [fecha] | [actividad] | ⚠️ urgente / 📌 próximo / ✅ sin fecha |
+
+---
+
+## 📝 Comunicados por Categoría
+
+### 🎓 Exámenes y Defensas
+- [comunicado 1 con fecha y detalles]
+- [comunicado 2]
+
+### 📚 Inscripciones y Matrícula
+- [comunicado 1]
+
+### 📄 Publicaciones y Requisitos
+- [comunicado 1]
+
+### 📆 Eventos y Seminarios
+- [comunicado 1]
+
+### 📋 Tesis y Proyecto de Investigación
+- [comunicado 1]
+
+---
+
+## ⚠️ Acciones Requeridas
+- [lista de cosas que el alumno debe hacer con fecha límite]
+
+## 📞 Contactos y Referencias
+- [emails, teléfonos, oficinas mencionadas]
+
+## 📌 Notas Adicionales
+- [cualquier información relevante adicional]"""
+
+    messages = [
+        {"role": "system", "content": system_prompt},
+        {"role": "user", "content": f"Extrae todos los comunicados sobre actividades del doctorado mencionados en estas clases:\n\n{context}"}
+    ]
+
+    return call_openrouter(messages, config)
+
+
+def generate_pruebas(sessions: list[Path], config: dict) -> str:
+    """Genera resumen de todo lo dicho sobre evaluación."""
+    contents = []
+    for p in sessions:
+        text = get_transcript_text(p)
+        if text:
+            if p.is_dir():
+                try:
+                    name = p.name[:10]
+                except Exception:
+                    name = p.name
+            else:
+                name = p.stem
+            contents.append(f"## {name}\n\n{text[:15000]}")
+
+    if not contents:
+        return "no se encontró contenido en las transcripciones seleccionadas."
+
+    context = "\n\n---\n\n".join(contents)
+
+    system_prompt = """Eres un asistente académico que extrae y resume TODO lo mencionado sobre evaluación en clases.
+
+INSTRUCCIONES ESTRICTAS:
+- Busca TODAS las menciones de: pruebas, exámenes, evaluaciones, notas, calificaciones, rubrica, porcentajes
+- Incluye fechas de evaluaciones si se mencionan
+- Incluye formato de las pruebas (oral, escrita, múltiple opción, ensayo, etc.)
+- Incluye porcentajes o pesos de cada evaluación si se mencionan
+- Incluye temas que entran en cada evaluación
+- Incluye recomendaciones del profesor para prepararse
+- Incluye preguntas de los alumnos sobre evaluaciones y sus respuestas
+- Si se mencionan criterios de evaluación o rúbricas, inclúyelos
+- Si hay cambios o actualizaciones en la evaluación, márcalos
+
+FORMATO DE SALIDA OBLIGATORIO:
+
+# 📊 Todo sobre Evaluación
+
+## 📋 Resumen General
+- Total de menciones sobre evaluación: [N]
+- Próximas evaluaciones: [lista breve]
+
+---
+
+## 📅 Cronograma de Evaluaciones
+
+| Evaluación | Fecha | Temas | Porcentaje | Formato |
+|------------|-------|-------|------------|---------|
+| [nombre] | [fecha] | [temas] | [%] | [formato] |
+
+---
+
+## 📝 Detalle por Evaluación
+
+### 📌 Evaluación 1: [Nombre]
+- **Fecha:** [fecha]
+- **Formato:** [oral/escrita/etc.]
+- **Temas que entran:** [lista de temas]
+- **Porcentaje:** [% de la nota final]
+- **Criterios de evaluación:** [rúbrica si se menciona]
+- **Recomendaciones del profesor:** [tips]
+
+### 📌 Evaluación 2: [Nombre]
+...
+
+---
+
+## 📚 Distribución de Notas
+- [porcentajes de cada evaluación si se mencionaron]
+
+## 💡 Recomendaciones para Estudiar
+- [tips y consejos del profesor]
+
+## ❓ Preguntas sobre Evaluación
+- [preguntas de alumnos sobre evaluaciones con respuestas]
+
+## ⚠️ Notas Importantes
+- [cualquier cambio, actualización o advertencia]"""
+
+    messages = [
+        {"role": "system", "content": system_prompt},
+        {"role": "user", "content": f"Extrae y resume TODO lo mencionado sobre evaluación en estas clases:\n\n{context}"}
+    ]
+
+    return call_openrouter(messages, config)
+
+
 def run_chatbot():
     config = get_llm_config()
 
@@ -677,6 +851,86 @@ def run_chatbot():
                     console.print()
                     history.append({"role": "user", "content": "/preguntas"})
                     history.append({"role": "assistant", "content": preguntas})
+                    continue
+
+                elif cmd == "/comunicados":
+                    console.print(f"\n  [{YELLOW}]comunicados[/]")
+                    console.print(DIVIDER)
+                    sessions = select_transcripts()
+
+                    if not sessions:
+                        continue
+
+                    console.print(f"\n  [{DIM}]extrayendo comunicados de {len(sessions)} transcripción(es)...[/]")
+
+                    with console.status(f"  [{VIOLET}]procesando[/]", spinner="dots"):
+                        comunicados = generate_comunicados(sessions, config)
+
+                    console.print()
+                    console.print(Panel(
+                        Markdown(comunicados),
+                        border_style=DIM,
+                        box=MINIMAL,
+                        padding=(1, 2),
+                    ))
+
+                    console.print()
+                    save = _prompt("guardar en archivo? (s/n)")
+                    if save in ("s", "si", "y", "yes", ""):
+                        try:
+                            date_str = datetime.now().strftime("%Y-%m-%d_%H-%M")
+                            filename = f"comunicados_{date_str}.md"
+                        except Exception:
+                            filename = "comunicados.md"
+
+                        save_dir = sessions[0].parent if sessions and sessions[0].is_dir() else DATA_DIR
+                        filepath = save_dir / filename
+                        filepath.write_text(comunicados, encoding="utf-8")
+                        console.print(f"  [{GREEN}]guardado[{DIM}] {filepath}[/]")
+
+                    console.print()
+                    history.append({"role": "user", "content": "/comunicados"})
+                    history.append({"role": "assistant", "content": comunicados})
+                    continue
+
+                elif cmd == "/pruebas":
+                    console.print(f"\n  [{YELLOW}]pruebas[/]")
+                    console.print(DIVIDER)
+                    sessions = select_transcripts()
+
+                    if not sessions:
+                        continue
+
+                    console.print(f"\n  [{DIM}]extrayendo info sobre evaluación de {len(sessions)} transcripción(es)...[/]")
+
+                    with console.status(f"  [{VIOLET}]procesando[/]", spinner="dots"):
+                        pruebas = generate_pruebas(sessions, config)
+
+                    console.print()
+                    console.print(Panel(
+                        Markdown(pruebas),
+                        border_style=DIM,
+                        box=MINIMAL,
+                        padding=(1, 2),
+                    ))
+
+                    console.print()
+                    save = _prompt("guardar en archivo? (s/n)")
+                    if save in ("s", "si", "y", "yes", ""):
+                        try:
+                            date_str = datetime.now().strftime("%Y-%m-%d_%H-%M")
+                            filename = f"pruebas_{date_str}.md"
+                        except Exception:
+                            filename = "pruebas.md"
+
+                        save_dir = sessions[0].parent if sessions and sessions[0].is_dir() else DATA_DIR
+                        filepath = save_dir / filename
+                        filepath.write_text(pruebas, encoding="utf-8")
+                        console.print(f"  [{GREEN}]guardado[{DIM}] {filepath}[/]")
+
+                    console.print()
+                    history.append({"role": "user", "content": "/pruebas"})
+                    history.append({"role": "assistant", "content": pruebas})
                     continue
 
                 else:
