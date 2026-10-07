@@ -50,6 +50,7 @@ def _print_help():
         ("/preguntas",  "listar todas las preguntas realizadas en clase"),
         ("/comunicados","listar comunicados de actividades del doctorado"),
         ("/pruebas",    "resumen de todo lo dicho sobre evaluación"),
+        ("/errores",    "identificar errores metodológicos y conceptuales"),
         ("/limpiar",    "limpiar historial de conversación"),
         ("/modelo",     "ver modelo configurado"),
         ("/ayuda",      "mostrar esta ayuda"),
@@ -683,6 +684,115 @@ FORMATO DE SALIDA OBLIGATORIO:
     return call_openrouter(messages, config)
 
 
+def generate_errores(sessions: list[Path], config: dict) -> str:
+    """Identifica errores metodológicos y conceptuales en las clases."""
+    contents = []
+    for p in sessions:
+        text = get_transcript_text(p)
+        if text:
+            if p.is_dir():
+                try:
+                    name = p.name[:10]
+                except Exception:
+                    name = p.name
+            else:
+                name = p.stem
+            contents.append(f"## {name}\n\n{text[:15000]}")
+
+    if not contents:
+        return "no se encontró contenido en las transcripciones seleccionadas."
+
+    context = "\n\n---\n\n".join(contents)
+
+    system_prompt = """Eres un experto académico que identifica errores metodológicos, conceptuales y didácticos en clases grabadas.
+
+INSTRUCCIONES ESTRICTAS:
+- Analiza la transcripción buscando errores de cualquier tipo
+- Clasifica cada error por tipo y gravedad
+- Incluye el contexto exacto donde ocurre el error
+- Proporciona la corrección correcta cuando sea posible
+- Sé objetivo y profesional, no critiques al profesor sino al contenido
+- Si no estás seguro de si es un error, márcalo como "posible error" o "verificar"
+- Incluye tanto errores del profesor como conceptos erróneos de alumnos que no fueron corregidos
+
+TIPOS DE ERRORES A BUSCAR:
+1. **Conceptuales:** Definiciones incorrectas, conceptos mal explicados
+2. **Metodológicos:** Procedimientos incorrectos, pasos omitidos
+3. **Numéricos:** Cálculos erróneos, fórmulas mal aplicadas
+4. **Terminológicos:** Uso incorrecto de términos técnicos
+5. **Didácticos:** Explicaciones confusas, ejemplos incorrectos
+6. **Referencias:** Citas incorrectas, atribuciones erróneas
+
+FORMATO DE SALIDA OBLIGATORIO:
+
+# ⚠️ Errores Identificados en Clase
+
+## 📋 Resumen
+- Total de errores encontrados: [N]
+- Por tipo:
+  - Conceptuales: [N]
+  - Metodológicos: [N]
+  - Numéricos: [N]
+  - Otros: [N]
+
+---
+
+## 🔴 Errores Conceptuales
+
+### Error 1: [Breve descripción]
+- **Contexto:** [qué se estaba explicando]
+- **Error:** [qué se dijo incorrectamente]
+- **Corrección:** [lo correcto]
+- **Gravedad:** Alta/Media/Baja
+
+### Error 2: ...
+...
+
+---
+
+## 🟠 Errores Metodológicos
+
+### Error 1: [Breve descripción]
+- **Contexto:** [...]
+- **Error:** [procedimiento incorrecto]
+- **Corrección:** [procedimiento correcto]
+- **Gravedad:** Alta/Media/Baja
+
+---
+
+## 🟡 Errores Numéricos
+
+### Error 1: [Breve descripción]
+- **Cálculo incorrecto:** [...]
+- **Cálculo correcto:** [...]
+
+---
+
+## 🔵 Errores Terminológicos
+
+### Error 1: [Término usado] → [Término correcto]
+- **Contexto:** [...]
+
+---
+
+## 🟢 Conceptos No Corregidos
+
+- [conceptos erróneos dichos por alumnos que no fueron corregidos]
+
+---
+
+## 💡 Notas Adicionales
+- [observaciones sobre la calidad metodológica general]
+- [patrones de errores recurrentes]"""
+
+    messages = [
+        {"role": "system", "content": system_prompt},
+        {"role": "user", "content": f"Identifica todos los errores metodológicos, conceptuales y didácticos en estas clases:\n\n{context}"}
+    ]
+
+    return call_openrouter(messages, config)
+
+
 def run_chatbot():
     config = get_llm_config()
 
@@ -931,6 +1041,46 @@ def run_chatbot():
                     console.print()
                     history.append({"role": "user", "content": "/pruebas"})
                     history.append({"role": "assistant", "content": pruebas})
+                    continue
+
+                elif cmd == "/errores":
+                    console.print(f"\n  [{YELLOW}]errores[/]")
+                    console.print(DIVIDER)
+                    sessions = select_transcripts()
+
+                    if not sessions:
+                        continue
+
+                    console.print(f"\n  [{DIM}]analizando errores en {len(sessions)} transcripción(es)...[/]")
+
+                    with console.status(f"  [{VIOLET}]procesando[/]", spinner="dots"):
+                        errores = generate_errores(sessions, config)
+
+                    console.print()
+                    console.print(Panel(
+                        Markdown(errores),
+                        border_style=DIM,
+                        box=MINIMAL,
+                        padding=(1, 2),
+                    ))
+
+                    console.print()
+                    save = _prompt("guardar en archivo? (s/n)")
+                    if save in ("s", "si", "y", "yes", ""):
+                        try:
+                            date_str = datetime.now().strftime("%Y-%m-%d_%H-%M")
+                            filename = f"errores_{date_str}.md"
+                        except Exception:
+                            filename = "errores.md"
+
+                        save_dir = sessions[0].parent if sessions and sessions[0].is_dir() else DATA_DIR
+                        filepath = save_dir / filename
+                        filepath.write_text(errores, encoding="utf-8")
+                        console.print(f"  [{GREEN}]guardado[{DIM}] {filepath}[/]")
+
+                    console.print()
+                    history.append({"role": "user", "content": "/errores"})
+                    history.append({"role": "assistant", "content": errores})
                     continue
 
                 else:
