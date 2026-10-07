@@ -9,58 +9,56 @@ from datetime import datetime
 from rich.console import Console
 from rich.markdown import Markdown
 from rich.panel import Panel
-from rich.prompt import Prompt, Confirm
-from rich.table import Table
 from rich.text import Text
-from rich.live import Live
-from rich.spinner import Spinner
-from rich.columns import Columns
-from rich.box import HEAVY, ROUNDED, DOUBLE
+from rich.table import Table
+from rich.box import MINIMAL, SIMPLE, ROUNDED
 
 from notekeeper.config import LLM_API_KEY, LLM_BASE_URL, LLM_MODEL, DATA_DIR
-from notekeeper.storage import list_sessions, get_audio_path, load_metadata, get_tags
+from notekeeper.storage import list_sessions, load_metadata, get_tags
 
 console = Console()
 
-# ══════════════════════════════════════════════════════════════════════════════
-# COLORES Y ESTILOS (estilo opencode)
-# ══════════════════════════════════════════════════════════════════════════════
-USER_COLOR = "#00D4AA"      # Cyan/verde brillante
-ASSISTANT_COLOR = "#A78BFA"  # Violeta suave
-SYSTEM_COLOR = "#6B7280"     # Gris
-ACCENT_COLOR = "#F59E0B"     # Amarillo/dorado
-ERROR_COLOR = "#EF4444"      # Rojo
-BORDER_COLOR = "#374151"     # Gris oscuro
-PROMPT_COLOR = "#00D4AA"     # Cyan para el prompt
-TAG_COLOR = "#60A5FA"        # Azul para tags
+# ── Colores (estilo opencode: monocromático con acentos) ─────
+C = {
+    "prompt":    "#22D3EE",   # cyan brillante para input
+    "user":      "#22D3EE",   # cyan
+    "assistant": "#A78BFA",   # violeta
+    "system":    "#6B7280",   # gris
+    "accent":    "#F59E0B",   # amarillo
+    "error":     "#EF4444",   # rojo
+    "dim":       "#4B5563",   # gris oscuro
+    "border":    "#374151",   # borde sutil
+    "muted":     "#9CA3AF",   # gris claro
+    "success":   "#34D399",   # verde
+}
 
-BANNER = """[bold #A78BFA]
-  ╔═══════════════════════════════════════════════════════════╗
-  ║                                                           ║
-  ║   ░█▀█░█▀█░█▀▀░█▀█░█▀▀░█▀█░█▀▄░█▀▀                      ║
-  ║   ░█░█░█▀▀░█▀▀░█░█░█░░░█░█░█░█░█▀▀                      ║
-  ║   ░▀▀▀░▀░░░▀▀▀░▀░▀░▀▀▀░▀▀▀░▀▀░░▀▀▀                      ║
-  ║                                                           ║
-  ║   [dim]Genera apuntes de clase desde tus transcripciones[/dim]   ║
-  ║                                                           ║
-  ╚═══════════════════════════════════════════════════════════╝
-[/bold #A78BFA]"""
+DIVIDER = f"[{C['dim']}]─────────────────────────────────────────────────────────[/]"
 
-HELP_TEXT = f"""[{SYSTEM_COLOR}]
-Comandos disponibles:
-  /apuntes     Seleccionar transcripciones y generar apuntes
-  /historial   Ver conversación anterior
-  /limpiar     Limpiar historial de conversación
-  /modelo      Ver modelo actual
-  /ayuda       Mostrar esta ayuda
-  /salir       Salir del chat
 
-Escribe tu pregunta directamente para conversar con el asistente.
-[/]"""
+def _print_header():
+    """Header minimalista estilo opencode."""
+    console.print()
+    console.print(f"  [{C['assistant']}]apuntes[{C['system']}] v0.1[/]")
+    console.print(f"  [{C['dim']}]genera apuntes desde tus transcripciones[/]")
+    console.print()
+
+
+def _print_help():
+    """Ayuda compacta."""
+    cmds = [
+        ("/apuntes",   "seleccionar transcripciones y generar apuntes"),
+        ("/limpiar",   "limpiar historial de conversación"),
+        ("/modelo",    "ver modelo configurado"),
+        ("/ayuda",     "mostrar esta ayuda"),
+        ("/salir",     "salir del chat"),
+    ]
+    console.print()
+    for cmd, desc in cmds:
+        console.print(f"    [{C['accent']}]{cmd:<14}[{C['muted']}]{desc}[/]")
+    console.print()
 
 
 def get_llm_config():
-    """Obtiene configuración del LLM desde .env."""
     return {
         "api_key": LLM_API_KEY,
         "base_url": LLM_BASE_URL,
@@ -96,18 +94,17 @@ def call_openrouter(messages: list[dict], config: dict) -> str:
             data = json.loads(resp.read().decode("utf-8"))
             choices = data.get("choices") or []
             if not choices:
-                return "(El modelo no devolvió una respuesta)"
+                return "(el modelo no devolvió una respuesta)"
             message = choices[0].get("message") or {}
-            return message.get("content") or "(Respuesta vacía)"
+            return message.get("content") or "(respuesta vacía)"
     except urllib.error.HTTPError as exc:
-        body = exc.read().decode("utf-8", errors="replace")[:500]
-        return f"[{ERROR_COLOR}]Error HTTP {exc.code}: {body}[/]"
+        body = exc.read().decode("utf-8", errors="replace")[:300]
+        return f"error http {exc.code}: {body}"
     except Exception as exc:
-        return f"[{ERROR_COLOR}]Error: {exc}[/]"
+        return f"error: {exc}"
 
 
 def get_transcript_text(session: Path) -> str | None:
-    """Lee el texto de una transcripción."""
     transcript = session / "transcript.txt"
     if transcript.exists():
         return transcript.read_text(encoding="utf-8")
@@ -115,102 +112,91 @@ def get_transcript_text(session: Path) -> str | None:
 
 
 def select_transcripts() -> list[Path]:
-    """Muestra menú para seleccionar transcripciones."""
+    """Menú de selección de transcripciones."""
     sessions = list_sessions()
 
     if not sessions:
-        console.print(f"[{ERROR_COLOR}]No hay transcripciones disponibles.[/]")
+        console.print(f"  [{C['error']}]no hay transcripciones disponibles[/]")
         return []
 
-    # Filtrar solo las que tienen transcripción
-    sessions_with_transcript = []
-    for s in sessions:
-        if (s / "transcript.txt").exists():
-            sessions_with_transcript.append(s)
+    sessions_ok = [s for s in sessions if (s / "transcript.txt").exists()]
 
-    if not sessions_with_transcript:
-        console.print(f"[{ERROR_COLOR}]No hay transcripciones completadas.[/]")
+    if not sessions_ok:
+        console.print(f"  [{C['error']}]no hay transcripciones completadas[/]")
         return []
 
-    # Mostrar tabla de transcripciones
-    console.print()
+    # Tabla compacta
     table = Table(
-        title="Transcripciones disponibles",
-        box=ROUNDED,
-        border_style=BORDER_COLOR,
-        title_style=f"bold {ACCENT_COLOR}",
-        show_lines=True,
+        box=SIMPLE,
+        show_header=True,
+        header_style=f"bold {C['muted']}",
+        border_style=C["dim"],
+        pad_edge=False,
+        padding=(0, 1),
     )
-    table.add_column("#", style=SYSTEM_COLOR, width=4)
-    table.add_column("Fecha", style=TAG_COLOR)
-    table.add_column("Tags", style=USER_COLOR)
-    table.add_column("Duración", style=SYSTEM_COLOR)
-    table.add_column("Estado", style=SYSTEM_COLOR)
+    table.add_column("#", style=C["accent"], width=3, justify="right")
+    table.add_column("fecha", style=C["user"])
+    table.add_column("tags", style=C["assistant"])
+    table.add_column("dur", style=C["dim"], justify="right")
 
-    for i, s in enumerate(sessions_with_transcript, 1):
+    for i, s in enumerate(sessions_ok, 1):
         meta = load_metadata(s)
         tags = get_tags(s)
-        tags_str = ", ".join(sorted(tags)) if tags else "-"
+        tags_str = ", ".join(sorted(tags)) if tags else ""
         duration = meta.get("duration", 0)
         dur_str = f"{int(duration // 60)}:{int(duration % 60):02d}" if duration else "?"
-        language = meta.get("language", "?")
-        segments = meta.get("segments_count", 0)
-        status = f"{language} | {segments} seg"
 
-        # Parsear fecha del nombre de la sesión
         try:
             date_str = s.name[:10]
             time_str = s.name[11:16].replace("-", ":")
             display_date = f"{date_str} {time_str}"
-        except:
+        except Exception:
             display_date = s.name
 
-        table.add_row(str(i), display_date, tags_str, dur_str, status)
+        table.add_row(str(i), display_date, tags_str, dur_str)
 
+    console.print()
     console.print(table)
     console.print()
 
-    # Pedir selección
-    selection = Prompt.ask(
-        f"[{PROMPT_COLOR}]Selecciona transcripciones[/] (ej: 1,2,3 o 'todas')",
-        default="1",
-    )
+    selection = input(f"  [{C['prompt']}]selecciona[{C['dim']}] (1,2,3 o 'todas')[/] > ").strip()
+
+    if not selection:
+        return []
 
     if selection.lower() == "todas":
-        return sessions_with_transcript
+        return sessions_ok
 
     try:
         indices = [int(x.strip()) for x in selection.split(",")]
         selected = []
         for idx in indices:
-            if 1 <= idx <= len(sessions_with_transcript):
-                selected.append(sessions_with_transcript[idx - 1])
+            if 1 <= idx <= len(sessions_ok):
+                selected.append(sessions_ok[idx - 1])
             else:
-                console.print(f"[{ERROR_COLOR}]Índice inválido: {idx}[/]")
+                console.print(f"  [{C['error']}]índice inválido: {idx}[/]")
         return selected
     except ValueError:
-        console.print(f"[{ERROR_COLOR}]Formato inválido. Usa números separados por coma.[/]")
+        console.print(f"  [{C['error']}]formato inválido[/]")
         return []
 
 
 def generate_apuntes(sessions: list[Path], config: dict) -> str:
-    """Genera apuntes a partir de las transcripciones seleccionadas."""
-    # Recopilar contenido de las transcripciones
+    """Genera apuntes desde las transcripciones seleccionadas."""
     contents = []
     for s in sessions:
         text = get_transcript_text(s)
         if text:
-            meta = load_metadata(s)
             tags = get_tags(s)
             tags_str = ", ".join(sorted(tags)) if tags else "sin tags"
             try:
                 date_str = s.name[:10]
-            except:
+            except Exception:
                 date_str = s.name
-            contents.append(f"## Transcripción: {date_str} ({tags_str})\n\n{text[:8000]}")
+            contents.append(f"## {date_str} ({tags_str})\n\n{text[:8000]}")
 
     if not contents:
-        return "[{ERROR_COLOR}]No se encontró contenido en las transcripciones seleccionadas.[/]"
+        return "no se encontró contenido en las transcripciones seleccionadas."
 
     context = "\n\n---\n\n".join(contents)
 
@@ -227,25 +213,25 @@ INSTRUCCIONES:
 - Usa español claro y conciso
 
 FORMATO DE SALIDA:
-# 📚 Apuntes de Clase
+# Apuntes de Clase
 
-## 📋 Resumen
+## Resumen
 [resumen general]
 
-## 🔑 Conceptos Clave
+## Conceptos Clave
 - ...
 
-## 📖 Desarrollo
+## Desarrollo
 ### Tema 1
 - ...
 
-## 💡 Puntos Importantes
+## Puntos Importantes
 - ...
 
-## 📝 Ejercicios/Problemas (si aplica)
+## Ejercicios/Problemas (si aplica)
 - ...
 
-## 🎯 Resumen Final
+## Resumen Final
 - ..."""
 
     messages = [
@@ -256,140 +242,128 @@ FORMATO DE SALIDA:
     return call_openrouter(messages, config)
 
 
-def stream_response(text: str):
-    """Muestra texto con efecto de escritura."""
-    for char in text:
-        sys.stdout.write(char)
-        sys.stdout.flush()
-    print()
-
-
 def run_chatbot():
     """Ejecuta el chatbot interactivo."""
     config = get_llm_config()
 
     if not config["api_key"]:
-        console.print(f"[{ERROR_COLOR}]Error: LLM_API_KEY no configurado en .env[/]")
-        console.print(f"[{SYSTEM_COLOR}]Configura tu API key de OpenRouter en el archivo .env[/]")
+        console.print(f"\n  [{C['error']}]error:[/] LLM_API_KEY no configurado")
+        console.print(f"  [{C['dim']}]agrega tu api key de openrouter en .env[/]\n")
         return
 
-    # Mostrar banner
-    console.print(BANNER)
-    console.print(f"[{SYSTEM_COLOR}]Modelo: [{ACCENT_COLOR}]{config['model']}[/]")
-    console.print(f"[{SYSTEM_COLOR}]Escribe [{PROMPT_COLOR}]/ayuda[{SYSTEM_COLOR}] para ver comandos[/]")
+    _print_header()
+    console.print(f"  [{C['dim']}]modelo[{C['system']}] {config['model']}[/]")
+    console.print(f"  [{C['dim']}]escribe[{C['accent']}] /ayuda[{C['dim']}] para ver comandos[/]")
     console.print()
 
-    # Historial de conversación
     history: list[dict] = []
-    system_prompt = """Eres un asistente académico que ayuda a estudiantes a entender y organizar 
-    sus clases. Responde de forma clara, concisa y útil. Si el usuario pregunta sobre apuntes 
-    o transcripciones, sugiere usar el comando /apuntes."""
+    system_prompt = (
+        "Eres un asistente académico que ayuda a estudiantes a entender "
+        "y organizar sus clases. Responde de forma clara, concisa y útil. "
+        "Si el usuario pregunta sobre apuntes o transcripciones, "
+        "sugiere usar el comando /apuntes."
+    )
 
     while True:
         try:
-            # Prompt del usuario
-            user_input = Prompt.ask(f"\n[{PROMPT_COLOR}]tú[/]")
+            # Prompt estilo opencode
+            user_input = input(f"  [{C['prompt']}]>[/] ").strip()
 
-            if not user_input.strip():
+            if not user_input:
                 continue
 
-            # Comandos especiales
+            # ── Comandos ──────────────────────────────────────
             if user_input.startswith("/"):
-                cmd = user_input.strip().lower()
+                cmd = user_input.lower()
 
                 if cmd == "/salir":
-                    console.print(f"\n[{SYSTEM_COLOR}]¡Hasta luego![/]\n")
+                    console.print(f"\n  [{C['dim']}]bye[/]\n")
                     break
 
                 elif cmd == "/ayuda":
-                    console.print(HELP_TEXT)
+                    _print_help()
                     continue
 
                 elif cmd == "/limpiar":
                     history.clear()
-                    console.print(f"[{SYSTEM_COLOR}]Historial limpiado.[/]")
+                    console.print(f"  [{C['success']}]historial limpiado[/]")
                     continue
 
                 elif cmd == "/modelo":
-                    console.print(f"\n[{SYSTEM_COLOR}]Modelo actual: [{ACCENT_COLOR}]{config['model']}[/]")
-                    console.print(f"[{SYSTEM_COLOR}]URL: [{ACCENT_COLOR}]{config['base_url']}[/]\n")
+                    console.print(f"\n  [{C['dim']}]modelo[{C['system']}] {config['model']}[/]")
+                    console.print(f"  [{C['dim']}]url[{C['system']}] {config['base_url']}[/]\n")
                     continue
 
                 elif cmd == "/apuntes":
-                    console.print(f"\n[{ACCENT_COLOR}]═══ Generador de Apuntes ═══[/]")
+                    console.print(f"\n  [{C['accent']}]apuntes[/]")
+                    console.print(DIVIDER)
                     sessions = select_transcripts()
 
                     if not sessions:
                         continue
 
-                    console.print(f"\n[{SYSTEM_COLOR}]Generando apuntes de {len(sessions)} transcripción(es)...[/]\n")
+                    console.print(f"\n  [{C['dim']}]generando apuntes de {len(sessions)} transcripción(es)...[/]")
 
-                    with console.status(f"[{ACCENT_COLOR}]Procesando...", spinner="dots"):
+                    with console.status(f"  [{C['assistant']}]procesando[/]", spinner="dots"):
                         apuntes = generate_apuntes(sessions, config)
 
+                    console.print()
                     console.print(Panel(
                         Markdown(apuntes),
-                        title="📚 Apuntes de Clase",
-                        border_style=ACCENT_COLOR,
-                        box=ROUNDED,
+                        border_style=C["dim"],
+                        box=MINIMAL,
                         padding=(1, 2),
                     ))
 
-                    # Preguntar si guardar
-                    if Confirm.ask(f"\n[{PROMPT_COLOR}]¿Guardar apuntes en archivo?[/]", default=True):
-                        # Generar nombre de archivo
+                    # Guardar
+                    console.print()
+                    save = input(f"  [{C['prompt']}]guardar en archivo?[{C['dim']}] (s/n)[/] > ").strip().lower()
+
+                    if save in ("s", "si", "y", "yes", ""):
                         try:
                             date_str = datetime.now().strftime("%Y-%m-%d_%H-%M")
                             filename = f"apuntes_{date_str}.md"
-                        except:
+                        except Exception:
                             filename = "apuntes.md"
 
-                        # Guardar en la carpeta de recordings o en la primera sesión
-                        if sessions:
-                            save_dir = sessions[0].parent
-                        else:
-                            save_dir = DATA_DIR
-
+                        save_dir = sessions[0].parent if sessions else DATA_DIR
                         filepath = save_dir / filename
                         filepath.write_text(apuntes, encoding="utf-8")
-                        console.print(f"[{SYSTEM_COLOR}]Guardado en: [{ACCENT_COLOR}]{filepath}[/]")
+                        console.print(f"  [{C['success']}]guardado[{C['dim']}] {filepath}[/]")
 
-                    # Agregar al historial
+                    console.print()
                     history.append({"role": "user", "content": "/apuntes"})
                     history.append({"role": "assistant", "content": apuntes})
                     continue
 
                 else:
-                    console.print(f"[{ERROR_COLOR}]Comando no reconocido: {cmd}[/]")
-                    console.print(f"[{SYSTEM_COLOR}]Escribe [{PROMPT_COLOR}]/ayuda[{SYSTEM_COLOR}] para ver comandos[/]")
+                    console.print(f"  [{C['error']}]comando no reconocido:[/] {cmd}")
+                    console.print(f"  [{C['dim']}]escribe[{C['accent']}] /ayuda[/]")
                     continue
 
-            # Conversación normal con el LLM
+            # ── Conversación normal ───────────────────────────
             history.append({"role": "user", "content": user_input})
 
-            # Construir mensajes
             messages = [{"role": "system", "content": system_prompt}]
-            messages.extend(history[-10:])  # Últimos 10 mensajes de contexto
+            messages.extend(history[-10:])
 
-            # Mostrar spinner mientras espera respuesta
-            with console.status(f"[{ASSISTANT_COLOR}]Pensando...", spinner="dots"):
+            with console.status(f"  [{C['assistant']}]pensando[/]", spinner="dots"):
                 response = call_openrouter(messages, config)
 
-            # Mostrar respuesta
             console.print()
             console.print(Panel(
                 Markdown(response),
-                title=f"[{ASSISTANT_COLOR}]Asistente[/]",
-                border_style=ASSISTANT_COLOR,
-                box=ROUNDED,
-                padding=(1, 2),
+                border_style=C["dim"],
+                box=MINIMAL,
+                padding=(0, 2),
             ))
+            console.print()
 
             history.append({"role": "assistant", "content": response})
 
         except KeyboardInterrupt:
-            console.print(f"\n\n[{SYSTEM_COLOR}]¡Hasta luego![/]\n")
+            console.print(f"\n\n  [{C['dim']}]bye[/]\n")
             break
         except EOFError:
-            console.print(f"\n\n[{SYSTEM_COLOR}]¡Hasta luego![/]\n")
+            console.print(f"\n\n  [{C['dim']}]bye[/]\n")
             break
