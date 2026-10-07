@@ -51,6 +51,7 @@ def _print_help():
         ("/comunicados","listar comunicados de actividades del doctorado"),
         ("/pruebas",    "resumen de todo lo dicho sobre evaluación"),
         ("/errores",    "identificar errores metodológicos y conceptuales"),
+        ("/full",       "generar todo: apuntes, tareas, preguntas, comunicados, pruebas, errores"),
         ("/limpiar",    "limpiar historial de conversación"),
         ("/modelo",     "ver modelo configurado"),
         ("/ayuda",      "mostrar esta ayuda"),
@@ -793,6 +794,31 @@ FORMATO DE SALIDA OBLIGATORIO:
     return call_openrouter(messages, config)
 
 
+def generate_full(sessions: list[Path], config: dict) -> dict:
+    """Genera todos los reportes: apuntes, tareas, preguntas, comunicados, pruebas, errores."""
+    results = {}
+
+    console.print(f"  [{VIOLET}]1/6[{DIM}] apuntes...[/]")
+    results["apuntes"] = generate_apuntes(sessions, config)
+
+    console.print(f"  [{VIOLET}]2/6[{DIM}] tareas...[/]")
+    results["tareas"] = generate_tareas(sessions, config)
+
+    console.print(f"  [{VIOLET}]3/6[{DIM}] preguntas...[/]")
+    results["preguntas"] = generate_preguntas(sessions, config)
+
+    console.print(f"  [{VIOLET}]4/6[{DIM}] comunicados...[/]")
+    results["comunicados"] = generate_comunicados(sessions, config)
+
+    console.print(f"  [{VIOLET}]5/6[{DIM}] pruebas...[/]")
+    results["pruebas"] = generate_pruebas(sessions, config)
+
+    console.print(f"  [{VIOLET}]6/6[{DIM}] errores...[/]")
+    results["errores"] = generate_errores(sessions, config)
+
+    return results
+
+
 def run_chatbot():
     config = get_llm_config()
 
@@ -1081,6 +1107,71 @@ def run_chatbot():
                     console.print()
                     history.append({"role": "user", "content": "/errores"})
                     history.append({"role": "assistant", "content": errores})
+                    continue
+
+                elif cmd == "/full":
+                    console.print(f"\n  [{YELLOW}]full report[/]")
+                    console.print(DIVIDER)
+                    sessions = select_transcripts()
+
+                    if not sessions:
+                        continue
+
+                    console.print(f"\n  [{DIM}]generando reporte completo de {len(sessions)} transcripción(es)...[/]\n")
+
+                    results = generate_full(sessions, config)
+
+                    # Mostrar cada sección
+                    for section, content in results.items():
+                        console.print()
+                        console.print(f"  [{YELLOW}]═══ {section.upper()} ═══[/]")
+                        console.print()
+                        console.print(Panel(
+                            Markdown(content),
+                            border_style=DIM,
+                            box=MINIMAL,
+                            padding=(1, 2),
+                        ))
+
+                    # Guardar todo en un archivo
+                    console.print()
+                    save = _prompt("guardar reporte completo en archivo? (s/n)")
+                    if save in ("s", "si", "y", "yes", ""):
+                        try:
+                            date_str = datetime.now().strftime("%Y-%m-%d_%H-%M")
+                            filename = f"reporte_full_{date_str}.md"
+                        except Exception:
+                            filename = "reporte_full.md"
+
+                        # Construir contenido completo
+                        full_content = f"# 📋 Reporte Completo\n\n"
+                        full_content += f"*Generado el {datetime.now().strftime('%Y-%m-%d %H:%M')}*\n\n"
+                        full_content += f"Transcripciones analizadas: {len(sessions)}\n\n"
+                        full_content += "---\n\n"
+
+                        sections = {
+                            "apuntes": "📚 APUNTES DE CLASE",
+                            "tareas": "📝 TAREAS Y EJERCICIOS",
+                            "preguntas": "❓ PREGUNTAS DE CLASE",
+                            "comunicados": "📢 COMUNICADOS",
+                            "pruebas": "📊 EVALUACIÓN",
+                            "errores": "⚠️ ERRORES IDENTIFICADOS",
+                        }
+
+                        for key, title in sections.items():
+                            full_content += f"# {title}\n\n"
+                            full_content += results.get(key, "no generado")
+                            full_content += "\n\n---\n\n"
+
+                        save_dir = sessions[0].parent if sessions and sessions[0].is_dir() else DATA_DIR
+                        filepath = save_dir / filename
+                        filepath.write_text(full_content, encoding="utf-8")
+                        console.print(f"  [{GREEN}]guardado[{DIM}] {filepath}[/]")
+
+                    console.print()
+                    full_text = "\n\n".join(results.values())
+                    history.append({"role": "user", "content": "/full"})
+                    history.append({"role": "assistant", "content": full_text})
                     continue
 
                 else:
