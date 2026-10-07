@@ -1,0 +1,3689 @@
+Idioma: es
+Duración: 5058.6s
+Segmentos: 1841
+
+============================================================
+TRANSCRIPCIÓN
+============================================================
+
+[00:00] voy a aprender Python paso a paso
+
+[00:02] ¿Qué significa esto?
+
+[00:04] que al hacer este igual
+
+[00:07] guardé este mensaje
+
+[00:09] bueno, esto es el mensaje
+
+[00:11] paso a paso hoy noche
+
+[00:16] le hago click
+
+[00:21] y queda guardado un mensaje
+
+[00:23] le hago click abajo, voy a aprender
+
+[00:26] Python paso a paso hoy una noche lluviosa
+
+[00:28] no, tú le puedes guardar
+
+[00:32] diferentes cosas, el dedo
+
+[00:34] flowat, char, string
+
+[00:36] pero vamos a ir paso a paso con esto
+
+[00:39] ahora, esto
+
+[00:42] ¿dónde queda? queda en la RAM del equipo
+
+[00:44] super poquito esto porque es un mensaje
+
+[00:47] pequeño, pero si se van abajo a
+
+[00:49] variables, a la izquierda va
+
+[00:51] les muestra todo lo que está
+
+[00:55] guardado, CPU,
+
+[00:58] datos, discos, distros, librerías
+
+[01:00] y ya, por ejemplo
+
+[01:02] mensaje, está acá
+
+[01:05] y mensaje es un string
+
+[01:08] de 57 caracteres
+
+[01:10] y ustedes me dirán, oye
+
+[01:13] ¿qué es todo el resto de discos,
+
+[01:15] GPU, librerías?
+
+[01:17] en realidad, era este código que se corre acá
+
+[01:19] para mostrarles que la máquina tiene cargada
+
+[01:21] un montón de cosas de antes
+
+[01:24] tiene precargado, las GPU
+
+[01:26] las CPU, y todas esas cosas
+
+[01:28] ¿dónde le he pinchado a ver
+
+[01:32] esas variables? aquí a la izquierda abajo
+
+[01:35] hay varias variables
+
+[01:40] de todas las cuadraditas
+
+[01:43] ah, ya, ya, bien abajo
+
+[01:45] ya, ya sí, que está
+
+[01:47] la cinta del
+
+[01:50] entonces, cualquier cosa que tú
+
+[01:56] te ejecutes, va a quedar guardada
+
+[01:58] en la RAM, ya, si guardas
+
+[02:00] con números, si guardas con valores, si guardas cualquier cosa
+
+[02:02] queda ahí, ¿dónde está la RAM?
+
+[02:05] se hace clic acá a la derecha
+
+[02:09] aparece la RAM que están ocupando
+
+[02:11] en YouTube, ahora, no les va a
+
+[02:15] aparecer exactamente lo que les aparece a mí
+
+[02:17] porque a mí me dicen que estoy ocupando
+
+[02:20] 0,08
+
+[02:22] créditos por hora, porque yo pago
+
+[02:24] mensualmente una suscripción a
+
+[02:26] Google Colors, y me dan créditos
+
+[02:30] con esos créditos puedo tener la máquina
+
+[02:32] por defecto, o una máquina con
+
+[02:34] no sé, 80 GB de video
+
+[02:36] aquí quiero 80 GB de video
+
+[02:39] con eso quiero tener un modelo de ya
+
+[02:41] como verás, reconocer caras, reconocer
+
+[02:43] sonrisas, reconocer un auto
+
+[02:45] reconocer instrumentos de protección
+
+[02:47] es una cosa, pero les va a aparecer
+
+[02:49] esto, los recursos que están
+
+[02:51] acá, estos créditos por defecto
+
+[02:54] les debería aparecer que pueden ejecutar esto como 12 horas
+
+[02:56] me parece, es lo que debe ser
+
+[02:59] el por defecto hoy en día
+
+[03:01] pero los créditos a veces cambian
+
+[03:03] y a veces se extiende un poco más
+
+[03:05] si, exactamente
+
+[03:12] ahora, aquí hay una cosa
+
+[03:17] voy a guardar en
+
+[03:20] cantidad 3
+
+[03:26] la cantidad la voy a asignar a
+
+[03:28] registro anterior, y luego
+
+[03:32] en cantidad le voy a asignar
+
+[03:34] 4, que estoy haciendo
+
+[03:38] hago clic acá, la cantidad actual
+
+[03:40] 4, registro anterior
+
+[03:42] 3, que significa
+
+[03:46] que para una misma variable
+
+[03:48] valor 1, valor 2, valor 3
+
+[03:51] valor 4, yo le puedo asignar
+
+[03:54] distintos valores, 10
+
+[04:04] print, valor temporal
+
+[04:13] 10, print, 10
+
+[04:15] valor temporal, 11, 11
+
+[04:18] valor temporal, número 9
+
+[04:23] imprima ese número
+
+[04:26] entonces significa que acá, yo les voy a asignar
+
+[04:28] muchas veces, una variable
+
+[04:33] que aunque muchas veces de valor
+
+[04:35] entonces puedo asignar, registro
+
+[04:37] las variables con random
+
+[04:40] hasta el momento todo ok, ahí se queda atrás
+
+[04:42] alguien tiene alguna consulta, la idea aquí
+
+[04:56] no es ir corriendo, así que
+
+[04:58] si me adelanto mucho, por favor díganle
+
+[05:00] por que tengo un problema con esto de que
+
+[05:02] me gusta mucho y entiendo
+
+[05:04] hacerle dar procesos formativos
+
+[05:08] pero simplemente podemos guardar cualquier
+
+[05:10] cosa acá, también podríamos guardar
+
+[05:12] un mensaje, texto, pero como lo hacemos
+
+[05:14] comillas, hola
+
+[05:21] holó a mundo, casi
+
+[05:25] el punto, misma variable
+
+[05:30] puede guardar múltiples valores
+
+[05:32] puede ser un número, puede ser un texto
+
+[05:34] eso, ahora
+
+[05:37] el problema, es que siempre
+
+[05:39] voy a hacer una cosa medio rara
+
+[05:43] mira, en variables
+
+[05:47] tengo todo esto, cpu
+
+[05:49] listo, todas estas cosas
+
+[05:51] valores temporales, tengo
+
+[05:53] toda esta información que está guardada acá
+
+[05:55] voy a hacer algo, no lo hagan
+
+[05:58] porque se puede botar, torno a una
+
+[06:02] ejecución, reiniciar la sesión
+
+[06:04] lo que hace es, bota la máquina
+
+[06:08] de linux y la vuelve al antara, no en realidad
+
+[06:10] me pasa bota, pero mira, voy a
+
+[06:13] variables y eso, ahorro el torneo
+
+[06:27] en este caso, no soy un variable bien
+
+[06:40] en este caso, tengo un problema
+
+[06:42] si yo apago esta máquina, o sea
+
+[06:44] la cierro, y no la abro
+
+[06:47] por un 20 minutos
+
+[06:49] media hora, las variables que están en
+
+[06:52] la plan, van a desaparecer
+
+[06:56] y eso pasa porque, bueno
+
+[06:59] aquí uno diría, no es tanta pérdida
+
+[07:01] escribiste este mensaje
+
+[07:03] en realidad, no importa tanto si lo pierdes
+
+[07:05] o no, sí, pero si
+
+[07:08] fuese información valiosa, por ejemplo
+
+[07:10] un calc, un cómputo
+
+[07:12] una simulación de algo
+
+[07:14] esa información al estar en la plan
+
+[07:16] se pierde, entonces hay
+
+[07:19] estrategias que vamos a aprender a futuro
+
+[07:21] para poder
+
+[07:24] hacer que esa información no se pierda y que se guarde
+
+[07:26] y que está asociado con
+
+[07:28] por ejemplo con, con que esto se puede conectar
+
+[07:31] con en drive, entonces
+
+[07:33] ejecuta simulaciones y guarda
+
+[07:36] los resultados en tu drive, esa es la gracia
+
+[07:38] este me gusta indígenas
+
+[07:42] le hace consulta
+
+[07:44] al inicializar la variable
+
+[07:48] se define el tipo de ella
+
+[07:54] porque acá, a diferencia de otros lenguajes
+
+[07:56] no tengo que decirle este o un integer
+
+[07:58] para agregar un entero, ¿cierto?
+
+[08:00] y qué pasa si
+
+[08:02] necesitase, por ejemplo
+
+[08:04] no sé, de pronto
+
+[08:06] inicializo la variable con un string
+
+[08:08] y después cubo la misma, como para realizar
+
+[08:10] un cálculo, se me cae
+
+[08:12] o al momento
+
+[08:15] de asignarle otro tipo de valor
+
+[08:17] se reasigna el tipo
+
+[08:20] o sea, ¿es el primero el que vale al
+
+[08:22] inicializar o
+
+[08:24] cada vez que asigno uno
+
+[08:26] ah, ya, el último
+
+[08:30] por ejemplo un mensaje en realidad podría ser un
+
+[08:39] era así, ¿o no?
+
+[08:48] si vaya a variable ahora, en variable debería estar
+
+[08:52] sigue el string
+
+[09:00] a mi se nos devuelve esta cosa
+
+[09:02] pero a ti debería poder ser bien
+
+[09:06] a ver
+
+[09:08] ese mensaje dos
+
+[09:32] lo zorro y la pregunta, pero me llamó la atención
+
+[09:34] esto de Python
+
+[09:39] lo que vale siempre
+
+[09:41] la última
+
+[09:44] asignación
+
+[09:50] lo voy a mostrar más adelante
+
+[10:05] igual que solo un específico
+
+[10:12] actualizarlo
+
+[10:16] había alguien con la mano levantada sobre el archivo
+
+[10:20] la bajía es que
+
+[10:23] cuando de repente yo
+
+[10:25] cuando yo de repente le imprimía
+
+[10:27] o sea, print un data frame, no sé
+
+[10:29] como una base de datos
+
+[10:31] siempre quedaba al último, yo decía, ah, ¿por qué
+
+[10:33] me queda grabar lo diferente?
+
+[10:36] porque cada vez que hacía con un código
+
+[10:38] siempre había pasado eso
+
+[10:40] aquí tenemos los tipos de datos
+
+[10:44] por ejemplo un int
+
+[10:47] es un valor entero, o sea
+
+[10:49] que es un número que lo tiene esta acción
+
+[10:52] por ejemplo aquí vemos minerales
+
+[10:54] que es 600, le hago print a minerales
+
+[10:57] y de estos puedo hacer print
+
+[10:59] type, y me dice el tipo
+
+[11:02] de variable que es
+
+[11:04] en este caso es un int, como ven acá
+
+[11:07] es un int, le coloco un punto
+
+[11:15] significa que estoy ocupando un decimal
+
+[11:18] entonces un ministro pequeño
+
+[11:20] imprime el valor
+
+[11:22] y dame el tipo, dice
+
+[11:27] flowat, flowat es una variable decimal
+
+[11:30] por ahora me importa mucho
+
+[11:32] porque es como un entero y un decimal
+
+[11:34] uno es literalmente un entero y el otro
+
+[11:36] un decimal, int y flowat
+
+[11:39] pero si es importante
+
+[11:42] venamos cientos de miles de filas
+
+[11:45] si va a importarse el signo
+
+[11:47] flowat, porque el procesamiento
+
+[11:49] va a ser mucho más
+
+[11:51] acotado
+
+[11:54] esto era un
+
+[11:56] déjame ver, era un int
+
+[11:58] flowat
+
+[12:00] 32
+
+[12:03] no recuerdo el detalle
+
+[12:05] de cuantos decimales eran
+
+[12:07] pero si recuerdo que tienes los
+
+[12:09] flowat 64
+
+[12:11] en realidad
+
+[12:14] tienes 4 decimales
+
+[12:16] para lo que vamos a hacer inicialmente
+
+[12:18] vamos a lograr
+
+[12:21] simplemente con el flowat
+
+[12:23] 32 internamente
+
+[12:26] Patricio?
+
+[12:31] la pregunta por el tema de una pasión científica
+
+[12:33] era por ese tema de que algunos software
+
+[12:35] como es static
+
+[12:37] no se cuánto, 32 decimales
+
+[12:39] después
+
+[12:42] las podías consumir, siento que se quedaba como
+
+[12:44] 24 me parece
+
+[12:46] y después te buscaba
+
+[12:56] como minerales, creo que
+
+[12:58] no importa
+
+[13:01] ya se va mi pregunta
+
+[13:03] en este caso
+
+[13:06] el cuarto
+
+[13:31] interesante
+
+[13:34] cuando tu ocupas flowat
+
+[13:36] muy grandes, tienes un
+
+[13:39] desbordamiento de pila
+
+[13:41] cuando ocupas un flowat 64
+
+[13:44] un desbordamiento de pila
+
+[13:46] es que tu ram se satura
+
+[13:48] y entonces se te cae el sistema
+
+[13:50] eso se llama stack overflow
+
+[13:54] de ahí nació el nombre de la página
+
+[13:56] stack overflow
+
+[13:58] que era como un chiste interno
+
+[14:00] de ocupaste toda la ram
+
+[14:02] o sea
+
+[14:06] el procesamiento de los decimales
+
+[14:08] que era un conflicto
+
+[14:11] en la parte computacional del sistema
+
+[14:13] si, si pero
+
+[14:15] para lo que vamos a hacer
+
+[14:17] si nos multiplicamos por un millón
+
+[14:19] nos multiplicamos por un millón
+
+[14:21] seria lo mismo
+
+[14:23] tengo un caso de eso
+
+[14:25] debía buscarlo
+
+[14:27] se lo puedo subir si quieran
+
+[14:29] déjenme ver mis cosas trabajo
+
+[14:31] es interesante
+
+[14:33] como abordar esos temas, como lo hacen los científicos
+
+[14:35] en estadística
+
+[14:37] los científicos, esos son los que usan
+
+[14:39] estos decimales chicos
+
+[14:42] les voy a subir
+
+[14:44] una clase que hice para la chile
+
+[14:46] el profesor Agustín
+
+[14:51] creo que ya me respondiste
+
+[14:53] te iba a preguntar si acá no existe el concepto de double
+
+[14:55] que en otro lenguaje si voy a ocupar
+
+[14:58] un decimal muy largo ya paso
+
+[15:00] de un flowat a un double
+
+[15:03] acá es un incestino
+
+[15:05] flowat
+
+[15:07] yo hice
+
+[15:10] una clase
+
+[15:12] ya para la chile
+
+[15:15] lo podía buscar porque justamente
+
+[15:17] ahí tengo un caso interesante
+
+[15:19] en donde pasamos de un
+
+[15:21] flowat
+
+[15:23] 32 a 64
+
+[15:25] y por que se tiene que hacer y cuanto ocupar la rama
+
+[15:27] ya pero
+
+[15:29] eso se los paso y quizás se los puedo explicar
+
+[15:31] mas en detalle
+
+[15:34] me quiero debía mucho
+
+[15:36] pero la pregunta es muy buena
+
+[15:38] lo voy a notar acá
+
+[15:40] porque todas estas preguntas no me tienen que responder
+
+[15:42] estamos en doctorado no podemos que nos con duda
+
+[15:45] revisar el tema
+
+[15:47] de mi flowat
+
+[15:50] buscar la clase
+
+[15:52] 32 64
+
+[15:55] chile y
+
+[15:57] compartirla ya perfecto
+
+[16:02] entonces los textos
+
+[16:04] string también tienen un tipo
+
+[16:06] por ejemplo marine
+
+[16:09] se hago un print de la unidad
+
+[16:11] me imprime el marine y se hago un print del tipo
+
+[16:13] me imprime como un string
+
+[16:15] porque bueno eso es el fondo
+
+[16:18] en este caso es el marine
+
+[16:22] y suministro también
+
+[16:24] en este caso es un flowat
+
+[16:26] y acá hay una clase nueva
+
+[16:29] esta es una clase que yo le digo
+
+[16:31] verdadero falso
+
+[16:34] es una clase que se llama booleana
+
+[16:37] paulo alcae
+
+[16:39] perfecto si
+
+[16:41] efectivamente estimado
+
+[16:43] tenemos otra
+
+[16:45] variable que se llama
+
+[16:47] flowat
+
+[16:49] un booleano es un verdadero
+
+[16:52] falso
+
+[16:54] blanco negro
+
+[16:56] pero en este caso se define como true
+
+[16:58] o se define como false
+
+[17:01] por ejemplo acá digo eye gas
+
+[17:05] igual a true
+
+[17:07] y si se dan cuenta la palabra true
+
+[17:09] tiene otro color
+
+[17:12] está en azul
+
+[17:14] si yo escribiera en minúscula no pasa lo mismo
+
+[17:18] y de hecho me da error
+
+[17:22] pero si yo le pongo eye gas truth
+
+[17:24] y le pongo print
+
+[17:27] no me imprime eye gas
+
+[17:29] verdad
+
+[17:32] porque yo le dije que una variable era verdad
+
+[17:34] y si yo le digo eye gas
+
+[17:36] igual a false y le digo print
+
+[17:38] me dice print
+
+[17:41] eye gas false
+
+[17:44] no eye gas, eso que significa
+
+[17:47] que esto es como una condición
+
+[17:50] bajo cierto escenario yo algunas
+
+[17:52] variables le voy a asignar
+
+[17:54] una condición de verdadero o de falso
+
+[17:56] y cuando pasa esta condición de verdadero
+
+[17:58] o falso
+
+[18:00] puedo efectuar ciertos ciclos
+
+[18:02] efectúa este ciclo de cierto verdadero
+
+[18:04] efectúa este ciclo de falso
+
+[18:07] pero esta es una variable buliana
+
+[18:09] y lo puedo extender a reglos
+
+[18:11] a muchas dimensiones
+
+[18:13] puedo extender la idea ocupando
+
+[18:15] muchas columnas para decir
+
+[18:17] este lo uno pasa, este lo uno pasa
+
+[18:19] pasa, pasa, no pasa, pasa, pasa, no pasa
+
+[18:21] es un buliano
+
+[18:23] es una condición
+
+[18:26] también hay una variable que uno
+
+[18:28] puede decir non
+
+[18:30] que esto es una variable desconocida
+
+[18:33] es interesante porque
+
+[18:35] hay muchas datasets
+
+[18:37] excel, la fiero
+
+[18:39] que puede tener como variables
+
+[18:41] que no están en un formato
+
+[18:43] conocido o que
+
+[18:45] tienen algunas características que no corresponde
+
+[18:47] con lo que estamos analizando
+
+[18:49] tu se las puedes asignar como non
+
+[18:51] para indicarle al sistema
+
+[18:53] acá y al gorrer
+
+[18:55] también hay una variable que se llaman non
+
+[18:57] not a number
+
+[19:00] pero eso lo vamos a dar después
+
+[19:02] pero son como categorías
+
+[19:04] de variables
+
+[19:06] son categorías
+
+[19:08] que le podemos asignar a una variable
+
+[19:10] eso es
+
+[19:13] ahora, yo aquí voy a hacer una cosa
+
+[19:15] bien rara, pero tiene
+
+[19:18] sentido, tengo el
+
+[19:22] 3, pero este 3
+
+[19:24] no es un número, es un string
+
+[19:26] porque yo, es casi
+
+[19:29] como que escribiera 3
+
+[19:31] porque si está entre comillas va a ser
+
+[19:34] un string, eso significa
+
+[19:36] esto es como texto
+
+[19:39] si, pues es un número como
+
+[19:41] texto, como carácter
+
+[19:43] y después
+
+[19:46] voy a hacer esto que se llama
+
+[19:48] cantidad número int
+
+[19:50] cantidad texto, que significa
+
+[19:54] que convierto este 3
+
+[19:56] textual en una variable
+
+[19:59] numérica
+
+[20:02] luego, lo que voy a hacer
+
+[20:04] esta cantidad texto
+
+[20:06] la multiplico por 2
+
+[20:09] y también el número lo puedo multiplicar
+
+[20:11] por 2
+
+[20:13] después uno lo expreso como float
+
+[20:15] y el otro lo expreso como string
+
+[20:19] entonces, ¿qué estoy haciendo acá?
+
+[20:21] texto repetido es
+
+[20:24] la cantidad de texto por 2
+
+[20:26] o sea que muestro dos veces el 3
+
+[20:29] por eso me hice 33
+
+[20:32] el número multiplicado
+
+[20:34] es también por 2
+
+[20:36] pero el número, no repetir
+
+[20:39] la cantidad de texto, sino que repetir el número
+
+[20:41] 3 por 2
+
+[20:43] 6
+
+[20:46] como 2.5
+
+[20:48] y puedo mostrar un número
+
+[20:50] como string
+
+[20:54] ¿para qué es tanta vuelta? porque puedo jugar
+
+[20:58] pasar números a string y string a números
+
+[21:00] y una cosa bastante
+
+[21:02] común que pasa
+
+[21:04] cuando yo cargo
+
+[21:06] cuando cargo un excel
+
+[21:08] a veces, pasa
+
+[21:11] que registros que son numéricos
+
+[21:13] se cargan como string
+
+[21:15] y a sistema
+
+[21:18] hay que hacer cosas para adaptarlo
+
+[21:20] para que se espese correctamente
+
+[21:22] como número
+
+[21:28] pero también podemos jugar con esta cosa
+
+[21:30] los prints son super importantes
+
+[21:33] pero podemos hacer esto interesante
+
+[21:38] si yo...
+
+[21:41] sí, la gracia de Python
+
+[21:44] Python tiene una gran comunidad
+
+[21:46] es muy amigable
+
+[21:49] entonces tiende a hacer las cosas más sencillas
+
+[21:51] con la diferencia de pasar de C a X
+
+[21:54] ahora que lo pienso más de la vez
+
+[21:56] acá tenemos
+
+[21:59] un string que es GENOVENCIO
+
+[22:02] está guardado acá
+
+[22:04] y tenemos en GAS un número
+
+[22:07] si yo hago esto, print F
+
+[22:09] al principio un F
+
+[22:12] comillas y dentro de corchetes
+
+[22:14] pongo las variables de arriba
+
+[22:16] puedo tener el jugador
+
+[22:19] tiene minerales
+
+[22:21] minerales y GAS
+
+[22:23] ¿por qué estoy haciendo eso?
+
+[22:26] porque yo podría repasar
+
+[22:29] jugador y lo que es minerales
+
+[22:31] y GAS por distintas cosas
+
+[22:33] entonces GENOVENCIO
+
+[22:36] GENOVENCIO tiene 600 minerales y 200 GAS
+
+[22:38] para que seas esto
+
+[22:40] cuando haces esto puedes tirar como respuestas
+
+[22:42] más automatizadas
+
+[22:45] por ejemplo, estos minerales podrían ir variando
+
+[22:47] en múltiples iteraciones
+
+[22:49] entonces en vez de hacer una cosa muy rara
+
+[22:51] de print tanto, print tanto
+
+[22:53] print tanto, print tanto
+
+[22:55] lo dejas todo en una cadena
+
+[22:58] y simplemente modificas esto
+
+[23:00] por el valor que corresponde en el momento
+
+[23:02] y eso te sirve para saber
+
+[23:04] qué está pasando en un ciclo específico
+
+[23:07] llegaron porque realmente no hay que ver
+
+[23:09] de hecho si cambio
+
+[23:11] minerales por GAS
+
+[23:13] y GAS por minerales vemos qué pasa
+
+[23:15] el jugador tiene 200 minerales
+
+[23:20] y 600 de GAS
+
+[23:22] pero en realidad está al revés
+
+[23:25] ¿por qué? porque en este caso
+
+[23:27] bueno, ya tenía definido minerales
+
+[23:30] así que también tenía definido GAS
+
+[23:32] pero creo que es mejor definirlo o no
+
+[23:34] para que se entienda bien
+
+[23:37] minerales por 600
+
+[23:59] entonces no tienes eso, pero si minerales
+
+[24:01] por 700, no tienes eso
+
+[24:08] entonces es una forma más
+
+[24:11] uno diría, te estás complicando mucho
+
+[24:13] en realidad
+
+[24:15] es una simplificación
+
+[24:17] para poder retrasar el valor
+
+[24:19] explícito por una llave
+
+[24:21] entonces simplemente después invocas el valor
+
+[24:23] nada más, eso
+
+[24:28] también podemos hacer todo esto
+
+[24:31] operaciones entre números
+
+[24:33] sumar, restar, multiplicar
+
+[24:35] dividir, obtener
+
+[24:37] el cociente, elevar al cuadrado
+
+[24:39] todo las funciones típicas
+
+[24:41] que uno hace con una calculadora
+
+[24:44] declaro A como 25
+
+[24:46] y B como 10
+
+[24:48] ¿cómo lo sumo? A más B
+
+[24:51] ¿cómo lo resto? A menos B
+
+[24:54] ¿cómo lo multiplico? A por B
+
+[24:56] este por es el signo
+
+[24:58] asterisco
+
+[25:00] la división lo divido
+
+[25:03] y esto es otra cosa
+
+[25:06] esto te expresa la división
+
+[25:08] del resultado entero
+
+[25:10] vamos a ver, quiero que lo vean primero
+
+[25:12] esto es el resto
+
+[25:14] de una división entera
+
+[25:16] y esto es elevado a una potencia
+
+[25:18] 2 asteriscos, entonces 15
+
+[25:21] más 20 está acá
+
+[25:25] mira, print
+
+[25:28] valores A igual a
+
+[25:30] tanto, B igual a tanto
+
+[25:32] print, suma
+
+[25:35] y que hago acá? la suma
+
+[25:38] restar, multiplicación, división
+
+[25:40] división entera, toda la operación
+
+[25:42] en la visa acá y acá solamente estoy mostrando
+
+[25:44] que se vea bonito, los valores
+
+[25:48] 35 y 10, la suma
+
+[25:50] 35, 6
+
+[25:52] la resta 15, sí
+
+[25:54] la multiplicación 250
+
+[25:57] sí, la división 2.5
+
+[25:59] sí, división
+
+[26:01] enteros, 2
+
+[26:03] o ¿qué es eso? 20
+
+[26:06] y no puedo hacer más divisiones
+
+[26:08] entero, entonces tengo 2
+
+[26:10] el resto
+
+[26:12] esto sería como
+
+[26:15] el backslash
+
+[26:20] ¿esto no es un backslash?
+
+[26:22] no
+
+[26:25] es el AL92 profe
+
+[26:27] como el MATLAB para hacer
+
+[26:29] resolución de
+
+[26:32] sistema de ecuaciones
+
+[26:35] ya vamos a llegar a eso
+
+[26:37] ya vamos a llegar a eso
+
+[26:39] para
+
+[26:41] si tenemos una forma, de hecho
+
+[26:43] para efectuar operaciones entre matrices
+
+[26:45] también tenemos una forma simplificable
+
+[26:47] pero sí
+
+[26:50] las operaciones matrices siempre son
+
+[26:52] con problemas, pero espera
+
+[26:55] yo me acuerdo de MATLAB
+
+[26:57] era cuando había matrices
+
+[26:59] hacía como A junto
+
+[27:01] ahí era el backslash o no?
+
+[27:07] AL92 con el teclado numérico
+
+[27:09] el típico teclado
+
+[27:13] que resolvió por mínimos cuadrados
+
+[27:15] la matriz
+
+[27:17] sistema de ecuaciones súper abundante
+
+[27:21] recuerdos de Finlandia
+
+[27:23] ya pero aquí tenemos
+
+[27:25] una forma más sencilla de hacerlo
+
+[27:27] es la gracia de país
+
+[27:29] pero ya vamos a llegar a eso
+
+[27:31] me gustaría extenderme de eso
+
+[27:34] también el tema de los flats
+
+[27:36] pero no quiero salirme de acá
+
+[27:38] pero también no voy a tener concierto
+
+[27:40] y vamos a volver
+
+[27:44] a dar el tema de
+
+[27:46] resolución de matrices
+
+[27:48] y los
+
+[27:50] los gradientes
+
+[27:52] igual es como en la parte
+
+[27:54] matemática estadística
+
+[27:56] no sé si ya lo tocamos
+
+[27:58] los gradientes
+
+[28:01] los gradientes
+
+[28:03] sí, sí, sí
+
+[28:05] el último día
+
+[28:07] como viendo en India
+
+[28:09] igual me cuesta entenderlo un poco
+
+[28:11] los puntos, sí, ya recuerdo eso
+
+[28:13] en cálculo, pero después ahora
+
+[28:15] como que lo explican como la solución óptima
+
+[28:17] de varios problemas
+
+[28:20] está
+
+[28:22] está integrado
+
+[28:24] por favor Pablo no hables en NumPy
+
+[28:26] NumPy en macha negro en esta clase
+
+[28:28] mira
+
+[28:30] la primera parte
+
+[28:32] es como medio latera porque es que
+
+[28:34] son todas las cosas manuales
+
+[28:36] una multiplicación manual, una división manual
+
+[28:38] la gracia de Python
+
+[28:41] es que están todas las librerías
+
+[28:43] que tienen todo esto
+
+[28:45] alguien ya tuvo el mismo problema que ustedes
+
+[28:47] y lo implementó en una litería
+
+[28:49] se hizo tan popular que ahora es
+
+[28:51] parte de la suite, entonces ya está
+
+[28:53] ya está listo eso
+
+[28:55] ya lo resolvieron
+
+[28:57] vamos a parla
+
+[29:00] tenemos que decir en bata
+
+[29:02] ahora como litería
+
+[29:04] yo recuerdo que
+
+[29:06] en ingeniería industrial
+
+[29:08] para el tema de tramo dinámica
+
+[29:11] hacerle ese tema a los problemas rouser no sé cuánto
+
+[29:13] este
+
+[29:15] si te recuerdas
+
+[29:17] es
+
+[29:19] pero
+
+[29:23] claro para poder llegar a NumPy
+
+[29:25] hay que pasar por el sufrimiento
+
+[29:27] el sufrimiento de
+
+[29:29] acepto manual
+
+[29:31] porque en la base
+
+[29:33] de formación
+
+[29:35] de los conocimientos
+
+[29:37] estimado profesor Agustín cuéntame
+
+[29:40] hola, disculpe el ESO que te molesta
+
+[29:42] yo vengo de otro lenguaje
+
+[29:45] entonces Python, igual te he tenido bacán
+
+[29:48] puede estar aprendiéndolo
+
+[29:51] pero me equivo la escoba ahora
+
+[29:53] con algo que no entendí
+
+[29:55] cuando viste el tema de no
+
+[29:59] porque por ejemplo
+
+[30:01] yo puedo declarar
+
+[30:03] una variabilidad y dejarla
+
+[30:05] sin iniciar
+
+[30:07] como nulas
+
+[30:10] no tiene ningún tipo de valor
+
+[30:12] ni siquiera tiene
+
+[30:14] un tipo
+
+[30:17] pero acá en Python estoy cachando que
+
+[30:20] no existe ese concepto de nulo
+
+[30:22] o nom
+
+[30:26] no sé si me doy a explicar porque
+
+[30:28] tu creas ahí y la inicializas y alpiro la variabilidad
+
+[30:30] si, al declararla
+
+[30:33] por ejemplo
+
+[30:35] si yo le pongo creo una variable
+
+[30:37] acá que sea
+
+[30:39] a igual a
+
+[30:42] automáticamente Python la inicializa
+
+[30:44] claro, pero no podría tener a
+
+[30:47] sin inicializarla
+
+[30:51] con el número, sin colocar el número
+
+[30:53] me refiero
+
+[30:55] ah, tú quieres
+
+[30:57] resacar espacio en RAM
+
+[31:01] puedes hacerlo, puedes declarar
+
+[31:03] maldice incluso
+
+[31:05] inicializar maldice, pero eso
+
+[31:07] quiero que lo veamos luego, pero sí
+
+[31:11] pero la gracia de Python
+
+[31:13] es que es como bien
+
+[31:15] anarquista
+
+[31:17] no tienes que declarar la variable
+
+[31:19] y decirle el tipo
+
+[31:21] incluso después poner el número
+
+[31:23] aquí al mismo tiempo de que
+
+[31:25] tú la usas, la declaras
+
+[31:28] es bien para la caja
+
+[31:30] y por eso se usa tanto
+
+[31:32] porque te simplifica todo ese proceso
+
+[31:35] pero tú le puedes decir explicitamente
+
+[31:37] quiero declarar una variable de tal tipo
+
+[31:39] quiero que sea nula
+
+[31:41] quiero que sea float
+
+[31:43] incluso puedes declarar una variable y
+
+[31:45] como float
+
+[31:48] le da igual a no
+
+[31:51] veamos, mira
+
+[31:56] ah, sí
+
+[32:05] estoy poniendo que no sabe
+
+[32:07] o sea que, Python no te quiere castigar
+
+[32:10] C te castiga
+
+[32:12] Python dice yo soy tu amigo, o sea el amigo bueno
+
+[32:14] ah, no, si llegas, llegas, si no llegas, no llegas
+
+[32:16] está bien, esa es la gracia
+
+[32:21] pero claro
+
+[32:23] tiene un costo
+
+[32:25] quería verlo adelante
+
+[32:28] voy a verlo un poquito, el costo es que Python es lento
+
+[32:30] C es mucho más rápido
+
+[32:33] es como
+
+[32:35] 50 veces más rápido para algunas cosas
+
+[32:37] que son específicas
+
+[32:39] entonces
+
+[32:41] Python es muy accesible y tiene todas las
+
+[32:43] librerías que tú necesitas
+
+[32:45] pero tendes que ser lento, comparativa con
+
+[32:47] C
+
+[32:49] y tienes que consumir más RAM
+
+[32:52] ese es como el precio a pagar
+
+[32:54] por ocupar un lenguaje
+
+[32:56] tan accesible
+
+[32:59] si no hay variables debería estar como un
+
+[33:01] lo que acabas de hacer
+
+[33:03] con eso ya quedo resuelto
+
+[33:06] si te vas a variables y buscas a
+
+[33:08] debería estar como un define
+
+[33:10] o algo así, ¿no?
+
+[33:13] con eso te dejo
+
+[33:15] y me quedo tranquilo
+
+[33:18] con eso yo
+
+[33:20] quiero que cierres su duda
+
+[33:22] no te preocupes, crees que cierres su duda
+
+[33:24] para eso es la clase
+
+[33:27] sería muy raro
+
+[33:32] un define, claro es como
+
+[33:34] te aclaraste algo
+
+[33:37] ya lo quieres pero es no
+
+[33:41] ¿cómo se funciona esto?
+
+[33:47] bueno, podías generarlo pero ya
+
+[33:55] no, pero ya que es
+
+[33:57] tranquilo ya, ahora todo está bien
+
+[33:59] perfecto
+
+[34:01] entonces, viendo todo
+
+[34:05] eso, nosotros podemos empezar a hacer más
+
+[34:07] hasta que la seguridad vaya alto
+
+[34:15] por ejemplo, yo puedo hacer una
+
+[34:17] cosa que sería una aplicación
+
+[34:19] de compra, ¿ya? un carreto
+
+[34:22] de compra típico
+
+[34:25] el precio es 25, artículos
+
+[34:28] 3, el total es
+
+[34:30] precio por artículo, ¿ya?
+
+[34:32] literalmente lo declara en el momento
+
+[34:35] puedo mostrar cuánto es el total
+
+[34:38] puedo mostrar cuánto artículo
+
+[34:41] cabe en el cien, aquí me refiero
+
+[34:43] con eso, cien
+
+[34:45] esto es lo que acabamos de ver
+
+[34:47] es la división del resultado
+
+[34:49] entero, ¿ya? para que no tenga fracciones
+
+[34:52] y puedo también ver el resto
+
+[34:54] de plata, entonces es muy sencillo
+
+[35:00] en el sentido de que lo declaras
+
+[35:02] y lo usas inmediatamente
+
+[35:04] sin ponerle tipo ni nada
+
+[35:06] esto es un número, esto es un string
+
+[35:08] quiero mostrarlo acá
+
+[35:10] eso es lo que quiero
+
+[35:13] intenten hacer lo mismo
+
+[35:18] es que hay una manera de generar
+
+[35:27] infinito que es divertido porque
+
+[35:29] como que satura la ram
+
+[35:31] la voy a probar de ahí
+
+[35:33] como está uno dividido por un
+
+[35:35] número gigante y pasan cosas
+
+[35:37] entretenidas, pero sí
+
+[35:39] efectivamente mal
+
+[35:42] intenten esto, porque
+
+[35:44] la teoría es bonita, el texto es
+
+[35:46] bonita, pero intenten
+
+[35:48] interpretarlo de una vuelta
+
+[35:54] ahora, con lo que yo sostengo
+
+[35:57] mi alumno es de pregrado
+
+[36:00] no programa
+
+[36:02] pero está doctorado, entonces
+
+[36:04] tengo que entender qué está pasando
+
+[36:06] porque
+
+[36:08] si hago clic acá
+
+[36:12] me carga el artículo de Gemini con su modelo
+
+[36:15] que en realidad Gemini no es la gran cosa
+
+[36:18] tiene muchos problemas
+
+[36:20] comparado con otros modelos de
+
+[36:22] border, pero te puede programar
+
+[36:24] directamente cualquier cosa
+
+[36:26] por eso se utiliza tanto el proceso de programación
+
+[36:28] en el caso de
+
+[36:30] pero aquí damos una vuelta
+
+[36:32] crear un precio de 40
+
+[36:35] precio igual a algo
+
+[36:37] y también podemos crear una cantidad
+
+[36:39] y mostrar el total con un f string
+
+[36:41] cuando digo predecir
+
+[36:44] la salida es como, ¿cuánto debería ser al ojo?
+
+[36:50] y los f strings las recuerdo
+
+[36:52] que tenían esta estructura
+
+[37:00] f, comillas
+
+[37:02] y acá adentro tienen las cosas que necesitan
+
+[37:04] disclaimer
+
+[37:20] quizás no alcanza a ver todo el día
+
+[37:22] así que la clase va a llegar
+
+[37:24] hasta donde llegue
+
+[37:26] y si no alcanzamos a cubrir algo, lo vamos a cubrir la siguiente clase
+
+[37:28] porque creo que es importante
+
+[37:31] abordar estos temas
+
+[37:33] sin problema
+
+[37:48] las respuestas técnicamente son infinitas
+
+[37:50] no las puede hacer de muchas maneras
+
+[37:52] también se puede usar la terminal, pero yo nunca la uso
+
+[37:59] no me gusta trabajar con terminal
+
+[38:03] tengo malos recuerdos de Red Hat por consola
+
+[38:05] CQL
+
+[38:09] Posgret
+
+[38:11] Kemar
+
+[38:15] No, CQL
+
+[38:19] Kemar todo eso
+
+[38:28] alguien tiene alguna complicación con esto?
+
+[38:46] poder ayudar en algo
+
+[38:48] declaran las variables, una de precio y otra de cantidad
+
+[38:50] después podrían hacerlo, precio por cantidad
+
+[38:53] que se guarda en otra variable
+
+[38:55] y después se muestra
+
+[38:57] para este precio y esta cantidad
+
+[38:59] tengo tantos productos
+
+[39:01] esto me va a costar
+
+[39:06] por este precio y por esta cantidad
+
+[39:25] están preguntando que
+
+[39:27] escribimos el código y que realmente es eso?
+
+[39:30] ah no, puedes escribirlo acá
+
+[39:32] si lo necesitan me avisan
+
+[39:34] es como un ejercicio libre
+
+[39:37] si alguien necesita ayuda
+
+[39:39] estoy acá para hacerlas
+
+[39:42] lo puedes distanciar?
+
+[39:52] precio igual 40, cantidad igual 2
+
+[39:54] y continuamos
+
+[39:59] si, efectivamente
+
+[40:02] está asociado porque hemos visto tanta teoría
+
+[40:04] tanto concepto
+
+[40:06] así se dice la programación
+
+[40:09] y quiero que abordan
+
+[40:15] ah, es mi file flasher que está contando
+
+[40:17] si alguien necesita ayuda
+
+[40:23] vamos a seguir con la clase porque
+
+[40:25] quiero que cubramos un par de cosas más
+
+[40:27] para abordar el resto
+
+[40:30] ahora, vimos como se declara un valor
+
+[40:33] como se declara un string
+
+[40:35] como se declaran distintas cosas y se guardan
+
+[40:37] pero
+
+[40:41] Python por defecto
+
+[40:43] tiene una forma de guardar mucha
+
+[40:45] información, esto se conoce como
+
+[40:48] lista
+
+[40:50] entonces piensen que es como una fila
+
+[40:52] de excel
+
+[40:56] y me permite guardar múltiples elementos
+
+[40:58] entonces, yo la declaro
+
+[41:01] y voy guardando cosas
+
+[41:03] en mi caja, en orden
+
+[41:06] pero aquí está como el pequeño
+
+[41:08] problema
+
+[41:10] de Python
+
+[41:12] es una generación porque empieza en 0
+
+[41:14] entonces si tu dices
+
+[41:16] es una caja que tiene 5 espacios
+
+[41:18] Python te dice
+
+[41:21] 0,1,2,3,4
+
+[41:23] así que siempre
+
+[41:26] como de fase
+
+[41:28] entonces por eso yo cuando pase de Matlab a Python
+
+[41:30] fue como un choque
+
+[41:33] cada vez mi
+
+[41:35] no sé, yo tenía un problema
+
+[41:37] muy grande porque por ejemplo mis simulaciones
+
+[41:39] no daban, pero ¿por qué?
+
+[41:41] porque me estaba saltando
+
+[41:43] un espacio de documento
+
+[41:45] pero bueno, era una
+
+[41:47] locura
+
+[41:51] esto se llama lista ejemplo
+
+[41:53] no te salte un espacio antes del print
+
+[42:11] print, al tiro
+
+[42:13] el paréntesis, entonces aquí
+
+[42:20] voy a declarar esto como
+
+[42:22] lista ejemplo, y fíjense
+
+[42:25] guardo una string que se llama casa
+
+[42:28] un número 23 que es un int
+
+[42:30] un true que es un booleano
+
+[42:32] un 2.5 que es un float
+
+[42:34] y un num, loco
+
+[42:39] y después hago mi print
+
+[42:41] de esta lista, ¿qué tiene?
+
+[42:44] casa 23, true 2.5
+
+[42:46] y no, nada
+
+[42:52] esto es una caja
+
+[42:54] entonces yo puedo obtener elementos
+
+[42:57] de esta caja, ¿ya?
+
+[42:59] puedo obtener el primero, el segundo
+
+[43:01] el tercero, incluso el último
+
+[43:04] o incluso toda la caja
+
+[43:10] para obtener el primer elemento
+
+[43:14] lista ejemplo
+
+[43:16] corchete 0, ¿por qué 0?
+
+[43:20] porque 0 es el primer
+
+[43:22] elemento de Python, ¿y qué es el primer
+
+[43:26] elemento? casa, el segundo
+
+[43:31] elemento sería lo mismo
+
+[43:35] pero en vez de 0 un 1
+
+[43:38] el segundo elemento, 23
+
+[43:44] ah no, sería el segundo, 23
+
+[43:49] es el 23
+
+[43:55] para el último elemento lo puedo hacer
+
+[43:57] de dos maneras, 0, 1, 2, 3, 4
+
+[44:00] puedo decirle
+
+[44:03] 4 y es
+
+[44:09] none, o le puedo decir
+
+[44:12] menos 1, ¿por qué?
+
+[44:16] por alguna razón técnica el último
+
+[44:18] elemento de una lista siempre va a
+
+[44:20] ser un menos 1, así que
+
+[44:27] si no conoces la expresión de una lista
+
+[44:29] que en realidad se puede conocer por lo que todo
+
+[44:31] puedes colocarle un menos 1
+
+[44:33] y eso va a ser tu último elemento de la lista
+
+[44:35] y la cantidad de mensos
+
+[44:39] es len
+
+[44:43] lo cual es un poco raro porque la longitud es
+
+[44:45] 5 y como accedes a esos
+
+[44:48] 0, 1, 2, 3, 4
+
+[44:50] es una cosa muy rara
+
+[44:53] pero así es Python
+
+[44:55] y hay que creerlo así como es
+
+[44:58] es lo que es
+
+[45:00] no es lo que queremos que sea
+
+[45:03] de hecho Python
+
+[45:05] tiene unos problemas que vamos a ver en futuro
+
+[45:07] de que sus form
+
+[45:09] y sus if no tienen end
+
+[45:11] entonces eso también es algo difícil a la cual
+
+[45:13] acostumbrarse cuando viene el lenguaje más
+
+[45:15] estandarizado
+
+[45:18] pero también podemos hacer cosas bien
+
+[45:20] interesantes, piensa que esto
+
+[45:22] que una lista también
+
+[45:24] tiene forma de queque
+
+[45:26] tu puedes tomar el queque del final
+
+[45:29] el queque del principio o sacar
+
+[45:31] una parte del medio, un slicing
+
+[45:34] y por ejemplo si yo le
+
+[45:37] digo dame las posiciones
+
+[45:39] 1 a 4
+
+[45:42] dame las posiciones
+
+[45:44] si yo le digo dame las posiciones
+
+[45:48] de 1 a 4
+
+[45:50] voy a escribir la lista mejor acá
+
+[45:52] esta es la lista
+
+[45:58] casa 23 true 2.6
+
+[46:00] si yo le digo esto
+
+[46:03] entre cocheques y le dejo de
+
+[46:05] 1, 2, 4
+
+[46:07] que pasa
+
+[46:11] me muestra las posiciones
+
+[46:13] 1, 2 y 3
+
+[46:17] esta raro eso
+
+[46:20] y 2.5
+
+[46:22] y donde esta el 4
+
+[46:26] tiene otra cosa muy rara que dice el ultimo valor
+
+[46:28] se volvido
+
+[46:31] te va a mostrar el valor del 1
+
+[46:33] al 3
+
+[46:37] pero si yo le digo esto
+
+[46:41] posiciones
+
+[46:50] 1, 2, 3 y 4
+
+[46:54] y le pongo de 1 a 5
+
+[46:56] ahí me muestra
+
+[46:58] 1, 2, 3, 4
+
+[47:02] es muy raro
+
+[47:04] y esto es algo con lo cual vamos a tener que
+
+[47:06] tener alivio
+
+[47:08] es parte de
+
+[47:10] entonces cada vez que sus índices empiezan
+
+[47:12] empiezan en cero
+
+[47:15] y cada vez que le pides un rango
+
+[47:17] el ultimo se le olvida mágicamente
+
+[47:19] se me fue
+
+[47:21] es como cuando te llevo un correo
+
+[47:23] y sabes que es importante pero despues se te olvida
+
+[47:25] una semana después como
+
+[47:27] oh verdad que crees importante
+
+[47:29] pero no le importa
+
+[47:31] ahora
+
+[47:34] esto es un poquito mas loco
+
+[47:37] tengo 2 puntos 2
+
+[47:39] y esta pasando esto
+
+[47:43] lo que esta pasando es que le digo
+
+[47:45] desde el inicio
+
+[47:48] hasta 2 traeme todo el queque
+
+[47:50] y claro
+
+[47:56] 0, 1, 2
+
+[47:58] se le olvida el 2
+
+[48:00] y me trae el 0 y el 1
+
+[48:02] ahora esta casa 23
+
+[48:07] no olvida eso este es un loquillo
+
+[48:10] y si le digo desde la posicion 2
+
+[48:12] hasta el final
+
+[48:14] como lo hago al revés de esto
+
+[48:17] desde 2 hasta
+
+[48:20] y no le pongo el indes
+
+[48:23] y me dice true 2.5 y no
+
+[48:25] vale el 2
+
+[48:29] 1, 2
+
+[48:31] 0, 1, 2
+
+[48:34] entonces ahi esta el tema
+
+[48:36] siempre hay que contar de 0
+
+[48:39] y es muy raro
+
+[48:41] especialmente si vienes de 0
+
+[48:43] ya o matlab
+
+[48:45] es como best of language ever
+
+[48:51] alguna duda todo ok
+
+[48:53] ahora
+
+[49:00] tengo una lista
+
+[49:02] es un queque pero yo
+
+[49:04] le puedo agregar otro queque al final
+
+[49:07] y puedo hacer que mi queque se extienda
+
+[49:09] como lo hago
+
+[49:12] tengo marine y marauder
+
+[49:14] que van a ser este catalogo
+
+[49:18] lo que yo voy a hacer
+
+[49:21] es en la posicion 0
+
+[49:24] osea donde esta marine
+
+[49:27] poner zilot
+
+[49:30] y ahora es zilot y marauder
+
+[49:33] significa que puedo reemplazar
+
+[49:35] parte de mi lista por otros componentes
+
+[49:38] después voy a hacer una cosa medio rara
+
+[49:40] catalogo que asi se llama
+
+[49:43] esta lista le pongo
+
+[49:45] .append
+
+[49:47] stalker que va a pasar
+
+[49:51] ahora zilot, marauder y al final
+
+[49:53] está stalker
+
+[49:57] significa que de una lista yo puedo reemplazar
+
+[49:59] componentes y de esa lista
+
+[50:01] puedo agregar componentes al final
+
+[50:04] eso hace esta cosa
+
+[50:06] como
+
+[50:08] una lista es modificable
+
+[50:10] le puedo cambiar cosas
+
+[50:12] eso pasa con todas las listas que
+
+[50:14] yo vaya a hacer
+
+[50:16] ahora yo también
+
+[50:24] puedo hacer un par de cosas interesantes
+
+[50:26] con una lista, si mi lista es
+
+[50:29] numerica, podría ser una lista
+
+[50:31] mixta pero vamos a simplificarlo
+
+[50:33] por el
+
+[50:36] la comodidad de la clase
+
+[50:39] voy a declarar 3 precios en una
+
+[50:41] lista, 60, 110
+
+[50:43] y 170
+
+[50:46] voy a sumarlos, voy a obtener
+
+[50:48] el minimo y el maximo
+
+[50:51] como lo hago?
+
+[50:54] sum min max
+
+[50:59] las mismas funciones de excel
+
+[51:02] significa que podría obtener
+
+[51:04] la variedad de una lista
+
+[51:06] con las mismas funciones de excel
+
+[51:08] funciona exactamente igual
+
+[51:11] que estoy acá?
+
+[51:14] sumo la lista
+
+[51:16] obtengo el minimo de la lista
+
+[51:18] y obtengo el maximo de la lista
+
+[51:22] profe
+
+[51:26] esa lista está compuesta por
+
+[51:28] un item que tiene un arreglo
+
+[51:30] en ese ejemplo
+
+[51:32] si yo llamara
+
+[51:38] al item
+
+[51:41] me trae los 3 números porque es un componente
+
+[51:43] que tiene 3 números
+
+[51:49] les podría meter texto y cosas así pero
+
+[51:52] por el bien de la clase las voy a dejar con números
+
+[51:54] si no van a pasar cosas extrañas
+
+[51:56] ahora
+
+[52:00] ustedes podrían crear su propia lista
+
+[52:03] y agregar con punto append
+
+[52:06] acá, no es variable
+
+[52:13] eso significa que pueden crear una lista con nombres
+
+[52:15] con números, con cualquier tipo de cosa
+
+[52:17] y simplemente con append
+
+[52:19] van agregando cosas al final
+
+[52:22] hay más cosas que hacer
+
+[52:24] acá están los uber y otras cosas
+
+[52:26] pero por el momento
+
+[52:28] nos vamos a quedar con append ya porque
+
+[52:30] en una simplificación en realidad
+
+[52:33] a una lista se le pueden hacer múltiples cosas
+
+[52:35] agregar registro de principio
+
+[52:37] agregar registro de final
+
+[52:39] cambiar registro, intercambiar
+
+[52:41] de posición real
+
+[52:43] pero ahora estamos bien
+
+[52:45] hay una lista que contiene
+
+[52:47] múltiples elementos que hemos visto
+
+[52:49] booleanos, números, ints, flots, todas esas cosas
+
+[52:51] y le podemos hacer magia
+
+[52:54] sobre si la clase es muy
+
+[52:58] interesante hasta este punto, si lo sé
+
+[53:00] es abotador pero parte de
+
+[53:02] grande, la próxima clase va a ser más sencilla
+
+[53:04] porque vamos a tener herramientas que van a decir
+
+[53:06] todo ese sufrimiento
+
+[53:09] valió la pena porque ahora tengo una herramienta
+
+[53:11] más sencilla para hacer todo eso
+
+[53:13] en un paso, que son
+
+[53:15] la librería, el re, el pal,
+
+[53:17] el puñito de sex y etc
+
+[53:22] hay otra cosa que también
+
+[53:25] se hace en Python
+
+[53:27] que se llama los diccionarios
+
+[53:29] ahora
+
+[53:31] desconozco el origen del nombre
+
+[53:33] quizás sea una expresión en inglés
+
+[53:35] pero en términos prácticos
+
+[53:37] un diccionario es básicamente
+
+[53:40] algo como lo que vimos
+
+[53:42] acá
+
+[53:44] un diccionario es
+
+[53:48] todas las nombres de
+
+[53:50] columnas con alguna
+
+[53:52] fila, entonces unidad, marauder
+
+[53:55] facción, terran, costo de gas
+
+[53:57] 110, costo de gas 30
+
+[53:59] o podía ser marín, unidad, marín
+
+[54:01] facción, terran, costo de gas 60
+
+[54:03] costo de gas 0, ya?
+
+[54:06] en realidad podía ser cualquiera de esas
+
+[54:08] y yo lo voy a crear así
+
+[54:11] persona igual a
+
+[54:14] inmediatamente me voy a crear el listo cuando haga esto
+
+[54:16] le pongo un corchete
+
+[54:19] y acá pongo entre dos comillas
+
+[54:21] nombre, dos puntos
+
+[54:24] genovencio, coma
+
+[54:27] ocupación, dos puntos de investigador
+
+[54:29] ese estudiante dos puntos true
+
+[54:32] y le pongo print
+
+[54:35] para hacer eso esta estructura
+
+[54:41] crea un diccionario
+
+[54:43] si yo le pongo print
+
+[54:48] persona que si se llama
+
+[54:50] diccionario y le pongo
+
+[54:52] ocupación va a venir
+
+[54:54] acá y me va a decir la ocupación
+
+[54:56] que tiene el genovencio, investigador
+
+[54:59] es como una forma de crear
+
+[55:02] como les dije esta estructura
+
+[55:04] pero con paita, se ve fácil
+
+[55:08] es como muy enreversado
+
+[55:10] pero hay manera más
+
+[55:12] practica de hacerlo
+
+[55:14] ya?
+
+[55:18] en este caso yo puedo hacer algo interesante
+
+[55:20] ya? yo puedo crear
+
+[55:23] esto con muchas variables
+
+[55:25] la unidad, marine
+
+[55:27] la facción, terran
+
+[55:29] costo mineral, 60
+
+[55:31] costo gas, 0
+
+[55:34] y puedo consultar cada uno de esos valores
+
+[55:36] y después puedo hacer un print
+
+[55:38] que me explique de manera más sencilla
+
+[55:40] es un marine, es un terran
+
+[55:43] y tiene 60 costo
+
+[55:45] o sea, costa 60 minerales y 0 de gas
+
+[55:47] de donde sale eso?
+
+[55:50] acá, F costo
+
+[55:53] invocas la lista
+
+[55:55] con sus variables, minerales
+
+[55:57] y invocan la lista
+
+[55:59] con sus variables, y por qué hago eso?
+
+[56:05] porque quiero que vean lo poco
+
+[56:07] práctico que es un diccionario
+
+[56:09] un diccionario sacó a la futuro
+
+[56:11] muy poco, rara vez
+
+[56:14] pero es la parte estructural
+
+[56:16] de python, ojo acá
+
+[56:18] python por defecto
+
+[56:20] incluye listas y diccionarios
+
+[56:22] es la forma que cuando quedaron
+
+[56:24] python dijeron, así se va a estrenar
+
+[56:26] los datos, pero no de manera más
+
+[56:29] eficiente, ya? nosotros
+
+[56:32] podemos agregar
+
+[56:35] cosas a un diccionario
+
+[56:37] tal como a la lista le agregamos
+
+[56:39] elementos al final, a principio, entremedio
+
+[56:41] a un diccionario
+
+[56:43] antes es
+
+[56:46] unidad, marine, facción, terran
+
+[56:48] costo minerales y costo gas
+
+[56:51] y si yo digo, marine
+
+[56:53] que si se llama diccionario
+
+[56:55] le pongo color
+
+[56:58] que antes no estaba, que es la característica
+
+[57:00] y azul, que es el color azul
+
+[57:02] y le pongo diccionario de
+
+[57:04] actualizado, y acá al final
+
+[57:06] me aparece una nueva dimensión que es color azul
+
+[57:08] por qué? porque un diccionario
+
+[57:11] le puede agregar elementos
+
+[57:14] y aquí puedo hacer esto
+
+[57:17] unidades, distintas unidades
+
+[57:19] de distintas facciones
+
+[57:22] de distinto tipo
+
+[57:24] con distinto costo mineral, con distinto
+
+[57:26] costo gas, con distinto suministro
+
+[57:28] con distinto tiempo de entrenamiento, ya?
+
+[57:31] y esto, por qué lo hago?
+
+[57:35] por una razón bien específica
+
+[57:37] porque quiero que se dé cuenta
+
+[57:39] lo poco práctico que es
+
+[57:41] crear todo esto, ya?
+
+[57:45] es como super
+
+[57:47] ir
+
+[57:49] contra la corriente
+
+[57:51] por qué no aprendemos las formas simples de hacerlo
+
+[57:53] esto es de acuerdo, pero
+
+[57:56] como les digo, como proceso de formación
+
+[57:58] hay que vender todo el camino
+
+[58:01] si se algún día ven
+
+[58:03] listas y diccionarios, que efectivamente se ven
+
+[58:05] cuando traes la data
+
+[58:08] como la puedes ver, por un rato
+
+[58:10] te das cuenta que en realidad
+
+[58:12] ah, esto es una lista, esto es
+
+[58:14] el diccionario, aunque estés trabajando con
+
+[58:16] uva, eco, bandas
+
+[58:18] o con, cómo se llama esta cosa?
+
+[58:20] polar, ya? de hecho
+
+[58:23] me voy a dedicar a
+
+[58:25] aprender polar, para poder
+
+[58:27] explicarles también cómo funciona, porque algo que
+
+[58:29] vi por encima, que es una librería bien interesante
+
+[58:31] para procesar grandes capacidades de datos
+
+[58:33] pero eso
+
+[58:36] y si hagan un print a todo eso
+
+[58:38] fíjense en todas estas cosas
+
+[58:40] ay señor, mucho no?
+
+[58:44] y claro, les dije que era como un excel
+
+[58:46] eh, sí
+
+[58:48] parcialmente, ya?
+
+[58:51] pero nosotros sí podemos leer
+
+[58:53] cuántos registros hay
+
+[58:56] podemos ver cuánto es la primera onda
+
+[58:58] que empieza en cero, y podemos
+
+[59:00] tener el tiempo de medivac
+
+[59:02] y sería el tiempo de entrenamiento, ya?
+
+[59:04] que es unidades 3
+
+[59:06] y qué sería eso? unidad, unidad, unidad
+
+[59:08] acá, eso
+
+[59:12] pero acceder a un diccionario, para
+
+[59:14] cabo uno su elemento, resulta complejo
+
+[59:16] de entender, ya? porque entender cuál es
+
+[59:18] la, cuál es el tipo de
+
+[59:20] columna, cómo está todo el diccionario
+
+[59:22] cuál es la propiedad
+
+[59:24] cuál es el índice, ya?
+
+[59:26] eso, bien con el tiempo, vamos bien con el tiempo
+
+[59:33] yo que voy a alcanzar? no, no voy a alcanzar
+
+[59:37] ya, vamos a ver
+
+[59:40] los comparaciones
+
+[59:42] y operadores lógicos, esto se hizo
+
+[59:47] transversal ya? se aplican en todo
+
+[59:50] un comparador lógico es, es
+
+[59:52] igual, es distinto
+
+[59:55] es mayor que, es menor que
+
+[59:57] es mayor igual, es menor igual
+
+[59:59] y cómo se expresa esto? normalmente
+
+[01:00:01] entre verdadero y
+
+[01:00:03] falso, si algo verdadero es uno
+
+[01:00:06] si algo falso es cero, ya?
+
+[01:00:09] por ejemplo, costo igual a
+
+[01:00:11] cien, ya? entonces declaré
+
+[01:00:13] una variable como costo, va a ser
+
+[01:00:16] que va a estar por ahí dando vueltas
+
+[01:00:20] y voy a hacer tres preguntas
+
+[01:00:22] costo es igual
+
+[01:00:29] a ciento diez
+
+[01:00:33] si, verdadero, costo
+
+[01:00:37] es menor igual a ciento veinte
+
+[01:00:39] verdadero, costo
+
+[01:00:44] es mayor que seiscientos, falso
+
+[01:00:47] por qué? porque costo es ciento diez
+
+[01:00:50] ciento diez es mayor que seiscientos
+
+[01:00:53] no, entonces
+
+[01:00:55] estos operadores me van a
+
+[01:00:58] estar todo el tiempo devolviendo
+
+[01:01:00] valores verdadero, falso, verdadero
+
+[01:01:02] si se cumple la condición es verdadero
+
+[01:01:04] si no se cumple la condición es falso
+
+[01:01:06] entonces
+
+[01:01:09] generalicemos
+
+[01:01:12] a es igual a cinco, b es igual a diez
+
+[01:01:14] a es igual a b
+
+[01:01:17] a es distinto
+
+[01:01:20] de b
+
+[01:01:22] signo de exclamación, igual
+
+[01:01:27] esto es distinto, a es mayor
+
+[01:01:30] que b, a es menor
+
+[01:01:32] que b, a es mayor igual que b
+
+[01:01:34] a es menor igual que b
+
+[01:01:37] como a es igual a
+
+[01:01:42] cinco y b es igual a diez
+
+[01:01:44] a es igual a b, falso
+
+[01:01:46] a es distinto de b, verdadero
+
+[01:01:49] a es mayor, falso
+
+[01:01:51] a es menor, verdadero
+
+[01:01:53] a es mayor igual, falso
+
+[01:01:56] y a es menor igual, verdadero
+
+[01:01:58] uno irá, oye pero
+
+[01:02:02] esto es como obvio, no?
+
+[01:02:05] es la misma lógica de un alumno
+
+[01:02:07] con un 2.9 puede dar examen
+
+[01:02:09] falso
+
+[01:02:11] un alumno con un 3 puede dar examen, verdadero
+
+[01:02:13] un alumno con un
+
+[01:02:15] 5.5 tiene que dar examen
+
+[01:02:17] falso
+
+[01:02:19] podría darlo, pero
+
+[01:02:21] ningún alumno con 5.5 va a dar un examen
+
+[01:02:23] pues hoy la nota, ¿no?
+
+[01:02:25] es inteligente, dice que ya pasé
+
+[01:02:27] esa es la lógica de los julianes
+
+[01:02:30] alguna pregunta, todo ok, todo ok, todo ok
+
+[01:02:32] si, si, si, ¿no?
+
+[01:02:34] yo profe tengo
+
+[01:02:36] hay un tema de los operadores
+
+[01:02:38] siempre me he preguntado por qué tiene doble igual
+
+[01:02:41] el doble igual para que sea igual
+
+[01:02:43] siendo que ya tiene un puligual sería eso
+
+[01:02:45] estamos hablando de algún arreglo, alguna cosa
+
+[01:02:47] no, no, esto
+
+[01:02:49] esto es asignación
+
+[01:02:51] y esto es comparación
+
+[01:02:54] para hacer una diferencia
+
+[01:02:57] porque no es resultado donde le ponían puligual
+
+[01:02:59] siempre he pasado eso, cuando aprendí recién
+
+[01:03:01] ese es el problema
+
+[01:03:03] como la diferencia es sutil, eso
+
+[01:03:07] ahora podemos hacer cosas interesantes
+
+[01:03:09] miren, tenemos una lista
+
+[01:03:13] 3, 5, 7, 10
+
+[01:03:15] vamos a usar
+
+[01:03:18] x igual a, ¿cuánto es a?
+
+[01:03:20] 5, entonces en vez de asignarle
+
+[01:03:23] un x igual a 5
+
+[01:03:25] le asigno otra variada
+
+[01:03:27] que ya está degradada de antes
+
+[01:03:30] y vamos a comparar
+
+[01:03:32] el primer elemento de la lista es igual a x
+
+[01:03:34] eso significa que podemos
+
+[01:03:37] comparar distintos elementos de la lista
+
+[01:03:39] con un valor específico
+
+[01:03:42] 3 es igual a 5, falso
+
+[01:03:45] 5 es
+
+[01:03:48] mayor que 5, falso
+
+[01:03:52] 7 es mayor
+
+[01:03:54] igual a 5, verdadero
+
+[01:03:57] y 10 es menor que 5, falso
+
+[01:03:59] significa que
+
+[01:04:03] no solamente puedes comparar valores unitarios
+
+[01:04:05] significa que también puedes
+
+[01:04:07] comparar, en este caso
+
+[01:04:10] valores de una lista
+
+[01:04:12] ahora, hay una cosa bien rara
+
+[01:04:16] tú también puedes comparar
+
+[01:04:19] strings, cadena 1
+
+[01:04:23] hola, cadena 2, mundo
+
+[01:04:25] cadena 3, hola, cadena 4
+
+[01:04:27] python, cuando digo cadena
+
+[01:04:29] es cadena de caracteres
+
+[01:04:31] a eso me refiero
+
+[01:04:34] en este caso
+
+[01:04:37] son similares
+
+[01:04:39] si comparo la cadena 1 con la cadena 2
+
+[01:04:42] hola con mundo
+
+[01:04:44] es falso
+
+[01:04:47] si comparo la cadena 1
+
+[01:04:49] la cadena 1 es distinta de la cadena 2
+
+[01:04:52] verdadero, la cadena 1 es
+
+[01:04:55] igual a la cadena 3, hola, hola
+
+[01:04:57] verdadero, cadena 1
+
+[01:05:01] es mayor que cadena 2
+
+[01:05:03] pero son letras
+
+[01:05:06] ¿cómo una cadena puede ser mayor que otra?
+
+[01:05:09] y acá una cosa interesante
+
+[01:05:12] porque es una orden alfabética
+
+[01:05:14] toma la primera letra
+
+[01:05:17] y la compara
+
+[01:05:19] cuál es la primera y cuál es la última
+
+[01:05:21] en este caso estamos comprando hola
+
+[01:05:24] con mundo
+
+[01:05:27] hola, viene después
+
+[01:05:32] que mundo?
+
+[01:05:35] pero en el print 2
+
+[01:05:37] hay una signo de exclamación
+
+[01:05:39] cadena 1, cadena 2
+
+[01:05:41] en vez de ser iguales
+
+[01:05:43] distinto
+
+[01:05:45] es distinto que cadena 2
+
+[01:05:48] eso
+
+[01:05:52] acá es así
+
+[01:05:55] sin exclamación para abajo
+
+[01:05:58] y bueno
+
+[01:06:02] cuando estamos comprando cadena 1 con cadena 2
+
+[01:06:05] siendo un mayor que otro
+
+[01:06:07] siendo ambos streaks
+
+[01:06:09] en realidad estamos preguntando hola
+
+[01:06:12] viene después que mundo
+
+[01:06:14] alfabéticamente? yo soy falso
+
+[01:06:16] ¿por qué? porque la H
+
+[01:06:19] viene alfabéticamente antes que la M
+
+[01:06:21] a, b, c, d, f, q, h
+
+[01:06:24] h, j, i,
+
+[01:06:26] y l, m
+
+[01:06:28] entonces
+
+[01:06:30] eso está sebalando
+
+[01:06:32] es una comparación medio rara
+
+[01:06:34] pero la entiendes
+
+[01:06:36] entonces podrías comparar alfabéticamente dos cosas
+
+[01:06:38] pero ya es por las letras
+
+[01:06:40] eso es como la comparación que se hace
+
+[01:06:42] y lo mismo con la siguiente
+
+[01:06:44] cadena 1 es menor que cadena 2
+
+[01:06:46] en el sentido alfabético
+
+[01:06:49] verdadero, ¿por qué?
+
+[01:06:51] porque está antes, está primero
+
+[01:06:54] y finalmente cadena 4
+
+[01:06:56] ¿es mayor que cadena 1?
+
+[01:06:58] cadena 4, b, y
+
+[01:07:00] ¿es mayor que cadena 1 que el otro?
+
+[01:07:04] ¿por qué? porque el alfabético
+
+[01:07:06] está primero
+
+[01:07:13] aquí creo que la mayoría ha trabajado
+
+[01:07:15] con circuitos, ¿no?
+
+[01:07:19] conectando resistencia y cosas así
+
+[01:07:22] es que es bonito
+
+[01:07:26] que cuando usted tiene un alfabético
+
+[01:07:28] y empieza a conectar cosas
+
+[01:07:31] siempre quemas cosas
+
+[01:07:33] y explota, por ejemplo
+
+[01:07:36] lo clásico es los condensadores que son unos chiquititos
+
+[01:07:38] cuando le metes mucha volta que hacen
+
+[01:07:40] y tiene papel adentro
+
+[01:07:43] así que parecen como palomitas de maíz
+
+[01:07:45] ¿y por qué digo eso?
+
+[01:07:48] porque la lógica de circuitos
+
+[01:07:50] que es una lógica puliana
+
+[01:07:52] de 1 y 0
+
+[01:07:54] es la misma lógica
+
+[01:07:56] de los operadores AND
+
+[01:07:58] y los operadores OR
+
+[01:08:01] si tú tienes un TRUE y un TRUE
+
+[01:08:05] el resultado de un TRUE y un TRUE
+
+[01:08:07] es TRUE
+
+[01:08:11] si tú tienes un TRUE y un FALSE
+
+[01:08:13] el resultado es FALSE
+
+[01:08:16] si tú tienes un FALSE y un TRUE
+
+[01:08:19] el resultado es FALSE
+
+[01:08:21] y si tú tienes un FALSE y un FALSE
+
+[01:08:23] el resultado es FALSE
+
+[01:08:27] ¿a qué me refiero?
+
+[01:08:30] a que yo puedo hacer
+
+[01:08:32] se cumple la condición 1
+
+[01:08:34] y se cumple la condición 2
+
+[01:08:36] es verdadero
+
+[01:08:39] es una lógica de circuitos
+
+[01:08:42] pero si alguno de ellos
+
+[01:08:44] cualquiera
+
+[01:08:47] es falso
+
+[01:08:49] esta lógica
+
+[01:08:51] de AND
+
+[01:08:53] de operadores lógicos
+
+[01:08:55] es la misma lógica que se ve
+
+[01:08:57] cuando se diseñan circuitos físicos
+
+[01:09:02] están todos llenos de esto
+
+[01:09:04] porque los 10 son 1 y 0
+
+[01:09:06] 1 0
+
+[01:09:08] y así lo que es eso
+
+[01:09:12] pero las palabras aguantan todo
+
+[01:09:15] veamos cómo hacemos
+
+[01:09:20] a igual a 5, b igual a 10
+
+[01:09:22] 6 igual a 7
+
+[01:09:28] y c es mayor que a
+
+[01:09:31] c mayor que a esto es verdadero
+
+[01:09:34] esto es FALSO y verdadero
+
+[01:09:37] FALSO y verdadero es FALSO
+
+[01:09:39] me da FALSO
+
+[01:09:43] eso es
+
+[01:09:45] si alguno de estos operadores es FALSO
+
+[01:09:50] todo es FALSO
+
+[01:09:52] es mayor que b
+
+[01:09:56] a es 5, b es 10
+
+[01:09:59] FALSO
+
+[01:10:02] c es mayor que a
+
+[01:10:05] c es 7, a es 5
+
+[01:10:08] FALSO
+
+[01:10:12] a es menor que b
+
+[01:10:15] a es 5, b es 10
+
+[01:10:17] verdadero
+
+[01:10:19] c es menor que b
+
+[01:10:21] c es 7, b es 10
+
+[01:10:23] verdadero
+
+[01:10:25] este es este
+
+[01:10:29] verdadero
+
+[01:10:35] muchas gracias Paul
+
+[01:10:37] la lógica es como la misma idea
+
+[01:10:39] también lo podemos jugar para la lógica boliana
+
+[01:10:45] los AND
+
+[01:10:48] sirven
+
+[01:10:50] tenemos muchas comparaciones que hacer
+
+[01:10:52] se puede extender
+
+[01:10:54] si claro que se puede extender
+
+[01:10:57] no tengamos una bajo control
+
+[01:10:59] la idea es más que suficiente
+
+[01:11:01] entonces yo puedo
+
+[01:11:03] guardar multirigistros
+
+[01:11:07] de bolianos
+
+[01:11:09] si esto es verdadero y esto es verdadero
+
+[01:11:11] es verdadero
+
+[01:11:13] tipo el alumno tiene aprobado
+
+[01:11:15] toda su asignatura
+
+[01:11:17] si, esta al día con todo el tema de finanzas
+
+[01:11:19] si, entonces defiende su tecia
+
+[01:11:22] si el alumno tiene aprobado toda su asignatura
+
+[01:11:24] si, esta al día con todo el tema de finanzas
+
+[01:11:26] no, no puede defender la tecia
+
+[01:11:28] necesidad de redigir operaciones
+
+[01:11:30] le mandamos correos a los alumnos
+
+[01:11:32] le preguntamos
+
+[01:11:34] para eso es la lógica
+
+[01:11:37] pero también
+
+[01:11:41] podemos hacer cosas interesantes
+
+[01:11:43] algunas dudas también
+
+[01:11:48] perfecto
+
+[01:11:53] podemos aplicar algún tipo de restricción
+
+[01:11:55] como lo vamos a hacer
+
+[01:12:00] digamos que yo quiero comprar un Marauder
+
+[01:12:02] pero tengo ciertas restricciones de
+
+[01:12:04] minerales y de gas
+
+[01:12:06] ya, en este caso tengo
+
+[01:12:08] 600 minerales
+
+[01:12:10] y tengo 200 unidades de gas
+
+[01:12:12] ya, y Marauder
+
+[01:12:15] voy a tener una cantidad de
+
+[01:12:17] ehh
+
+[01:12:19] acá está, tengo que juntarlo
+
+[01:12:21] acá está, y en este caso
+
+[01:12:24] mi Marauder va a tener ciertas características
+
+[01:12:26] esto es de la cosa que
+
+[01:12:28] declaré anteriormente por la muestra de acá
+
+[01:12:34] Marauder, Print
+
+[01:12:49] estos son variables
+
+[01:12:51] mi Marauder, Terran, Terrestre
+
+[01:12:53] cuesta 110 de
+
+[01:12:55] minerales y cuesta 30 de gas
+
+[01:12:57] ya, eso va a ser mi Marauder
+
+[01:13:05] comisión 1, código, comisión 2
+
+[01:13:08] entonces voy a hacer esto
+
+[01:13:15] la primera condición es
+
+[01:13:19] mi Marauder
+
+[01:13:21] cuesta menos que los minerales disponibles
+
+[01:13:24] en este caso
+
+[01:13:27] el costo de mi Marauder
+
+[01:13:29] bien, gracias, es 110
+
+[01:13:39] los minerales disponibles son
+
+[01:13:43] 600
+
+[01:13:45] entonces la primera condición
+
+[01:13:48] esto es menor que esto, me lo devuelvo acá
+
+[01:13:50] la condición 1, C
+
+[01:13:52] tenemos minerales
+
+[01:13:56] segunda condición, el Marauder
+
+[01:13:58] cuesta 20 de gas
+
+[01:14:00] ¿cuánto gas tenemos disponible? 200
+
+[01:14:02] estamos bien
+
+[01:14:08] alcanza, sería
+
+[01:14:10] condición 1 y
+
+[01:14:12] condición 2
+
+[01:14:14] este es true, y este es true
+
+[01:14:17] entonces como esto es una lógica booleana
+
+[01:14:19] verdadero, verdadero
+
+[01:14:21] verdadero, alcanza por un Marauder
+
+[01:14:24] está, esa es la idea
+
+[01:14:28] a mi me encanta la lógica de booleanas
+
+[01:14:32] me la pasaba multiplicando matrices
+
+[01:14:34] booleanas en mezla
+
+[01:14:36] y después las sumaba
+
+[01:14:38] y las convertía en booleanos en flua
+
+[01:14:40] me encanta esa idea
+
+[01:14:42] y después las vamos a ver con operaciones matriciales
+
+[01:14:47] ahora, ojo, todo esto que hice el tanto paso
+
+[01:14:50] se hace así
+
+[01:14:53] Marauder menor o igual al costo de minerales disponibles
+
+[01:14:55] y Marauder costo gas
+
+[01:14:57] es menor a gas disponible
+
+[01:15:00] pero mi consejo es el siguiente
+
+[01:15:02] no hay de una forma correcta
+
+[01:15:05] para hacerlo
+
+[01:15:10] esto y esto son lo mismo
+
+[01:15:13] esto te va a ocupar más pasos
+
+[01:15:15] pero siempre los poderes informativos
+
+[01:15:17] es mejor empezando poquito
+
+[01:15:19] y cuando ya dominas totalmente la idea
+
+[01:15:21] llegamos acá y hacemos
+
+[01:15:24] magia
+
+[01:15:26] pero eso
+
+[01:15:28] cuando veas versiones
+
+[01:15:30] como tan complejas de como
+
+[01:15:32] aplicar una condición matemática
+
+[01:15:34] yo les recomendaría que busquen simplificarla
+
+[01:15:36] ya, descomponerla
+
+[01:15:38] entender a este es a, este es d
+
+[01:15:40] este es c, este es d
+
+[01:15:42] después hay un and, hay un or
+
+[01:15:44] cualquier operador y puedo ver con eso
+
+[01:15:47] hay otro operador
+
+[01:15:50] que también se aplica
+
+[01:15:53] en este contexto
+
+[01:15:55] y ese operador se llama or
+
+[01:15:58] es parecido a and pero distinto
+
+[01:16:00] es parecido pero no es igual
+
+[01:16:02] y or es como el operador buena onda
+
+[01:16:05] te dice
+
+[01:16:08] si es true y es true
+
+[01:16:10] es true, si es true y es false
+
+[01:16:13] sabes que es true
+
+[01:16:15] igual, si es false
+
+[01:16:19] y es true te dice
+
+[01:16:21] dale si es true nomás
+
+[01:16:23] y si es false y es false
+
+[01:16:25] ahí te dice que es false
+
+[01:16:28] el and
+
+[01:16:32] si solamente, si al menos
+
+[01:16:34] alguno de sus componentes era false
+
+[01:16:36] todo es false
+
+[01:16:39] y el or es el buena onda
+
+[01:16:41] si al menos un componente es true
+
+[01:16:43] todo es true, solamente te dice false
+
+[01:16:45] cuando ambos entradas son falsas
+
+[01:16:48] la condición de antes
+
+[01:16:51] 5, 20, 7
+
+[01:16:54] la primera es
+
+[01:16:56] a es menor que b, 5 menor que 7
+
+[01:16:58] false
+
+[01:17:02] or, c es mayor que b
+
+[01:17:05] c es 7
+
+[01:17:07] y b es 10
+
+[01:17:10] es false
+
+[01:17:13] a es menor que b, 5 menor que 10
+
+[01:17:15] verdadero
+
+[01:17:18] c es mayor que b, no
+
+[01:17:20] falso, pero como tienes un verdadero
+
+[01:17:22] todo es verdadero
+
+[01:17:27] de ahí si quieres te pones a volver medio loquito
+
+[01:17:29] y mezclar los and con los or
+
+[01:17:31] y se hacen cosas interesantes
+
+[01:17:33] especialmente cuando estamos
+
+[01:17:35] haciendo operaciones matriciales con booleanos
+
+[01:17:37] pero esa es la lógica
+
+[01:17:41] circuitos
+
+[01:17:43] hacer explotar
+
+[01:17:45] la experiencia es que no tienes que ir
+
+[01:17:47] de ahí a desarrollar los personajes
+
+[01:17:49] cuando empiezas a salir un poquito de un circuito
+
+[01:17:52] lo hiciste bien
+
+[01:17:54] no, lexor, no
+
+[01:17:56] no lo quiero
+
+[01:18:01] pero sí, es la misma lógica
+
+[01:18:07] déjenme ver algo
+
+[01:18:12] solamente por
+
+[01:18:14] podríamos cubrir esto hoy día
+
+[01:18:17] pero por la sobrecarga de conocimiento
+
+[01:18:19] yo voy a hacer algo
+
+[01:18:22] la parte de 6
+
+[01:18:24] en adelante
+
+[01:18:26] lex y el if
+
+[01:18:29] lo voy a dejar para que lo estudien
+
+[01:18:31] y lo podemos abordar la siguiente clase
+
+[01:18:33] porque ya ha sido
+
+[01:18:35] mucha, mucha cosa
+
+[01:18:37] esto está bien explicado
+
+[01:18:39] pero sí lo podemos abordar en su momento
+
+[01:18:42] pero hay un problema que se llama
+
+[01:18:44] la memoria de trabajo
+
+[01:18:50] la memoria temporal
+
+[01:18:52] o la memoria de trabajo
+
+[01:18:54] que tú puedes aceptar cierta cantidad de conocimiento
+
+[01:18:56] y después como que el resto
+
+[01:18:58] ya fue
+
+[01:19:00] y claro, hay que hacer este repaso
+
+[01:19:02] continuo
+
+[01:19:04] el repitimiento espacial
+
+[01:19:06] y otras estrategias
+
+[01:19:08] pero desde cien adelante
+
+[01:19:10] les voy a solicitar que lo revisen
+
+[01:19:12] y los vamos a abordar en detalle
+
+[01:19:14] si quieren los voy a extender la siguiente clase
+
+[01:19:16] y vamos con más ejemplos
+
+[01:19:18] y entramos de hielo, a numpy, a pandas
+
+[01:19:20] y vamos a usar un par de imágenes
+
+[01:19:22] para que sean cosas interesantes
+
+[01:19:25] mi intención era la verdad
+
+[01:19:27] yo no dimensioné, quiero hacer tanta cosa
+
+[01:19:29] y eso
+
+[01:19:33] acá hay un detalle
+
+[01:19:42] mira, esto
+
+[01:19:45] funciona como un documento de google docs
+
+[01:19:47] entonces si ustedes algún día hacen una tarea
+
+[01:19:50] y la quieren compartir
+
+[01:19:52] vienen aquí a la derecha arriba a compartir
+
+[01:19:56] y acá le ponen público
+
+[01:19:58] cualquier usuario que tenga el vínculo
+
+[01:20:00] o restringido
+
+[01:20:02] no tiene que quedar restringido, si no nadie lo ve
+
+[01:20:04] tiene que quedar cualquiera que tenga el vínculo
+
+[01:20:06] y eso copia el vínculo listo
+
+[01:20:09] y lo pega
+
+[01:20:11] por ejemplo, vienen pasadas las primeras clases
+
+[01:20:13] con los alumnos de pregravo que me montaban el vínculo
+
+[01:20:15] pero estaba protegido
+
+[01:20:17] porque no lo podía ver
+
+[01:20:19] así que era como andar y dejarlo visible
+
+[01:20:21] y todo eso
+
+[01:20:23] como algo importante de este tipo de cosas
+
+[01:20:27] eso
+
+[01:20:29] una cosa también como comenté
+
+[01:20:31] cuando ustedes cierran esto
+
+[01:20:33] cuando cierran google colas
+
+[01:20:35] después de como media hora
+
+[01:20:37] todo desaparece, se va en la nube
+
+[01:20:39] se va en la nube
+
+[01:20:41] entonces hay que volver a ejecutar
+
+[01:20:43] pero lo que no se va
+
+[01:20:47] es lo que ya quedó ejecutado
+
+[01:20:49] se va de la ram, pero los mensajes te quedan
+
+[01:20:51] por ejemplo, A igual 1
+
+[01:20:53] print 1, print A
+
+[01:20:55] te dice A igual 1
+
+[01:20:57] pero las variables
+
+[01:20:59] de acá se van, pero todo lo que
+
+[01:21:02] dejaste acá queda
+
+[01:21:04] entonces por eso google colas
+
+[01:21:06] están simpáticos
+
+[01:21:08] porque tú esto lo puedes exportar como pdf
+
+[01:21:10] y podrías leer los pdf
+
+[01:21:13] y si quieres para las próximas clases
+
+[01:21:15] les paso el ipinv
+
+[01:21:17] y también el pdf
+
+[01:21:19] algunos alumnos me decían que era más fácil leer
+
+[01:21:21] lo del documento
+
+[01:21:23] pero en realidad es como control p
+
+[01:21:26] y listo, lo imprimes
+
+[01:21:29] 36 páginas
+
+[01:21:31] lo único malo es que no imprime los gif
+
+[01:21:33] pero bueno, no se puede
+
+[01:21:35] eso sería
+
+[01:21:39] hoy día
+
+[01:21:41] empezamos con una clase medio mal
+
+[01:21:43] la digital y todas esas cosas
+
+[01:21:45] ¿por qué las estamos viendo?
+
+[01:21:47] estoy muy preso digamos
+
+[01:21:51] como feedback, el micrófono de repente
+
+[01:21:53] se le sube el volumen de repente se le baja
+
+[01:21:55] por ser así
+
+[01:21:57] no sé si a mi no me pasa cuando
+
+[01:22:00] hay algún tema de volumen ahí
+
+[01:22:02] y luego te quería dar las gracias por el
+
+[01:22:04] que me compartió, no estaba viendo
+
+[01:22:06] el business to data science
+
+[01:22:08] de mature learning
+
+[01:22:11] tan bueno, profes, muchas gracias
+
+[01:22:14] no hay problema estimado
+
+[01:22:16] no hay problema en quedarse de esas clases
+
+[01:22:18] son más asas pero vamos a llegar a...
+
+[01:22:20] sale el mensaje
+
+[01:22:22] que le pedí una pregunta
+
+[01:22:24] sobre un tema de econometría
+
+[01:22:27] y después lo compartí
+
+[01:22:29] gracias profe
+
+[01:22:31] eso entonces estamos viendo
+
+[01:22:34] de esta forma bien rara
+
+[01:22:36] delotar los estructurados y otras cosas
+
+[01:22:38] porque necesitamos herramientas para poder procesar esto
+
+[01:22:40] entonces la herramienta que vamos a ocupar
+
+[01:22:42] durante el curso ya les comenté
+
+[01:22:44] por qué es python
+
+[01:22:47] python es la luz
+
+[01:22:49] por ahora, a futuro quizás sea julia
+
+[01:22:51] o alguna otra herramienta
+
+[01:22:53] que me llevamos por ahí
+
+[01:22:55] y gran parte de este curso
+
+[01:22:57] lo vamos a desarrollar en google cloud
+
+[01:22:59] también puede instalar
+
+[01:23:01] estas cosas locales
+
+[01:23:03] creo que quizás a fines del semestre
+
+[01:23:05] vamos a abordar cómo instalar localmente
+
+[01:23:07] anaconda, visual studio co
+
+[01:23:09] y es como muy
+
+[01:23:12] muy bueno
+
+[01:23:14] ya se puede conectar con el lm
+
+[01:23:16] vamos a hacer unas cosas muy locas con esto
+
+[01:23:19] les deje una serie de ejercicios también
+
+[01:23:21] en un jupiter nuevo
+
+[01:23:24] este sería el 2 ya
+
+[01:23:27] porque la única forma de aprender esto
+
+[01:23:29] es practicando una y otra y otra vez
+
+[01:23:31] si tienen alguna duda
+
+[01:23:33] me escriben
+
+[01:23:35] dentro de plazo acotado
+
+[01:23:37] voy a intentar responderles ya
+
+[01:23:39] para que ahí no queden con dudas
+
+[01:23:42] eso, espero que hayan disfrutado la clase
+
+[01:23:44] así yo cierro mi clase
+
+[01:23:46] ahora, al parecer es una hermosa acción por hoy

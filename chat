@@ -1,0 +1,6 @@
+#!/bin/bash
+# Chatbot para generar apuntes desde transcripciones.
+# Usa la API de OpenRouter para generar respuestas.
+cd "$(dirname "$0")"
+source venv/bin/activate
+python -m notekeeper chat "$@"

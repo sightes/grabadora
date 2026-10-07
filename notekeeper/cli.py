@@ -161,6 +161,12 @@ def cmd_list(args):
     list_recordings(sessions=sessions)
 
 
+def cmd_chat(args):
+    """Inicia el chatbot interactivo para generar apuntes."""
+    from notekeeper.chatbot import run_chatbot
+    run_chatbot()
+
+
 def main():
     parser = argparse.ArgumentParser(
         prog="notekeeper",
@@ -189,6 +195,9 @@ def main():
     li = sub.add_parser("list", help="Listar grabaciones")
     li.add_argument("--tag", type=str, help="Filtrar por tag/contexto")
 
+    # chat
+    ch = sub.add_parser("chat", help="Chatbot para generar apuntes desde transcripciones")
+
     args = parser.parse_args()
 
     if not args.command:
@@ -199,6 +208,7 @@ def main():
         "rec": cmd_rec,
         "transcript": cmd_transcript,
         "list": cmd_list,
+        "chat": cmd_chat,
     }
 
     commands[args.command](args)

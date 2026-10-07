@@ -1,0 +1,2595 @@
+Idioma: es
+Duración: 3884.7s
+Segmentos: 1294
+
+============================================================
+TRANSCRIPCIÓN
+============================================================
+
+[00:00] Excelente. Primero que todo, pedirles disculpas por este cambio medio repentino.
+
+[00:06] Esto se hizo con el mal tiempo que tuvimos pues, ya.
+
+[00:11] Y en la tarde me avisaron de este cambio, así que intenté avisarle a todos con tiempo
+
+[00:17] y coordinar con la directora.
+
+[00:20] Esta clase igual va a quedar grabada, después se va a subir al drive.
+
+[00:29] El aula virtual no me deja, pero el drive aguanta todo.
+
+[00:34] Lo que también tiene un punto bueno, ya, que esta clase es un poquito más técnica, ya.
+
+[00:41] Entonces, me conviene que quede grabada.
+
+[00:45] Así que yo creo que se alinearán los teclastros con relación útil y clases textos.
+
+[00:52] Espero que lo disfruten y lo disfruten bien.
+
+[00:58] Para esta sesión, nosotros vamos a pasar una serie de temas asociados al que das todos, Python y Notebooks.
+
+[01:09] Y eso, espero que estén todos bien en sus casas o en sus puestos de trabajo.
+
+[01:15] Así que vamos a empezar con esta reunión, ¿eh?
+
+[01:19] Profes, ¿qué tal? ¿Cómo está? ¿Le opusieron la pregunta?
+
+[01:23] Dígame.
+
+[01:24] Usted subió, bueno, conversando en la clase en Ternultea, revisar el drive que usted tiene con el apunte y todo.
+
+[01:36] ¿Eso, ese avance, si bien no hay un informe que entregar, hay que subirlo, entregarlo, comentarlo, o es...
+
+[01:48] No, no, no.
+
+[01:48] O sea, es de desarrollo propio y está bien.
+
+[01:53] Sí, es el tiempo que está asociado a las 216 horas de estudio en el individuo, ¿ya?
+
+[02:01] Correcto.
+
+[02:02] Es porque, mira, y de hecho me ayuda para amarrar este curso.
+
+[02:07] Lo que pasa es lo siguiente.
+
+[02:10] Este curso es muy raro porque quienes están acá tienen formaciones muy distintas.
+
+[02:18] Entonces yo necesito que tengan todos el mismo piso común para sobre eso empezar a construir conocimiento, ¿ya?
+
+[02:27] Entonces mi intención iniciada con eso era lo primero que revisaron el libro, de hecho ya sabía hasta cuándo se llamaba el libro.
+
+[02:37] Asociado a que vamos a ver mucha información.
+
+[02:42] Pero lo que necesitamos es como entender visualmente la información, ¿ya?
+
+[02:48] Y lo segundo está asociado a que, por ejemplo, en una de las entrevistas que se hicieron para el doctorado, me invitaron a tres.
+
+[02:58] Uno de ustedes había desplegado servicios en Amazon Cloud y cosas así.
+
+[03:04] Yo sé que están súper avanzadas, pero algunos de ustedes no saben lo que necesariamente es Python.
+
+[03:12] Entonces para eso era como darle una revisión a eso y de armar el piso común para que después como todos entienden lo mismo,
+
+[03:19] después podamos empezar a hacer cosas interesantes al estar en una zona donde pueden pasar cosas.
+
+[03:26] Pero no es un desarrollo...
+
+[03:29] Perfecto, sí se entiende.
+
+[03:36] Bueno, estaba Python con esa tarea, el libro, contando historias con gráficos, ¿sí?
+
+[03:53] Un compañero lo compartió, de hecho.
+
+[03:56] Yo alcanzaré en un par de capítulos.
+
+[03:58] Simplemente hay que seguir profundizando en función del tiempo en eso.
+
+[04:03] Gracias.
+
+[04:05] Es que yo tengo una hipótesis.
+
+[04:08] La ciencia de datos es muy fome.
+
+[04:10] Estadística, cálcula, las ecuaciones, que vas propagando, que la derivada parcial.
+
+[04:19] Entonces hay que apasionarse desde un punto de vista un poco más amigable a un concepto que es muy rígido.
+
+[04:26] Esto se pasa en una cosa bien sencilla de que al cerebro no le gusta sumar.
+
+[04:33] Mira, mira, voy a hacer algo.
+
+[04:37] Va a ganar décima.
+
+[04:46] Ahora siguen en las décimas.
+
+[04:51] Este es un ejercicio de riesgo, sí.
+
+[04:56] 0.1, 0.3.
+
+[05:00] ¿Cuánto es?
+
+[05:01] 0.4.
+
+[05:06] Ya.
+
+[05:07] Hacer esto se denúa 400, 500 mil segundos.
+
+[05:13] ¿Cuánto segundos?
+
+[05:15] Es muy rápido.
+
+[05:16] Porque eso es...
+
+[05:17] 7, 23, más 9...
+
+[05:27] ¿Cruzado y qué sé yo, no?
+
+[05:28] ¿15 mil segundos?
+
+[05:34] No, por supuesto.
+
+[05:35] Ya no son 15 mil segundos.
+
+[05:38] Y aquí pasa una cosa muy curiosa.
+
+[05:40] El cerebro acepta ciertas ideas de forma mucho más rápida.
+
+[05:47] De las decimales es una grisa o un rompecabezas que tu cerebro justo tiene.
+
+[05:51] ¿Acciones?
+
+[05:54] No.
+
+[05:54] Tú tienes que hacer lo que se llama neuroplasticidad,
+
+[05:59] de meterte en los números, de empezar a sumar, a multiplicar, a dividir,
+
+[06:04] y con el tiempo se va formando la estructura neuronal que es capaz de aguantar él.
+
+[06:10] Pero, por eso, las decimales son instantáneos.
+
+[06:13] Esto no.
+
+[06:16] Y la disciplina de ciencia de datos es esto.
+
+[06:21] No es esto.
+
+[06:22] Y por eso, por ejemplo, para mí, una de las mejores formas de aproximarse a eso es
+
+[06:28] visualizar datos.
+
+[06:30] Porque se entiende de manera mucho más sencilla
+
+[06:33] una idea súper compleja, ¿verdad?
+
+[06:36] Ese es mi enfoque.
+
+[06:37] Y mis enfoques son un poco raros, ¿verdad?
+
+[06:39] Estoy un poquito fuera de la caja en este sentido.
+
+[06:41] Pero lo que decía, nuestra clase de hoy se va a componer
+
+[06:47] acerca de lo que es Python,
+
+[06:50] lo que son las estructuras de datos,
+
+[06:52] lo que es Jupyter,
+
+[06:54] Cola,
+
+[06:54] y lo que vimos fue.
+
+[06:56] Y hay una serie de prácticas asociadas a esto.
+
+[06:59] Ustedes están haciendo algo muy raro porque pasaron por toda esta pendiente
+
+[07:04] para usar Excel y ahora están tomando de nuevo la pendiente para usar Cola de pendiente.
+
+[07:12] Y esas son las herramientas que vamos a ver el día de hoy.
+
+[07:15] So, previous Leon, tal como les comenté,
+
+[07:18] tenemos nuestro correo donde me pueden escribir si tienen cualquier consulta.
+
+[07:23] En la semana que dieron alguna, así que ya saben, siempre estoy disponible.
+
+[07:27] Voy a intentar responder lo posible lo más pronto.
+
+[07:30] Los fines de semana no estoy en por qué todo es conectado,
+
+[07:32] pero siempre ando analizando el correo porque es parte de la pega,
+
+[07:36] y lo entiendo.
+
+[07:39] Dimos el programa.
+
+[07:40] El programa es bien tenso, está muy actualizado.
+
+[07:43] Y esto no es una crítica al programa,
+
+[07:46] sino que una crítica a la disciplina.
+
+[07:48] Apenas declaramos algo,
+
+[07:50] en un año va a estar obsoleto.
+
+[07:52] Así que lo más valioso acá es adaptarse.
+
+[07:56] Como los libros que leemos que son
+
+[08:00] lo más nuevo va a estar obsoleto en un año, en dos años.
+
+[08:04] Es una locura, pero es parte de eso.
+
+[08:06] En este caso, nosotros estamos acá el 6 de esta segunda semana.
+
+[08:12] Me recuerda que entre semanas mayo hay una evaluación.
+
+[08:14] Pero para bajar la ansiedad,
+
+[08:16] estas son evaluaciones que les mando para la casa,
+
+[08:18] ustedes las revisan, me las dían.
+
+[08:20] Conversamos y tenemos una retroalimentación.
+
+[08:26] Un comentario que me hacen mis alumnos es que
+
+[08:28] el profe debería ser más exigente.
+
+[08:30] Lo siento, no puedo.
+
+[08:32] A mí me gusta aprender, me gusta discutir sobre estas cosas.
+
+[08:36] Así que las adroceñas no son como un corta cabeza,
+
+[08:39] sino que es como, ¿qué entendieron, qué aprendieron
+
+[08:42] y cómo piensan aplicando?
+
+[08:44] Esa es la idea.
+
+[08:48] El doctorado, 216 horas estudiando por su cuenta.
+
+[08:54] Esa es una locura, pero ánimo.
+
+[08:57] Me ayuda, te puedo dar un par de recomendaciones.
+
+[09:02] Dígame, Timo.
+
+[09:05] Hola, profe, buenas tardes.
+
+[09:08] Tengo una consulta respecto a las herramientas.
+
+[09:10] Es que lo que yo estuve en una exclusión en el LinkedIn,
+
+[09:14] bueno, rebuena, por lo mismo que hablábamos los días.
+
+[09:16] Acuerda que cuál era mejor, el R o el Python o el Stata.
+
+[09:20] Creo que era una persona con los meres.
+
+[09:21] Igual tenemos una con Karime, creo que el Marcelo mismo.
+
+[09:24] Pero había unos profesores peruanos que estaban haciendo
+
+[09:26] clases en Europa y decían que ellos,
+
+[09:30] el código, como eran como más tradicionalistas,
+
+[09:32] y eran la parte económica, financiera,
+
+[09:34] les pedían R, el código en R.
+
+[09:37] Entonces, ¿usted qué opina, profesor?
+
+[09:42] Más que el lenguaje que nos puede enseñar.
+
+[09:43] ¿Qué opina usted?
+
+[09:44] ¿Cuál es el mejor lenguaje para que nosotros podamos aplicar
+
+[09:46] en nuestra investigación y que puedan ser replicables
+
+[09:48] por otros estudios internacionales respecto a su
+
+[09:51] experiencia?
+
+[09:51] Eso, gracias.
+
+[09:54] Yo no quiero, yo quiero hacer un disclaimer.
+
+[09:57] No es un paro blanco.
+
+[09:58] A ustedes, Sebastián, dame un segundo.
+
+[10:01] Pero justamente tengo esa respuesta en una slide.
+
+[10:03] Así que lo vamos a descubrir.
+
+[10:05] Este vamos, Sebastián, cuéntame.
+
+[10:08] Yo siempre, siempre me hacen esa pregunta a mí cuando me
+
+[10:11] ha tocado hacer clases.
+
+[10:13] Y la verdad es que cualquier lenguaje es bueno.
+
+[10:16] No hay una discusión de cuál es el mejor o cuál es el
+
+[10:21] peor.
+
+[10:22] Hay gente cómoda.
+
+[10:23] Hay gente cómoda que le acomoda evidentemente quedarse,
+
+[10:26] por ejemplo, en Matlab.
+
+[10:27] Llevan años en Matlab y siempre van a decir,
+
+[10:29] Matlab es lo mejor.
+
+[10:31] Pero en general, todo este tema del lenguaje,
+
+[10:36] no hay ninguno mejor que 8 porque sí,
+
+[10:39] porque básicamente las librerías, si no existen,
+
+[10:41] se crean.
+
+[10:43] Por ejemplo, yo puedo hacer ciencia de datos perfectamente,
+
+[10:45] por ejemplo, en C++.
+
+[10:47] Tengo que crear la librería y eso no lo va a ser mejor que
+
+[10:51] 8.
+
+[10:51] Hay gente cómoda con el tema del lenguaje.
+
+[10:55] Sí, sí.
+
+[10:56] Acuerdo.
+
+[10:59] Aquí estoy un poco sin aprendizaje,
+
+[11:01] así que ustedes también me van a enseñar porque pueden
+
+[11:03] ser cosas que yo no.
+
+[11:04] Pero lo importante es que las exploramos.
+
+[11:06] Y tengo dos gráficos muy interesantes respecto a eso.
+
+[11:08] Y tengo un anécdota.
+
+[11:12] Como les dije en el aula virtual,
+
+[11:14] acá les hice ya el aviso que íbamos a hacer la clase online
+
+[11:18] en material de apoyo.
+
+[11:19] Como les comenté, tengo problemas para subir las cosas
+
+[11:21] porque las clases pesan mucho.
+
+[11:23] Entonces, cuando una clase pesa más de 10 megas o 50 megas,
+
+[11:26] me dicen, no, no se puede.
+
+[11:27] Entonces, está todo en el contrario.
+
+[11:29] Quizás hay más cómodos.
+
+[11:30] Pero las actividades de evaluación van a estar acá y
+
+[11:33] la rota de impulsión también.
+
+[11:35] Y el programa de Asimapura ya está subido,
+
+[11:36] sin necesidad de revisarlo.
+
+[11:38] Mirad cómo les hablé, el cerebro.
+
+[11:41] El cerebro hace cosas muy raras.
+
+[11:43] En este caso, el cerebro tiene áreas asociadas a
+
+[11:46] identificación de patrones, de números, de recuerdos,
+
+[11:51] de caras.
+
+[11:53] Hay zonas que se activan cuando algo nos causa una profunda
+
+[11:56] emoción.
+
+[11:56] La alegría, la tristeza, la felicidad.
+
+[11:59] Y en el caso curioso, también tenemos zonas que se
+
+[12:02] activan con herramientas.
+
+[12:05] Y eso pasa más con la gente que tiene formación
+
+[12:07] matemática.
+
+[12:10] Lo cual es muy raro, ya.
+
+[12:11] Es como, tiene formación como en matemática,
+
+[12:14] acá, al pueblo de la estadística.
+
+[12:15] Y de repente, tu cerebro se empieza a activar cuando
+
+[12:17] empieza a ver una pala, una cosa así como muy extraña.
+
+[12:23] Pero ahora es cierto que no significa que un numérico sea
+
+[12:30] un propicio de decir algo, y eso efectivamente sea así.
+
+[12:35] La correlación no implica causalidad.
+
+[12:37] Pero no puede ser la correlación,
+
+[12:39] porque la correlación siempre es una información valiosa
+
+[12:42] acerca de un comportamiento.
+
+[12:44] Vamos a empezar con el cerebro y aca el 2.0 para hacer un
+
+[12:50] pre-filter y después el A0.
+
+[12:56] El pre-grado esto es que algo que hace así.
+
+[12:58] El pre-grado tiene como una mente muy dispersa.
+
+[13:02] Alguno me ha dicho, profesor, yo necesito estudiar con un
+
+[13:05] videólogo, si no no me puedo concentrar.
+
+[13:08] Lo que va a estar bien es un refresco de la neuroplasticidad.
+
+[13:14] Y lo que vamos a ver en materia nueva.
+
+[13:20] Para ver eso, tengo Genovencio,
+
+[13:23] que hizo algo que hace siempre,
+
+[13:24] que es revisar el tiempo el día antes de partir.
+
+[13:28] Fue con lo gráfico y yo escribí el número que le
+
+[13:31] pareció y dijo, ah, un 14.
+
+[13:34] 14 grados, que se conoce por ciento de grados,
+
+[13:40] de probabilidad de llovias.
+
+[13:43] Pero es que, no se ve cuánto el otro día,
+
+[13:46] estaba lloviendo mucho.
+
+[13:48] 14 en realidad era la temperatura,
+
+[13:52] no era la probabilidad de llovias.
+
+[13:55] La probabilidad de llovias,
+
+[13:57] que vamos a poner más en alto,
+
+[13:58] no está asociado al probabilidad que llova con el llova.
+
+[14:01] Si no, profesor, no sé por qué usted se había mojado hoy en día.
+
+[14:12] Vamos a hablar de los datos visitales y otros datos visitales.
+
+[14:18] Esto, pruebas por revisar,
+
+[14:20] escrito,
+
+[14:22] modelo,
+
+[14:23] estos datos que no tienen sentido de una tabla o una columna.
+
+[16:58] Está técnicamente con imágenes,
+
+[17:02] pero no es textura claramente.
+
+[17:05] Hay formas que podemos tratar más seguro
+
+[17:13] que se llaman los formatos Markdown.
+
+[17:15] Cuando tú tomas algo que está con esa textura,
+
+[17:21] esa texto plano,
+
+[17:23] esta es la columna 1,
+
+[17:25] esta es la columna B,
+
+[17:29] aplican diferentes variables como el OCR,
+
+[17:32] la textura,
+
+[17:33] la textura,
+
+[17:34] la textura,
+
+[17:35] datos muy amigables para los otros.
+
+[17:39] Por ejemplo,
+
+[17:44] si ya algo empieza de la fila 1,
+
+[17:51] no empieza de la columna 1,
+
+[17:53] tiene como una esquina de sido por acá,
+
+[17:55] dependiendo de eso,
+
+[17:57] cada columna va a juntar algo específico
+
+[18:01] y cada fila la presenta en vez de todo.
+
+[18:03] Entonces,
+
+[18:06] ¿está un poquito afortunado?
+
+[18:07] Sí.
+
+[18:08] ¿Por qué está afortunado?
+
+[18:09] Sí, se ve a los datos ya.
+
+[18:15] Baja las manos con datos que se pueden.
+
+[18:21] A la vez que te arde a las VN o nada,
+
+[18:24] no me importa el dato estructurado,
+
+[18:25] quiero dotar con un piso base para todo,
+
+[18:29] solo vamos a empezar con otra estructura.
+
+[18:31] Un dato estructurado,
+
+[18:35] esta arquitectura no va a ser data,
+
+[18:38] pero la base de datos puede ser un Excel,
+
+[18:40] puede ser un SQL,
+
+[18:41] puede ser un Postgre,
+
+[18:42] puede ser un MongoDB,
+
+[18:44] puede ser,
+
+[18:45] incluso podría ser hasta un archivo de XT.
+
+[18:48] Y un dato no estructurado
+
+[18:53] sería algo que no tiene este formato y este orden.
+
+[18:57] Reaccione.
+
+[19:03] Pero hay como un caos inedente,
+
+[19:05] una pista de música.
+
+[19:07] Si en esto se hace realmente un orden,
+
+[19:10] un video o una cadena de emails de gente peleando,
+
+[19:15] tal como te lo comenté en el correo antes de entrar,
+
+[19:19] pero para nosotros hay que comenzar a bajar
+
+[19:24] para no entender cómo funciona.
+
+[19:26] Y cuando todo que se pasa con datos,
+
+[19:28] todo este tipo de conjunto de datos
+
+[19:38] es normal hacerse tres preguntas,
+
+[19:41] para ver si estamos jugando con datos estructurados.
+
+[19:44] La primera.
+
+[19:45] Está en campos claros y estábamos.
+
+[19:50] Y la columna.
+
+[19:50] Información, la puedo aplicar,
+
+[19:54] la puedo subir y la puedo ocupar.
+
+[19:56] Group by.
+
+[19:58] Solamente dame las personas que vienen a entrar al horario,
+
+[20:01] solamente dame los que son de tal móvil.
+
+[20:05] Y la tercera, que es lo más importante,
+
+[20:08] es que si la información está disponible inmediatamente
+
+[20:11] o acaso es en mi grado de intercambios,
+
+[20:13] correo oristónico,
+
+[20:14] correo oristónico requiere intercambios.
+
+[20:17] Ah, me están pidiendo tal cosa,
+
+[20:18] asociado a esto,
+
+[20:20] te leo en la cadena de correos.
+
+[20:22] En el caso de que podamos contestar como
+
+[20:25] claro que puede afirmar
+
+[20:28] y no necesito interpretar,
+
+[20:29] en general me siento concierta.
+
+[20:35] La línea no es tan delgada.
+
+[20:39] Algo podría ser estructurado.
+
+[20:41] Por eso vamos a trabajar con muchos datos
+
+[20:47] que vienen aquí en este CD de archivos Hextos.
+
+[20:50] Paso inicial, ¿ya?
+
+[20:54] Pueden tener más o menos columna,
+
+[20:57] más o menos pila,
+
+[20:58] que pueden tener una hoja, dos hojas, tres hojas.
+
+[21:01] Bueno, Hextas no son.
+
+[21:02] Pero también podemos tener datos que están medio raros.
+
+[21:06] Hay datos, hay unos que dicen error, none.
+
+[21:11] Hay datos que superan ampliamente al layer.
+
+[21:15] Ya lo vamos a ver.
+
+[21:17] Que son textos de construcción numesimales,
+
+[21:22] enteros.
+
+[21:23] Pero dentro de todo,
+
+[21:25] todos los documentos son de este tipo.
+
+[21:32] Y cuando ya muerdes,
+
+[21:34] le saquemos el hueso,
+
+[21:36] vamos a hacer cosas más interesantes.
+
+[21:39] Ahora, quiero hablar de matrices.
+
+[21:42] Excel ha atormentado la manía de la actividad.
+
+[21:47] Y ya, que esto hace más de 3.500 años,
+
+[21:52] la persona estaba anotando
+
+[21:56] los nombres, las tareas, los pagos.
+
+[21:59] Si hay cierto grupo de personas,
+
+[22:02] hay por la tablilla.
+
+[22:03] Eso podemos ver en la siguiente clase
+
+[22:05] que habla del tipo.
+
+[22:06] O sea, oh, me compré...
+
+[22:09] Esta persona no paga lo que me debe.
+
+[22:17] Profesista por una espera más antigua del mundo,
+
+[22:19] los contadores.
+
+[22:21] Con la cara ahí desde los tiempos de Enoch.
+
+[22:26] Efectivamente.
+
+[22:27] No conocía esta tablilla,
+
+[22:30] Profesor no sabía que existían
+
+[22:31] una cita tan antigua con nosotros los contadores.
+
+[22:34] La contabilidad y el pago impuesto
+
+[22:37] también me imagino que registraban aquí.
+
+[22:39] Los tributos.
+
+[22:40] Hay cosas muy lojas por el terreno amitáboras.
+
+[22:45] Tiene un registro que, no sé,
+
+[22:46] por unos 3.000 años antes,
+
+[22:49] asociaba el terreno amitáboras,
+
+[22:50] pero tenía otro nombre.
+
+[22:54] Esa es la historia que cuentan los contadores.
+
+[22:56] Pero prémuntale a una persona ligada
+
+[22:58] al ámbito de la tierra.
+
+[23:00] Y la historia también cambia.
+
+[23:03] La verdad no.
+
+[23:06] La verdad.
+
+[23:10] Como repartimos los feudos, a ver.
+
+[23:12] Repartimos las tierras.
+
+[23:14] Pero bueno.
+
+[23:18] Voy a buscar más información
+
+[23:20] y voy a haber sentido el registro
+
+[23:21] más antiguo que encuentre.
+
+[23:23] Y de ahí nos vamos a descubrir
+
+[23:24] qué tan antiguos pueden ser estos registros.
+
+[23:26] Pero la idea es que desde hace mucho tiempo
+
+[23:29] la gente que está organizando en su cabeza
+
+[23:31] la información así.
+
+[23:33] Pile a mi columna.
+
+[23:34] Yo no me acuerdo en eso.
+
+[23:37] Se calca, lula, receta, inundación.
+
+[23:40] Cada fin de recetas.
+
+[23:46] Ahora, hay unas cosas que, de nuevo,
+
+[23:54] seré de lo básico.
+
+[23:57] Pero hubo dos personas que,
+
+[23:58] que no saqué,
+
+[23:59] le vamos a dar mi nombre.
+
+[24:02] Eran James y Bessy Cain.
+
+[24:06] Ellos no.
+
+[24:07] Es como uno de los padres de la tierra.
+
+[24:12] De la tierra que me gusta.
+
+[24:18] Como machismo.
+
+[24:19] Organizar en filas y con el mundo.
+
+[24:23] Como de las tantas personas que
+
+[24:25] intentaron estructurar mucha gravedad de esta.
+
+[24:27] No necesariamente esto.
+
+[24:28] Pero el valor viene de este.
+
+[24:31] Entonces, malemógicamente a esto.
+
+[24:44] A reír los elementos.
+
+[24:46] Los elementos que tenemos.
+
+[24:49] Por ejemplo, bajo el número episodio
+
+[24:56] el 20 de las personas que lo vieron
+
+[25:01] y arranquemos.
+
+[25:02] El valor de cada elemento.
+
+[25:12] Pile a uno.
+
+[25:16] A uno columna a uno.
+
+[25:28] A reír.
+
+[25:30] Lo...
+
+[25:49] Tiene una peculiaridad
+
+[26:04] que se pone medio rebelde con esto,
+
+[26:07] pero respondo al final,
+
+[26:09] lo hace igual.
+
+[26:10] Ya.
+
+[26:10] Celo, asalto.
+
+[26:13] Ya.
+
+[26:13] Incluso hace una hoja de éxito.
+
+[26:16] Las estructuras tan sens...
+
+[26:17] Tan naturales
+
+[26:19] que al organizar.
+
+[26:21] Entonces,
+
+[26:27] la idea es
+
+[26:28] que el primer componente
+
+[26:30] siempre va a hacer las filas.
+
+[26:32] Y mire en esto que me estoy moviendo.
+
+[26:35] Ya.
+
+[26:43] 2x1.
+
+[26:46] Y aquí viene la cuartilloza.
+
+[26:48] La razón.
+
+[26:55] Paito mete la aberración.
+
+[26:57] Se va a contar de cero.
+
+[27:01] Cero.
+
+[27:02] Pilas.
+
+[27:10] Entonces,
+
+[27:13] es una aberración porque...
+
+[27:15] Ah.
+
+[27:15] ¿Por qué todos cuentan de uno y Paito
+
+[27:18] le empieza a contar de cero?
+
+[27:19] Para verlo.
+
+[27:22] Sí.
+
+[27:22] A abordar con lo que hable.
+
+[27:32] Naturalmente, no empieza a contar de uno.
+
+[27:34] Esto no cuenta de cero.
+
+[27:41] Sí, sí.
+
+[27:42] Es casi una razón de hardware en el fondo, pero...
+
+[27:46] Yo lo considero una aberración.
+
+[27:50] Lo vamos a ver.
+
+[27:51] Gracias por tu opinión.
+
+[27:52] Hola.
+
+[27:54] Tanto esto, bueno, que la maten y que lo resumimos
+
+[28:02] para ayudar a estos sistemas avanzados
+
+[28:08] que te toman una foto
+
+[28:10] y identifican tu cara, tus guiones,
+
+[28:13] la edad que tienes.
+
+[28:14] Entonces, a pesar de todo esto,
+
+[28:15] pasamos un proceso como este
+
+[28:17] para obtener la información
+
+[28:19] y la organiza de una forma saturada.
+
+[28:21] Y después, la procesa para obtener la información.
+
+[28:24] Entonces, va a ser información estructurada.
+
+[28:27] ¿Cómo ayudó?
+
+[28:28] Lo que forma esto no lo sabemos.
+
+[28:35] Por hoy, hay dos palabras que son más de negra.
+
+[28:37] Nunca hay de tanto.
+
+[28:39] Vamos a ver hoy yo.
+
+[28:40] Pero lo que hoy vamos a ver
+
+[28:42] son dos métodos más sencillos
+
+[28:44] de acceder a este tipo de tecnología.
+
+[28:46] Y después, vamos a hablar con librerías de alto nivel
+
+[28:49] que van a facilitar y estirar
+
+[28:51] que siempre hay que construir la base y la utilidad.
+
+[28:55] Eso es lo que voy a tener.
+
+[29:03] Y hay dos palabras de guardar en un abucionario.
+
+[29:12] Sonarios.
+
+[29:15] ¿A qué me refiero con esto?
+
+[29:20] Cuando hablo de un abucionario,
+
+[29:21] voy a hablar de una columna.
+
+[29:24] Entonces, la fracción podría ser terras.
+
+[29:31] El costo de binodales es de 0.
+
+[29:35] Otro diccionario, que tiene cuatro columnas más en la fila,
+
+[29:43] podría ser unidad maravillosa.
+
+[29:47] Terras, 30.
+
+[29:52] Unidad sí es discusión de edades.
+
+[29:59] Entonces, es como una columna específico.
+
+[30:06] Va a ser un diccionario.
+
+[30:09] Una lista simplemente va a ser todo lo que está acá.
+
+[30:13] Ya.
+
+[30:14] Terras, terras, terras, de 10 a 110, de 70.
+
+[30:18] Ya.
+
+[30:19] 0, 30, 140.
+
+[30:22] Y la lista de diccionarios sería todo esto.
+
+[30:25] Todas las unidades más, todo lo legítimo, todo.
+
+[30:33] Y esto, claro, teóricamente es una cosa que a veces me acelero, ¿ah?
+
+[30:50] Si se me acelera, por favor, díganme si tienen más dudas,
+
+[30:54] que vaya un poquito más lento.
+
+[30:56] A veces le aprieto acelerado, sin querer.
+
+[30:58] Vamos a ver diccionarios, listas.
+
+[31:06] Vamos a ver listas de diccionarios.
+
+[31:09] Ya.
+
+[31:11] Pero, una advertencia.
+
+[31:13] Ya.
+
+[31:13] Y esto tiene que ver con algo que mencioné al principio.
+
+[31:17] Lo que ya vamos a ver es, en una próxima clase,
+
+[31:21] vamos a ver que hay formas más eficientes de sacarlo.
+
+[31:24] Y ustedes me irán, ¿pero por qué vamos a pasar por lo engorroso
+
+[31:27] y no por lo sencillo?
+
+[31:28] Porque, como todos tienen teléfonos tan distintos,
+
+[31:31] ellos necesitan para dejar la cancha para todos ustedes.
+
+[31:34] Ya.
+
+[31:34] Así después, todos quedan con el mismo nivel y hacemos esto.
+
+[31:39] En el proceso de formación, la parte engorrosa,
+
+[31:42] que son listas de diccionarios,
+
+[31:44] que después no se ocupan tanto, son importantes.
+
+[31:47] Porque son las estructuras iniciales de datos
+
+[31:50] que tiene Python por defecto.
+
+[31:52] Es por eso que vamos a verlo así mismo.
+
+[31:55] Y para eso vamos a hablar de que es un lenguaje de programación.
+
+[31:59] Ya.
+
+[32:00] ¿Dónde es lenguaje de programación?
+
+[32:02] Hay muchos.
+
+[32:03] Y te aseguro que les interesa alguno de ellos.
+
+[32:06] Yo, por ejemplo, trabajé con Ascendly en su momento.
+
+[32:09] En celo 80,
+
+[32:11] programando casi unos y ceros.
+
+[32:14] Hay lenguajes que fueron muy populares hace un par de años atrás.
+
+[32:17] Por ejemplo, JavaScript.
+
+[32:18] JavaScript la rompió su momento.
+
+[32:20] Cuando yo estaba en la media,
+
+[32:22] hace muchos años atrás,
+
+[32:24] hablaba con un amigo y decíamos,
+
+[32:26] oye, ¿sabes qué?
+
+[32:26] Hay que aprender Flash.
+
+[32:28] Flash debe ser el lenguaje del futuro.
+
+[32:30] Quiere hacer animación y juegos en navegadores.
+
+[32:33] ¿Ya?
+
+[32:35] Y...
+
+[32:38] No, Java escribe...
+
+[32:39] Sí.
+
+[32:39] No, no.
+
+[32:40] Me decía Java.
+
+[32:41] Java.
+
+[32:43] Ahora tiene como muchas herramientas más que son complementarias a Java.
+
+[32:46] Y TypeScript es una cosa que sigue siendo utilizada.
+
+[32:53] Entonces,
+
+[32:54] la gracia de un lenguaje de programación
+
+[32:56] es una forma de indicarle a una máquina
+
+[33:00] que efectúe una tarea.
+
+[33:02] O una o múltiples tareas.
+
+[33:05] Necesito que recojas tal información
+
+[33:08] y la guardes, la sumes, la restes, la multiplicas, la dígitas.
+
+[33:12] ¿Ya?
+
+[33:13] En este caso,
+
+[33:15] es importante el concepto de intérprete.
+
+[33:18] ¿Ya?
+
+[33:18] Porque nosotros lo que hacemos con el lenguaje de programación
+
+[33:22] y, ojo, puede ser un par de simplificaciones,
+
+[33:25] es decirle a una máquina
+
+[33:28] mediante una estructura de código,
+
+[33:31] una serie de instrucciones,
+
+[33:32] que haga algo.
+
+[33:34] Entonces, el intérprete,
+
+[33:36] que es parte de esta estructura,
+
+[33:39] va a tomar esta instrucción,
+
+[33:40] como el ejemplo,
+
+[33:41] y me da la mula,
+
+[33:43] le va a dar 0 si 1.
+
+[33:46] Y esos 0 si 1
+
+[33:48] van a ayudar al procesador
+
+[33:51] que la va a convertir en la tarea.
+
+[33:53] Ah, siempre camino largo.
+
+[34:00] Sí.
+
+[34:01] ¿Es más complejo que esto?
+
+[34:03] Sí.
+
+[34:03] Y esas simplificaciones,
+
+[34:04] ¡muchas!
+
+[34:06] Pero básicamente es algo así.
+
+[34:08] Tengo una persona que escribe algo.
+
+[34:09] Dice, oye,
+
+[34:11] suma 60 más 10.
+
+[34:12] Intérprete,
+
+[34:15] lee la instrucción que le dije,
+
+[34:17] el lenguaje Python,
+
+[34:19] podría ser C,
+
+[34:20] podría ser L.
+
+[34:21] ¿Pero es este lenguaje?
+
+[34:23] Dice que ejecute la acción mediante con un símbolo.
+
+[34:26] 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1.
+
+[34:28] No se,
+
+[34:29] una serie de acciones.
+
+[34:32] Seguro a la derecha y se centra en el cierto piezo.
+
+[34:43] En el caso de nosotros,
+
+[34:44] nosotros vamos a estar trabajando acá.
+
+[34:46] Desde Python,
+
+[34:49] con lo que se mueve,
+
+[34:50] lo que se hace.
+
+[34:51] Nosotros le vamos a hacer un lenguaje,
+
+[34:57] cargare el mismo nombre.
+
+[35:22] Nuestro lenguaje que cuenta con suiente,
+
+[35:24] que ahora es Python.
+
+[35:34] ¡Guay!
+
+[35:37] Comunidades,
+
+[35:37] amigas,
+
+[35:38] es muy gratis.
+
+[35:51] Y acá,
+
+[35:52] para querer,
+
+[35:54] lo tengo para afrontar,
+
+[35:56] esta que se hizo,
+
+[35:57] de respuestas múltiples. Le preguntaron a las personas, ¿cuáles serían los lenguajes en los cuales trabajaron más intensamente?
+
+[36:08] Por eso los presentes todo el lenguaje. ¿Sabes cómo dice acá Sebastián?
+
+[36:18] ¿Quién es Sebastián? La Rómez.
+
+[36:22] Eso que nada, vamos al ámbito científico, biológico, confusiónamiento, etcétera, probablemente no sería eso la respuesta.
+
+[36:59] Sí, sí. Por eso el gobierno, cada vez que yo tenía un problema con un código, más de la que sea,
+
+[37:23] pero acá hoy estoy tratando de ver cómo funciona.
+
+[37:43] Claro, aquí son programaciones como Trance, KHT-MEM,
+
+[37:50] este proyecto de programación fue más usado por todos estos desarrolladores.
+
+[38:10] La curiosidad es que todo el flow, todo el flow cayó brutalmente,
+
+[38:28] porque la gente ya dejó de promoverlo a todo el flow.
+
+[38:31] Ahora, en este caso, hay muchos lenguajes, ya hay la escena.
+
+[38:47] Y R, y Maflav, el corazón tiene una encarta Maflav, pero Maflav es un lenguaje que ya...
+
+[38:58] ya tiene un específico, pero tiene una especie de situación súper específica en ámbito de ingeniería eléctrica,
+
+[39:05] de procesamiento de señales, de filtros, porque tiene un montón de herramientas diseñadas específicamente para eso.
+
+[39:12] Pero en comparación con otros lenguajes más populares, estamos lejos de eso.
+
+[39:18] Y esto está asociado a los repositorios de desarrollo de inteligencia,
+
+[39:27] como se sabe en Github, Github es el entorno que te permite subir tus códigos, dejar respaldo, y cosas así.
+
+[39:34] En sí, Maflav tiene un desastre con ese tema, es más caro.
+
+[39:42] Y en este caso, la comparación de los nuevos repositorios,
+
+[39:49] esto ya fue para el año 2024-2025, en Python era una cantidad absurda,
+
+[39:58] como 152 mil repositorios que sentimos principalmente en Python,
+
+[40:03] porque tu puedes subir un repositorio con varios repositorios guayos,
+
+[40:05] subiendo una vibración que me da el JavaScript y TypeScript, que son realmente similares.
+
+[40:13] No me quiero poner técnico porque tampoco manejo el tema de TypeScript,
+
+[40:16] sé que es muy parecido a JavaScript, pero no es lo mismo.
+
+[40:19] Y cosas como Shell, y sea más o más, es bastante bajo.
+
+[40:23] Ahora, yo aquí sería prudente de decir algo.
+
+[40:31] Los lenguajes que son populares en una era, tienden a tener un tiempo de vida explosivo,
+
+[40:40] y después son reemplazados por cosas que son más eficientes en su propia vida.
+
+[40:50] Java era como uno de los grandes lenguajes que había en su tiempo,
+
+[40:54] pero no es que Java haya dejado de ser bueno, sino que Java como tal, ahora viene conteriores.
+
+[41:00] El chat se hizo muy potente, se mandaban más editaciones y cosas así, incluso Python.
+
+[41:14] Entonces, piqué los lenguajes de programación por dar aproximadamente 10 años, como está el minuto.
+
+[41:22] Después de 10 años, esta lenguaje decaía mucho.
+
+[41:27] Entonces, la recomendación que le di en este momento es que tú tienes que aprender
+
+[41:32] como los fundamentos de la programación, y el lenguaje es importante, sí, durante ese periodo,
+
+[41:39] pero después de 10, 15 años va a surgir un nuevo lenguaje al cual te vas a tener que adaptar.
+
+[41:44] Entonces, lo importante acá es la flexibilidad.
+
+[41:48] De hecho, yo con un amigo estábamos viendo esto,
+
+[41:52] hoy vamos a hacer el emprendimiento como por eso así, y digamos un lenguaje que se llama Julia,
+
+[42:00] que decía que es un cierto canal que viene de acá.
+
+[42:02] Dicen que Julia, que es el nuevo Python del futuro,
+
+[42:07] y decía, Julia tiene una lengua amigable, cuenta con foros de discusión y cosas así.
+
+[42:15] Entonces, dicen lo mismo que tienen una gran comunidad,
+
+[42:21] todos dicen que son amigables, todos dicen que son accesibles.
+
+[42:25] De hecho, el chiste típico que me di es,
+
+[42:31] ahí sabéis que esto no me confundirán,
+
+[42:33] hay que aceptar que Julia tiene una gran comunidad,
+
+[42:37] es un lenguaje accesible, y de hecho, con anécdota,
+
+[42:41] hay un profesor de lo que sea que se llama Rubius,
+
+[42:48] y una vez estaba hablando con él y hablábamos de...
+
+[42:54] y hablábamos con él acerca del lenguaje de programación.
+
+[42:58] Y yo le dije, sí, es que con Python...
+
+[43:02] él me dijeron que hicieron un curso en R,
+
+[43:04] y que lo vamos a tener que hacer en algún momento.
+
+[43:06] Yo le dije, oye, pero ¿sabes qué? R igual es como el pasado, ¿no?
+
+[43:09] Podríamos actualizarnos.
+
+[43:11] Él me dijo, no, si R cuesta aplicaciones, en el área estelita y cosas así,
+
+[43:15] aunque sí, hay lenguajes nuevos.
+
+[43:17] Y me dijo, ¿has escuchado de Julia?
+
+[43:20] Y yo en general me estoy como, ah, sí,
+
+[43:23] pero Julia es la gran promesa, ¿no?
+
+[43:25] Es la gran promesa que todavía no me explica, lamentablemente.
+
+[43:28] Sí.
+
+[43:30] ¿Vas a hablarlo? No, casi, casi, casi, pero no.
+
+[43:33] Entonces, ¿cuál es el punto de todo esto?
+
+[43:36] Python la lleva, pero no se case con Python.
+
+[43:40] Hay que aprender el fundamento de la programación
+
+[43:43] y adaptarlo a las cosas que vengan.
+
+[43:45] Eso es el mundo.
+
+[43:49] Ahora, Python se está comiendo el mundo.
+
+[43:52] Python se integró con Power BI.
+
+[43:55] Python se integró con Matlab.
+
+[43:58] Tú puedes ejecutar Python desde Matlab.
+
+[44:00] Python se integró con R.
+
+[44:02] Puedes correr Python desde R, ¿ya?
+
+[44:07] Entonces, Python está corriendo en...
+
+[44:09] Sí, sí, sí, sí, sí.
+
+[44:15] Hay que aprender from back, lenguajes de alto, nivel...
+
+[44:18] Sí, de todo.
+
+[44:20] Python es el nuevo Doom. Corre en todo, ¿ya?
+
+[44:23] Está instalado en todo.
+
+[44:25] Entonces, por eso yo considero que Python es el lenguaje
+
+[44:31] que tenemos que aprender, al menos por ahora,
+
+[44:33] y más adelante van a surgir ideas más interesantes, ¿ya?
+
+[44:38] Pero por eso, primero, antes de meterme a Python,
+
+[44:42] que esta parte de arriba es como mi teórica,
+
+[44:45] necesito aprender un software, una aplicación.
+
+[44:48] Hay una aplicación que tú puedes descargar
+
+[44:51] que se llama Jupyter Notebook.
+
+[44:53] Tú la descargas, la entalas con Python,
+
+[44:58] con otros lenguajes y se ejecuta.
+
+[45:00] La gracia de la aplicación Jupyter Notebook
+
+[45:03] es un formato nuevo.
+
+[45:05] Y el formato es muy loco,
+
+[45:08] porque el formato es como un Excel interactivo, ¿ya?
+
+[45:11] Pero Jupyter Notebook es un importante.
+
+[45:17] Es una aplicación independiente que nosotros no vamos a usar,
+
+[45:20] pero necesito que se entienda que es una aplicación independiente, ¿ya?
+
+[45:23] Pero el formato que crearon es fantástico,
+
+[45:28] porque el formato tiene extensión IPINF.
+
+[45:32] Después de soltar código, imágenes, texto,
+
+[45:37] ejecutar el código, GIF, videos, de todo.
+
+[45:40] Es una locura.
+
+[45:41] Entonces, es como un libro interactivo.
+
+[45:44] Quizá el signo que se me ocurre
+
+[45:47] es como estos libros que tienen los niños,
+
+[45:49] que tienen como una vaca.
+
+[45:50] Apetan la vaca y dicen ¡Mmm!
+
+[45:52] ¿Ya? A ese nivel, ¿ya?
+
+[45:54] Estimado, Patricio, digáme.
+
+[45:55] Profes, ¿esto es lo que usted quería hacer en Matlab y no puedo?
+
+[46:00] Sí, yo quería una interfaz
+
+[46:04] que lequiera todo mi archivo, me dejara elegir,
+
+[46:07] básicamente.
+
+[46:08] Claro, como algo más interactivo,
+
+[46:11] porque esto no está con la función,
+
+[46:13] trata de hacer algo más interactivo
+
+[46:15] con el resto del attach, por lo que diga.
+
+[46:17] Los gráficos conforman,
+
+[46:19] los plotlets quedan horribles,
+
+[46:21] el portal de los HTML quedan más interactivos.
+
+[46:23] Sí, no, pero eso puede ser.
+
+[46:25] Lo vamos a hacer, lo vamos a hacer.
+
+[46:28] Entonces, aquí está lo importante.
+
+[46:32] Cuando yo me refiera, ¿sí?
+
+[46:36] Realmente, Pablo.
+
+[46:38] Mira, aquí está el conto.
+
+[46:40] Cuando yo me refiero a Jupyter Notebook,
+
+[46:43] no me refiero a la aplicación,
+
+[46:46] me refiero al formato.
+
+[46:51] Y ahora todo el mundo cuando habla de Jupyter Notebook,
+
+[46:53] en realidad habla del formato,
+
+[46:55] porque es tan bueno que lo corren en todos los códigos.
+
+[47:00] No lo corres, Cristian.
+
+[47:01] La clase de acá es de abasto, ¿ya?
+
+[47:03] Entonces, eso, Jupyter Notebook es formato, ¿ok?
+
+[47:08] Sí, esto es como cuando yo...
+
+[47:16] Yo tuve mi magista, me gané una beca,
+
+[47:18] y hice magista en España.
+
+[47:20] Y descubrí algo muy loco.
+
+[47:23] Descubrí que el confort no se llama confort,
+
+[47:25] se llama papel higiénico, ¿ya?
+
+[47:28] Descubrí que el humo no se llama humo,
+
+[47:30] se llama detergente ropa, ¿ya?
+
+[47:32] Y es el mismo caso cuando el nombre se come a la aplicación.
+
+[47:37] Jupyter Notebook es el formato, la hicieron.
+
+[47:41] Pero Jupyter Notebook como software,
+
+[47:43] no es gran cosa, para ser honesto.
+
+[47:46] Eso es importante, ¿ya?
+
+[47:49] Y finalmente llegamos acá.
+
+[47:52] Google Collab.
+
+[47:56] Google Collab es una máquina virtual.
+
+[48:00] Es un computador que está corriendo en la nube de Google.
+
+[48:05] Es gratuito, ¿ya?
+
+[48:08] Tiene Python ya instalado,
+
+[48:10] y corre formatos Jupyter Notebook, por defecto.
+
+[48:15] Entonces tú simplemente entras y programas.
+
+[48:19] Como viene casi todo pre-instalado,
+
+[48:23] para las primeras clases no tenemos que instalar nada.
+
+[48:27] Después cuando te pones más a especializar en cosas,
+
+[48:30] tienes que empezar a instalar librerías.
+
+[48:32] Pero esa es la gran comodidad de Google Collab.
+
+[48:36] Tiene todo por defecto.
+
+[48:39] Lo único que necesitas es tener una cuenta Gmail,
+
+[48:43] que incluso puede ser tu cuenta de alumno,
+
+[48:46] o una cuenta personal.
+
+[48:47] Google le da lo mismo, solamente necesitas una cuenta de Google,
+
+[48:51] para poder instalar, para poder usar Google Collab.
+
+[48:54] ¿Ya?
+
+[48:56] ¿Y lo entiendes?
+
+[48:57] Python, todas las librerías que necesitas,
+
+[49:00] y el formato de Jupyter Notebook.
+
+[49:02] Todo esto está funcionado en Google Collab.
+
+[49:04] En una máquina virtual de Google, ¿ya?
+
+[49:08] Pero lo primero es activar el servicio.
+
+[49:14] Por defecto, el servicio no viene activado.
+
+[49:18] Google dice, oye esto consume recursos,
+
+[49:21] así que a menos que me lo solicites,
+
+[49:24] no te lo vamos a activar.
+
+[49:26] Entonces lo que yo que necesito,
+
+[49:28] es que vayan a...
+
+[49:29] Primero que estén en un navegador,
+
+[49:32] lo que hagan su cuenta Gmail.
+
+[49:35] No les voy a borrar su cuenta,
+
+[49:36] no les voy a borrar su cuenta Gmail,
+
+[49:37] todo esto es Google.
+
+[49:39] Van a este link que se llama Google Collab,
+
+[49:43] o Google Collab.Google.
+
+[49:47] Y hacen click aquí,
+
+[49:51] Experience Collab Powered by AI.
+
+[49:54] Le hago click,
+
+[49:56] espera un ratito,
+
+[50:01] se va a cargar una cosa, va a abrir cosa,
+
+[50:04] y acá está.
+
+[50:09] ¿Claro?
+
+[50:15] Para hacer esto, inmediatamente activaron
+
+[50:18] el computador en la nube de Google,
+
+[50:22] con Python,
+
+[50:23] con Jupyter Notebook,
+
+[50:24] con todo.
+
+[50:26] Y vamos a ver cómo funciona ahora.
+
+[50:28] Cuando abra esta ventana,
+
+[50:32] la pueden cerrar sin problemas.
+
+[50:34] Y aquí va a pasar una cosa,
+
+[50:38] al activar esto,
+
+[50:39] cuando vayan a la clase 2,
+
+[50:41] quizás se dieron cuenta que habían dos archivos
+
+[50:43] que no podían abrir.
+
+[50:44] Si hacen F5, va a pasar una cosa curiosa,
+
+[50:49] si le hacen doble click,
+
+[50:50] se abren,
+
+[50:51] porque ahora activaron el servicio.
+
+[51:02] ¿Alguien necesita ayuda en este momento
+
+[51:04] para activar el servicio?
+
+[51:05] ¿Podrían hacerlo?
+
+[51:06] Bueno, yo, profe,
+
+[51:08] yo entré a la cuenta,
+
+[51:11] lo activé de alguna forma,
+
+[51:12] por supuesto,
+
+[51:13] y fui creando en paralelo la programación,
+
+[51:16] la original Python, justamente.
+
+[51:18] Después vi que tenía el algoritmo creado,
+
+[51:21] lo importé y sin ningún problema.
+
+[51:23] Claro, con el tiempo de respuesta,
+
+[51:25] que eso significa,
+
+[51:27] quizás instalando la consola directa en el computador,
+
+[51:30] no esperaría un tiempo de respuesta más rápido,
+
+[51:33] pero bueno, nada que dos segundos de espera
+
+[51:35] no complique la vida.
+
+[51:38] Muy bien eso.
+
+[51:39] El resto de los sistemas pudieron acceder,
+
+[51:46] ¿sí?
+
+[51:48] Y les recuerdo,
+
+[51:49] tienen que estar bloqueados en una cuenta,
+
+[51:51] Gmail, vienen aquí,
+
+[51:53] se activa el servicio,
+
+[51:54] se abre esta ventana,
+
+[51:55] que en realidad la pueden cerrar sin problema,
+
+[51:57] porque no importa mucho,
+
+[51:59] y después pueden venir a la clase 2
+
+[52:02] y abrir la clase.
+
+[52:04] Efectivamente.
+
+[52:08] Pero aquí falta un paso,
+
+[52:12] díganme el sistema de estimación, Patricio.
+
+[52:15] ¿Cómo activan los chanchitos esos que saltan por arriba?
+
+[52:18] Eso mismo es una idea,
+
+[52:19] porque no se puede trabajar sin eso.
+
+[52:21] Vienen acá a herramientas,
+
+[52:24] configuración,
+
+[52:26] en varios,
+
+[52:28] modo corgi,
+
+[52:30] patito,
+
+[52:31] cangrejo,
+
+[52:32] y gimote.
+
+[52:33] Excelente.
+
+[52:34] Muchas gracias.
+
+[52:35] Entonces van a tener estos animales caminando ahora.
+
+[52:40] Ahora,
+
+[52:42] también se pueden integrar paítons local,
+
+[52:44] con anaconda,
+
+[52:45] con liderías,
+
+[52:46] con entornos,
+
+[52:47] con plugins,
+
+[52:48] pero eso va a ser el futuro,
+
+[52:51] ¿ya?
+
+[52:52] Por ahora,
+
+[52:53] vamos a dejar con esta máquina,
+
+[52:54] porque tiene todo lo que necesitamos.
+
+[52:55] Dato curioso.
+
+[52:57] Esto nos permite,
+
+[53:00] como es Google,
+
+[53:01] todo Google,
+
+[53:02] lo podemos conectar,
+
+[53:04] con el Drive.
+
+[53:05] Entonces si ustedes tienen un Drive,
+
+[53:08] el que tiene documentos que quieren procesar,
+
+[53:10] simplemente lo conectan aquí,
+
+[53:12] y lo cargan.
+
+[53:13] Loco.
+
+[53:18] Profesor Agustín,
+
+[53:20] es por eso que los alumnos
+
+[53:21] se sienten tan cómodos con esto.
+
+[53:23] Viene todo pre-insalado.
+
+[53:24] Eso está...
+
+[53:26] maravilloso.
+
+[53:27] Sí.
+
+[53:29] Ya.
+
+[53:34] Ahora,
+
+[53:35] también pueden hacer un par de cosas más,
+
+[53:36] por ejemplo,
+
+[53:37] en una...
+
+[53:38] Estimado John, digamos.
+
+[53:39] Nada más como comentario,
+
+[53:41] yo que bueno,
+
+[53:42] soy dedicado al área de las geosciencias.
+
+[53:45] Antiguamente a mí me tocaba
+
+[53:47] vender un software que valía,
+
+[53:49] no sé,
+
+[53:50] 50.000 dólares.
+
+[53:51] Y había que instalar,
+
+[53:52] licencia, etcétera, etcétera,
+
+[53:55] como hoy nos pasa con el Office y que sí.
+
+[53:58] Hoy en día,
+
+[53:59] todos esos servicios están online,
+
+[54:01] a una fracción del precio,
+
+[54:03] evidentemente,
+
+[54:04] constitución,
+
+[54:05] etcétera,
+
+[54:06] etcétera.
+
+[54:07] Pero evidentemente,
+
+[54:09] ha venido
+
+[54:10] a...
+
+[54:11] desmistificar el uso,
+
+[54:12] masificar,
+
+[54:14] por todos lados,
+
+[54:15] con el servicio en la nube.
+
+[54:17] Así que,
+
+[54:18] bueno,
+
+[54:19] todo va para allá, ¿no?
+
+[54:20] Sí.
+
+[54:22] Convergencia cloud,
+
+[54:24] digamos.
+
+[54:26] Ahora voy a hacer una cosa.
+
+[54:27] Mira,
+
+[54:28] si quieren crear un nuevo archivo
+
+[54:30] y hacer cosas de cero,
+
+[54:31] hacen clic en una carpeta Drive,
+
+[54:33] clic derecho,
+
+[54:34] más,
+
+[54:36] Workflow.
+
+[54:38] Y les va a quedar aquí
+
+[54:40] un archivo Workflow
+
+[54:41] donde pueden empezar a experimentar.
+
+[54:42] Entonces,
+
+[54:43] ya tienen activado el servicio.
+
+[54:45] Pero vamos a ver
+
+[54:46] la clase.
+
+[54:48] ¿Qué hacen esto?
+
+[54:50] Ah,
+
+[54:52] por ejemplo,
+
+[54:53] yo activo esta barra de acá,
+
+[54:54] de la carpeta,
+
+[54:55] no porque la vaya a usar,
+
+[54:56] pero me deja
+
+[54:57] más centrado
+
+[54:58] y me gusta cómo se ve.
+
+[54:59] Si se fijan,
+
+[55:01] aquí,
+
+[55:02] estas tres barras,
+
+[55:03] le pueden hacer clic,
+
+[55:04] índice,
+
+[55:05] y me muestra
+
+[55:07] el índice de todo el documento.
+
+[55:09] Ya.
+
+[55:10] Entonces,
+
+[55:14] si hago clic aquí,
+
+[55:15] voy acá.
+
+[55:17] Si hago clic aquí,
+
+[55:18] voy acá.
+
+[55:19] Si hago clic aquí,
+
+[55:20] voy acá.
+
+[55:22] Pero yo voy al principio.
+
+[55:23] Eso es parte de la interactividad.
+
+[55:26] Esto que ven acá
+
+[55:27] es un texto.
+
+[55:28] Pero si hago doble clic,
+
+[55:29] ¿qué pasa?
+
+[55:30] Lo puedo editar.
+
+[55:33] Y funciona así.
+
+[55:36] Mira,
+
+[55:37] aquí dice,
+
+[55:38] puedo ir a cualquier parte,
+
+[55:39] salgo con escape,
+
+[55:40] aprieto escape
+
+[55:41] y salgo de ahí.
+
+[55:42] Acá puedo hacer código
+
+[55:44] o texto.
+
+[55:45] Vamos a hacer texto.
+
+[55:46] Hago doble clic
+
+[55:48] para editar.
+
+[55:49] Si pongo un numeral
+
+[55:53] o gato,
+
+[55:54] este es un,
+
+[55:57] queda como título 1.
+
+[55:58] Hago doble clic.
+
+[56:05] A pesar de un paso al espacio,
+
+[56:09] este es un título 2.
+
+[56:13] Y le pongo dos numerales
+
+[56:15] o dos gatos.
+
+[56:16] Y queda así.
+
+[56:22] Titulo 1, título 2.
+
+[56:23] También lo puedo pegar acá.
+
+[56:27] Texto.
+
+[56:28] Ahora vamos a ver
+
+[56:37] qué tenemos pre-instalado.
+
+[56:38] Ojo,
+
+[56:40] cuando tenemos código
+
+[56:41] y queremos ejecutarlo,
+
+[56:42] hay que empezar aquí,
+
+[56:43] pero aquí no lo presentes.
+
+[56:44] Porque esto lo hice en mi computador
+
+[56:46] y subí este quiz
+
+[56:47] de Python
+
+[56:48] con numpypanda
+
+[56:50] y cosas así.
+
+[56:52] Era para mostrarles
+
+[56:53] que pueden saltar cosas dinámicas
+
+[56:55] acá.
+
+[56:56] Pueden saltar figuras,
+
+[56:57] pueden saltar ecuaciones,
+
+[56:58] pueden saltar lo que sea.
+
+[56:59] Ya.
+
+[57:00] Y ahora,
+
+[57:01] en este caso,
+
+[57:02] estoy saltando este quiz.
+
+[57:03] Pero no le hagan clic aquí,
+
+[57:04] si no,
+
+[57:05] va a desaparecer.
+
+[57:06] Ya.
+
+[57:07] Entonces,
+
+[57:08] lo primero que voy a hacer,
+
+[57:10] y esto va a ser trampa,
+
+[57:12] necesito que bajen
+
+[57:13] abajo de la figura
+
+[57:14] y le hagan clic aquí.
+
+[57:15] Ya.
+
+[57:17] ¿Por qué?
+
+[57:18] Al hacer esto,
+
+[57:19] la máquina se va a activar.
+
+[57:21] Ya.
+
+[57:24] Si tú bajas
+
+[57:25] todos estos códigos,
+
+[57:26] códigos, códigos,
+
+[57:27] que es mío,
+
+[57:29] pero cuando dices
+
+[57:30] resumen de entorno,
+
+[57:31] te muestra
+
+[57:32] lo que trae la máquina.
+
+[57:33] Te dice,
+
+[57:34] no,
+
+[57:35] no,
+
+[57:36] no,
+
+[57:37] te dice,
+
+[57:39] es un Ubuntu 24,
+
+[57:40] el kernel es 3.6,
+
+[57:42] la estructura es 3.6.64,
+
+[57:44] tiene dos procesadores,
+
+[57:46] tiene una andajeta de video,
+
+[57:48] tiene Python 3.16,
+
+[57:50] tiene 12 GB de memoria RAM,
+
+[57:52] tiene
+
+[57:53] mucho disco duro,
+
+[57:54] estas son las principales librerías que tiene
+
+[57:57] y trae instaladas
+
+[57:59] 665 librerías.
+
+[58:01] Tiene todo lo que necesitas
+
+[58:04] para ganar ese dato inicial.
+
+[58:05] Ya.
+
+[58:06] Incluso puede hacer
+
+[58:08] un modelo
+
+[58:09] bastante avanzado acá,
+
+[58:10] con lo que trae
+
+[58:11] cualquier efecto.
+
+[58:12] Si necesitas más,
+
+[58:13] instalaslo.
+
+[58:14] Pero,
+
+[58:16] todo lo que hagas
+
+[58:17] va a quedar
+
+[58:18] aquí momentáneamente,
+
+[58:20] va a quedar en la memoria.
+
+[58:21] Y eso también es algo que tenemos que hablar.
+
+[58:23] Ya.
+
+[58:24] Y necesito que vean esto,
+
+[58:33] porque me encanta el video.
+
+[58:34] Con usted lo voy a compartir.
+
+[58:36] Señor, el libro de
+
+[58:37] aplicaciones intensivas en datos,
+
+[58:39] ¿qué portada quiere que tenga?
+
+[58:41] Ehm...
+
+[58:43] Y ponerle un chancho.
+
+[58:46] ¿Un chancho?
+
+[58:47] Sí, un jabalí,
+
+[58:49] saltando.
+
+[58:50] Ok.
+
+[58:52] Sí.
+
+[58:54] El libro de javascript.
+
+[58:56] Ehm...
+
+[58:57] Y ese tiene pinta de que
+
+[59:00] ponerle un rinoceronte,
+
+[59:02] un rinoceronte grande,
+
+[59:03] ahí reportado,
+
+[59:05] cosa que sea bien de javascript.
+
+[59:07] Bien de fundamento para la arquitectura del software.
+
+[59:10] Ehm...
+
+[59:13] Y no sé,
+
+[59:14] mandarle un pájaro,
+
+[59:15] uno que ande dando vueltos por ahí,
+
+[59:17] un pájaro, una rama.
+
+[59:18] Gracias, señor,
+
+[59:19] por su tiempo.
+
+[59:20] Dicho graciosito.
+
+[59:21] Gracias.
+
+[59:22] El Riley,
+
+[59:24] son los jubiles libros que hay para aprender cienciado.
+
+[59:27] Y tiene una portada muy rara.
+
+[59:29] Pájaro, conejo, de todo.
+
+[59:34] Entonces...
+
+[59:35] Esto raro, ¿por qué?
+
+[59:36] Sí.
+
+[59:39] Ya.
+
+[59:41] Entonces, en honor al tiempo,
+
+[59:42] vamos a hacer una pausa de 20 minutos.
+
+[59:44] Considerado que es el coffee break.
+
+[59:46] No sé si la directora nos va a mandar el coffee break a la casa.
+
+[59:49] Vamos a hacer un cafecito, algo así.
+
+[59:51] ¿Por whatsapp?
+
+[59:53] Ya.
+
+[59:54] Podemos montarnos café por correo.
+
+[59:57] Ya.
+
+[59:58] En 20 minutos más,
+
+[01:00:00] no nos vemos,
+
+[01:00:01] parece.
+
+[01:00:03] O mejor en 10 minutos más,
+
+[01:00:04] y así terminamos antes.
+
+[01:00:06] El tiempo...
+
+[01:00:07] Ya.
+
+[01:00:08] Eso.
+
+[01:00:09] Si alguien tiene alguna pregunta,
+
+[01:00:10] me voy a quedar por acá,
+
+[01:00:11] esperándolos.
+
+[01:00:12] Ya.
+
+[01:00:13] Y si no,
+
+[01:00:14] nos vemos en 10 minutos más tiempo.
+
+[01:00:16] Gracias.
+
+[01:00:20] ¿Alguien tiene alguna consulta?
+
+[01:00:21] OK.
+
+[01:00:23] Yo sí, pero sí que tengo una consulta,
+
+[01:00:24] pero más bien técnica.
+
+[01:00:25] No sé si todos la quieren escuchar
+
+[01:00:27] o aprovechándome.
+
+[01:00:28] Lo que quiero decir es que yo estoy
+
+[01:00:30] trabajando con temas de econometría financiera.
+
+[01:00:34] Entonces,
+
+[01:00:35] me he estado buscando los papers,
+
+[01:00:37] he estado investigando a ver qué código usan,
+
+[01:00:40] cuáles son los departamentos más importantes
+
+[01:00:44] o las revistas más importantes,
+
+[01:00:46] quiénes son los revisores,
+
+[01:00:47] para dónde se van,
+
+[01:00:48] las cosas porque lo que yo estoy haciendo
+
+[01:00:51] para mi tesis de doctorado,
+
+[01:00:55] más que algo original,
+
+[01:00:56] estoy como copiando algo que hicieron los chinos
+
+[01:00:58] y trayéndolo para acá
+
+[01:00:59] y modificando algunas cosas.
+
+[01:01:00] Ya.
+
+[01:01:01] Lo mío era de econometría financiera,
+
+[01:01:03] hacer de tiempo,
+
+[01:01:04] análisis de riesgo,
+
+[01:01:05] de inversiones y esas cosas,
+
+[01:01:07] de los bancos que existen allá
+
+[01:01:09] respecto a los bonos verdes,
+
+[01:01:10] pero lo hicieron con algunos químicos de eso.
+
+[01:01:12] Usaron Python, primero que todo.
+
+[01:01:14] Usaron la plantilla esa que tienen de Harvard,
+
+[01:01:17] no sé cuánto.
+
+[01:01:18] Es una plantilla que es como
+
+[01:01:19] para todos para poder replicar la análisis de datos
+
+[01:01:22] con Python.
+
+[01:01:23] Entonces, lo mío era, por ejemplo,
+
+[01:01:27] usar excepto un modelo economético,
+
+[01:01:30] el KJ Gatch, el ARC,
+
+[01:01:32] el Xbus, el Random Forest,
+
+[01:01:34] pero ahora está, porque sigo investigando,
+
+[01:01:36] ya hace poco caché uno hindú
+
+[01:01:38] que usaron uno que se llama
+
+[01:01:40] el método del sample.
+
+[01:01:42] El método del sample, homogéneo,
+
+[01:01:45] había otro que era...
+
+[01:01:46] Entonces, ahí, este tipo,
+
+[01:01:49] así usaban como una homoselasticidad
+
+[01:01:52] cuanto a la toma de las muestras,
+
+[01:01:54] me parece.
+
+[01:01:55] Y con eso,
+
+[01:01:56] con eso pueden usar métodos del sample.
+
+[01:01:58] Entonces, ahí tengo como
+
+[01:01:59] algunas dudas si esto es alguna bibliografía,
+
+[01:02:01] si maneja eso, o qué puedo leer
+
+[01:02:02] para poder entender un poco
+
+[01:02:03] este método del sample,
+
+[01:02:04] porque primero hay algunos videos
+
+[01:02:06] que son de...
+
+[01:02:07] no me acuerdo el nombre,
+
+[01:02:09] como de data analítica,
+
+[01:02:12] pero son hindú.
+
+[01:02:13] Son hindú, no lo he visto
+
+[01:02:15] en los chinos,
+
+[01:02:16] no lo he visto en los americanos,
+
+[01:02:17] en los...
+
+[01:02:18] No, son hindú.
+
+[01:02:19] Eso, pero...
+
+[01:02:20] Y además,
+
+[01:02:25] siempre ocupo cola,
+
+[01:02:29] siempre ocupo cola,
+
+[01:02:30] algo voy a secret learn,
+
+[01:02:31] instalo tal libre, ya.
+
+[01:02:33] Mira, mira,
+
+[01:02:35] existe este curso
+
+[01:02:37] que se llama Minedicados Datos.
+
+[01:02:39] Ya.
+
+[01:02:40] Tiene un detalle.
+
+[01:02:42] Ojalá no esté el secretario académico
+
+[01:02:45] y tampoco esté el profe Agustín
+
+[01:02:47] escuchando esto.
+
+[01:02:48] Entonces...
+
+[01:02:49] Lo último es que se da el ramo,
+
+[01:02:50] entonces,
+
+[01:02:51] a ver, que nunca me vaya a asistir.
+
+[01:02:52] Me tomé una libertad,
+
+[01:02:53] y después de hacer milería de datos,
+
+[01:02:56] hice Machine Learning.
+
+[01:02:59] Y ahí explico...
+
+[01:03:00] Ah, perfecto, sí.
+
+[01:03:02] Lo que tú quieres
+
+[01:03:03] que son los métodos del sample
+
+[01:03:04] y los métodos de Cactus
+
+[01:03:06] y todas esas cosas,
+
+[01:03:08] estarían en la clase...
+
+[01:03:11] fue la clase...
+
+[01:03:12] Acá, la clase 4.
+
+[01:03:13] Los modelos después.
+
+[01:03:17] La clase 4.
+
+[01:03:18] Los modelos de Boosting.
+
+[01:03:20] Cactus, Lighting, XGBoost.
+
+[01:03:22] XGBoost.
+
+[01:03:23] Sí.
+
+[01:03:25] Aquí tienes el código,
+
+[01:03:26] y aquí tienes el dato que se ocupa para eso.
+
+[01:03:28] Y también en la clase 5
+
+[01:03:31] tienen los temas de Forecasting.
+
+[01:03:33] Porque están en ese tipo.
+
+[01:03:37] Excelente.
+
+[01:03:38] Muchas gracias, profe.
+
+[01:03:39] Está bueno ese sencillo dato.
+
+[01:03:42] Yo no cachaba que existían esos métodos de ensamble.
+
+[01:03:44] Es como un método venido,
+
+[01:03:46] valida los datos entre distintos modelos,
+
+[01:03:48] pero hay un...
+
+[01:03:49] Hasta el momento en que ocupaban
+
+[01:03:51] que tenías que tener
+
+[01:03:52] como el mismo tipo de muestra,
+
+[01:03:54] pero alguno le quitaban una variable,
+
+[01:03:55] o que lo quitaban otra,
+
+[01:03:56] otra le ponían otra.
+
+[01:03:57] Tres variables distintas.
+
+[01:03:58] Y eso...
+
+[01:03:59] O sea, como un tipo de estadística vallenciana,
+
+[01:04:01] como con eso de...
+
+[01:04:02] Con Ramita.
+
+[01:04:03] Como con Ramita,
+
+[01:04:04] así que se iban modificando.
+
+[01:04:06] Y con eso tomaban las decisiones
+
+[01:04:08] respecto a los modelos de econometría
+
+[01:04:10] y cómo se iban ajustando.
+
+[01:04:11] Entonces, esta parte como que...
+
+[01:04:13] que estoy reivindiendo.
+
+[01:04:14] Así es, profe.
+
+[01:04:15] Lo quiero partir del último semestre
+
+[01:04:16] de mi investigación,
+
+[01:04:17] sino que desde ya,
+
+[01:04:18] desde el principio,
+
+[01:04:19] desde los primeros...
+
+[01:04:20] Vas y aprovechando
+
+[01:04:21] todos tus conocimientos.
+
+[01:04:22] Sí.
+
+[01:04:24] ¿Lo hizo esa clase?
+
+[01:04:25] Ahí tenés.
+
+[01:04:26] Le tenés el pañuelo.
+
+[01:04:27] Vale.
+
+[01:04:28] Gracias, profe.
+
+[01:04:29] Mira ahí.
+
+[01:04:31] Mira ahí.
+
+[01:04:33] Vale, vale.
+
+[01:04:34] Muchas gracias.
+
+[01:04:35] Gracias.
+
+[01:04:36] Entonces, nos vemos en unos 10 minutos más.
+
+[01:04:37] Toma un cafecito.

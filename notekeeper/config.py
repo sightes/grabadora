@@ -12,6 +12,11 @@ WHISPER_MODEL = os.getenv("WHISPER_MODEL", "medium")
 WHISPER_DEVICE = os.getenv("WHISPER_DEVICE", "auto")
 WHISPER_COMPUTE = os.getenv("WHISPER_COMPUTE_TYPE", "int8")
 
+# LLM (OpenRouter)
+LLM_MODEL = os.getenv("LLM_MODEL", "anthropic/claude-sonnet-4")
+LLM_API_KEY = os.getenv("LLM_API_KEY", "")
+LLM_BASE_URL = os.getenv("LLM_BASE_URL", "https://openrouter.ai/api/v1")
+
 AUDIO_EXTENSIONS = {".wav", ".mp3", ".m4a", ".ogg", ".flac"}
 
 

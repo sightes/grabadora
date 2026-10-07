@@ -1,0 +1,9207 @@
+[
+  {
+    "start": 0.0,
+    "end": 2.0,
+    "text": "voy a aprender Python paso a paso"
+  },
+  {
+    "start": 2.0,
+    "end": 4.98,
+    "text": "¿Qué significa esto?"
+  },
+  {
+    "start": 4.98,
+    "end": 7.63,
+    "text": "que al hacer este igual"
+  },
+  {
+    "start": 7.63,
+    "end": 9.63,
+    "text": "guardé este mensaje"
+  },
+  {
+    "start": 9.63,
+    "end": 11.81,
+    "text": "bueno, esto es el mensaje"
+  },
+  {
+    "start": 11.81,
+    "end": 16.48,
+    "text": "paso a paso hoy noche"
+  },
+  {
+    "start": 16.48,
+    "end": 21.33,
+    "text": "le hago click"
+  },
+  {
+    "start": 21.33,
+    "end": 23.73,
+    "text": "y queda guardado un mensaje"
+  },
+  {
+    "start": 23.73,
+    "end": 26.74,
+    "text": "le hago click abajo, voy a aprender"
+  },
+  {
+    "start": 26.74,
+    "end": 28.74,
+    "text": "Python paso a paso hoy una noche lluviosa"
+  },
+  {
+    "start": 28.74,
+    "end": 32.1,
+    "text": "no, tú le puedes guardar"
+  },
+  {
+    "start": 32.1,
+    "end": 34.1,
+    "text": "diferentes cosas, el dedo"
+  },
+  {
+    "start": 34.1,
+    "end": 36.1,
+    "text": "flowat, char, string"
+  },
+  {
+    "start": 36.1,
+    "end": 39.2,
+    "text": "pero vamos a ir paso a paso con esto"
+  },
+  {
+    "start": 39.2,
+    "end": 42.42,
+    "text": "ahora, esto"
+  },
+  {
+    "start": 42.42,
+    "end": 44.94,
+    "text": "¿dónde queda? queda en la RAM del equipo"
+  },
+  {
+    "start": 44.94,
+    "end": 47.92,
+    "text": "super poquito esto porque es un mensaje"
+  },
+  {
+    "start": 47.92,
+    "end": 49.92,
+    "text": "pequeño, pero si se van abajo a"
+  },
+  {
+    "start": 49.92,
+    "end": 51.92,
+    "text": "variables, a la izquierda va"
+  },
+  {
+    "start": 51.92,
+    "end": 55.02,
+    "text": "les muestra todo lo que está"
+  },
+  {
+    "start": 55.02,
+    "end": 58.35,
+    "text": "guardado, CPU,"
+  },
+  {
+    "start": 58.35,
+    "end": 60.35,
+    "text": "datos, discos, distros, librerías"
+  },
+  {
+    "start": 60.35,
+    "end": 62.35,
+    "text": "y ya, por ejemplo"
+  },
+  {
+    "start": 62.35,
+    "end": 65.66,
+    "text": "mensaje, está acá"
+  },
+  {
+    "start": 65.66,
+    "end": 68.0,
+    "text": "y mensaje es un string"
+  },
+  {
+    "start": 68.0,
+    "end": 70.24,
+    "text": "de 57 caracteres"
+  },
+  {
+    "start": 70.24,
+    "end": 73.76,
+    "text": "y ustedes me dirán, oye"
+  },
+  {
+    "start": 73.76,
+    "end": 75.76,
+    "text": "¿qué es todo el resto de discos,"
+  },
+  {
+    "start": 75.76,
+    "end": 77.76,
+    "text": "GPU, librerías?"
+  },
+  {
+    "start": 77.76,
+    "end": 79.76,
+    "text": "en realidad, era este código que se corre acá"
+  },
+  {
+    "start": 79.76,
+    "end": 81.76,
+    "text": "para mostrarles que la máquina tiene cargada"
+  },
+  {
+    "start": 81.76,
+    "end": 84.26,
+    "text": "un montón de cosas de antes"
+  },
+  {
+    "start": 84.26,
+    "end": 86.26,
+    "text": "tiene precargado, las GPU"
+  },
+  {
+    "start": 86.26,
+    "end": 88.62,
+    "text": "las CPU, y todas esas cosas"
+  },
+  {
+    "start": 88.62,
+    "end": 92.85,
+    "text": "¿dónde le he pinchado a ver"
+  },
+  {
+    "start": 92.85,
+    "end": 95.44,
+    "text": "esas variables? aquí a la izquierda abajo"
+  },
+  {
+    "start": 95.44,
+    "end": 100.72,
+    "text": "hay varias variables"
+  },
+  {
+    "start": 100.72,
+    "end": 103.38,
+    "text": "de todas las cuadraditas"
+  },
+  {
+    "start": 103.38,
+    "end": 105.58,
+    "text": "ah, ya, ya, bien abajo"
+  },
+  {
+    "start": 105.58,
+    "end": 107.58,
+    "text": "ya, ya sí, que está"
+  },
+  {
+    "start": 107.58,
+    "end": 110.4,
+    "text": "la cinta del"
+  },
+  {
+    "start": 110.4,
+    "end": 116.1,
+    "text": "entonces, cualquier cosa que tú"
+  },
+  {
+    "start": 116.1,
+    "end": 118.37,
+    "text": "te ejecutes, va a quedar guardada"
+  },
+  {
+    "start": 118.37,
+    "end": 120.37,
+    "text": "en la RAM, ya, si guardas"
+  },
+  {
+    "start": 120.37,
+    "end": 122.37,
+    "text": "con números, si guardas con valores, si guardas cualquier cosa"
+  },
+  {
+    "start": 122.37,
+    "end": 125.54,
+    "text": "queda ahí, ¿dónde está la RAM?"
+  },
+  {
+    "start": 125.54,
+    "end": 129.23,
+    "text": "se hace clic acá a la derecha"
+  },
+  {
+    "start": 129.23,
+    "end": 131.95,
+    "text": "aparece la RAM que están ocupando"
+  },
+  {
+    "start": 131.95,
+    "end": 135.73,
+    "text": "en YouTube, ahora, no les va a"
+  },
+  {
+    "start": 135.73,
+    "end": 137.73,
+    "text": "aparecer exactamente lo que les aparece a mí"
+  },
+  {
+    "start": 137.73,
+    "end": 140.0,
+    "text": "porque a mí me dicen que estoy ocupando"
+  },
+  {
+    "start": 140.0,
+    "end": 142.37,
+    "text": "0,08"
+  },
+  {
+    "start": 142.37,
+    "end": 144.96,
+    "text": "créditos por hora, porque yo pago"
+  },
+  {
+    "start": 144.96,
+    "end": 146.96,
+    "text": "mensualmente una suscripción a"
+  },
+  {
+    "start": 146.96,
+    "end": 150.34,
+    "text": "Google Colors, y me dan créditos"
+  },
+  {
+    "start": 150.34,
+    "end": 152.34,
+    "text": "con esos créditos puedo tener la máquina"
+  },
+  {
+    "start": 152.34,
+    "end": 154.34,
+    "text": "por defecto, o una máquina con"
+  },
+  {
+    "start": 154.34,
+    "end": 156.34,
+    "text": "no sé, 80 GB de video"
+  },
+  {
+    "start": 156.34,
+    "end": 159.22,
+    "text": "aquí quiero 80 GB de video"
+  },
+  {
+    "start": 159.22,
+    "end": 161.65,
+    "text": "con eso quiero tener un modelo de ya"
+  },
+  {
+    "start": 161.65,
+    "end": 163.65,
+    "text": "como verás, reconocer caras, reconocer"
+  },
+  {
+    "start": 163.65,
+    "end": 165.65,
+    "text": "sonrisas, reconocer un auto"
+  },
+  {
+    "start": 165.65,
+    "end": 167.65,
+    "text": "reconocer instrumentos de protección"
+  },
+  {
+    "start": 167.65,
+    "end": 169.98,
+    "text": "es una cosa, pero les va a aparecer"
+  },
+  {
+    "start": 169.98,
+    "end": 171.98,
+    "text": "esto, los recursos que están"
+  },
+  {
+    "start": 171.98,
+    "end": 174.64,
+    "text": "acá, estos créditos por defecto"
+  },
+  {
+    "start": 174.64,
+    "end": 176.64,
+    "text": "les debería aparecer que pueden ejecutar esto como 12 horas"
+  },
+  {
+    "start": 176.64,
+    "end": 179.04,
+    "text": "me parece, es lo que debe ser"
+  },
+  {
+    "start": 179.04,
+    "end": 181.04,
+    "text": "el por defecto hoy en día"
+  },
+  {
+    "start": 181.04,
+    "end": 183.04,
+    "text": "pero los créditos a veces cambian"
+  },
+  {
+    "start": 183.04,
+    "end": 185.7,
+    "text": "y a veces se extiende un poco más"
+  },
+  {
+    "start": 185.7,
+    "end": 192.88,
+    "text": "si, exactamente"
+  },
+  {
+    "start": 192.88,
+    "end": 197.76,
+    "text": "ahora, aquí hay una cosa"
+  },
+  {
+    "start": 197.76,
+    "end": 200.32,
+    "text": "voy a guardar en"
+  },
+  {
+    "start": 200.32,
+    "end": 206.22,
+    "text": "cantidad 3"
+  },
+  {
+    "start": 206.22,
+    "end": 208.82,
+    "text": "la cantidad la voy a asignar a"
+  },
+  {
+    "start": 208.82,
+    "end": 212.27,
+    "text": "registro anterior, y luego"
+  },
+  {
+    "start": 212.27,
+    "end": 214.27,
+    "text": "en cantidad le voy a asignar"
+  },
+  {
+    "start": 214.27,
+    "end": 218.26,
+    "text": "4, que estoy haciendo"
+  },
+  {
+    "start": 218.26,
+    "end": 220.98,
+    "text": "hago clic acá, la cantidad actual"
+  },
+  {
+    "start": 220.98,
+    "end": 222.98,
+    "text": "4, registro anterior"
+  },
+  {
+    "start": 222.98,
+    "end": 226.4,
+    "text": "3, que significa"
+  },
+  {
+    "start": 226.4,
+    "end": 228.4,
+    "text": "que para una misma variable"
+  },
+  {
+    "start": 228.4,
+    "end": 231.38,
+    "text": "valor 1, valor 2, valor 3"
+  },
+  {
+    "start": 231.38,
+    "end": 234.13,
+    "text": "valor 4, yo le puedo asignar"
+  },
+  {
+    "start": 234.13,
+    "end": 244.54,
+    "text": "distintos valores, 10"
+  },
+  {
+    "start": 244.54,
+    "end": 253.9,
+    "text": "print, valor temporal"
+  },
+  {
+    "start": 253.9,
+    "end": 255.9,
+    "text": "10, print, 10"
+  },
+  {
+    "start": 255.9,
+    "end": 258.85,
+    "text": "valor temporal, 11, 11"
+  },
+  {
+    "start": 258.85,
+    "end": 263.1,
+    "text": "valor temporal, número 9"
+  },
+  {
+    "start": 263.1,
+    "end": 266.58,
+    "text": "imprima ese número"
+  },
+  {
+    "start": 266.58,
+    "end": 268.58,
+    "text": "entonces significa que acá, yo les voy a asignar"
+  },
+  {
+    "start": 268.58,
+    "end": 273.01,
+    "text": "muchas veces, una variable"
+  },
+  {
+    "start": 273.01,
+    "end": 275.18,
+    "text": "que aunque muchas veces de valor"
+  },
+  {
+    "start": 275.18,
+    "end": 277.78,
+    "text": "entonces puedo asignar, registro"
+  },
+  {
+    "start": 277.78,
+    "end": 280.94,
+    "text": "las variables con random"
+  },
+  {
+    "start": 280.94,
+    "end": 282.94,
+    "text": "hasta el momento todo ok, ahí se queda atrás"
+  },
+  {
+    "start": 282.94,
+    "end": 296.03,
+    "text": "alguien tiene alguna consulta, la idea aquí"
+  },
+  {
+    "start": 296.03,
+    "end": 298.03,
+    "text": "no es ir corriendo, así que"
+  },
+  {
+    "start": 298.03,
+    "end": 300.03,
+    "text": "si me adelanto mucho, por favor díganle"
+  },
+  {
+    "start": 300.03,
+    "end": 302.27,
+    "text": "por que tengo un problema con esto de que"
+  },
+  {
+    "start": 302.27,
+    "end": 304.83,
+    "text": "me gusta mucho y entiendo"
+  },
+  {
+    "start": 304.83,
+    "end": 308.37,
+    "text": "hacerle dar procesos formativos"
+  },
+  {
+    "start": 308.37,
+    "end": 310.54,
+    "text": "pero simplemente podemos guardar cualquier"
+  },
+  {
+    "start": 310.54,
+    "end": 312.75,
+    "text": "cosa acá, también podríamos guardar"
+  },
+  {
+    "start": 312.75,
+    "end": 314.75,
+    "text": "un mensaje, texto, pero como lo hacemos"
+  },
+  {
+    "start": 314.75,
+    "end": 321.73,
+    "text": "comillas, hola"
+  },
+  {
+    "start": 321.73,
+    "end": 325.52,
+    "text": "holó a mundo, casi"
+  },
+  {
+    "start": 325.52,
+    "end": 330.27,
+    "text": "el punto, misma variable"
+  },
+  {
+    "start": 330.27,
+    "end": 332.27,
+    "text": "puede guardar múltiples valores"
+  },
+  {
+    "start": 332.27,
+    "end": 334.27,
+    "text": "puede ser un número, puede ser un texto"
+  },
+  {
+    "start": 334.27,
+    "end": 337.74,
+    "text": "eso, ahora"
+  },
+  {
+    "start": 337.74,
+    "end": 339.74,
+    "text": "el problema, es que siempre"
+  },
+  {
+    "start": 339.74,
+    "end": 343.17,
+    "text": "voy a hacer una cosa medio rara"
+  },
+  {
+    "start": 343.17,
+    "end": 347.09,
+    "text": "mira, en variables"
+  },
+  {
+    "start": 347.09,
+    "end": 349.09,
+    "text": "tengo todo esto, cpu"
+  },
+  {
+    "start": 349.09,
+    "end": 351.09,
+    "text": "listo, todas estas cosas"
+  },
+  {
+    "start": 351.09,
+    "end": 353.09,
+    "text": "valores temporales, tengo"
+  },
+  {
+    "start": 353.09,
+    "end": 355.09,
+    "text": "toda esta información que está guardada acá"
+  },
+  {
+    "start": 355.09,
+    "end": 358.94,
+    "text": "voy a hacer algo, no lo hagan"
+  },
+  {
+    "start": 358.94,
+    "end": 362.37,
+    "text": "porque se puede botar, torno a una"
+  },
+  {
+    "start": 362.37,
+    "end": 364.7,
+    "text": "ejecución, reiniciar la sesión"
+  },
+  {
+    "start": 364.7,
+    "end": 368.46,
+    "text": "lo que hace es, bota la máquina"
+  },
+  {
+    "start": 368.46,
+    "end": 370.7,
+    "text": "de linux y la vuelve al antara, no en realidad"
+  },
+  {
+    "start": 370.7,
+    "end": 373.52,
+    "text": "me pasa bota, pero mira, voy a"
+  },
+  {
+    "start": 373.52,
+    "end": 387.55,
+    "text": "variables y eso, ahorro el torneo"
+  },
+  {
+    "start": 387.55,
+    "end": 400.1,
+    "text": "en este caso, no soy un variable bien"
+  },
+  {
+    "start": 400.1,
+    "end": 402.94,
+    "text": "en este caso, tengo un problema"
+  },
+  {
+    "start": 402.94,
+    "end": 404.94,
+    "text": "si yo apago esta máquina, o sea"
+  },
+  {
+    "start": 404.94,
+    "end": 407.7,
+    "text": "la cierro, y no la abro"
+  },
+  {
+    "start": 407.7,
+    "end": 409.87,
+    "text": "por un 20 minutos"
+  },
+  {
+    "start": 409.87,
+    "end": 412.72,
+    "text": "media hora, las variables que están en"
+  },
+  {
+    "start": 412.72,
+    "end": 416.77,
+    "text": "la plan, van a desaparecer"
+  },
+  {
+    "start": 416.77,
+    "end": 419.36,
+    "text": "y eso pasa porque, bueno"
+  },
+  {
+    "start": 419.36,
+    "end": 421.36,
+    "text": "aquí uno diría, no es tanta pérdida"
+  },
+  {
+    "start": 421.36,
+    "end": 423.97,
+    "text": "escribiste este mensaje"
+  },
+  {
+    "start": 423.97,
+    "end": 425.97,
+    "text": "en realidad, no importa tanto si lo pierdes"
+  },
+  {
+    "start": 425.97,
+    "end": 428.69,
+    "text": "o no, sí, pero si"
+  },
+  {
+    "start": 428.69,
+    "end": 430.69,
+    "text": "fuese información valiosa, por ejemplo"
+  },
+  {
+    "start": 430.69,
+    "end": 432.69,
+    "text": "un calc, un cómputo"
+  },
+  {
+    "start": 432.69,
+    "end": 434.69,
+    "text": "una simulación de algo"
+  },
+  {
+    "start": 434.69,
+    "end": 436.69,
+    "text": "esa información al estar en la plan"
+  },
+  {
+    "start": 436.69,
+    "end": 439.65,
+    "text": "se pierde, entonces hay"
+  },
+  {
+    "start": 439.65,
+    "end": 441.65,
+    "text": "estrategias que vamos a aprender a futuro"
+  },
+  {
+    "start": 441.65,
+    "end": 444.18,
+    "text": "para poder"
+  },
+  {
+    "start": 444.18,
+    "end": 446.18,
+    "text": "hacer que esa información no se pierda y que se guarde"
+  },
+  {
+    "start": 446.18,
+    "end": 448.61,
+    "text": "y que está asociado con"
+  },
+  {
+    "start": 448.61,
+    "end": 451.36,
+    "text": "por ejemplo con, con que esto se puede conectar"
+  },
+  {
+    "start": 451.36,
+    "end": 453.98,
+    "text": "con en drive, entonces"
+  },
+  {
+    "start": 453.98,
+    "end": 456.16,
+    "text": "ejecuta simulaciones y guarda"
+  },
+  {
+    "start": 456.16,
+    "end": 458.37,
+    "text": "los resultados en tu drive, esa es la gracia"
+  },
+  {
+    "start": 458.37,
+    "end": 462.29,
+    "text": "este me gusta indígenas"
+  },
+  {
+    "start": 462.29,
+    "end": 464.88,
+    "text": "le hace consulta"
+  },
+  {
+    "start": 464.88,
+    "end": 468.62,
+    "text": "al inicializar la variable"
+  },
+  {
+    "start": 468.62,
+    "end": 474.08,
+    "text": "se define el tipo de ella"
+  },
+  {
+    "start": 474.08,
+    "end": 476.08,
+    "text": "porque acá, a diferencia de otros lenguajes"
+  },
+  {
+    "start": 476.08,
+    "end": 478.08,
+    "text": "no tengo que decirle este o un integer"
+  },
+  {
+    "start": 478.08,
+    "end": 480.08,
+    "text": "para agregar un entero, ¿cierto?"
+  },
+  {
+    "start": 480.08,
+    "end": 482.45,
+    "text": "y qué pasa si"
+  },
+  {
+    "start": 482.45,
+    "end": 484.45,
+    "text": "necesitase, por ejemplo"
+  },
+  {
+    "start": 484.45,
+    "end": 486.45,
+    "text": "no sé, de pronto"
+  },
+  {
+    "start": 486.45,
+    "end": 488.59,
+    "text": "inicializo la variable con un string"
+  },
+  {
+    "start": 488.59,
+    "end": 490.59,
+    "text": "y después cubo la misma, como para realizar"
+  },
+  {
+    "start": 490.59,
+    "end": 492.9,
+    "text": "un cálculo, se me cae"
+  },
+  {
+    "start": 492.9,
+    "end": 495.68,
+    "text": "o al momento"
+  },
+  {
+    "start": 495.68,
+    "end": 497.86,
+    "text": "de asignarle otro tipo de valor"
+  },
+  {
+    "start": 497.86,
+    "end": 500.61,
+    "text": "se reasigna el tipo"
+  },
+  {
+    "start": 500.61,
+    "end": 502.61,
+    "text": "o sea, ¿es el primero el que vale al"
+  },
+  {
+    "start": 502.61,
+    "end": 504.61,
+    "text": "inicializar o"
+  },
+  {
+    "start": 504.61,
+    "end": 506.61,
+    "text": "cada vez que asigno uno"
+  },
+  {
+    "start": 506.61,
+    "end": 510.5,
+    "text": "ah, ya, el último"
+  },
+  {
+    "start": 510.5,
+    "end": 519.14,
+    "text": "por ejemplo un mensaje en realidad podría ser un"
+  },
+  {
+    "start": 519.14,
+    "end": 528.37,
+    "text": "era así, ¿o no?"
+  },
+  {
+    "start": 528.37,
+    "end": 532.18,
+    "text": "si vaya a variable ahora, en variable debería estar"
+  },
+  {
+    "start": 532.18,
+    "end": 540.22,
+    "text": "sigue el string"
+  },
+  {
+    "start": 540.22,
+    "end": 542.22,
+    "text": "a mi se nos devuelve esta cosa"
+  },
+  {
+    "start": 542.22,
+    "end": 546.38,
+    "text": "pero a ti debería poder ser bien"
+  },
+  {
+    "start": 546.38,
+    "end": 548.93,
+    "text": "a ver"
+  },
+  {
+    "start": 548.93,
+    "end": 572.83,
+    "text": "ese mensaje dos"
+  },
+  {
+    "start": 572.83,
+    "end": 574.83,
+    "text": "lo zorro y la pregunta, pero me llamó la atención"
+  },
+  {
+    "start": 574.83,
+    "end": 579.06,
+    "text": "esto de Python"
+  },
+  {
+    "start": 579.06,
+    "end": 581.06,
+    "text": "lo que vale siempre"
+  },
+  {
+    "start": 581.06,
+    "end": 584.19,
+    "text": "la última"
+  },
+  {
+    "start": 584.19,
+    "end": 590.27,
+    "text": "asignación"
+  },
+  {
+    "start": 590.27,
+    "end": 605.95,
+    "text": "lo voy a mostrar más adelante"
+  },
+  {
+    "start": 605.95,
+    "end": 612.56,
+    "text": "igual que solo un específico"
+  },
+  {
+    "start": 612.56,
+    "end": 616.16,
+    "text": "actualizarlo"
+  },
+  {
+    "start": 616.16,
+    "end": 620.08,
+    "text": "había alguien con la mano levantada sobre el archivo"
+  },
+  {
+    "start": 620.08,
+    "end": 623.41,
+    "text": "la bajía es que"
+  },
+  {
+    "start": 623.41,
+    "end": 625.78,
+    "text": "cuando de repente yo"
+  },
+  {
+    "start": 625.78,
+    "end": 627.78,
+    "text": "cuando yo de repente le imprimía"
+  },
+  {
+    "start": 627.78,
+    "end": 629.78,
+    "text": "o sea, print un data frame, no sé"
+  },
+  {
+    "start": 629.78,
+    "end": 631.78,
+    "text": "como una base de datos"
+  },
+  {
+    "start": 631.78,
+    "end": 633.78,
+    "text": "siempre quedaba al último, yo decía, ah, ¿por qué"
+  },
+  {
+    "start": 633.78,
+    "end": 636.02,
+    "text": "me queda grabar lo diferente?"
+  },
+  {
+    "start": 636.02,
+    "end": 638.02,
+    "text": "porque cada vez que hacía con un código"
+  },
+  {
+    "start": 638.02,
+    "end": 640.02,
+    "text": "siempre había pasado eso"
+  },
+  {
+    "start": 640.02,
+    "end": 644.7,
+    "text": "aquí tenemos los tipos de datos"
+  },
+  {
+    "start": 644.7,
+    "end": 647.54,
+    "text": "por ejemplo un int"
+  },
+  {
+    "start": 647.54,
+    "end": 649.94,
+    "text": "es un valor entero, o sea"
+  },
+  {
+    "start": 649.94,
+    "end": 652.82,
+    "text": "que es un número que lo tiene esta acción"
+  },
+  {
+    "start": 652.82,
+    "end": 654.82,
+    "text": "por ejemplo aquí vemos minerales"
+  },
+  {
+    "start": 654.82,
+    "end": 657.31,
+    "text": "que es 600, le hago print a minerales"
+  },
+  {
+    "start": 657.31,
+    "end": 659.55,
+    "text": "y de estos puedo hacer print"
+  },
+  {
+    "start": 659.55,
+    "end": 662.46,
+    "text": "type, y me dice el tipo"
+  },
+  {
+    "start": 662.46,
+    "end": 664.64,
+    "text": "de variable que es"
+  },
+  {
+    "start": 664.64,
+    "end": 667.25,
+    "text": "en este caso es un int, como ven acá"
+  },
+  {
+    "start": 667.25,
+    "end": 675.28,
+    "text": "es un int, le coloco un punto"
+  },
+  {
+    "start": 675.28,
+    "end": 678.1,
+    "text": "significa que estoy ocupando un decimal"
+  },
+  {
+    "start": 678.1,
+    "end": 680.1,
+    "text": "entonces un ministro pequeño"
+  },
+  {
+    "start": 680.1,
+    "end": 682.37,
+    "text": "imprime el valor"
+  },
+  {
+    "start": 682.37,
+    "end": 687.02,
+    "text": "y dame el tipo, dice"
+  },
+  {
+    "start": 687.02,
+    "end": 690.22,
+    "text": "flowat, flowat es una variable decimal"
+  },
+  {
+    "start": 690.22,
+    "end": 692.22,
+    "text": "por ahora me importa mucho"
+  },
+  {
+    "start": 692.22,
+    "end": 694.22,
+    "text": "porque es como un entero y un decimal"
+  },
+  {
+    "start": 694.22,
+    "end": 696.46,
+    "text": "uno es literalmente un entero y el otro"
+  },
+  {
+    "start": 696.46,
+    "end": 699.12,
+    "text": "un decimal, int y flowat"
+  },
+  {
+    "start": 699.12,
+    "end": 702.7,
+    "text": "pero si es importante"
+  },
+  {
+    "start": 702.7,
+    "end": 705.07,
+    "text": "venamos cientos de miles de filas"
+  },
+  {
+    "start": 705.07,
+    "end": 707.79,
+    "text": "si va a importarse el signo"
+  },
+  {
+    "start": 707.79,
+    "end": 709.97,
+    "text": "flowat, porque el procesamiento"
+  },
+  {
+    "start": 709.97,
+    "end": 711.97,
+    "text": "va a ser mucho más"
+  },
+  {
+    "start": 711.97,
+    "end": 714.24,
+    "text": "acotado"
+  },
+  {
+    "start": 714.24,
+    "end": 716.24,
+    "text": "esto era un"
+  },
+  {
+    "start": 716.24,
+    "end": 718.24,
+    "text": "déjame ver, era un int"
+  },
+  {
+    "start": 718.24,
+    "end": 720.24,
+    "text": "flowat"
+  },
+  {
+    "start": 720.24,
+    "end": 723.22,
+    "text": "32"
+  },
+  {
+    "start": 723.22,
+    "end": 725.22,
+    "text": "no recuerdo el detalle"
+  },
+  {
+    "start": 725.22,
+    "end": 727.22,
+    "text": "de cuantos decimales eran"
+  },
+  {
+    "start": 727.22,
+    "end": 729.22,
+    "text": "pero si recuerdo que tienes los"
+  },
+  {
+    "start": 729.22,
+    "end": 731.22,
+    "text": "flowat 64"
+  },
+  {
+    "start": 731.22,
+    "end": 734.16,
+    "text": "en realidad"
+  },
+  {
+    "start": 734.16,
+    "end": 736.4,
+    "text": "tienes 4 decimales"
+  },
+  {
+    "start": 736.4,
+    "end": 738.86,
+    "text": "para lo que vamos a hacer inicialmente"
+  },
+  {
+    "start": 738.86,
+    "end": 741.6,
+    "text": "vamos a lograr"
+  },
+  {
+    "start": 741.6,
+    "end": 743.6,
+    "text": "simplemente con el flowat"
+  },
+  {
+    "start": 743.6,
+    "end": 746.54,
+    "text": "32 internamente"
+  },
+  {
+    "start": 746.54,
+    "end": 751.66,
+    "text": "Patricio?"
+  },
+  {
+    "start": 751.66,
+    "end": 753.66,
+    "text": "la pregunta por el tema de una pasión científica"
+  },
+  {
+    "start": 753.66,
+    "end": 755.66,
+    "text": "era por ese tema de que algunos software"
+  },
+  {
+    "start": 755.66,
+    "end": 757.66,
+    "text": "como es static"
+  },
+  {
+    "start": 757.66,
+    "end": 759.66,
+    "text": "no se cuánto, 32 decimales"
+  },
+  {
+    "start": 759.66,
+    "end": 762.0,
+    "text": "después"
+  },
+  {
+    "start": 762.0,
+    "end": 764.0,
+    "text": "las podías consumir, siento que se quedaba como"
+  },
+  {
+    "start": 764.0,
+    "end": 766.0,
+    "text": "24 me parece"
+  },
+  {
+    "start": 766.0,
+    "end": 776.8,
+    "text": "y después te buscaba"
+  },
+  {
+    "start": 776.8,
+    "end": 778.8,
+    "text": "como minerales, creo que"
+  },
+  {
+    "start": 778.8,
+    "end": 781.04,
+    "text": "no importa"
+  },
+  {
+    "start": 781.04,
+    "end": 783.44,
+    "text": "ya se va mi pregunta"
+  },
+  {
+    "start": 783.44,
+    "end": 786.93,
+    "text": "en este caso"
+  },
+  {
+    "start": 786.93,
+    "end": 811.5,
+    "text": "el cuarto"
+  },
+  {
+    "start": 811.5,
+    "end": 814.1,
+    "text": "interesante"
+  },
+  {
+    "start": 814.1,
+    "end": 816.62,
+    "text": "cuando tu ocupas flowat"
+  },
+  {
+    "start": 816.62,
+    "end": 819.31,
+    "text": "muy grandes, tienes un"
+  },
+  {
+    "start": 819.31,
+    "end": 821.52,
+    "text": "desbordamiento de pila"
+  },
+  {
+    "start": 821.52,
+    "end": 824.11,
+    "text": "cuando ocupas un flowat 64"
+  },
+  {
+    "start": 824.11,
+    "end": 826.11,
+    "text": "un desbordamiento de pila"
+  },
+  {
+    "start": 826.11,
+    "end": 828.11,
+    "text": "es que tu ram se satura"
+  },
+  {
+    "start": 828.11,
+    "end": 830.8,
+    "text": "y entonces se te cae el sistema"
+  },
+  {
+    "start": 830.8,
+    "end": 834.06,
+    "text": "eso se llama stack overflow"
+  },
+  {
+    "start": 834.06,
+    "end": 836.06,
+    "text": "de ahí nació el nombre de la página"
+  },
+  {
+    "start": 836.06,
+    "end": 838.06,
+    "text": "stack overflow"
+  },
+  {
+    "start": 838.06,
+    "end": 840.06,
+    "text": "que era como un chiste interno"
+  },
+  {
+    "start": 840.06,
+    "end": 842.69,
+    "text": "de ocupaste toda la ram"
+  },
+  {
+    "start": 842.69,
+    "end": 846.53,
+    "text": "o sea"
+  },
+  {
+    "start": 846.53,
+    "end": 848.53,
+    "text": "el procesamiento de los decimales"
+  },
+  {
+    "start": 848.53,
+    "end": 851.09,
+    "text": "que era un conflicto"
+  },
+  {
+    "start": 851.09,
+    "end": 853.09,
+    "text": "en la parte computacional del sistema"
+  },
+  {
+    "start": 853.09,
+    "end": 855.09,
+    "text": "si, si pero"
+  },
+  {
+    "start": 855.09,
+    "end": 857.09,
+    "text": "para lo que vamos a hacer"
+  },
+  {
+    "start": 857.09,
+    "end": 859.09,
+    "text": "si nos multiplicamos por un millón"
+  },
+  {
+    "start": 859.09,
+    "end": 861.09,
+    "text": "nos multiplicamos por un millón"
+  },
+  {
+    "start": 861.09,
+    "end": 863.09,
+    "text": "seria lo mismo"
+  },
+  {
+    "start": 863.09,
+    "end": 865.55,
+    "text": "tengo un caso de eso"
+  },
+  {
+    "start": 865.55,
+    "end": 867.55,
+    "text": "debía buscarlo"
+  },
+  {
+    "start": 867.55,
+    "end": 869.55,
+    "text": "se lo puedo subir si quieran"
+  },
+  {
+    "start": 869.55,
+    "end": 871.73,
+    "text": "déjenme ver mis cosas trabajo"
+  },
+  {
+    "start": 871.73,
+    "end": 873.73,
+    "text": "es interesante"
+  },
+  {
+    "start": 873.73,
+    "end": 875.73,
+    "text": "como abordar esos temas, como lo hacen los científicos"
+  },
+  {
+    "start": 875.73,
+    "end": 877.73,
+    "text": "en estadística"
+  },
+  {
+    "start": 877.73,
+    "end": 879.73,
+    "text": "los científicos, esos son los que usan"
+  },
+  {
+    "start": 879.73,
+    "end": 882.1,
+    "text": "estos decimales chicos"
+  },
+  {
+    "start": 882.1,
+    "end": 884.1,
+    "text": "les voy a subir"
+  },
+  {
+    "start": 884.1,
+    "end": 886.1,
+    "text": "una clase que hice para la chile"
+  },
+  {
+    "start": 886.1,
+    "end": 891.98,
+    "text": "el profesor Agustín"
+  },
+  {
+    "start": 891.98,
+    "end": 893.98,
+    "text": "creo que ya me respondiste"
+  },
+  {
+    "start": 893.98,
+    "end": 895.98,
+    "text": "te iba a preguntar si acá no existe el concepto de double"
+  },
+  {
+    "start": 895.98,
+    "end": 898.83,
+    "text": "que en otro lenguaje si voy a ocupar"
+  },
+  {
+    "start": 898.83,
+    "end": 900.83,
+    "text": "un decimal muy largo ya paso"
+  },
+  {
+    "start": 900.83,
+    "end": 903.01,
+    "text": "de un flowat a un double"
+  },
+  {
+    "start": 903.01,
+    "end": 905.01,
+    "text": "acá es un incestino"
+  },
+  {
+    "start": 905.01,
+    "end": 907.22,
+    "text": "flowat"
+  },
+  {
+    "start": 907.22,
+    "end": 910.98,
+    "text": "yo hice"
+  },
+  {
+    "start": 910.98,
+    "end": 912.98,
+    "text": "una clase"
+  },
+  {
+    "start": 912.98,
+    "end": 915.54,
+    "text": "ya para la chile"
+  },
+  {
+    "start": 915.54,
+    "end": 917.54,
+    "text": "lo podía buscar porque justamente"
+  },
+  {
+    "start": 917.54,
+    "end": 919.54,
+    "text": "ahí tengo un caso interesante"
+  },
+  {
+    "start": 919.54,
+    "end": 921.54,
+    "text": "en donde pasamos de un"
+  },
+  {
+    "start": 921.54,
+    "end": 923.54,
+    "text": "flowat"
+  },
+  {
+    "start": 923.54,
+    "end": 925.78,
+    "text": "32 a 64"
+  },
+  {
+    "start": 925.78,
+    "end": 927.78,
+    "text": "y por que se tiene que hacer y cuanto ocupar la rama"
+  },
+  {
+    "start": 927.78,
+    "end": 929.78,
+    "text": "ya pero"
+  },
+  {
+    "start": 929.78,
+    "end": 931.78,
+    "text": "eso se los paso y quizás se los puedo explicar"
+  },
+  {
+    "start": 931.78,
+    "end": 934.72,
+    "text": "mas en detalle"
+  },
+  {
+    "start": 934.72,
+    "end": 936.72,
+    "text": "me quiero debía mucho"
+  },
+  {
+    "start": 936.72,
+    "end": 938.72,
+    "text": "pero la pregunta es muy buena"
+  },
+  {
+    "start": 938.72,
+    "end": 940.86,
+    "text": "lo voy a notar acá"
+  },
+  {
+    "start": 940.86,
+    "end": 942.86,
+    "text": "porque todas estas preguntas no me tienen que responder"
+  },
+  {
+    "start": 942.86,
+    "end": 945.01,
+    "text": "estamos en doctorado no podemos que nos con duda"
+  },
+  {
+    "start": 945.01,
+    "end": 947.92,
+    "text": "revisar el tema"
+  },
+  {
+    "start": 947.92,
+    "end": 950.61,
+    "text": "de mi flowat"
+  },
+  {
+    "start": 950.61,
+    "end": 952.91,
+    "text": "buscar la clase"
+  },
+  {
+    "start": 952.91,
+    "end": 955.25,
+    "text": "32 64"
+  },
+  {
+    "start": 955.25,
+    "end": 957.92,
+    "text": "chile y"
+  },
+  {
+    "start": 957.92,
+    "end": 962.54,
+    "text": "compartirla ya perfecto"
+  },
+  {
+    "start": 962.54,
+    "end": 964.54,
+    "text": "entonces los textos"
+  },
+  {
+    "start": 964.54,
+    "end": 966.54,
+    "text": "string también tienen un tipo"
+  },
+  {
+    "start": 966.54,
+    "end": 969.2,
+    "text": "por ejemplo marine"
+  },
+  {
+    "start": 969.2,
+    "end": 971.38,
+    "text": "se hago un print de la unidad"
+  },
+  {
+    "start": 971.38,
+    "end": 973.58,
+    "text": "me imprime el marine y se hago un print del tipo"
+  },
+  {
+    "start": 973.58,
+    "end": 975.58,
+    "text": "me imprime como un string"
+  },
+  {
+    "start": 975.58,
+    "end": 978.67,
+    "text": "porque bueno eso es el fondo"
+  },
+  {
+    "start": 978.67,
+    "end": 982.19,
+    "text": "en este caso es el marine"
+  },
+  {
+    "start": 982.19,
+    "end": 984.19,
+    "text": "y suministro también"
+  },
+  {
+    "start": 984.19,
+    "end": 986.19,
+    "text": "en este caso es un flowat"
+  },
+  {
+    "start": 986.19,
+    "end": 989.12,
+    "text": "y acá hay una clase nueva"
+  },
+  {
+    "start": 989.12,
+    "end": 991.97,
+    "text": "esta es una clase que yo le digo"
+  },
+  {
+    "start": 991.97,
+    "end": 994.21,
+    "text": "verdadero falso"
+  },
+  {
+    "start": 994.21,
+    "end": 997.34,
+    "text": "es una clase que se llama booleana"
+  },
+  {
+    "start": 997.34,
+    "end": 999.34,
+    "text": "paulo alcae"
+  },
+  {
+    "start": 999.34,
+    "end": 1001.34,
+    "text": "perfecto si"
+  },
+  {
+    "start": 1001.34,
+    "end": 1003.34,
+    "text": "efectivamente estimado"
+  },
+  {
+    "start": 1003.34,
+    "end": 1005.65,
+    "text": "tenemos otra"
+  },
+  {
+    "start": 1005.65,
+    "end": 1007.65,
+    "text": "variable que se llama"
+  },
+  {
+    "start": 1007.65,
+    "end": 1009.65,
+    "text": "flowat"
+  },
+  {
+    "start": 1009.65,
+    "end": 1012.11,
+    "text": "un booleano es un verdadero"
+  },
+  {
+    "start": 1012.11,
+    "end": 1014.32,
+    "text": "falso"
+  },
+  {
+    "start": 1014.32,
+    "end": 1016.32,
+    "text": "blanco negro"
+  },
+  {
+    "start": 1016.32,
+    "end": 1018.32,
+    "text": "pero en este caso se define como true"
+  },
+  {
+    "start": 1018.32,
+    "end": 1021.84,
+    "text": "o se define como false"
+  },
+  {
+    "start": 1021.84,
+    "end": 1025.01,
+    "text": "por ejemplo acá digo eye gas"
+  },
+  {
+    "start": 1025.01,
+    "end": 1027.01,
+    "text": "igual a true"
+  },
+  {
+    "start": 1027.01,
+    "end": 1029.81,
+    "text": "y si se dan cuenta la palabra true"
+  },
+  {
+    "start": 1029.81,
+    "end": 1032.67,
+    "text": "tiene otro color"
+  },
+  {
+    "start": 1032.67,
+    "end": 1034.88,
+    "text": "está en azul"
+  },
+  {
+    "start": 1034.88,
+    "end": 1038.61,
+    "text": "si yo escribiera en minúscula no pasa lo mismo"
+  },
+  {
+    "start": 1038.61,
+    "end": 1042.98,
+    "text": "y de hecho me da error"
+  },
+  {
+    "start": 1042.98,
+    "end": 1044.98,
+    "text": "pero si yo le pongo eye gas truth"
+  },
+  {
+    "start": 1044.98,
+    "end": 1047.28,
+    "text": "y le pongo print"
+  },
+  {
+    "start": 1047.28,
+    "end": 1049.55,
+    "text": "no me imprime eye gas"
+  },
+  {
+    "start": 1049.55,
+    "end": 1052.51,
+    "text": "verdad"
+  },
+  {
+    "start": 1052.51,
+    "end": 1054.51,
+    "text": "porque yo le dije que una variable era verdad"
+  },
+  {
+    "start": 1054.51,
+    "end": 1056.85,
+    "text": "y si yo le digo eye gas"
+  },
+  {
+    "start": 1056.85,
+    "end": 1058.85,
+    "text": "igual a false y le digo print"
+  },
+  {
+    "start": 1058.85,
+    "end": 1061.09,
+    "text": "me dice print"
+  },
+  {
+    "start": 1061.09,
+    "end": 1064.14,
+    "text": "eye gas false"
+  },
+  {
+    "start": 1064.14,
+    "end": 1067.58,
+    "text": "no eye gas, eso que significa"
+  },
+  {
+    "start": 1067.58,
+    "end": 1070.27,
+    "text": "que esto es como una condición"
+  },
+  {
+    "start": 1070.27,
+    "end": 1072.27,
+    "text": "bajo cierto escenario yo algunas"
+  },
+  {
+    "start": 1072.27,
+    "end": 1074.27,
+    "text": "variables le voy a asignar"
+  },
+  {
+    "start": 1074.27,
+    "end": 1076.27,
+    "text": "una condición de verdadero o de falso"
+  },
+  {
+    "start": 1076.27,
+    "end": 1078.64,
+    "text": "y cuando pasa esta condición de verdadero"
+  },
+  {
+    "start": 1078.64,
+    "end": 1080.85,
+    "text": "o falso"
+  },
+  {
+    "start": 1080.85,
+    "end": 1082.85,
+    "text": "puedo efectuar ciertos ciclos"
+  },
+  {
+    "start": 1082.85,
+    "end": 1084.85,
+    "text": "efectúa este ciclo de cierto verdadero"
+  },
+  {
+    "start": 1084.85,
+    "end": 1087.15,
+    "text": "efectúa este ciclo de falso"
+  },
+  {
+    "start": 1087.15,
+    "end": 1089.55,
+    "text": "pero esta es una variable buliana"
+  },
+  {
+    "start": 1089.55,
+    "end": 1091.55,
+    "text": "y lo puedo extender a reglos"
+  },
+  {
+    "start": 1091.55,
+    "end": 1093.55,
+    "text": "a muchas dimensiones"
+  },
+  {
+    "start": 1093.55,
+    "end": 1095.55,
+    "text": "puedo extender la idea ocupando"
+  },
+  {
+    "start": 1095.55,
+    "end": 1097.55,
+    "text": "muchas columnas para decir"
+  },
+  {
+    "start": 1097.55,
+    "end": 1099.55,
+    "text": "este lo uno pasa, este lo uno pasa"
+  },
+  {
+    "start": 1099.55,
+    "end": 1101.55,
+    "text": "pasa, pasa, no pasa, pasa, pasa, no pasa"
+  },
+  {
+    "start": 1101.55,
+    "end": 1103.55,
+    "text": "es un buliano"
+  },
+  {
+    "start": 1103.55,
+    "end": 1106.45,
+    "text": "es una condición"
+  },
+  {
+    "start": 1106.45,
+    "end": 1108.45,
+    "text": "también hay una variable que uno"
+  },
+  {
+    "start": 1108.45,
+    "end": 1110.66,
+    "text": "puede decir non"
+  },
+  {
+    "start": 1110.66,
+    "end": 1113.66,
+    "text": "que esto es una variable desconocida"
+  },
+  {
+    "start": 1113.66,
+    "end": 1115.66,
+    "text": "es interesante porque"
+  },
+  {
+    "start": 1115.66,
+    "end": 1117.66,
+    "text": "hay muchas datasets"
+  },
+  {
+    "start": 1117.66,
+    "end": 1119.81,
+    "text": "excel, la fiero"
+  },
+  {
+    "start": 1119.81,
+    "end": 1121.81,
+    "text": "que puede tener como variables"
+  },
+  {
+    "start": 1121.81,
+    "end": 1123.81,
+    "text": "que no están en un formato"
+  },
+  {
+    "start": 1123.81,
+    "end": 1125.81,
+    "text": "conocido o que"
+  },
+  {
+    "start": 1125.81,
+    "end": 1127.81,
+    "text": "tienen algunas características que no corresponde"
+  },
+  {
+    "start": 1127.81,
+    "end": 1129.81,
+    "text": "con lo que estamos analizando"
+  },
+  {
+    "start": 1129.81,
+    "end": 1131.81,
+    "text": "tu se las puedes asignar como non"
+  },
+  {
+    "start": 1131.81,
+    "end": 1133.81,
+    "text": "para indicarle al sistema"
+  },
+  {
+    "start": 1133.81,
+    "end": 1135.81,
+    "text": "acá y al gorrer"
+  },
+  {
+    "start": 1135.81,
+    "end": 1137.81,
+    "text": "también hay una variable que se llaman non"
+  },
+  {
+    "start": 1137.81,
+    "end": 1140.11,
+    "text": "not a number"
+  },
+  {
+    "start": 1140.11,
+    "end": 1142.8,
+    "text": "pero eso lo vamos a dar después"
+  },
+  {
+    "start": 1142.8,
+    "end": 1144.98,
+    "text": "pero son como categorías"
+  },
+  {
+    "start": 1144.98,
+    "end": 1146.98,
+    "text": "de variables"
+  },
+  {
+    "start": 1146.98,
+    "end": 1148.98,
+    "text": "son categorías"
+  },
+  {
+    "start": 1148.98,
+    "end": 1150.98,
+    "text": "que le podemos asignar a una variable"
+  },
+  {
+    "start": 1150.98,
+    "end": 1153.22,
+    "text": "eso es"
+  },
+  {
+    "start": 1153.22,
+    "end": 1155.65,
+    "text": "ahora, yo aquí voy a hacer una cosa"
+  },
+  {
+    "start": 1155.65,
+    "end": 1158.32,
+    "text": "bien rara, pero tiene"
+  },
+  {
+    "start": 1158.32,
+    "end": 1162.59,
+    "text": "sentido, tengo el"
+  },
+  {
+    "start": 1162.59,
+    "end": 1164.8,
+    "text": "3, pero este 3"
+  },
+  {
+    "start": 1164.8,
+    "end": 1166.98,
+    "text": "no es un número, es un string"
+  },
+  {
+    "start": 1166.98,
+    "end": 1169.66,
+    "text": "porque yo, es casi"
+  },
+  {
+    "start": 1169.66,
+    "end": 1171.97,
+    "text": "como que escribiera 3"
+  },
+  {
+    "start": 1171.97,
+    "end": 1174.34,
+    "text": "porque si está entre comillas va a ser"
+  },
+  {
+    "start": 1174.34,
+    "end": 1176.93,
+    "text": "un string, eso significa"
+  },
+  {
+    "start": 1176.93,
+    "end": 1179.33,
+    "text": "esto es como texto"
+  },
+  {
+    "start": 1179.33,
+    "end": 1181.33,
+    "text": "si, pues es un número como"
+  },
+  {
+    "start": 1181.33,
+    "end": 1183.66,
+    "text": "texto, como carácter"
+  },
+  {
+    "start": 1183.66,
+    "end": 1186.48,
+    "text": "y después"
+  },
+  {
+    "start": 1186.48,
+    "end": 1188.48,
+    "text": "voy a hacer esto que se llama"
+  },
+  {
+    "start": 1188.48,
+    "end": 1190.98,
+    "text": "cantidad número int"
+  },
+  {
+    "start": 1190.98,
+    "end": 1194.03,
+    "text": "cantidad texto, que significa"
+  },
+  {
+    "start": 1194.03,
+    "end": 1196.67,
+    "text": "que convierto este 3"
+  },
+  {
+    "start": 1196.67,
+    "end": 1199.26,
+    "text": "textual en una variable"
+  },
+  {
+    "start": 1199.26,
+    "end": 1202.61,
+    "text": "numérica"
+  },
+  {
+    "start": 1202.61,
+    "end": 1204.61,
+    "text": "luego, lo que voy a hacer"
+  },
+  {
+    "start": 1204.61,
+    "end": 1206.61,
+    "text": "esta cantidad texto"
+  },
+  {
+    "start": 1206.61,
+    "end": 1209.01,
+    "text": "la multiplico por 2"
+  },
+  {
+    "start": 1209.01,
+    "end": 1211.01,
+    "text": "y también el número lo puedo multiplicar"
+  },
+  {
+    "start": 1211.01,
+    "end": 1213.68,
+    "text": "por 2"
+  },
+  {
+    "start": 1213.68,
+    "end": 1215.68,
+    "text": "después uno lo expreso como float"
+  },
+  {
+    "start": 1215.68,
+    "end": 1219.89,
+    "text": "y el otro lo expreso como string"
+  },
+  {
+    "start": 1219.89,
+    "end": 1221.89,
+    "text": "entonces, ¿qué estoy haciendo acá?"
+  },
+  {
+    "start": 1221.89,
+    "end": 1224.32,
+    "text": "texto repetido es"
+  },
+  {
+    "start": 1224.32,
+    "end": 1226.72,
+    "text": "la cantidad de texto por 2"
+  },
+  {
+    "start": 1226.72,
+    "end": 1229.02,
+    "text": "o sea que muestro dos veces el 3"
+  },
+  {
+    "start": 1229.02,
+    "end": 1232.1,
+    "text": "por eso me hice 33"
+  },
+  {
+    "start": 1232.1,
+    "end": 1234.27,
+    "text": "el número multiplicado"
+  },
+  {
+    "start": 1234.27,
+    "end": 1236.27,
+    "text": "es también por 2"
+  },
+  {
+    "start": 1236.27,
+    "end": 1239.15,
+    "text": "pero el número, no repetir"
+  },
+  {
+    "start": 1239.15,
+    "end": 1241.15,
+    "text": "la cantidad de texto, sino que repetir el número"
+  },
+  {
+    "start": 1241.15,
+    "end": 1243.5,
+    "text": "3 por 2"
+  },
+  {
+    "start": 1243.5,
+    "end": 1246.24,
+    "text": "6"
+  },
+  {
+    "start": 1246.24,
+    "end": 1248.24,
+    "text": "como 2.5"
+  },
+  {
+    "start": 1248.24,
+    "end": 1250.24,
+    "text": "y puedo mostrar un número"
+  },
+  {
+    "start": 1250.24,
+    "end": 1254.88,
+    "text": "como string"
+  },
+  {
+    "start": 1254.88,
+    "end": 1258.29,
+    "text": "¿para qué es tanta vuelta? porque puedo jugar"
+  },
+  {
+    "start": 1258.29,
+    "end": 1260.29,
+    "text": "pasar números a string y string a números"
+  },
+  {
+    "start": 1260.29,
+    "end": 1262.29,
+    "text": "y una cosa bastante"
+  },
+  {
+    "start": 1262.29,
+    "end": 1264.29,
+    "text": "común que pasa"
+  },
+  {
+    "start": 1264.29,
+    "end": 1266.29,
+    "text": "cuando yo cargo"
+  },
+  {
+    "start": 1266.29,
+    "end": 1268.29,
+    "text": "cuando cargo un excel"
+  },
+  {
+    "start": 1268.29,
+    "end": 1271.25,
+    "text": "a veces, pasa"
+  },
+  {
+    "start": 1271.25,
+    "end": 1273.25,
+    "text": "que registros que son numéricos"
+  },
+  {
+    "start": 1273.25,
+    "end": 1275.55,
+    "text": "se cargan como string"
+  },
+  {
+    "start": 1275.55,
+    "end": 1278.3,
+    "text": "y a sistema"
+  },
+  {
+    "start": 1278.3,
+    "end": 1280.3,
+    "text": "hay que hacer cosas para adaptarlo"
+  },
+  {
+    "start": 1280.3,
+    "end": 1282.3,
+    "text": "para que se espese correctamente"
+  },
+  {
+    "start": 1282.3,
+    "end": 1288.85,
+    "text": "como número"
+  },
+  {
+    "start": 1288.85,
+    "end": 1290.85,
+    "text": "pero también podemos jugar con esta cosa"
+  },
+  {
+    "start": 1290.85,
+    "end": 1293.18,
+    "text": "los prints son super importantes"
+  },
+  {
+    "start": 1293.18,
+    "end": 1298.29,
+    "text": "pero podemos hacer esto interesante"
+  },
+  {
+    "start": 1298.29,
+    "end": 1301.26,
+    "text": "si yo..."
+  },
+  {
+    "start": 1301.26,
+    "end": 1304.24,
+    "text": "sí, la gracia de Python"
+  },
+  {
+    "start": 1304.24,
+    "end": 1306.24,
+    "text": "Python tiene una gran comunidad"
+  },
+  {
+    "start": 1306.24,
+    "end": 1309.18,
+    "text": "es muy amigable"
+  },
+  {
+    "start": 1309.18,
+    "end": 1311.71,
+    "text": "entonces tiende a hacer las cosas más sencillas"
+  },
+  {
+    "start": 1311.71,
+    "end": 1314.62,
+    "text": "con la diferencia de pasar de C a X"
+  },
+  {
+    "start": 1314.62,
+    "end": 1316.62,
+    "text": "ahora que lo pienso más de la vez"
+  },
+  {
+    "start": 1316.62,
+    "end": 1319.78,
+    "text": "acá tenemos"
+  },
+  {
+    "start": 1319.78,
+    "end": 1322.43,
+    "text": "un string que es GENOVENCIO"
+  },
+  {
+    "start": 1322.43,
+    "end": 1324.86,
+    "text": "está guardado acá"
+  },
+  {
+    "start": 1324.86,
+    "end": 1327.62,
+    "text": "y tenemos en GAS un número"
+  },
+  {
+    "start": 1327.62,
+    "end": 1329.62,
+    "text": "si yo hago esto, print F"
+  },
+  {
+    "start": 1329.62,
+    "end": 1332.54,
+    "text": "al principio un F"
+  },
+  {
+    "start": 1332.54,
+    "end": 1334.75,
+    "text": "comillas y dentro de corchetes"
+  },
+  {
+    "start": 1334.75,
+    "end": 1336.75,
+    "text": "pongo las variables de arriba"
+  },
+  {
+    "start": 1336.75,
+    "end": 1339.25,
+    "text": "puedo tener el jugador"
+  },
+  {
+    "start": 1339.25,
+    "end": 1341.55,
+    "text": "tiene minerales"
+  },
+  {
+    "start": 1341.55,
+    "end": 1343.79,
+    "text": "minerales y GAS"
+  },
+  {
+    "start": 1343.79,
+    "end": 1346.51,
+    "text": "¿por qué estoy haciendo eso?"
+  },
+  {
+    "start": 1346.51,
+    "end": 1349.57,
+    "text": "porque yo podría repasar"
+  },
+  {
+    "start": 1349.57,
+    "end": 1351.84,
+    "text": "jugador y lo que es minerales"
+  },
+  {
+    "start": 1351.84,
+    "end": 1353.84,
+    "text": "y GAS por distintas cosas"
+  },
+  {
+    "start": 1353.84,
+    "end": 1356.08,
+    "text": "entonces GENOVENCIO"
+  },
+  {
+    "start": 1356.08,
+    "end": 1358.08,
+    "text": "GENOVENCIO tiene 600 minerales y 200 GAS"
+  },
+  {
+    "start": 1358.08,
+    "end": 1360.94,
+    "text": "para que seas esto"
+  },
+  {
+    "start": 1360.94,
+    "end": 1362.94,
+    "text": "cuando haces esto puedes tirar como respuestas"
+  },
+  {
+    "start": 1362.94,
+    "end": 1365.12,
+    "text": "más automatizadas"
+  },
+  {
+    "start": 1365.12,
+    "end": 1367.12,
+    "text": "por ejemplo, estos minerales podrían ir variando"
+  },
+  {
+    "start": 1367.12,
+    "end": 1369.92,
+    "text": "en múltiples iteraciones"
+  },
+  {
+    "start": 1369.92,
+    "end": 1371.92,
+    "text": "entonces en vez de hacer una cosa muy rara"
+  },
+  {
+    "start": 1371.92,
+    "end": 1373.92,
+    "text": "de print tanto, print tanto"
+  },
+  {
+    "start": 1373.92,
+    "end": 1375.92,
+    "text": "print tanto, print tanto"
+  },
+  {
+    "start": 1375.92,
+    "end": 1378.32,
+    "text": "lo dejas todo en una cadena"
+  },
+  {
+    "start": 1378.32,
+    "end": 1380.32,
+    "text": "y simplemente modificas esto"
+  },
+  {
+    "start": 1380.32,
+    "end": 1382.91,
+    "text": "por el valor que corresponde en el momento"
+  },
+  {
+    "start": 1382.91,
+    "end": 1384.91,
+    "text": "y eso te sirve para saber"
+  },
+  {
+    "start": 1384.91,
+    "end": 1387.09,
+    "text": "qué está pasando en un ciclo específico"
+  },
+  {
+    "start": 1387.09,
+    "end": 1389.09,
+    "text": "llegaron porque realmente no hay que ver"
+  },
+  {
+    "start": 1389.09,
+    "end": 1391.09,
+    "text": "de hecho si cambio"
+  },
+  {
+    "start": 1391.09,
+    "end": 1393.09,
+    "text": "minerales por GAS"
+  },
+  {
+    "start": 1393.09,
+    "end": 1395.26,
+    "text": "y GAS por minerales vemos qué pasa"
+  },
+  {
+    "start": 1395.26,
+    "end": 1400.38,
+    "text": "el jugador tiene 200 minerales"
+  },
+  {
+    "start": 1400.38,
+    "end": 1402.94,
+    "text": "y 600 de GAS"
+  },
+  {
+    "start": 1402.94,
+    "end": 1405.28,
+    "text": "pero en realidad está al revés"
+  },
+  {
+    "start": 1405.28,
+    "end": 1407.78,
+    "text": "¿por qué? porque en este caso"
+  },
+  {
+    "start": 1407.78,
+    "end": 1410.21,
+    "text": "bueno, ya tenía definido minerales"
+  },
+  {
+    "start": 1410.21,
+    "end": 1412.21,
+    "text": "así que también tenía definido GAS"
+  },
+  {
+    "start": 1412.21,
+    "end": 1414.38,
+    "text": "pero creo que es mejor definirlo o no"
+  },
+  {
+    "start": 1414.38,
+    "end": 1417.17,
+    "text": "para que se entienda bien"
+  },
+  {
+    "start": 1417.17,
+    "end": 1439.34,
+    "text": "minerales por 600"
+  },
+  {
+    "start": 1439.34,
+    "end": 1441.74,
+    "text": "entonces no tienes eso, pero si minerales"
+  },
+  {
+    "start": 1441.74,
+    "end": 1448.93,
+    "text": "por 700, no tienes eso"
+  },
+  {
+    "start": 1448.93,
+    "end": 1451.23,
+    "text": "entonces es una forma más"
+  },
+  {
+    "start": 1451.23,
+    "end": 1453.23,
+    "text": "uno diría, te estás complicando mucho"
+  },
+  {
+    "start": 1453.23,
+    "end": 1455.41,
+    "text": "en realidad"
+  },
+  {
+    "start": 1455.41,
+    "end": 1457.41,
+    "text": "es una simplificación"
+  },
+  {
+    "start": 1457.41,
+    "end": 1459.41,
+    "text": "para poder retrasar el valor"
+  },
+  {
+    "start": 1459.41,
+    "end": 1461.65,
+    "text": "explícito por una llave"
+  },
+  {
+    "start": 1461.65,
+    "end": 1463.86,
+    "text": "entonces simplemente después invocas el valor"
+  },
+  {
+    "start": 1463.86,
+    "end": 1468.38,
+    "text": "nada más, eso"
+  },
+  {
+    "start": 1468.38,
+    "end": 1471.01,
+    "text": "también podemos hacer todo esto"
+  },
+  {
+    "start": 1471.01,
+    "end": 1473.28,
+    "text": "operaciones entre números"
+  },
+  {
+    "start": 1473.28,
+    "end": 1475.28,
+    "text": "sumar, restar, multiplicar"
+  },
+  {
+    "start": 1475.28,
+    "end": 1477.52,
+    "text": "dividir, obtener"
+  },
+  {
+    "start": 1477.52,
+    "end": 1479.52,
+    "text": "el cociente, elevar al cuadrado"
+  },
+  {
+    "start": 1479.52,
+    "end": 1481.7,
+    "text": "todo las funciones típicas"
+  },
+  {
+    "start": 1481.7,
+    "end": 1484.32,
+    "text": "que uno hace con una calculadora"
+  },
+  {
+    "start": 1484.32,
+    "end": 1486.32,
+    "text": "declaro A como 25"
+  },
+  {
+    "start": 1486.32,
+    "end": 1488.88,
+    "text": "y B como 10"
+  },
+  {
+    "start": 1488.88,
+    "end": 1491.57,
+    "text": "¿cómo lo sumo? A más B"
+  },
+  {
+    "start": 1491.57,
+    "end": 1494.0,
+    "text": "¿cómo lo resto? A menos B"
+  },
+  {
+    "start": 1494.0,
+    "end": 1496.27,
+    "text": "¿cómo lo multiplico? A por B"
+  },
+  {
+    "start": 1496.27,
+    "end": 1498.74,
+    "text": "este por es el signo"
+  },
+  {
+    "start": 1498.74,
+    "end": 1500.94,
+    "text": "asterisco"
+  },
+  {
+    "start": 1500.94,
+    "end": 1503.87,
+    "text": "la división lo divido"
+  },
+  {
+    "start": 1503.87,
+    "end": 1506.4,
+    "text": "y esto es otra cosa"
+  },
+  {
+    "start": 1506.4,
+    "end": 1508.4,
+    "text": "esto te expresa la división"
+  },
+  {
+    "start": 1508.4,
+    "end": 1510.7,
+    "text": "del resultado entero"
+  },
+  {
+    "start": 1510.7,
+    "end": 1512.7,
+    "text": "vamos a ver, quiero que lo vean primero"
+  },
+  {
+    "start": 1512.7,
+    "end": 1514.7,
+    "text": "esto es el resto"
+  },
+  {
+    "start": 1514.7,
+    "end": 1516.7,
+    "text": "de una división entera"
+  },
+  {
+    "start": 1516.7,
+    "end": 1518.7,
+    "text": "y esto es elevado a una potencia"
+  },
+  {
+    "start": 1518.7,
+    "end": 1521.94,
+    "text": "2 asteriscos, entonces 15"
+  },
+  {
+    "start": 1521.94,
+    "end": 1525.07,
+    "text": "más 20 está acá"
+  },
+  {
+    "start": 1525.07,
+    "end": 1528.3,
+    "text": "mira, print"
+  },
+  {
+    "start": 1528.3,
+    "end": 1530.3,
+    "text": "valores A igual a"
+  },
+  {
+    "start": 1530.3,
+    "end": 1532.3,
+    "text": "tanto, B igual a tanto"
+  },
+  {
+    "start": 1532.3,
+    "end": 1535.6,
+    "text": "print, suma"
+  },
+  {
+    "start": 1535.6,
+    "end": 1538.56,
+    "text": "y que hago acá? la suma"
+  },
+  {
+    "start": 1538.56,
+    "end": 1540.56,
+    "text": "restar, multiplicación, división"
+  },
+  {
+    "start": 1540.56,
+    "end": 1542.77,
+    "text": "división entera, toda la operación"
+  },
+  {
+    "start": 1542.77,
+    "end": 1544.77,
+    "text": "en la visa acá y acá solamente estoy mostrando"
+  },
+  {
+    "start": 1544.77,
+    "end": 1548.0,
+    "text": "que se vea bonito, los valores"
+  },
+  {
+    "start": 1548.0,
+    "end": 1550.0,
+    "text": "35 y 10, la suma"
+  },
+  {
+    "start": 1550.0,
+    "end": 1552.54,
+    "text": "35, 6"
+  },
+  {
+    "start": 1552.54,
+    "end": 1554.88,
+    "text": "la resta 15, sí"
+  },
+  {
+    "start": 1554.88,
+    "end": 1557.06,
+    "text": "la multiplicación 250"
+  },
+  {
+    "start": 1557.06,
+    "end": 1559.3,
+    "text": "sí, la división 2.5"
+  },
+  {
+    "start": 1559.3,
+    "end": 1561.44,
+    "text": "sí, división"
+  },
+  {
+    "start": 1561.44,
+    "end": 1563.44,
+    "text": "enteros, 2"
+  },
+  {
+    "start": 1563.44,
+    "end": 1566.58,
+    "text": "o ¿qué es eso? 20"
+  },
+  {
+    "start": 1566.58,
+    "end": 1568.58,
+    "text": "y no puedo hacer más divisiones"
+  },
+  {
+    "start": 1568.58,
+    "end": 1570.58,
+    "text": "entero, entonces tengo 2"
+  },
+  {
+    "start": 1570.58,
+    "end": 1572.58,
+    "text": "el resto"
+  },
+  {
+    "start": 1572.58,
+    "end": 1575.62,
+    "text": "esto sería como"
+  },
+  {
+    "start": 1575.62,
+    "end": 1580.4,
+    "text": "el backslash"
+  },
+  {
+    "start": 1580.4,
+    "end": 1582.4,
+    "text": "¿esto no es un backslash?"
+  },
+  {
+    "start": 1582.4,
+    "end": 1585.63,
+    "text": "no"
+  },
+  {
+    "start": 1585.63,
+    "end": 1587.63,
+    "text": "es el AL92 profe"
+  },
+  {
+    "start": 1587.63,
+    "end": 1589.63,
+    "text": "como el MATLAB para hacer"
+  },
+  {
+    "start": 1589.63,
+    "end": 1592.19,
+    "text": "resolución de"
+  },
+  {
+    "start": 1592.19,
+    "end": 1595.1,
+    "text": "sistema de ecuaciones"
+  },
+  {
+    "start": 1595.1,
+    "end": 1597.1,
+    "text": "ya vamos a llegar a eso"
+  },
+  {
+    "start": 1597.1,
+    "end": 1599.1,
+    "text": "ya vamos a llegar a eso"
+  },
+  {
+    "start": 1599.1,
+    "end": 1601.55,
+    "text": "para"
+  },
+  {
+    "start": 1601.55,
+    "end": 1603.55,
+    "text": "si tenemos una forma, de hecho"
+  },
+  {
+    "start": 1603.55,
+    "end": 1605.55,
+    "text": "para efectuar operaciones entre matrices"
+  },
+  {
+    "start": 1605.55,
+    "end": 1607.55,
+    "text": "también tenemos una forma simplificable"
+  },
+  {
+    "start": 1607.55,
+    "end": 1610.83,
+    "text": "pero sí"
+  },
+  {
+    "start": 1610.83,
+    "end": 1612.83,
+    "text": "las operaciones matrices siempre son"
+  },
+  {
+    "start": 1612.83,
+    "end": 1615.1,
+    "text": "con problemas, pero espera"
+  },
+  {
+    "start": 1615.1,
+    "end": 1617.1,
+    "text": "yo me acuerdo de MATLAB"
+  },
+  {
+    "start": 1617.1,
+    "end": 1619.1,
+    "text": "era cuando había matrices"
+  },
+  {
+    "start": 1619.1,
+    "end": 1621.7,
+    "text": "hacía como A junto"
+  },
+  {
+    "start": 1621.7,
+    "end": 1627.79,
+    "text": "ahí era el backslash o no?"
+  },
+  {
+    "start": 1627.79,
+    "end": 1629.79,
+    "text": "AL92 con el teclado numérico"
+  },
+  {
+    "start": 1629.79,
+    "end": 1633.28,
+    "text": "el típico teclado"
+  },
+  {
+    "start": 1633.28,
+    "end": 1635.28,
+    "text": "que resolvió por mínimos cuadrados"
+  },
+  {
+    "start": 1635.28,
+    "end": 1637.55,
+    "text": "la matriz"
+  },
+  {
+    "start": 1637.55,
+    "end": 1641.02,
+    "text": "sistema de ecuaciones súper abundante"
+  },
+  {
+    "start": 1641.02,
+    "end": 1643.26,
+    "text": "recuerdos de Finlandia"
+  },
+  {
+    "start": 1643.26,
+    "end": 1645.26,
+    "text": "ya pero aquí tenemos"
+  },
+  {
+    "start": 1645.26,
+    "end": 1647.26,
+    "text": "una forma más sencilla de hacerlo"
+  },
+  {
+    "start": 1647.26,
+    "end": 1649.26,
+    "text": "es la gracia de país"
+  },
+  {
+    "start": 1649.26,
+    "end": 1651.66,
+    "text": "pero ya vamos a llegar a eso"
+  },
+  {
+    "start": 1651.66,
+    "end": 1654.51,
+    "text": "me gustaría extenderme de eso"
+  },
+  {
+    "start": 1654.51,
+    "end": 1656.51,
+    "text": "también el tema de los flats"
+  },
+  {
+    "start": 1656.51,
+    "end": 1658.51,
+    "text": "pero no quiero salirme de acá"
+  },
+  {
+    "start": 1658.51,
+    "end": 1660.51,
+    "text": "pero también no voy a tener concierto"
+  },
+  {
+    "start": 1660.51,
+    "end": 1664.24,
+    "text": "y vamos a volver"
+  },
+  {
+    "start": 1664.24,
+    "end": 1666.24,
+    "text": "a dar el tema de"
+  },
+  {
+    "start": 1666.24,
+    "end": 1668.91,
+    "text": "resolución de matrices"
+  },
+  {
+    "start": 1668.91,
+    "end": 1670.91,
+    "text": "y los"
+  },
+  {
+    "start": 1670.91,
+    "end": 1672.91,
+    "text": "los gradientes"
+  },
+  {
+    "start": 1672.91,
+    "end": 1674.91,
+    "text": "igual es como en la parte"
+  },
+  {
+    "start": 1674.91,
+    "end": 1676.91,
+    "text": "matemática estadística"
+  },
+  {
+    "start": 1676.91,
+    "end": 1678.91,
+    "text": "no sé si ya lo tocamos"
+  },
+  {
+    "start": 1678.91,
+    "end": 1681.09,
+    "text": "los gradientes"
+  },
+  {
+    "start": 1681.09,
+    "end": 1683.09,
+    "text": "los gradientes"
+  },
+  {
+    "start": 1683.09,
+    "end": 1685.09,
+    "text": "sí, sí, sí"
+  },
+  {
+    "start": 1685.09,
+    "end": 1687.09,
+    "text": "el último día"
+  },
+  {
+    "start": 1687.09,
+    "end": 1689.09,
+    "text": "como viendo en India"
+  },
+  {
+    "start": 1689.09,
+    "end": 1691.09,
+    "text": "igual me cuesta entenderlo un poco"
+  },
+  {
+    "start": 1691.09,
+    "end": 1693.36,
+    "text": "los puntos, sí, ya recuerdo eso"
+  },
+  {
+    "start": 1693.36,
+    "end": 1695.57,
+    "text": "en cálculo, pero después ahora"
+  },
+  {
+    "start": 1695.57,
+    "end": 1697.57,
+    "text": "como que lo explican como la solución óptima"
+  },
+  {
+    "start": 1697.57,
+    "end": 1700.62,
+    "text": "de varios problemas"
+  },
+  {
+    "start": 1700.62,
+    "end": 1702.62,
+    "text": "está"
+  },
+  {
+    "start": 1702.62,
+    "end": 1704.62,
+    "text": "está integrado"
+  },
+  {
+    "start": 1704.62,
+    "end": 1706.62,
+    "text": "por favor Pablo no hables en NumPy"
+  },
+  {
+    "start": 1706.62,
+    "end": 1708.62,
+    "text": "NumPy en macha negro en esta clase"
+  },
+  {
+    "start": 1708.62,
+    "end": 1710.62,
+    "text": "mira"
+  },
+  {
+    "start": 1710.62,
+    "end": 1712.93,
+    "text": "la primera parte"
+  },
+  {
+    "start": 1712.93,
+    "end": 1714.93,
+    "text": "es como medio latera porque es que"
+  },
+  {
+    "start": 1714.93,
+    "end": 1716.93,
+    "text": "son todas las cosas manuales"
+  },
+  {
+    "start": 1716.93,
+    "end": 1718.93,
+    "text": "una multiplicación manual, una división manual"
+  },
+  {
+    "start": 1718.93,
+    "end": 1721.17,
+    "text": "la gracia de Python"
+  },
+  {
+    "start": 1721.17,
+    "end": 1723.17,
+    "text": "es que están todas las librerías"
+  },
+  {
+    "start": 1723.17,
+    "end": 1725.17,
+    "text": "que tienen todo esto"
+  },
+  {
+    "start": 1725.17,
+    "end": 1727.17,
+    "text": "alguien ya tuvo el mismo problema que ustedes"
+  },
+  {
+    "start": 1727.17,
+    "end": 1729.34,
+    "text": "y lo implementó en una litería"
+  },
+  {
+    "start": 1729.34,
+    "end": 1731.34,
+    "text": "se hizo tan popular que ahora es"
+  },
+  {
+    "start": 1731.34,
+    "end": 1733.81,
+    "text": "parte de la suite, entonces ya está"
+  },
+  {
+    "start": 1733.81,
+    "end": 1735.98,
+    "text": "ya está listo eso"
+  },
+  {
+    "start": 1735.98,
+    "end": 1737.98,
+    "text": "ya lo resolvieron"
+  },
+  {
+    "start": 1737.98,
+    "end": 1740.19,
+    "text": "vamos a parla"
+  },
+  {
+    "start": 1740.19,
+    "end": 1742.19,
+    "text": "tenemos que decir en bata"
+  },
+  {
+    "start": 1742.19,
+    "end": 1744.66,
+    "text": "ahora como litería"
+  },
+  {
+    "start": 1744.66,
+    "end": 1746.66,
+    "text": "yo recuerdo que"
+  },
+  {
+    "start": 1746.66,
+    "end": 1748.66,
+    "text": "en ingeniería industrial"
+  },
+  {
+    "start": 1748.66,
+    "end": 1751.12,
+    "text": "para el tema de tramo dinámica"
+  },
+  {
+    "start": 1751.12,
+    "end": 1753.12,
+    "text": "hacerle ese tema a los problemas rouser no sé cuánto"
+  },
+  {
+    "start": 1753.12,
+    "end": 1755.36,
+    "text": "este"
+  },
+  {
+    "start": 1755.36,
+    "end": 1757.36,
+    "text": "si te recuerdas"
+  },
+  {
+    "start": 1757.36,
+    "end": 1759.76,
+    "text": "es"
+  },
+  {
+    "start": 1759.76,
+    "end": 1763.33,
+    "text": "pero"
+  },
+  {
+    "start": 1763.33,
+    "end": 1765.33,
+    "text": "claro para poder llegar a NumPy"
+  },
+  {
+    "start": 1765.33,
+    "end": 1767.33,
+    "text": "hay que pasar por el sufrimiento"
+  },
+  {
+    "start": 1767.33,
+    "end": 1769.54,
+    "text": "el sufrimiento de"
+  },
+  {
+    "start": 1769.54,
+    "end": 1771.54,
+    "text": "acepto manual"
+  },
+  {
+    "start": 1771.54,
+    "end": 1773.54,
+    "text": "porque en la base"
+  },
+  {
+    "start": 1773.54,
+    "end": 1775.54,
+    "text": "de formación"
+  },
+  {
+    "start": 1775.54,
+    "end": 1777.54,
+    "text": "de los conocimientos"
+  },
+  {
+    "start": 1777.54,
+    "end": 1780.86,
+    "text": "estimado profesor Agustín cuéntame"
+  },
+  {
+    "start": 1780.86,
+    "end": 1782.86,
+    "text": "hola, disculpe el ESO que te molesta"
+  },
+  {
+    "start": 1782.86,
+    "end": 1785.58,
+    "text": "yo vengo de otro lenguaje"
+  },
+  {
+    "start": 1785.58,
+    "end": 1788.75,
+    "text": "entonces Python, igual te he tenido bacán"
+  },
+  {
+    "start": 1788.75,
+    "end": 1791.5,
+    "text": "puede estar aprendiéndolo"
+  },
+  {
+    "start": 1791.5,
+    "end": 1793.5,
+    "text": "pero me equivo la escoba ahora"
+  },
+  {
+    "start": 1793.5,
+    "end": 1795.98,
+    "text": "con algo que no entendí"
+  },
+  {
+    "start": 1795.98,
+    "end": 1799.15,
+    "text": "cuando viste el tema de no"
+  },
+  {
+    "start": 1799.15,
+    "end": 1801.15,
+    "text": "porque por ejemplo"
+  },
+  {
+    "start": 1801.15,
+    "end": 1803.15,
+    "text": "yo puedo declarar"
+  },
+  {
+    "start": 1803.15,
+    "end": 1805.15,
+    "text": "una variabilidad y dejarla"
+  },
+  {
+    "start": 1805.15,
+    "end": 1807.15,
+    "text": "sin iniciar"
+  },
+  {
+    "start": 1807.15,
+    "end": 1810.14,
+    "text": "como nulas"
+  },
+  {
+    "start": 1810.14,
+    "end": 1812.74,
+    "text": "no tiene ningún tipo de valor"
+  },
+  {
+    "start": 1812.74,
+    "end": 1814.74,
+    "text": "ni siquiera tiene"
+  },
+  {
+    "start": 1814.74,
+    "end": 1817.46,
+    "text": "un tipo"
+  },
+  {
+    "start": 1817.46,
+    "end": 1820.34,
+    "text": "pero acá en Python estoy cachando que"
+  },
+  {
+    "start": 1820.34,
+    "end": 1822.34,
+    "text": "no existe ese concepto de nulo"
+  },
+  {
+    "start": 1822.34,
+    "end": 1826.37,
+    "text": "o nom"
+  },
+  {
+    "start": 1826.37,
+    "end": 1828.37,
+    "text": "no sé si me doy a explicar porque"
+  },
+  {
+    "start": 1828.37,
+    "end": 1830.37,
+    "text": "tu creas ahí y la inicializas y alpiro la variabilidad"
+  },
+  {
+    "start": 1830.37,
+    "end": 1833.44,
+    "text": "si, al declararla"
+  },
+  {
+    "start": 1833.44,
+    "end": 1835.71,
+    "text": "por ejemplo"
+  },
+  {
+    "start": 1835.71,
+    "end": 1837.71,
+    "text": "si yo le pongo creo una variable"
+  },
+  {
+    "start": 1837.71,
+    "end": 1839.95,
+    "text": "acá que sea"
+  },
+  {
+    "start": 1839.95,
+    "end": 1842.74,
+    "text": "a igual a"
+  },
+  {
+    "start": 1842.74,
+    "end": 1844.74,
+    "text": "automáticamente Python la inicializa"
+  },
+  {
+    "start": 1844.74,
+    "end": 1847.2,
+    "text": "claro, pero no podría tener a"
+  },
+  {
+    "start": 1847.2,
+    "end": 1851.26,
+    "text": "sin inicializarla"
+  },
+  {
+    "start": 1851.26,
+    "end": 1853.26,
+    "text": "con el número, sin colocar el número"
+  },
+  {
+    "start": 1853.26,
+    "end": 1855.57,
+    "text": "me refiero"
+  },
+  {
+    "start": 1855.57,
+    "end": 1857.57,
+    "text": "ah, tú quieres"
+  },
+  {
+    "start": 1857.57,
+    "end": 1861.17,
+    "text": "resacar espacio en RAM"
+  },
+  {
+    "start": 1861.17,
+    "end": 1863.92,
+    "text": "puedes hacerlo, puedes declarar"
+  },
+  {
+    "start": 1863.92,
+    "end": 1865.92,
+    "text": "maldice incluso"
+  },
+  {
+    "start": 1865.92,
+    "end": 1867.92,
+    "text": "inicializar maldice, pero eso"
+  },
+  {
+    "start": 1867.92,
+    "end": 1871.15,
+    "text": "quiero que lo veamos luego, pero sí"
+  },
+  {
+    "start": 1871.15,
+    "end": 1873.15,
+    "text": "pero la gracia de Python"
+  },
+  {
+    "start": 1873.15,
+    "end": 1875.15,
+    "text": "es que es como bien"
+  },
+  {
+    "start": 1875.15,
+    "end": 1877.33,
+    "text": "anarquista"
+  },
+  {
+    "start": 1877.33,
+    "end": 1879.33,
+    "text": "no tienes que declarar la variable"
+  },
+  {
+    "start": 1879.33,
+    "end": 1881.33,
+    "text": "y decirle el tipo"
+  },
+  {
+    "start": 1881.33,
+    "end": 1883.57,
+    "text": "incluso después poner el número"
+  },
+  {
+    "start": 1883.57,
+    "end": 1885.57,
+    "text": "aquí al mismo tiempo de que"
+  },
+  {
+    "start": 1885.57,
+    "end": 1888.19,
+    "text": "tú la usas, la declaras"
+  },
+  {
+    "start": 1888.19,
+    "end": 1890.62,
+    "text": "es bien para la caja"
+  },
+  {
+    "start": 1890.62,
+    "end": 1892.62,
+    "text": "y por eso se usa tanto"
+  },
+  {
+    "start": 1892.62,
+    "end": 1895.09,
+    "text": "porque te simplifica todo ese proceso"
+  },
+  {
+    "start": 1895.09,
+    "end": 1897.26,
+    "text": "pero tú le puedes decir explicitamente"
+  },
+  {
+    "start": 1897.26,
+    "end": 1899.44,
+    "text": "quiero declarar una variable de tal tipo"
+  },
+  {
+    "start": 1899.44,
+    "end": 1901.44,
+    "text": "quiero que sea nula"
+  },
+  {
+    "start": 1901.44,
+    "end": 1903.44,
+    "text": "quiero que sea float"
+  },
+  {
+    "start": 1903.44,
+    "end": 1905.44,
+    "text": "incluso puedes declarar una variable y"
+  },
+  {
+    "start": 1905.44,
+    "end": 1908.45,
+    "text": "como float"
+  },
+  {
+    "start": 1908.45,
+    "end": 1911.71,
+    "text": "le da igual a no"
+  },
+  {
+    "start": 1911.71,
+    "end": 1916.91,
+    "text": "veamos, mira"
+  },
+  {
+    "start": 1916.91,
+    "end": 1925.01,
+    "text": "ah, sí"
+  },
+  {
+    "start": 1925.01,
+    "end": 1927.92,
+    "text": "estoy poniendo que no sabe"
+  },
+  {
+    "start": 1927.92,
+    "end": 1930.42,
+    "text": "o sea que, Python no te quiere castigar"
+  },
+  {
+    "start": 1930.42,
+    "end": 1932.75,
+    "text": "C te castiga"
+  },
+  {
+    "start": 1932.75,
+    "end": 1934.75,
+    "text": "Python dice yo soy tu amigo, o sea el amigo bueno"
+  },
+  {
+    "start": 1934.75,
+    "end": 1936.75,
+    "text": "ah, no, si llegas, llegas, si no llegas, no llegas"
+  },
+  {
+    "start": 1936.75,
+    "end": 1941.47,
+    "text": "está bien, esa es la gracia"
+  },
+  {
+    "start": 1941.47,
+    "end": 1943.47,
+    "text": "pero claro"
+  },
+  {
+    "start": 1943.47,
+    "end": 1945.47,
+    "text": "tiene un costo"
+  },
+  {
+    "start": 1945.47,
+    "end": 1948.26,
+    "text": "quería verlo adelante"
+  },
+  {
+    "start": 1948.26,
+    "end": 1950.26,
+    "text": "voy a verlo un poquito, el costo es que Python es lento"
+  },
+  {
+    "start": 1950.26,
+    "end": 1953.26,
+    "text": "C es mucho más rápido"
+  },
+  {
+    "start": 1953.26,
+    "end": 1955.26,
+    "text": "es como"
+  },
+  {
+    "start": 1955.26,
+    "end": 1957.26,
+    "text": "50 veces más rápido para algunas cosas"
+  },
+  {
+    "start": 1957.26,
+    "end": 1959.26,
+    "text": "que son específicas"
+  },
+  {
+    "start": 1959.26,
+    "end": 1961.26,
+    "text": "entonces"
+  },
+  {
+    "start": 1961.26,
+    "end": 1963.26,
+    "text": "Python es muy accesible y tiene todas las"
+  },
+  {
+    "start": 1963.26,
+    "end": 1965.26,
+    "text": "librerías que tú necesitas"
+  },
+  {
+    "start": 1965.26,
+    "end": 1967.6,
+    "text": "pero tendes que ser lento, comparativa con"
+  },
+  {
+    "start": 1967.6,
+    "end": 1969.94,
+    "text": "C"
+  },
+  {
+    "start": 1969.94,
+    "end": 1972.08,
+    "text": "y tienes que consumir más RAM"
+  },
+  {
+    "start": 1972.08,
+    "end": 1974.08,
+    "text": "ese es como el precio a pagar"
+  },
+  {
+    "start": 1974.08,
+    "end": 1976.08,
+    "text": "por ocupar un lenguaje"
+  },
+  {
+    "start": 1976.08,
+    "end": 1979.22,
+    "text": "tan accesible"
+  },
+  {
+    "start": 1979.22,
+    "end": 1981.22,
+    "text": "si no hay variables debería estar como un"
+  },
+  {
+    "start": 1981.22,
+    "end": 1983.71,
+    "text": "lo que acabas de hacer"
+  },
+  {
+    "start": 1983.71,
+    "end": 1986.14,
+    "text": "con eso ya quedo resuelto"
+  },
+  {
+    "start": 1986.14,
+    "end": 1988.38,
+    "text": "si te vas a variables y buscas a"
+  },
+  {
+    "start": 1988.38,
+    "end": 1990.38,
+    "text": "debería estar como un define"
+  },
+  {
+    "start": 1990.38,
+    "end": 1993.07,
+    "text": "o algo así, ¿no?"
+  },
+  {
+    "start": 1993.07,
+    "end": 1995.79,
+    "text": "con eso te dejo"
+  },
+  {
+    "start": 1995.79,
+    "end": 1998.88,
+    "text": "y me quedo tranquilo"
+  },
+  {
+    "start": 1998.88,
+    "end": 2000.88,
+    "text": "con eso yo"
+  },
+  {
+    "start": 2000.88,
+    "end": 2002.88,
+    "text": "quiero que cierres su duda"
+  },
+  {
+    "start": 2002.88,
+    "end": 2004.88,
+    "text": "no te preocupes, crees que cierres su duda"
+  },
+  {
+    "start": 2004.88,
+    "end": 2007.74,
+    "text": "para eso es la clase"
+  },
+  {
+    "start": 2007.74,
+    "end": 2012.83,
+    "text": "sería muy raro"
+  },
+  {
+    "start": 2012.83,
+    "end": 2014.83,
+    "text": "un define, claro es como"
+  },
+  {
+    "start": 2014.83,
+    "end": 2017.26,
+    "text": "te aclaraste algo"
+  },
+  {
+    "start": 2017.26,
+    "end": 2021.86,
+    "text": "ya lo quieres pero es no"
+  },
+  {
+    "start": 2021.86,
+    "end": 2027.78,
+    "text": "¿cómo se funciona esto?"
+  },
+  {
+    "start": 2027.78,
+    "end": 2035.6,
+    "text": "bueno, podías generarlo pero ya"
+  },
+  {
+    "start": 2035.6,
+    "end": 2037.6,
+    "text": "no, pero ya que es"
+  },
+  {
+    "start": 2037.6,
+    "end": 2039.6,
+    "text": "tranquilo ya, ahora todo está bien"
+  },
+  {
+    "start": 2039.6,
+    "end": 2041.6,
+    "text": "perfecto"
+  },
+  {
+    "start": 2041.6,
+    "end": 2045.14,
+    "text": "entonces, viendo todo"
+  },
+  {
+    "start": 2045.14,
+    "end": 2047.14,
+    "text": "eso, nosotros podemos empezar a hacer más"
+  },
+  {
+    "start": 2047.14,
+    "end": 2055.58,
+    "text": "hasta que la seguridad vaya alto"
+  },
+  {
+    "start": 2055.58,
+    "end": 2057.98,
+    "text": "por ejemplo, yo puedo hacer una"
+  },
+  {
+    "start": 2057.98,
+    "end": 2059.98,
+    "text": "cosa que sería una aplicación"
+  },
+  {
+    "start": 2059.98,
+    "end": 2062.32,
+    "text": "de compra, ¿ya? un carreto"
+  },
+  {
+    "start": 2062.32,
+    "end": 2065.52,
+    "text": "de compra típico"
+  },
+  {
+    "start": 2065.52,
+    "end": 2068.3,
+    "text": "el precio es 25, artículos"
+  },
+  {
+    "start": 2068.3,
+    "end": 2070.54,
+    "text": "3, el total es"
+  },
+  {
+    "start": 2070.54,
+    "end": 2072.85,
+    "text": "precio por artículo, ¿ya?"
+  },
+  {
+    "start": 2072.85,
+    "end": 2075.25,
+    "text": "literalmente lo declara en el momento"
+  },
+  {
+    "start": 2075.25,
+    "end": 2078.45,
+    "text": "puedo mostrar cuánto es el total"
+  },
+  {
+    "start": 2078.45,
+    "end": 2081.26,
+    "text": "puedo mostrar cuánto artículo"
+  },
+  {
+    "start": 2081.26,
+    "end": 2083.26,
+    "text": "cabe en el cien, aquí me refiero"
+  },
+  {
+    "start": 2083.26,
+    "end": 2085.94,
+    "text": "con eso, cien"
+  },
+  {
+    "start": 2085.94,
+    "end": 2087.94,
+    "text": "esto es lo que acabamos de ver"
+  },
+  {
+    "start": 2087.94,
+    "end": 2089.94,
+    "text": "es la división del resultado"
+  },
+  {
+    "start": 2089.94,
+    "end": 2092.4,
+    "text": "entero, ¿ya? para que no tenga fracciones"
+  },
+  {
+    "start": 2092.4,
+    "end": 2094.93,
+    "text": "y puedo también ver el resto"
+  },
+  {
+    "start": 2094.93,
+    "end": 2100.18,
+    "text": "de plata, entonces es muy sencillo"
+  },
+  {
+    "start": 2100.18,
+    "end": 2102.18,
+    "text": "en el sentido de que lo declaras"
+  },
+  {
+    "start": 2102.18,
+    "end": 2104.18,
+    "text": "y lo usas inmediatamente"
+  },
+  {
+    "start": 2104.18,
+    "end": 2106.48,
+    "text": "sin ponerle tipo ni nada"
+  },
+  {
+    "start": 2106.48,
+    "end": 2108.48,
+    "text": "esto es un número, esto es un string"
+  },
+  {
+    "start": 2108.48,
+    "end": 2110.48,
+    "text": "quiero mostrarlo acá"
+  },
+  {
+    "start": 2110.48,
+    "end": 2113.62,
+    "text": "eso es lo que quiero"
+  },
+  {
+    "start": 2113.62,
+    "end": 2118.67,
+    "text": "intenten hacer lo mismo"
+  },
+  {
+    "start": 2118.67,
+    "end": 2127.22,
+    "text": "es que hay una manera de generar"
+  },
+  {
+    "start": 2127.22,
+    "end": 2129.22,
+    "text": "infinito que es divertido porque"
+  },
+  {
+    "start": 2129.22,
+    "end": 2131.22,
+    "text": "como que satura la ram"
+  },
+  {
+    "start": 2131.22,
+    "end": 2133.42,
+    "text": "la voy a probar de ahí"
+  },
+  {
+    "start": 2133.42,
+    "end": 2135.7,
+    "text": "como está uno dividido por un"
+  },
+  {
+    "start": 2135.7,
+    "end": 2137.7,
+    "text": "número gigante y pasan cosas"
+  },
+  {
+    "start": 2137.7,
+    "end": 2139.7,
+    "text": "entretenidas, pero sí"
+  },
+  {
+    "start": 2139.7,
+    "end": 2142.27,
+    "text": "efectivamente mal"
+  },
+  {
+    "start": 2142.27,
+    "end": 2144.27,
+    "text": "intenten esto, porque"
+  },
+  {
+    "start": 2144.27,
+    "end": 2146.27,
+    "text": "la teoría es bonita, el texto es"
+  },
+  {
+    "start": 2146.27,
+    "end": 2148.8,
+    "text": "bonita, pero intenten"
+  },
+  {
+    "start": 2148.8,
+    "end": 2154.86,
+    "text": "interpretarlo de una vuelta"
+  },
+  {
+    "start": 2154.86,
+    "end": 2157.62,
+    "text": "ahora, con lo que yo sostengo"
+  },
+  {
+    "start": 2157.62,
+    "end": 2160.08,
+    "text": "mi alumno es de pregrado"
+  },
+  {
+    "start": 2160.08,
+    "end": 2162.54,
+    "text": "no programa"
+  },
+  {
+    "start": 2162.54,
+    "end": 2164.54,
+    "text": "pero está doctorado, entonces"
+  },
+  {
+    "start": 2164.54,
+    "end": 2166.54,
+    "text": "tengo que entender qué está pasando"
+  },
+  {
+    "start": 2166.54,
+    "end": 2168.54,
+    "text": "porque"
+  },
+  {
+    "start": 2168.54,
+    "end": 2172.46,
+    "text": "si hago clic acá"
+  },
+  {
+    "start": 2172.46,
+    "end": 2175.79,
+    "text": "me carga el artículo de Gemini con su modelo"
+  },
+  {
+    "start": 2175.79,
+    "end": 2178.19,
+    "text": "que en realidad Gemini no es la gran cosa"
+  },
+  {
+    "start": 2178.19,
+    "end": 2180.19,
+    "text": "tiene muchos problemas"
+  },
+  {
+    "start": 2180.19,
+    "end": 2182.19,
+    "text": "comparado con otros modelos de"
+  },
+  {
+    "start": 2182.19,
+    "end": 2184.19,
+    "text": "border, pero te puede programar"
+  },
+  {
+    "start": 2184.19,
+    "end": 2186.75,
+    "text": "directamente cualquier cosa"
+  },
+  {
+    "start": 2186.75,
+    "end": 2188.75,
+    "text": "por eso se utiliza tanto el proceso de programación"
+  },
+  {
+    "start": 2188.75,
+    "end": 2190.75,
+    "text": "en el caso de"
+  },
+  {
+    "start": 2190.75,
+    "end": 2192.75,
+    "text": "pero aquí damos una vuelta"
+  },
+  {
+    "start": 2192.75,
+    "end": 2195.02,
+    "text": "crear un precio de 40"
+  },
+  {
+    "start": 2195.02,
+    "end": 2197.3,
+    "text": "precio igual a algo"
+  },
+  {
+    "start": 2197.3,
+    "end": 2199.79,
+    "text": "y también podemos crear una cantidad"
+  },
+  {
+    "start": 2199.79,
+    "end": 2201.79,
+    "text": "y mostrar el total con un f string"
+  },
+  {
+    "start": 2201.79,
+    "end": 2204.38,
+    "text": "cuando digo predecir"
+  },
+  {
+    "start": 2204.38,
+    "end": 2206.38,
+    "text": "la salida es como, ¿cuánto debería ser al ojo?"
+  },
+  {
+    "start": 2210.08,
+    "end": 2212.32,
+    "text": "y los f strings las recuerdo"
+  },
+  {
+    "start": 2212.32,
+    "end": 2220.34,
+    "text": "que tenían esta estructura"
+  },
+  {
+    "start": 2220.34,
+    "end": 2222.54,
+    "text": "f, comillas"
+  },
+  {
+    "start": 2222.54,
+    "end": 2224.54,
+    "text": "y acá adentro tienen las cosas que necesitan"
+  },
+  {
+    "start": 2224.54,
+    "end": 2240.03,
+    "text": "disclaimer"
+  },
+  {
+    "start": 2240.03,
+    "end": 2242.46,
+    "text": "quizás no alcanza a ver todo el día"
+  },
+  {
+    "start": 2242.46,
+    "end": 2244.46,
+    "text": "así que la clase va a llegar"
+  },
+  {
+    "start": 2244.46,
+    "end": 2246.77,
+    "text": "hasta donde llegue"
+  },
+  {
+    "start": 2246.77,
+    "end": 2248.77,
+    "text": "y si no alcanzamos a cubrir algo, lo vamos a cubrir la siguiente clase"
+  },
+  {
+    "start": 2248.77,
+    "end": 2251.01,
+    "text": "porque creo que es importante"
+  },
+  {
+    "start": 2251.01,
+    "end": 2253.01,
+    "text": "abordar estos temas"
+  },
+  {
+    "start": 2253.01,
+    "end": 2268.0,
+    "text": "sin problema"
+  },
+  {
+    "start": 2268.0,
+    "end": 2270.0,
+    "text": "las respuestas técnicamente son infinitas"
+  },
+  {
+    "start": 2270.0,
+    "end": 2272.0,
+    "text": "no las puede hacer de muchas maneras"
+  },
+  {
+    "start": 2272.0,
+    "end": 2279.97,
+    "text": "también se puede usar la terminal, pero yo nunca la uso"
+  },
+  {
+    "start": 2279.97,
+    "end": 2283.15,
+    "text": "no me gusta trabajar con terminal"
+  },
+  {
+    "start": 2283.15,
+    "end": 2285.15,
+    "text": "tengo malos recuerdos de Red Hat por consola"
+  },
+  {
+    "start": 2285.15,
+    "end": 2289.15,
+    "text": "CQL"
+  },
+  {
+    "start": 2289.15,
+    "end": 2291.36,
+    "text": "Posgret"
+  },
+  {
+    "start": 2291.36,
+    "end": 2295.33,
+    "text": "Kemar"
+  },
+  {
+    "start": 2295.33,
+    "end": 2299.25,
+    "text": "No, CQL"
+  },
+  {
+    "start": 2299.25,
+    "end": 2308.37,
+    "text": "Kemar todo eso"
+  },
+  {
+    "start": 2308.37,
+    "end": 2326.42,
+    "text": "alguien tiene alguna complicación con esto?"
+  },
+  {
+    "start": 2326.42,
+    "end": 2328.42,
+    "text": "poder ayudar en algo"
+  },
+  {
+    "start": 2328.42,
+    "end": 2330.62,
+    "text": "declaran las variables, una de precio y otra de cantidad"
+  },
+  {
+    "start": 2330.62,
+    "end": 2333.09,
+    "text": "después podrían hacerlo, precio por cantidad"
+  },
+  {
+    "start": 2333.09,
+    "end": 2335.23,
+    "text": "que se guarda en otra variable"
+  },
+  {
+    "start": 2335.23,
+    "end": 2337.76,
+    "text": "y después se muestra"
+  },
+  {
+    "start": 2337.76,
+    "end": 2339.9,
+    "text": "para este precio y esta cantidad"
+  },
+  {
+    "start": 2339.9,
+    "end": 2341.9,
+    "text": "tengo tantos productos"
+  },
+  {
+    "start": 2341.9,
+    "end": 2346.24,
+    "text": "esto me va a costar"
+  },
+  {
+    "start": 2346.24,
+    "end": 2365.34,
+    "text": "por este precio y por esta cantidad"
+  },
+  {
+    "start": 2365.34,
+    "end": 2367.34,
+    "text": "están preguntando que"
+  },
+  {
+    "start": 2367.34,
+    "end": 2370.58,
+    "text": "escribimos el código y que realmente es eso?"
+  },
+  {
+    "start": 2370.58,
+    "end": 2372.58,
+    "text": "ah no, puedes escribirlo acá"
+  },
+  {
+    "start": 2372.58,
+    "end": 2374.58,
+    "text": "si lo necesitan me avisan"
+  },
+  {
+    "start": 2374.58,
+    "end": 2377.39,
+    "text": "es como un ejercicio libre"
+  },
+  {
+    "start": 2377.39,
+    "end": 2379.54,
+    "text": "si alguien necesita ayuda"
+  },
+  {
+    "start": 2379.54,
+    "end": 2382.26,
+    "text": "estoy acá para hacerlas"
+  },
+  {
+    "start": 2382.26,
+    "end": 2392.13,
+    "text": "lo puedes distanciar?"
+  },
+  {
+    "start": 2392.13,
+    "end": 2394.13,
+    "text": "precio igual 40, cantidad igual 2"
+  },
+  {
+    "start": 2394.13,
+    "end": 2399.31,
+    "text": "y continuamos"
+  },
+  {
+    "start": 2399.31,
+    "end": 2402.26,
+    "text": "si, efectivamente"
+  },
+  {
+    "start": 2402.26,
+    "end": 2404.26,
+    "text": "está asociado porque hemos visto tanta teoría"
+  },
+  {
+    "start": 2404.26,
+    "end": 2406.96,
+    "text": "tanto concepto"
+  },
+  {
+    "start": 2406.96,
+    "end": 2409.58,
+    "text": "así se dice la programación"
+  },
+  {
+    "start": 2409.58,
+    "end": 2415.5,
+    "text": "y quiero que abordan"
+  },
+  {
+    "start": 2415.5,
+    "end": 2417.5,
+    "text": "ah, es mi file flasher que está contando"
+  },
+  {
+    "start": 2417.5,
+    "end": 2423.1,
+    "text": "si alguien necesita ayuda"
+  },
+  {
+    "start": 2423.1,
+    "end": 2425.1,
+    "text": "vamos a seguir con la clase porque"
+  },
+  {
+    "start": 2425.1,
+    "end": 2427.1,
+    "text": "quiero que cubramos un par de cosas más"
+  },
+  {
+    "start": 2427.1,
+    "end": 2430.37,
+    "text": "para abordar el resto"
+  },
+  {
+    "start": 2430.37,
+    "end": 2433.66,
+    "text": "ahora, vimos como se declara un valor"
+  },
+  {
+    "start": 2433.66,
+    "end": 2435.66,
+    "text": "como se declara un string"
+  },
+  {
+    "start": 2435.66,
+    "end": 2437.66,
+    "text": "como se declaran distintas cosas y se guardan"
+  },
+  {
+    "start": 2437.66,
+    "end": 2441.49,
+    "text": "pero"
+  },
+  {
+    "start": 2441.49,
+    "end": 2443.49,
+    "text": "Python por defecto"
+  },
+  {
+    "start": 2443.49,
+    "end": 2445.49,
+    "text": "tiene una forma de guardar mucha"
+  },
+  {
+    "start": 2445.49,
+    "end": 2448.46,
+    "text": "información, esto se conoce como"
+  },
+  {
+    "start": 2448.46,
+    "end": 2450.99,
+    "text": "lista"
+  },
+  {
+    "start": 2450.99,
+    "end": 2452.99,
+    "text": "entonces piensen que es como una fila"
+  },
+  {
+    "start": 2452.99,
+    "end": 2456.18,
+    "text": "de excel"
+  },
+  {
+    "start": 2456.18,
+    "end": 2458.74,
+    "text": "y me permite guardar múltiples elementos"
+  },
+  {
+    "start": 2458.74,
+    "end": 2461.17,
+    "text": "entonces, yo la declaro"
+  },
+  {
+    "start": 2461.17,
+    "end": 2463.17,
+    "text": "y voy guardando cosas"
+  },
+  {
+    "start": 2463.17,
+    "end": 2466.06,
+    "text": "en mi caja, en orden"
+  },
+  {
+    "start": 2466.06,
+    "end": 2468.06,
+    "text": "pero aquí está como el pequeño"
+  },
+  {
+    "start": 2468.06,
+    "end": 2470.06,
+    "text": "problema"
+  },
+  {
+    "start": 2470.06,
+    "end": 2472.46,
+    "text": "de Python"
+  },
+  {
+    "start": 2472.46,
+    "end": 2474.46,
+    "text": "es una generación porque empieza en 0"
+  },
+  {
+    "start": 2474.46,
+    "end": 2476.99,
+    "text": "entonces si tu dices"
+  },
+  {
+    "start": 2476.99,
+    "end": 2478.99,
+    "text": "es una caja que tiene 5 espacios"
+  },
+  {
+    "start": 2478.99,
+    "end": 2481.57,
+    "text": "Python te dice"
+  },
+  {
+    "start": 2481.57,
+    "end": 2483.57,
+    "text": "0,1,2,3,4"
+  },
+  {
+    "start": 2483.57,
+    "end": 2486.42,
+    "text": "así que siempre"
+  },
+  {
+    "start": 2486.42,
+    "end": 2488.78,
+    "text": "como de fase"
+  },
+  {
+    "start": 2488.78,
+    "end": 2490.78,
+    "text": "entonces por eso yo cuando pase de Matlab a Python"
+  },
+  {
+    "start": 2490.78,
+    "end": 2493.06,
+    "text": "fue como un choque"
+  },
+  {
+    "start": 2493.06,
+    "end": 2495.23,
+    "text": "cada vez mi"
+  },
+  {
+    "start": 2495.23,
+    "end": 2497.23,
+    "text": "no sé, yo tenía un problema"
+  },
+  {
+    "start": 2497.23,
+    "end": 2499.23,
+    "text": "muy grande porque por ejemplo mis simulaciones"
+  },
+  {
+    "start": 2499.23,
+    "end": 2501.57,
+    "text": "no daban, pero ¿por qué?"
+  },
+  {
+    "start": 2501.57,
+    "end": 2503.57,
+    "text": "porque me estaba saltando"
+  },
+  {
+    "start": 2503.57,
+    "end": 2505.57,
+    "text": "un espacio de documento"
+  },
+  {
+    "start": 2505.57,
+    "end": 2507.57,
+    "text": "pero bueno, era una"
+  },
+  {
+    "start": 2507.57,
+    "end": 2511.47,
+    "text": "locura"
+  },
+  {
+    "start": 2511.47,
+    "end": 2513.47,
+    "text": "esto se llama lista ejemplo"
+  },
+  {
+    "start": 2513.47,
+    "end": 2531.09,
+    "text": "no te salte un espacio antes del print"
+  },
+  {
+    "start": 2531.09,
+    "end": 2533.26,
+    "text": "print, al tiro"
+  },
+  {
+    "start": 2533.26,
+    "end": 2540.0,
+    "text": "el paréntesis, entonces aquí"
+  },
+  {
+    "start": 2540.0,
+    "end": 2542.82,
+    "text": "voy a declarar esto como"
+  },
+  {
+    "start": 2542.82,
+    "end": 2545.97,
+    "text": "lista ejemplo, y fíjense"
+  },
+  {
+    "start": 2545.97,
+    "end": 2548.21,
+    "text": "guardo una string que se llama casa"
+  },
+  {
+    "start": 2548.21,
+    "end": 2550.21,
+    "text": "un número 23 que es un int"
+  },
+  {
+    "start": 2550.21,
+    "end": 2552.38,
+    "text": "un true que es un booleano"
+  },
+  {
+    "start": 2552.38,
+    "end": 2554.38,
+    "text": "un 2.5 que es un float"
+  },
+  {
+    "start": 2554.38,
+    "end": 2559.07,
+    "text": "y un num, loco"
+  },
+  {
+    "start": 2559.07,
+    "end": 2561.07,
+    "text": "y después hago mi print"
+  },
+  {
+    "start": 2561.07,
+    "end": 2564.58,
+    "text": "de esta lista, ¿qué tiene?"
+  },
+  {
+    "start": 2564.58,
+    "end": 2566.58,
+    "text": "casa 23, true 2.5"
+  },
+  {
+    "start": 2566.58,
+    "end": 2572.19,
+    "text": "y no, nada"
+  },
+  {
+    "start": 2572.19,
+    "end": 2574.46,
+    "text": "esto es una caja"
+  },
+  {
+    "start": 2574.46,
+    "end": 2577.18,
+    "text": "entonces yo puedo obtener elementos"
+  },
+  {
+    "start": 2577.18,
+    "end": 2579.98,
+    "text": "de esta caja, ¿ya?"
+  },
+  {
+    "start": 2579.98,
+    "end": 2581.98,
+    "text": "puedo obtener el primero, el segundo"
+  },
+  {
+    "start": 2581.98,
+    "end": 2584.22,
+    "text": "el tercero, incluso el último"
+  },
+  {
+    "start": 2584.22,
+    "end": 2590.77,
+    "text": "o incluso toda la caja"
+  },
+  {
+    "start": 2590.77,
+    "end": 2594.03,
+    "text": "para obtener el primer elemento"
+  },
+  {
+    "start": 2594.03,
+    "end": 2596.24,
+    "text": "lista ejemplo"
+  },
+  {
+    "start": 2596.24,
+    "end": 2600.18,
+    "text": "corchete 0, ¿por qué 0?"
+  },
+  {
+    "start": 2600.18,
+    "end": 2602.64,
+    "text": "porque 0 es el primer"
+  },
+  {
+    "start": 2602.64,
+    "end": 2606.27,
+    "text": "elemento de Python, ¿y qué es el primer"
+  },
+  {
+    "start": 2606.27,
+    "end": 2611.54,
+    "text": "elemento? casa, el segundo"
+  },
+  {
+    "start": 2611.54,
+    "end": 2615.84,
+    "text": "elemento sería lo mismo"
+  },
+  {
+    "start": 2615.84,
+    "end": 2618.72,
+    "text": "pero en vez de 0 un 1"
+  },
+  {
+    "start": 2618.72,
+    "end": 2624.29,
+    "text": "el segundo elemento, 23"
+  },
+  {
+    "start": 2624.29,
+    "end": 2629.95,
+    "text": "ah no, sería el segundo, 23"
+  },
+  {
+    "start": 2629.95,
+    "end": 2635.02,
+    "text": "es el 23"
+  },
+  {
+    "start": 2635.02,
+    "end": 2637.02,
+    "text": "para el último elemento lo puedo hacer"
+  },
+  {
+    "start": 2637.02,
+    "end": 2640.29,
+    "text": "de dos maneras, 0, 1, 2, 3, 4"
+  },
+  {
+    "start": 2640.29,
+    "end": 2643.23,
+    "text": "puedo decirle"
+  },
+  {
+    "start": 2643.23,
+    "end": 2649.79,
+    "text": "4 y es"
+  },
+  {
+    "start": 2649.79,
+    "end": 2652.7,
+    "text": "none, o le puedo decir"
+  },
+  {
+    "start": 2652.7,
+    "end": 2656.46,
+    "text": "menos 1, ¿por qué?"
+  },
+  {
+    "start": 2656.46,
+    "end": 2658.46,
+    "text": "por alguna razón técnica el último"
+  },
+  {
+    "start": 2658.46,
+    "end": 2660.46,
+    "text": "elemento de una lista siempre va a"
+  },
+  {
+    "start": 2660.46,
+    "end": 2667.6,
+    "text": "ser un menos 1, así que"
+  },
+  {
+    "start": 2667.6,
+    "end": 2669.84,
+    "text": "si no conoces la expresión de una lista"
+  },
+  {
+    "start": 2669.84,
+    "end": 2671.84,
+    "text": "que en realidad se puede conocer por lo que todo"
+  },
+  {
+    "start": 2671.84,
+    "end": 2673.84,
+    "text": "puedes colocarle un menos 1"
+  },
+  {
+    "start": 2673.84,
+    "end": 2675.84,
+    "text": "y eso va a ser tu último elemento de la lista"
+  },
+  {
+    "start": 2675.84,
+    "end": 2679.17,
+    "text": "y la cantidad de mensos"
+  },
+  {
+    "start": 2679.17,
+    "end": 2683.58,
+    "text": "es len"
+  },
+  {
+    "start": 2683.58,
+    "end": 2685.58,
+    "text": "lo cual es un poco raro porque la longitud es"
+  },
+  {
+    "start": 2685.58,
+    "end": 2688.56,
+    "text": "5 y como accedes a esos"
+  },
+  {
+    "start": 2688.56,
+    "end": 2690.86,
+    "text": "0, 1, 2, 3, 4"
+  },
+  {
+    "start": 2690.86,
+    "end": 2693.87,
+    "text": "es una cosa muy rara"
+  },
+  {
+    "start": 2693.87,
+    "end": 2695.87,
+    "text": "pero así es Python"
+  },
+  {
+    "start": 2695.87,
+    "end": 2698.14,
+    "text": "y hay que creerlo así como es"
+  },
+  {
+    "start": 2698.14,
+    "end": 2700.51,
+    "text": "es lo que es"
+  },
+  {
+    "start": 2700.51,
+    "end": 2703.26,
+    "text": "no es lo que queremos que sea"
+  },
+  {
+    "start": 2703.26,
+    "end": 2705.26,
+    "text": "de hecho Python"
+  },
+  {
+    "start": 2705.26,
+    "end": 2707.26,
+    "text": "tiene unos problemas que vamos a ver en futuro"
+  },
+  {
+    "start": 2707.26,
+    "end": 2709.26,
+    "text": "de que sus form"
+  },
+  {
+    "start": 2709.26,
+    "end": 2711.82,
+    "text": "y sus if no tienen end"
+  },
+  {
+    "start": 2711.82,
+    "end": 2713.82,
+    "text": "entonces eso también es algo difícil a la cual"
+  },
+  {
+    "start": 2713.82,
+    "end": 2715.82,
+    "text": "acostumbrarse cuando viene el lenguaje más"
+  },
+  {
+    "start": 2715.82,
+    "end": 2718.24,
+    "text": "estandarizado"
+  },
+  {
+    "start": 2718.24,
+    "end": 2720.24,
+    "text": "pero también podemos hacer cosas bien"
+  },
+  {
+    "start": 2720.24,
+    "end": 2722.64,
+    "text": "interesantes, piensa que esto"
+  },
+  {
+    "start": 2722.64,
+    "end": 2724.94,
+    "text": "que una lista también"
+  },
+  {
+    "start": 2724.94,
+    "end": 2726.94,
+    "text": "tiene forma de queque"
+  },
+  {
+    "start": 2726.94,
+    "end": 2729.7,
+    "text": "tu puedes tomar el queque del final"
+  },
+  {
+    "start": 2729.7,
+    "end": 2731.7,
+    "text": "el queque del principio o sacar"
+  },
+  {
+    "start": 2731.7,
+    "end": 2734.0,
+    "text": "una parte del medio, un slicing"
+  },
+  {
+    "start": 2734.0,
+    "end": 2737.34,
+    "text": "y por ejemplo si yo le"
+  },
+  {
+    "start": 2737.34,
+    "end": 2739.9,
+    "text": "digo dame las posiciones"
+  },
+  {
+    "start": 2739.9,
+    "end": 2742.91,
+    "text": "1 a 4"
+  },
+  {
+    "start": 2742.91,
+    "end": 2744.91,
+    "text": "dame las posiciones"
+  },
+  {
+    "start": 2744.91,
+    "end": 2748.54,
+    "text": "si yo le digo dame las posiciones"
+  },
+  {
+    "start": 2748.54,
+    "end": 2750.54,
+    "text": "de 1 a 4"
+  },
+  {
+    "start": 2750.54,
+    "end": 2752.54,
+    "text": "voy a escribir la lista mejor acá"
+  },
+  {
+    "start": 2752.54,
+    "end": 2758.74,
+    "text": "esta es la lista"
+  },
+  {
+    "start": 2758.74,
+    "end": 2760.74,
+    "text": "casa 23 true 2.6"
+  },
+  {
+    "start": 2760.74,
+    "end": 2763.68,
+    "text": "si yo le digo esto"
+  },
+  {
+    "start": 2763.68,
+    "end": 2765.68,
+    "text": "entre cocheques y le dejo de"
+  },
+  {
+    "start": 2765.68,
+    "end": 2767.68,
+    "text": "1, 2, 4"
+  },
+  {
+    "start": 2767.68,
+    "end": 2771.28,
+    "text": "que pasa"
+  },
+  {
+    "start": 2771.28,
+    "end": 2773.28,
+    "text": "me muestra las posiciones"
+  },
+  {
+    "start": 2773.28,
+    "end": 2777.15,
+    "text": "1, 2 y 3"
+  },
+  {
+    "start": 2777.15,
+    "end": 2780.46,
+    "text": "esta raro eso"
+  },
+  {
+    "start": 2780.46,
+    "end": 2782.8,
+    "text": "y 2.5"
+  },
+  {
+    "start": 2782.8,
+    "end": 2786.26,
+    "text": "y donde esta el 4"
+  },
+  {
+    "start": 2786.26,
+    "end": 2788.26,
+    "text": "tiene otra cosa muy rara que dice el ultimo valor"
+  },
+  {
+    "start": 2788.26,
+    "end": 2791.02,
+    "text": "se volvido"
+  },
+  {
+    "start": 2791.02,
+    "end": 2793.17,
+    "text": "te va a mostrar el valor del 1"
+  },
+  {
+    "start": 2793.17,
+    "end": 2797.41,
+    "text": "al 3"
+  },
+  {
+    "start": 2797.41,
+    "end": 2801.15,
+    "text": "pero si yo le digo esto"
+  },
+  {
+    "start": 2801.15,
+    "end": 2810.59,
+    "text": "posiciones"
+  },
+  {
+    "start": 2810.59,
+    "end": 2814.59,
+    "text": "1, 2, 3 y 4"
+  },
+  {
+    "start": 2814.59,
+    "end": 2816.9,
+    "text": "y le pongo de 1 a 5"
+  },
+  {
+    "start": 2816.9,
+    "end": 2818.9,
+    "text": "ahí me muestra"
+  },
+  {
+    "start": 2818.9,
+    "end": 2822.9,
+    "text": "1, 2, 3, 4"
+  },
+  {
+    "start": 2822.9,
+    "end": 2824.9,
+    "text": "es muy raro"
+  },
+  {
+    "start": 2824.9,
+    "end": 2826.9,
+    "text": "y esto es algo con lo cual vamos a tener que"
+  },
+  {
+    "start": 2826.9,
+    "end": 2828.9,
+    "text": "tener alivio"
+  },
+  {
+    "start": 2828.9,
+    "end": 2830.9,
+    "text": "es parte de"
+  },
+  {
+    "start": 2830.9,
+    "end": 2832.9,
+    "text": "entonces cada vez que sus índices empiezan"
+  },
+  {
+    "start": 2832.9,
+    "end": 2835.07,
+    "text": "empiezan en cero"
+  },
+  {
+    "start": 2835.07,
+    "end": 2837.07,
+    "text": "y cada vez que le pides un rango"
+  },
+  {
+    "start": 2837.07,
+    "end": 2839.07,
+    "text": "el ultimo se le olvida mágicamente"
+  },
+  {
+    "start": 2839.07,
+    "end": 2841.07,
+    "text": "se me fue"
+  },
+  {
+    "start": 2841.07,
+    "end": 2843.07,
+    "text": "es como cuando te llevo un correo"
+  },
+  {
+    "start": 2843.07,
+    "end": 2845.25,
+    "text": "y sabes que es importante pero despues se te olvida"
+  },
+  {
+    "start": 2845.25,
+    "end": 2847.25,
+    "text": "una semana después como"
+  },
+  {
+    "start": 2847.25,
+    "end": 2849.25,
+    "text": "oh verdad que crees importante"
+  },
+  {
+    "start": 2849.25,
+    "end": 2851.25,
+    "text": "pero no le importa"
+  },
+  {
+    "start": 2851.25,
+    "end": 2854.38,
+    "text": "ahora"
+  },
+  {
+    "start": 2854.38,
+    "end": 2857.9,
+    "text": "esto es un poquito mas loco"
+  },
+  {
+    "start": 2857.9,
+    "end": 2859.9,
+    "text": "tengo 2 puntos 2"
+  },
+  {
+    "start": 2859.9,
+    "end": 2863.17,
+    "text": "y esta pasando esto"
+  },
+  {
+    "start": 2863.17,
+    "end": 2865.89,
+    "text": "lo que esta pasando es que le digo"
+  },
+  {
+    "start": 2865.89,
+    "end": 2868.42,
+    "text": "desde el inicio"
+  },
+  {
+    "start": 2868.42,
+    "end": 2870.59,
+    "text": "hasta 2 traeme todo el queque"
+  },
+  {
+    "start": 2870.59,
+    "end": 2876.05,
+    "text": "y claro"
+  },
+  {
+    "start": 2876.05,
+    "end": 2878.05,
+    "text": "0, 1, 2"
+  },
+  {
+    "start": 2878.05,
+    "end": 2880.45,
+    "text": "se le olvida el 2"
+  },
+  {
+    "start": 2880.45,
+    "end": 2882.88,
+    "text": "y me trae el 0 y el 1"
+  },
+  {
+    "start": 2882.88,
+    "end": 2887.41,
+    "text": "ahora esta casa 23"
+  },
+  {
+    "start": 2887.41,
+    "end": 2890.14,
+    "text": "no olvida eso este es un loquillo"
+  },
+  {
+    "start": 2890.14,
+    "end": 2892.14,
+    "text": "y si le digo desde la posicion 2"
+  },
+  {
+    "start": 2892.14,
+    "end": 2894.99,
+    "text": "hasta el final"
+  },
+  {
+    "start": 2894.99,
+    "end": 2897.87,
+    "text": "como lo hago al revés de esto"
+  },
+  {
+    "start": 2897.87,
+    "end": 2900.18,
+    "text": "desde 2 hasta"
+  },
+  {
+    "start": 2900.18,
+    "end": 2903.18,
+    "text": "y no le pongo el indes"
+  },
+  {
+    "start": 2903.18,
+    "end": 2905.18,
+    "text": "y me dice true 2.5 y no"
+  },
+  {
+    "start": 2905.18,
+    "end": 2909.36,
+    "text": "vale el 2"
+  },
+  {
+    "start": 2909.36,
+    "end": 2911.76,
+    "text": "1, 2"
+  },
+  {
+    "start": 2911.76,
+    "end": 2914.26,
+    "text": "0, 1, 2"
+  },
+  {
+    "start": 2914.26,
+    "end": 2916.26,
+    "text": "entonces ahi esta el tema"
+  },
+  {
+    "start": 2916.26,
+    "end": 2919.39,
+    "text": "siempre hay que contar de 0"
+  },
+  {
+    "start": 2919.39,
+    "end": 2921.39,
+    "text": "y es muy raro"
+  },
+  {
+    "start": 2921.39,
+    "end": 2923.39,
+    "text": "especialmente si vienes de 0"
+  },
+  {
+    "start": 2923.39,
+    "end": 2925.39,
+    "text": "ya o matlab"
+  },
+  {
+    "start": 2925.39,
+    "end": 2931.01,
+    "text": "es como best of language ever"
+  },
+  {
+    "start": 2931.01,
+    "end": 2933.01,
+    "text": "alguna duda todo ok"
+  },
+  {
+    "start": 2933.01,
+    "end": 2940.4,
+    "text": "ahora"
+  },
+  {
+    "start": 2940.4,
+    "end": 2942.4,
+    "text": "tengo una lista"
+  },
+  {
+    "start": 2942.4,
+    "end": 2944.83,
+    "text": "es un queque pero yo"
+  },
+  {
+    "start": 2944.83,
+    "end": 2947.47,
+    "text": "le puedo agregar otro queque al final"
+  },
+  {
+    "start": 2947.47,
+    "end": 2949.47,
+    "text": "y puedo hacer que mi queque se extienda"
+  },
+  {
+    "start": 2949.47,
+    "end": 2952.35,
+    "text": "como lo hago"
+  },
+  {
+    "start": 2952.35,
+    "end": 2954.96,
+    "text": "tengo marine y marauder"
+  },
+  {
+    "start": 2954.96,
+    "end": 2958.02,
+    "text": "que van a ser este catalogo"
+  },
+  {
+    "start": 2958.02,
+    "end": 2961.33,
+    "text": "lo que yo voy a hacer"
+  },
+  {
+    "start": 2961.33,
+    "end": 2964.85,
+    "text": "es en la posicion 0"
+  },
+  {
+    "start": 2964.85,
+    "end": 2967.15,
+    "text": "osea donde esta marine"
+  },
+  {
+    "start": 2967.15,
+    "end": 2970.69,
+    "text": "poner zilot"
+  },
+  {
+    "start": 2970.69,
+    "end": 2973.44,
+    "text": "y ahora es zilot y marauder"
+  },
+  {
+    "start": 2973.44,
+    "end": 2975.44,
+    "text": "significa que puedo reemplazar"
+  },
+  {
+    "start": 2975.44,
+    "end": 2978.35,
+    "text": "parte de mi lista por otros componentes"
+  },
+  {
+    "start": 2978.35,
+    "end": 2980.35,
+    "text": "después voy a hacer una cosa medio rara"
+  },
+  {
+    "start": 2980.35,
+    "end": 2983.23,
+    "text": "catalogo que asi se llama"
+  },
+  {
+    "start": 2983.23,
+    "end": 2985.23,
+    "text": "esta lista le pongo"
+  },
+  {
+    "start": 2985.23,
+    "end": 2987.79,
+    "text": ".append"
+  },
+  {
+    "start": 2987.79,
+    "end": 2991.81,
+    "text": "stalker que va a pasar"
+  },
+  {
+    "start": 2991.81,
+    "end": 2993.81,
+    "text": "ahora zilot, marauder y al final"
+  },
+  {
+    "start": 2993.81,
+    "end": 2997.12,
+    "text": "está stalker"
+  },
+  {
+    "start": 2997.12,
+    "end": 2999.12,
+    "text": "significa que de una lista yo puedo reemplazar"
+  },
+  {
+    "start": 2999.12,
+    "end": 3001.12,
+    "text": "componentes y de esa lista"
+  },
+  {
+    "start": 3001.12,
+    "end": 3004.13,
+    "text": "puedo agregar componentes al final"
+  },
+  {
+    "start": 3004.13,
+    "end": 3006.27,
+    "text": "eso hace esta cosa"
+  },
+  {
+    "start": 3006.27,
+    "end": 3008.27,
+    "text": "como"
+  },
+  {
+    "start": 3008.27,
+    "end": 3010.27,
+    "text": "una lista es modificable"
+  },
+  {
+    "start": 3010.27,
+    "end": 3012.64,
+    "text": "le puedo cambiar cosas"
+  },
+  {
+    "start": 3012.64,
+    "end": 3014.64,
+    "text": "eso pasa con todas las listas que"
+  },
+  {
+    "start": 3014.64,
+    "end": 3016.85,
+    "text": "yo vaya a hacer"
+  },
+  {
+    "start": 3016.85,
+    "end": 3024.46,
+    "text": "ahora yo también"
+  },
+  {
+    "start": 3024.46,
+    "end": 3026.46,
+    "text": "puedo hacer un par de cosas interesantes"
+  },
+  {
+    "start": 3026.46,
+    "end": 3029.47,
+    "text": "con una lista, si mi lista es"
+  },
+  {
+    "start": 3029.47,
+    "end": 3031.78,
+    "text": "numerica, podría ser una lista"
+  },
+  {
+    "start": 3031.78,
+    "end": 3033.78,
+    "text": "mixta pero vamos a simplificarlo"
+  },
+  {
+    "start": 3033.78,
+    "end": 3036.35,
+    "text": "por el"
+  },
+  {
+    "start": 3036.35,
+    "end": 3039.2,
+    "text": "la comodidad de la clase"
+  },
+  {
+    "start": 3039.2,
+    "end": 3041.2,
+    "text": "voy a declarar 3 precios en una"
+  },
+  {
+    "start": 3041.2,
+    "end": 3043.76,
+    "text": "lista, 60, 110"
+  },
+  {
+    "start": 3043.76,
+    "end": 3046.77,
+    "text": "y 170"
+  },
+  {
+    "start": 3046.77,
+    "end": 3048.77,
+    "text": "voy a sumarlos, voy a obtener"
+  },
+  {
+    "start": 3048.77,
+    "end": 3051.2,
+    "text": "el minimo y el maximo"
+  },
+  {
+    "start": 3051.2,
+    "end": 3054.8,
+    "text": "como lo hago?"
+  },
+  {
+    "start": 3054.8,
+    "end": 3059.09,
+    "text": "sum min max"
+  },
+  {
+    "start": 3059.09,
+    "end": 3062.58,
+    "text": "las mismas funciones de excel"
+  },
+  {
+    "start": 3062.58,
+    "end": 3064.58,
+    "text": "significa que podría obtener"
+  },
+  {
+    "start": 3064.58,
+    "end": 3066.58,
+    "text": "la variedad de una lista"
+  },
+  {
+    "start": 3066.58,
+    "end": 3068.58,
+    "text": "con las mismas funciones de excel"
+  },
+  {
+    "start": 3068.58,
+    "end": 3071.31,
+    "text": "funciona exactamente igual"
+  },
+  {
+    "start": 3071.31,
+    "end": 3074.13,
+    "text": "que estoy acá?"
+  },
+  {
+    "start": 3074.13,
+    "end": 3076.13,
+    "text": "sumo la lista"
+  },
+  {
+    "start": 3076.13,
+    "end": 3078.27,
+    "text": "obtengo el minimo de la lista"
+  },
+  {
+    "start": 3078.27,
+    "end": 3082.51,
+    "text": "y obtengo el maximo de la lista"
+  },
+  {
+    "start": 3082.51,
+    "end": 3086.14,
+    "text": "profe"
+  },
+  {
+    "start": 3086.14,
+    "end": 3088.14,
+    "text": "esa lista está compuesta por"
+  },
+  {
+    "start": 3088.14,
+    "end": 3090.38,
+    "text": "un item que tiene un arreglo"
+  },
+  {
+    "start": 3090.38,
+    "end": 3092.94,
+    "text": "en ese ejemplo"
+  },
+  {
+    "start": 3092.94,
+    "end": 3098.78,
+    "text": "si yo llamara"
+  },
+  {
+    "start": 3098.78,
+    "end": 3101.31,
+    "text": "al item"
+  },
+  {
+    "start": 3101.31,
+    "end": 3103.31,
+    "text": "me trae los 3 números porque es un componente"
+  },
+  {
+    "start": 3103.31,
+    "end": 3109.89,
+    "text": "que tiene 3 números"
+  },
+  {
+    "start": 3109.89,
+    "end": 3112.1,
+    "text": "les podría meter texto y cosas así pero"
+  },
+  {
+    "start": 3112.1,
+    "end": 3114.1,
+    "text": "por el bien de la clase las voy a dejar con números"
+  },
+  {
+    "start": 3114.1,
+    "end": 3116.1,
+    "text": "si no van a pasar cosas extrañas"
+  },
+  {
+    "start": 3116.1,
+    "end": 3120.5,
+    "text": "ahora"
+  },
+  {
+    "start": 3120.5,
+    "end": 3123.98,
+    "text": "ustedes podrían crear su propia lista"
+  },
+  {
+    "start": 3123.98,
+    "end": 3126.93,
+    "text": "y agregar con punto append"
+  },
+  {
+    "start": 3126.93,
+    "end": 3133.49,
+    "text": "acá, no es variable"
+  },
+  {
+    "start": 3133.49,
+    "end": 3135.49,
+    "text": "eso significa que pueden crear una lista con nombres"
+  },
+  {
+    "start": 3135.49,
+    "end": 3137.49,
+    "text": "con números, con cualquier tipo de cosa"
+  },
+  {
+    "start": 3137.49,
+    "end": 3139.49,
+    "text": "y simplemente con append"
+  },
+  {
+    "start": 3139.49,
+    "end": 3142.24,
+    "text": "van agregando cosas al final"
+  },
+  {
+    "start": 3142.24,
+    "end": 3144.86,
+    "text": "hay más cosas que hacer"
+  },
+  {
+    "start": 3144.86,
+    "end": 3146.86,
+    "text": "acá están los uber y otras cosas"
+  },
+  {
+    "start": 3146.86,
+    "end": 3148.86,
+    "text": "pero por el momento"
+  },
+  {
+    "start": 3148.86,
+    "end": 3150.86,
+    "text": "nos vamos a quedar con append ya porque"
+  },
+  {
+    "start": 3150.86,
+    "end": 3153.1,
+    "text": "en una simplificación en realidad"
+  },
+  {
+    "start": 3153.1,
+    "end": 3155.1,
+    "text": "a una lista se le pueden hacer múltiples cosas"
+  },
+  {
+    "start": 3155.1,
+    "end": 3157.1,
+    "text": "agregar registro de principio"
+  },
+  {
+    "start": 3157.1,
+    "end": 3159.1,
+    "text": "agregar registro de final"
+  },
+  {
+    "start": 3159.1,
+    "end": 3161.1,
+    "text": "cambiar registro, intercambiar"
+  },
+  {
+    "start": 3161.1,
+    "end": 3163.63,
+    "text": "de posición real"
+  },
+  {
+    "start": 3163.63,
+    "end": 3165.63,
+    "text": "pero ahora estamos bien"
+  },
+  {
+    "start": 3165.63,
+    "end": 3167.87,
+    "text": "hay una lista que contiene"
+  },
+  {
+    "start": 3167.87,
+    "end": 3169.87,
+    "text": "múltiples elementos que hemos visto"
+  },
+  {
+    "start": 3169.87,
+    "end": 3171.87,
+    "text": "booleanos, números, ints, flots, todas esas cosas"
+  },
+  {
+    "start": 3171.87,
+    "end": 3174.21,
+    "text": "y le podemos hacer magia"
+  },
+  {
+    "start": 3174.21,
+    "end": 3178.54,
+    "text": "sobre si la clase es muy"
+  },
+  {
+    "start": 3178.54,
+    "end": 3180.54,
+    "text": "interesante hasta este punto, si lo sé"
+  },
+  {
+    "start": 3180.54,
+    "end": 3182.82,
+    "text": "es abotador pero parte de"
+  },
+  {
+    "start": 3182.82,
+    "end": 3184.82,
+    "text": "grande, la próxima clase va a ser más sencilla"
+  },
+  {
+    "start": 3184.82,
+    "end": 3186.82,
+    "text": "porque vamos a tener herramientas que van a decir"
+  },
+  {
+    "start": 3186.82,
+    "end": 3189.09,
+    "text": "todo ese sufrimiento"
+  },
+  {
+    "start": 3189.09,
+    "end": 3191.09,
+    "text": "valió la pena porque ahora tengo una herramienta"
+  },
+  {
+    "start": 3191.09,
+    "end": 3193.09,
+    "text": "más sencilla para hacer todo eso"
+  },
+  {
+    "start": 3193.09,
+    "end": 3195.09,
+    "text": "en un paso, que son"
+  },
+  {
+    "start": 3195.09,
+    "end": 3197.09,
+    "text": "la librería, el re, el pal,"
+  },
+  {
+    "start": 3197.09,
+    "end": 3202.0,
+    "text": "el puñito de sex y etc"
+  },
+  {
+    "start": 3202.0,
+    "end": 3205.57,
+    "text": "hay otra cosa que también"
+  },
+  {
+    "start": 3205.57,
+    "end": 3207.57,
+    "text": "se hace en Python"
+  },
+  {
+    "start": 3207.57,
+    "end": 3209.57,
+    "text": "que se llama los diccionarios"
+  },
+  {
+    "start": 3209.57,
+    "end": 3211.57,
+    "text": "ahora"
+  },
+  {
+    "start": 3211.57,
+    "end": 3213.57,
+    "text": "desconozco el origen del nombre"
+  },
+  {
+    "start": 3213.57,
+    "end": 3215.57,
+    "text": "quizás sea una expresión en inglés"
+  },
+  {
+    "start": 3215.57,
+    "end": 3217.84,
+    "text": "pero en términos prácticos"
+  },
+  {
+    "start": 3217.84,
+    "end": 3220.14,
+    "text": "un diccionario es básicamente"
+  },
+  {
+    "start": 3220.14,
+    "end": 3222.14,
+    "text": "algo como lo que vimos"
+  },
+  {
+    "start": 3222.14,
+    "end": 3224.14,
+    "text": "acá"
+  },
+  {
+    "start": 3224.14,
+    "end": 3228.16,
+    "text": "un diccionario es"
+  },
+  {
+    "start": 3228.16,
+    "end": 3230.59,
+    "text": "todas las nombres de"
+  },
+  {
+    "start": 3230.59,
+    "end": 3232.59,
+    "text": "columnas con alguna"
+  },
+  {
+    "start": 3232.59,
+    "end": 3235.47,
+    "text": "fila, entonces unidad, marauder"
+  },
+  {
+    "start": 3235.47,
+    "end": 3237.47,
+    "text": "facción, terran, costo de gas"
+  },
+  {
+    "start": 3237.47,
+    "end": 3239.68,
+    "text": "110, costo de gas 30"
+  },
+  {
+    "start": 3239.68,
+    "end": 3241.68,
+    "text": "o podía ser marín, unidad, marín"
+  },
+  {
+    "start": 3241.68,
+    "end": 3243.68,
+    "text": "facción, terran, costo de gas 60"
+  },
+  {
+    "start": 3243.68,
+    "end": 3246.19,
+    "text": "costo de gas 0, ya?"
+  },
+  {
+    "start": 3246.19,
+    "end": 3248.19,
+    "text": "en realidad podía ser cualquiera de esas"
+  },
+  {
+    "start": 3248.19,
+    "end": 3251.1,
+    "text": "y yo lo voy a crear así"
+  },
+  {
+    "start": 3251.1,
+    "end": 3254.26,
+    "text": "persona igual a"
+  },
+  {
+    "start": 3254.26,
+    "end": 3256.26,
+    "text": "inmediatamente me voy a crear el listo cuando haga esto"
+  },
+  {
+    "start": 3256.26,
+    "end": 3259.98,
+    "text": "le pongo un corchete"
+  },
+  {
+    "start": 3259.98,
+    "end": 3261.98,
+    "text": "y acá pongo entre dos comillas"
+  },
+  {
+    "start": 3261.98,
+    "end": 3264.4,
+    "text": "nombre, dos puntos"
+  },
+  {
+    "start": 3264.4,
+    "end": 3267.68,
+    "text": "genovencio, coma"
+  },
+  {
+    "start": 3267.68,
+    "end": 3269.68,
+    "text": "ocupación, dos puntos de investigador"
+  },
+  {
+    "start": 3269.68,
+    "end": 3272.62,
+    "text": "ese estudiante dos puntos true"
+  },
+  {
+    "start": 3272.62,
+    "end": 3275.41,
+    "text": "y le pongo print"
+  },
+  {
+    "start": 3275.41,
+    "end": 3281.2,
+    "text": "para hacer eso esta estructura"
+  },
+  {
+    "start": 3281.2,
+    "end": 3283.41,
+    "text": "crea un diccionario"
+  },
+  {
+    "start": 3283.41,
+    "end": 3288.32,
+    "text": "si yo le pongo print"
+  },
+  {
+    "start": 3288.32,
+    "end": 3290.32,
+    "text": "persona que si se llama"
+  },
+  {
+    "start": 3290.32,
+    "end": 3292.32,
+    "text": "diccionario y le pongo"
+  },
+  {
+    "start": 3292.32,
+    "end": 3294.32,
+    "text": "ocupación va a venir"
+  },
+  {
+    "start": 3294.32,
+    "end": 3296.98,
+    "text": "acá y me va a decir la ocupación"
+  },
+  {
+    "start": 3296.98,
+    "end": 3299.31,
+    "text": "que tiene el genovencio, investigador"
+  },
+  {
+    "start": 3299.31,
+    "end": 3302.48,
+    "text": "es como una forma de crear"
+  },
+  {
+    "start": 3302.48,
+    "end": 3304.48,
+    "text": "como les dije esta estructura"
+  },
+  {
+    "start": 3304.48,
+    "end": 3308.53,
+    "text": "pero con paita, se ve fácil"
+  },
+  {
+    "start": 3308.53,
+    "end": 3310.53,
+    "text": "es como muy enreversado"
+  },
+  {
+    "start": 3310.53,
+    "end": 3312.53,
+    "text": "pero hay manera más"
+  },
+  {
+    "start": 3312.53,
+    "end": 3314.7,
+    "text": "practica de hacerlo"
+  },
+  {
+    "start": 3314.7,
+    "end": 3318.43,
+    "text": "ya?"
+  },
+  {
+    "start": 3318.43,
+    "end": 3320.43,
+    "text": "en este caso yo puedo hacer algo interesante"
+  },
+  {
+    "start": 3320.43,
+    "end": 3323.1,
+    "text": "ya? yo puedo crear"
+  },
+  {
+    "start": 3323.1,
+    "end": 3325.34,
+    "text": "esto con muchas variables"
+  },
+  {
+    "start": 3325.34,
+    "end": 3327.34,
+    "text": "la unidad, marine"
+  },
+  {
+    "start": 3327.34,
+    "end": 3329.55,
+    "text": "la facción, terran"
+  },
+  {
+    "start": 3329.55,
+    "end": 3331.76,
+    "text": "costo mineral, 60"
+  },
+  {
+    "start": 3331.76,
+    "end": 3334.03,
+    "text": "costo gas, 0"
+  },
+  {
+    "start": 3334.03,
+    "end": 3336.37,
+    "text": "y puedo consultar cada uno de esos valores"
+  },
+  {
+    "start": 3336.37,
+    "end": 3338.37,
+    "text": "y después puedo hacer un print"
+  },
+  {
+    "start": 3338.37,
+    "end": 3340.37,
+    "text": "que me explique de manera más sencilla"
+  },
+  {
+    "start": 3340.37,
+    "end": 3343.12,
+    "text": "es un marine, es un terran"
+  },
+  {
+    "start": 3343.12,
+    "end": 3345.92,
+    "text": "y tiene 60 costo"
+  },
+  {
+    "start": 3345.92,
+    "end": 3347.92,
+    "text": "o sea, costa 60 minerales y 0 de gas"
+  },
+  {
+    "start": 3347.92,
+    "end": 3350.74,
+    "text": "de donde sale eso?"
+  },
+  {
+    "start": 3350.74,
+    "end": 3353.49,
+    "text": "acá, F costo"
+  },
+  {
+    "start": 3353.49,
+    "end": 3355.76,
+    "text": "invocas la lista"
+  },
+  {
+    "start": 3355.76,
+    "end": 3357.76,
+    "text": "con sus variables, minerales"
+  },
+  {
+    "start": 3357.76,
+    "end": 3359.76,
+    "text": "y invocan la lista"
+  },
+  {
+    "start": 3359.76,
+    "end": 3365.2,
+    "text": "con sus variables, y por qué hago eso?"
+  },
+  {
+    "start": 3365.2,
+    "end": 3367.2,
+    "text": "porque quiero que vean lo poco"
+  },
+  {
+    "start": 3367.2,
+    "end": 3369.2,
+    "text": "práctico que es un diccionario"
+  },
+  {
+    "start": 3369.2,
+    "end": 3371.57,
+    "text": "un diccionario sacó a la futuro"
+  },
+  {
+    "start": 3371.57,
+    "end": 3374.06,
+    "text": "muy poco, rara vez"
+  },
+  {
+    "start": 3374.06,
+    "end": 3376.06,
+    "text": "pero es la parte estructural"
+  },
+  {
+    "start": 3376.06,
+    "end": 3378.21,
+    "text": "de python, ojo acá"
+  },
+  {
+    "start": 3378.21,
+    "end": 3380.64,
+    "text": "python por defecto"
+  },
+  {
+    "start": 3380.64,
+    "end": 3382.64,
+    "text": "incluye listas y diccionarios"
+  },
+  {
+    "start": 3382.64,
+    "end": 3384.64,
+    "text": "es la forma que cuando quedaron"
+  },
+  {
+    "start": 3384.64,
+    "end": 3386.64,
+    "text": "python dijeron, así se va a estrenar"
+  },
+  {
+    "start": 3386.64,
+    "end": 3389.01,
+    "text": "los datos, pero no de manera más"
+  },
+  {
+    "start": 3389.01,
+    "end": 3392.58,
+    "text": "eficiente, ya? nosotros"
+  },
+  {
+    "start": 3392.58,
+    "end": 3395.28,
+    "text": "podemos agregar"
+  },
+  {
+    "start": 3395.28,
+    "end": 3397.28,
+    "text": "cosas a un diccionario"
+  },
+  {
+    "start": 3397.28,
+    "end": 3399.28,
+    "text": "tal como a la lista le agregamos"
+  },
+  {
+    "start": 3399.28,
+    "end": 3401.28,
+    "text": "elementos al final, a principio, entremedio"
+  },
+  {
+    "start": 3401.28,
+    "end": 3403.71,
+    "text": "a un diccionario"
+  },
+  {
+    "start": 3403.71,
+    "end": 3406.21,
+    "text": "antes es"
+  },
+  {
+    "start": 3406.21,
+    "end": 3408.93,
+    "text": "unidad, marine, facción, terran"
+  },
+  {
+    "start": 3408.93,
+    "end": 3411.68,
+    "text": "costo minerales y costo gas"
+  },
+  {
+    "start": 3411.68,
+    "end": 3413.68,
+    "text": "y si yo digo, marine"
+  },
+  {
+    "start": 3413.68,
+    "end": 3415.68,
+    "text": "que si se llama diccionario"
+  },
+  {
+    "start": 3415.68,
+    "end": 3418.02,
+    "text": "le pongo color"
+  },
+  {
+    "start": 3418.02,
+    "end": 3420.02,
+    "text": "que antes no estaba, que es la característica"
+  },
+  {
+    "start": 3420.02,
+    "end": 3422.02,
+    "text": "y azul, que es el color azul"
+  },
+  {
+    "start": 3422.02,
+    "end": 3424.38,
+    "text": "y le pongo diccionario de"
+  },
+  {
+    "start": 3424.38,
+    "end": 3426.88,
+    "text": "actualizado, y acá al final"
+  },
+  {
+    "start": 3426.88,
+    "end": 3428.88,
+    "text": "me aparece una nueva dimensión que es color azul"
+  },
+  {
+    "start": 3428.88,
+    "end": 3431.89,
+    "text": "por qué? porque un diccionario"
+  },
+  {
+    "start": 3431.89,
+    "end": 3434.99,
+    "text": "le puede agregar elementos"
+  },
+  {
+    "start": 3434.99,
+    "end": 3437.71,
+    "text": "y aquí puedo hacer esto"
+  },
+  {
+    "start": 3437.71,
+    "end": 3439.95,
+    "text": "unidades, distintas unidades"
+  },
+  {
+    "start": 3439.95,
+    "end": 3442.13,
+    "text": "de distintas facciones"
+  },
+  {
+    "start": 3442.13,
+    "end": 3444.13,
+    "text": "de distinto tipo"
+  },
+  {
+    "start": 3444.13,
+    "end": 3446.13,
+    "text": "con distinto costo mineral, con distinto"
+  },
+  {
+    "start": 3446.13,
+    "end": 3448.13,
+    "text": "costo gas, con distinto suministro"
+  },
+  {
+    "start": 3448.13,
+    "end": 3451.07,
+    "text": "con distinto tiempo de entrenamiento, ya?"
+  },
+  {
+    "start": 3451.07,
+    "end": 3455.1,
+    "text": "y esto, por qué lo hago?"
+  },
+  {
+    "start": 3455.1,
+    "end": 3457.79,
+    "text": "por una razón bien específica"
+  },
+  {
+    "start": 3457.79,
+    "end": 3459.79,
+    "text": "porque quiero que se dé cuenta"
+  },
+  {
+    "start": 3459.79,
+    "end": 3461.79,
+    "text": "lo poco práctico que es"
+  },
+  {
+    "start": 3461.79,
+    "end": 3465.04,
+    "text": "crear todo esto, ya?"
+  },
+  {
+    "start": 3465.04,
+    "end": 3467.04,
+    "text": "es como super"
+  },
+  {
+    "start": 3467.04,
+    "end": 3469.73,
+    "text": "ir"
+  },
+  {
+    "start": 3469.73,
+    "end": 3471.73,
+    "text": "contra la corriente"
+  },
+  {
+    "start": 3471.73,
+    "end": 3473.73,
+    "text": "por qué no aprendemos las formas simples de hacerlo"
+  },
+  {
+    "start": 3473.73,
+    "end": 3476.8,
+    "text": "esto es de acuerdo, pero"
+  },
+  {
+    "start": 3476.8,
+    "end": 3478.8,
+    "text": "como les digo, como proceso de formación"
+  },
+  {
+    "start": 3478.8,
+    "end": 3481.31,
+    "text": "hay que vender todo el camino"
+  },
+  {
+    "start": 3481.31,
+    "end": 3483.74,
+    "text": "si se algún día ven"
+  },
+  {
+    "start": 3483.74,
+    "end": 3485.74,
+    "text": "listas y diccionarios, que efectivamente se ven"
+  },
+  {
+    "start": 3485.74,
+    "end": 3488.02,
+    "text": "cuando traes la data"
+  },
+  {
+    "start": 3488.02,
+    "end": 3490.02,
+    "text": "como la puedes ver, por un rato"
+  },
+  {
+    "start": 3490.02,
+    "end": 3492.22,
+    "text": "te das cuenta que en realidad"
+  },
+  {
+    "start": 3492.22,
+    "end": 3494.22,
+    "text": "ah, esto es una lista, esto es"
+  },
+  {
+    "start": 3494.22,
+    "end": 3496.22,
+    "text": "el diccionario, aunque estés trabajando con"
+  },
+  {
+    "start": 3496.22,
+    "end": 3498.22,
+    "text": "uva, eco, bandas"
+  },
+  {
+    "start": 3498.22,
+    "end": 3500.22,
+    "text": "o con, cómo se llama esta cosa?"
+  },
+  {
+    "start": 3500.22,
+    "end": 3503.25,
+    "text": "polar, ya? de hecho"
+  },
+  {
+    "start": 3503.25,
+    "end": 3505.25,
+    "text": "me voy a dedicar a"
+  },
+  {
+    "start": 3505.25,
+    "end": 3507.25,
+    "text": "aprender polar, para poder"
+  },
+  {
+    "start": 3507.25,
+    "end": 3509.25,
+    "text": "explicarles también cómo funciona, porque algo que"
+  },
+  {
+    "start": 3509.25,
+    "end": 3511.25,
+    "text": "vi por encima, que es una librería bien interesante"
+  },
+  {
+    "start": 3511.25,
+    "end": 3513.25,
+    "text": "para procesar grandes capacidades de datos"
+  },
+  {
+    "start": 3513.25,
+    "end": 3516.53,
+    "text": "pero eso"
+  },
+  {
+    "start": 3516.53,
+    "end": 3518.53,
+    "text": "y si hagan un print a todo eso"
+  },
+  {
+    "start": 3518.53,
+    "end": 3520.53,
+    "text": "fíjense en todas estas cosas"
+  },
+  {
+    "start": 3520.53,
+    "end": 3524.29,
+    "text": "ay señor, mucho no?"
+  },
+  {
+    "start": 3524.29,
+    "end": 3526.56,
+    "text": "y claro, les dije que era como un excel"
+  },
+  {
+    "start": 3526.56,
+    "end": 3528.8,
+    "text": "eh, sí"
+  },
+  {
+    "start": 3528.8,
+    "end": 3531.04,
+    "text": "parcialmente, ya?"
+  },
+  {
+    "start": 3531.04,
+    "end": 3533.66,
+    "text": "pero nosotros sí podemos leer"
+  },
+  {
+    "start": 3533.66,
+    "end": 3536.26,
+    "text": "cuántos registros hay"
+  },
+  {
+    "start": 3536.26,
+    "end": 3538.26,
+    "text": "podemos ver cuánto es la primera onda"
+  },
+  {
+    "start": 3538.26,
+    "end": 3540.26,
+    "text": "que empieza en cero, y podemos"
+  },
+  {
+    "start": 3540.26,
+    "end": 3542.26,
+    "text": "tener el tiempo de medivac"
+  },
+  {
+    "start": 3542.26,
+    "end": 3544.26,
+    "text": "y sería el tiempo de entrenamiento, ya?"
+  },
+  {
+    "start": 3544.26,
+    "end": 3546.26,
+    "text": "que es unidades 3"
+  },
+  {
+    "start": 3546.26,
+    "end": 3548.62,
+    "text": "y qué sería eso? unidad, unidad, unidad"
+  },
+  {
+    "start": 3548.62,
+    "end": 3552.51,
+    "text": "acá, eso"
+  },
+  {
+    "start": 3552.51,
+    "end": 3554.51,
+    "text": "pero acceder a un diccionario, para"
+  },
+  {
+    "start": 3554.51,
+    "end": 3556.51,
+    "text": "cabo uno su elemento, resulta complejo"
+  },
+  {
+    "start": 3556.51,
+    "end": 3558.51,
+    "text": "de entender, ya? porque entender cuál es"
+  },
+  {
+    "start": 3558.51,
+    "end": 3560.51,
+    "text": "la, cuál es el tipo de"
+  },
+  {
+    "start": 3560.51,
+    "end": 3562.51,
+    "text": "columna, cómo está todo el diccionario"
+  },
+  {
+    "start": 3562.51,
+    "end": 3564.51,
+    "text": "cuál es la propiedad"
+  },
+  {
+    "start": 3564.51,
+    "end": 3566.51,
+    "text": "cuál es el índice, ya?"
+  },
+  {
+    "start": 3566.51,
+    "end": 3573.65,
+    "text": "eso, bien con el tiempo, vamos bien con el tiempo"
+  },
+  {
+    "start": 3573.65,
+    "end": 3577.86,
+    "text": "yo que voy a alcanzar? no, no voy a alcanzar"
+  },
+  {
+    "start": 3577.86,
+    "end": 3580.75,
+    "text": "ya, vamos a ver"
+  },
+  {
+    "start": 3580.75,
+    "end": 3582.75,
+    "text": "los comparaciones"
+  },
+  {
+    "start": 3582.75,
+    "end": 3587.26,
+    "text": "y operadores lógicos, esto se hizo"
+  },
+  {
+    "start": 3587.26,
+    "end": 3590.91,
+    "text": "transversal ya? se aplican en todo"
+  },
+  {
+    "start": 3590.91,
+    "end": 3592.91,
+    "text": "un comparador lógico es, es"
+  },
+  {
+    "start": 3592.91,
+    "end": 3595.18,
+    "text": "igual, es distinto"
+  },
+  {
+    "start": 3595.18,
+    "end": 3597.18,
+    "text": "es mayor que, es menor que"
+  },
+  {
+    "start": 3597.18,
+    "end": 3599.18,
+    "text": "es mayor igual, es menor igual"
+  },
+  {
+    "start": 3599.18,
+    "end": 3601.74,
+    "text": "y cómo se expresa esto? normalmente"
+  },
+  {
+    "start": 3601.74,
+    "end": 3603.74,
+    "text": "entre verdadero y"
+  },
+  {
+    "start": 3603.74,
+    "end": 3606.14,
+    "text": "falso, si algo verdadero es uno"
+  },
+  {
+    "start": 3606.14,
+    "end": 3609.1,
+    "text": "si algo falso es cero, ya?"
+  },
+  {
+    "start": 3609.1,
+    "end": 3611.47,
+    "text": "por ejemplo, costo igual a"
+  },
+  {
+    "start": 3611.47,
+    "end": 3613.9,
+    "text": "cien, ya? entonces declaré"
+  },
+  {
+    "start": 3613.9,
+    "end": 3616.11,
+    "text": "una variable como costo, va a ser"
+  },
+  {
+    "start": 3616.11,
+    "end": 3620.56,
+    "text": "que va a estar por ahí dando vueltas"
+  },
+  {
+    "start": 3620.56,
+    "end": 3622.56,
+    "text": "y voy a hacer tres preguntas"
+  },
+  {
+    "start": 3622.56,
+    "end": 3629.46,
+    "text": "costo es igual"
+  },
+  {
+    "start": 3629.46,
+    "end": 3633.31,
+    "text": "a ciento diez"
+  },
+  {
+    "start": 3633.31,
+    "end": 3637.36,
+    "text": "si, verdadero, costo"
+  },
+  {
+    "start": 3637.36,
+    "end": 3639.36,
+    "text": "es menor igual a ciento veinte"
+  },
+  {
+    "start": 3639.36,
+    "end": 3644.82,
+    "text": "verdadero, costo"
+  },
+  {
+    "start": 3644.82,
+    "end": 3647.86,
+    "text": "es mayor que seiscientos, falso"
+  },
+  {
+    "start": 3647.86,
+    "end": 3650.78,
+    "text": "por qué? porque costo es ciento diez"
+  },
+  {
+    "start": 3650.78,
+    "end": 3653.02,
+    "text": "ciento diez es mayor que seiscientos"
+  },
+  {
+    "start": 3653.02,
+    "end": 3655.92,
+    "text": "no, entonces"
+  },
+  {
+    "start": 3655.92,
+    "end": 3658.16,
+    "text": "estos operadores me van a"
+  },
+  {
+    "start": 3658.16,
+    "end": 3660.16,
+    "text": "estar todo el tiempo devolviendo"
+  },
+  {
+    "start": 3660.16,
+    "end": 3662.16,
+    "text": "valores verdadero, falso, verdadero"
+  },
+  {
+    "start": 3662.16,
+    "end": 3664.16,
+    "text": "si se cumple la condición es verdadero"
+  },
+  {
+    "start": 3664.16,
+    "end": 3666.34,
+    "text": "si no se cumple la condición es falso"
+  },
+  {
+    "start": 3666.34,
+    "end": 3669.34,
+    "text": "entonces"
+  },
+  {
+    "start": 3669.34,
+    "end": 3672.67,
+    "text": "generalicemos"
+  },
+  {
+    "start": 3672.67,
+    "end": 3674.67,
+    "text": "a es igual a cinco, b es igual a diez"
+  },
+  {
+    "start": 3674.67,
+    "end": 3677.49,
+    "text": "a es igual a b"
+  },
+  {
+    "start": 3677.49,
+    "end": 3680.21,
+    "text": "a es distinto"
+  },
+  {
+    "start": 3680.21,
+    "end": 3682.21,
+    "text": "de b"
+  },
+  {
+    "start": 3682.21,
+    "end": 3687.02,
+    "text": "signo de exclamación, igual"
+  },
+  {
+    "start": 3687.02,
+    "end": 3690.06,
+    "text": "esto es distinto, a es mayor"
+  },
+  {
+    "start": 3690.06,
+    "end": 3692.34,
+    "text": "que b, a es menor"
+  },
+  {
+    "start": 3692.34,
+    "end": 3694.77,
+    "text": "que b, a es mayor igual que b"
+  },
+  {
+    "start": 3694.77,
+    "end": 3697.01,
+    "text": "a es menor igual que b"
+  },
+  {
+    "start": 3697.01,
+    "end": 3702.88,
+    "text": "como a es igual a"
+  },
+  {
+    "start": 3702.88,
+    "end": 3704.88,
+    "text": "cinco y b es igual a diez"
+  },
+  {
+    "start": 3704.88,
+    "end": 3706.88,
+    "text": "a es igual a b, falso"
+  },
+  {
+    "start": 3706.88,
+    "end": 3709.6,
+    "text": "a es distinto de b, verdadero"
+  },
+  {
+    "start": 3709.6,
+    "end": 3711.97,
+    "text": "a es mayor, falso"
+  },
+  {
+    "start": 3711.97,
+    "end": 3713.97,
+    "text": "a es menor, verdadero"
+  },
+  {
+    "start": 3713.97,
+    "end": 3716.27,
+    "text": "a es mayor igual, falso"
+  },
+  {
+    "start": 3716.27,
+    "end": 3718.27,
+    "text": "y a es menor igual, verdadero"
+  },
+  {
+    "start": 3718.27,
+    "end": 3722.86,
+    "text": "uno irá, oye pero"
+  },
+  {
+    "start": 3722.86,
+    "end": 3725.26,
+    "text": "esto es como obvio, no?"
+  },
+  {
+    "start": 3725.26,
+    "end": 3727.26,
+    "text": "es la misma lógica de un alumno"
+  },
+  {
+    "start": 3727.26,
+    "end": 3729.26,
+    "text": "con un 2.9 puede dar examen"
+  },
+  {
+    "start": 3729.26,
+    "end": 3731.47,
+    "text": "falso"
+  },
+  {
+    "start": 3731.47,
+    "end": 3733.47,
+    "text": "un alumno con un 3 puede dar examen, verdadero"
+  },
+  {
+    "start": 3733.47,
+    "end": 3735.74,
+    "text": "un alumno con un"
+  },
+  {
+    "start": 3735.74,
+    "end": 3737.74,
+    "text": "5.5 tiene que dar examen"
+  },
+  {
+    "start": 3737.74,
+    "end": 3739.74,
+    "text": "falso"
+  },
+  {
+    "start": 3739.74,
+    "end": 3741.74,
+    "text": "podría darlo, pero"
+  },
+  {
+    "start": 3741.74,
+    "end": 3743.74,
+    "text": "ningún alumno con 5.5 va a dar un examen"
+  },
+  {
+    "start": 3743.74,
+    "end": 3745.89,
+    "text": "pues hoy la nota, ¿no?"
+  },
+  {
+    "start": 3745.89,
+    "end": 3747.89,
+    "text": "es inteligente, dice que ya pasé"
+  },
+  {
+    "start": 3747.89,
+    "end": 3750.61,
+    "text": "esa es la lógica de los julianes"
+  },
+  {
+    "start": 3750.61,
+    "end": 3752.61,
+    "text": "alguna pregunta, todo ok, todo ok, todo ok"
+  },
+  {
+    "start": 3752.61,
+    "end": 3754.75,
+    "text": "si, si, si, ¿no?"
+  },
+  {
+    "start": 3754.75,
+    "end": 3756.75,
+    "text": "yo profe tengo"
+  },
+  {
+    "start": 3756.75,
+    "end": 3758.75,
+    "text": "hay un tema de los operadores"
+  },
+  {
+    "start": 3758.75,
+    "end": 3761.22,
+    "text": "siempre me he preguntado por qué tiene doble igual"
+  },
+  {
+    "start": 3761.22,
+    "end": 3763.42,
+    "text": "el doble igual para que sea igual"
+  },
+  {
+    "start": 3763.42,
+    "end": 3765.42,
+    "text": "siendo que ya tiene un puligual sería eso"
+  },
+  {
+    "start": 3765.42,
+    "end": 3767.42,
+    "text": "estamos hablando de algún arreglo, alguna cosa"
+  },
+  {
+    "start": 3767.42,
+    "end": 3769.42,
+    "text": "no, no, esto"
+  },
+  {
+    "start": 3769.42,
+    "end": 3771.82,
+    "text": "esto es asignación"
+  },
+  {
+    "start": 3771.82,
+    "end": 3774.74,
+    "text": "y esto es comparación"
+  },
+  {
+    "start": 3774.74,
+    "end": 3777.55,
+    "text": "para hacer una diferencia"
+  },
+  {
+    "start": 3777.55,
+    "end": 3779.55,
+    "text": "porque no es resultado donde le ponían puligual"
+  },
+  {
+    "start": 3779.55,
+    "end": 3781.55,
+    "text": "siempre he pasado eso, cuando aprendí recién"
+  },
+  {
+    "start": 3781.55,
+    "end": 3783.55,
+    "text": "ese es el problema"
+  },
+  {
+    "start": 3783.55,
+    "end": 3787.3,
+    "text": "como la diferencia es sutil, eso"
+  },
+  {
+    "start": 3787.3,
+    "end": 3789.6,
+    "text": "ahora podemos hacer cosas interesantes"
+  },
+  {
+    "start": 3789.6,
+    "end": 3793.14,
+    "text": "miren, tenemos una lista"
+  },
+  {
+    "start": 3793.14,
+    "end": 3795.14,
+    "text": "3, 5, 7, 10"
+  },
+  {
+    "start": 3795.14,
+    "end": 3798.18,
+    "text": "vamos a usar"
+  },
+  {
+    "start": 3798.18,
+    "end": 3800.66,
+    "text": "x igual a, ¿cuánto es a?"
+  },
+  {
+    "start": 3800.66,
+    "end": 3803.31,
+    "text": "5, entonces en vez de asignarle"
+  },
+  {
+    "start": 3803.31,
+    "end": 3805.31,
+    "text": "un x igual a 5"
+  },
+  {
+    "start": 3805.31,
+    "end": 3807.31,
+    "text": "le asigno otra variada"
+  },
+  {
+    "start": 3807.31,
+    "end": 3810.34,
+    "text": "que ya está degradada de antes"
+  },
+  {
+    "start": 3810.34,
+    "end": 3812.83,
+    "text": "y vamos a comparar"
+  },
+  {
+    "start": 3812.83,
+    "end": 3814.83,
+    "text": "el primer elemento de la lista es igual a x"
+  },
+  {
+    "start": 3814.83,
+    "end": 3817.46,
+    "text": "eso significa que podemos"
+  },
+  {
+    "start": 3817.46,
+    "end": 3819.46,
+    "text": "comparar distintos elementos de la lista"
+  },
+  {
+    "start": 3819.46,
+    "end": 3822.85,
+    "text": "con un valor específico"
+  },
+  {
+    "start": 3822.85,
+    "end": 3825.73,
+    "text": "3 es igual a 5, falso"
+  },
+  {
+    "start": 3825.73,
+    "end": 3828.86,
+    "text": "5 es"
+  },
+  {
+    "start": 3828.86,
+    "end": 3832.4,
+    "text": "mayor que 5, falso"
+  },
+  {
+    "start": 3832.4,
+    "end": 3834.4,
+    "text": "7 es mayor"
+  },
+  {
+    "start": 3834.4,
+    "end": 3837.26,
+    "text": "igual a 5, verdadero"
+  },
+  {
+    "start": 3837.26,
+    "end": 3839.63,
+    "text": "y 10 es menor que 5, falso"
+  },
+  {
+    "start": 3839.63,
+    "end": 3843.26,
+    "text": "significa que"
+  },
+  {
+    "start": 3843.26,
+    "end": 3845.26,
+    "text": "no solamente puedes comparar valores unitarios"
+  },
+  {
+    "start": 3845.26,
+    "end": 3847.26,
+    "text": "significa que también puedes"
+  },
+  {
+    "start": 3847.26,
+    "end": 3850.16,
+    "text": "comparar, en este caso"
+  },
+  {
+    "start": 3850.16,
+    "end": 3852.59,
+    "text": "valores de una lista"
+  },
+  {
+    "start": 3852.59,
+    "end": 3856.59,
+    "text": "ahora, hay una cosa bien rara"
+  },
+  {
+    "start": 3856.59,
+    "end": 3859.79,
+    "text": "tú también puedes comparar"
+  },
+  {
+    "start": 3859.79,
+    "end": 3863.54,
+    "text": "strings, cadena 1"
+  },
+  {
+    "start": 3863.54,
+    "end": 3865.54,
+    "text": "hola, cadena 2, mundo"
+  },
+  {
+    "start": 3865.54,
+    "end": 3867.54,
+    "text": "cadena 3, hola, cadena 4"
+  },
+  {
+    "start": 3867.54,
+    "end": 3869.78,
+    "text": "python, cuando digo cadena"
+  },
+  {
+    "start": 3869.78,
+    "end": 3871.92,
+    "text": "es cadena de caracteres"
+  },
+  {
+    "start": 3871.92,
+    "end": 3874.35,
+    "text": "a eso me refiero"
+  },
+  {
+    "start": 3874.35,
+    "end": 3877.2,
+    "text": "en este caso"
+  },
+  {
+    "start": 3877.2,
+    "end": 3879.47,
+    "text": "son similares"
+  },
+  {
+    "start": 3879.47,
+    "end": 3882.7,
+    "text": "si comparo la cadena 1 con la cadena 2"
+  },
+  {
+    "start": 3882.7,
+    "end": 3884.98,
+    "text": "hola con mundo"
+  },
+  {
+    "start": 3884.98,
+    "end": 3887.73,
+    "text": "es falso"
+  },
+  {
+    "start": 3887.73,
+    "end": 3889.97,
+    "text": "si comparo la cadena 1"
+  },
+  {
+    "start": 3889.97,
+    "end": 3892.85,
+    "text": "la cadena 1 es distinta de la cadena 2"
+  },
+  {
+    "start": 3892.85,
+    "end": 3895.44,
+    "text": "verdadero, la cadena 1 es"
+  },
+  {
+    "start": 3895.44,
+    "end": 3897.44,
+    "text": "igual a la cadena 3, hola, hola"
+  },
+  {
+    "start": 3897.44,
+    "end": 3901.62,
+    "text": "verdadero, cadena 1"
+  },
+  {
+    "start": 3901.62,
+    "end": 3903.62,
+    "text": "es mayor que cadena 2"
+  },
+  {
+    "start": 3903.62,
+    "end": 3906.99,
+    "text": "pero son letras"
+  },
+  {
+    "start": 3906.99,
+    "end": 3909.46,
+    "text": "¿cómo una cadena puede ser mayor que otra?"
+  },
+  {
+    "start": 3909.46,
+    "end": 3912.18,
+    "text": "y acá una cosa interesante"
+  },
+  {
+    "start": 3912.18,
+    "end": 3914.67,
+    "text": "porque es una orden alfabética"
+  },
+  {
+    "start": 3914.67,
+    "end": 3917.46,
+    "text": "toma la primera letra"
+  },
+  {
+    "start": 3917.46,
+    "end": 3919.95,
+    "text": "y la compara"
+  },
+  {
+    "start": 3919.95,
+    "end": 3921.95,
+    "text": "cuál es la primera y cuál es la última"
+  },
+  {
+    "start": 3921.95,
+    "end": 3924.35,
+    "text": "en este caso estamos comprando hola"
+  },
+  {
+    "start": 3924.35,
+    "end": 3927.42,
+    "text": "con mundo"
+  },
+  {
+    "start": 3927.42,
+    "end": 3932.06,
+    "text": "hola, viene después"
+  },
+  {
+    "start": 3932.06,
+    "end": 3935.81,
+    "text": "que mundo?"
+  },
+  {
+    "start": 3935.81,
+    "end": 3937.81,
+    "text": "pero en el print 2"
+  },
+  {
+    "start": 3937.81,
+    "end": 3939.81,
+    "text": "hay una signo de exclamación"
+  },
+  {
+    "start": 3939.81,
+    "end": 3941.81,
+    "text": "cadena 1, cadena 2"
+  },
+  {
+    "start": 3941.81,
+    "end": 3943.81,
+    "text": "en vez de ser iguales"
+  },
+  {
+    "start": 3943.81,
+    "end": 3945.81,
+    "text": "distinto"
+  },
+  {
+    "start": 3945.81,
+    "end": 3948.75,
+    "text": "es distinto que cadena 2"
+  },
+  {
+    "start": 3948.75,
+    "end": 3952.18,
+    "text": "eso"
+  },
+  {
+    "start": 3952.18,
+    "end": 3955.18,
+    "text": "acá es así"
+  },
+  {
+    "start": 3955.18,
+    "end": 3958.64,
+    "text": "sin exclamación para abajo"
+  },
+  {
+    "start": 3958.64,
+    "end": 3962.85,
+    "text": "y bueno"
+  },
+  {
+    "start": 3962.85,
+    "end": 3965.28,
+    "text": "cuando estamos comprando cadena 1 con cadena 2"
+  },
+  {
+    "start": 3965.28,
+    "end": 3967.28,
+    "text": "siendo un mayor que otro"
+  },
+  {
+    "start": 3967.28,
+    "end": 3969.65,
+    "text": "siendo ambos streaks"
+  },
+  {
+    "start": 3969.65,
+    "end": 3972.51,
+    "text": "en realidad estamos preguntando hola"
+  },
+  {
+    "start": 3972.51,
+    "end": 3974.51,
+    "text": "viene después que mundo"
+  },
+  {
+    "start": 3974.51,
+    "end": 3976.85,
+    "text": "alfabéticamente? yo soy falso"
+  },
+  {
+    "start": 3976.85,
+    "end": 3979.23,
+    "text": "¿por qué? porque la H"
+  },
+  {
+    "start": 3979.23,
+    "end": 3981.54,
+    "text": "viene alfabéticamente antes que la M"
+  },
+  {
+    "start": 3981.54,
+    "end": 3984.26,
+    "text": "a, b, c, d, f, q, h"
+  },
+  {
+    "start": 3984.26,
+    "end": 3986.26,
+    "text": "h, j, i,"
+  },
+  {
+    "start": 3986.26,
+    "end": 3988.26,
+    "text": "y l, m"
+  },
+  {
+    "start": 3988.26,
+    "end": 3990.26,
+    "text": "entonces"
+  },
+  {
+    "start": 3990.26,
+    "end": 3992.26,
+    "text": "eso está sebalando"
+  },
+  {
+    "start": 3992.26,
+    "end": 3994.26,
+    "text": "es una comparación medio rara"
+  },
+  {
+    "start": 3994.26,
+    "end": 3996.43,
+    "text": "pero la entiendes"
+  },
+  {
+    "start": 3996.43,
+    "end": 3998.43,
+    "text": "entonces podrías comparar alfabéticamente dos cosas"
+  },
+  {
+    "start": 3998.43,
+    "end": 4000.43,
+    "text": "pero ya es por las letras"
+  },
+  {
+    "start": 4000.43,
+    "end": 4002.43,
+    "text": "eso es como la comparación que se hace"
+  },
+  {
+    "start": 4002.43,
+    "end": 4004.98,
+    "text": "y lo mismo con la siguiente"
+  },
+  {
+    "start": 4004.98,
+    "end": 4006.98,
+    "text": "cadena 1 es menor que cadena 2"
+  },
+  {
+    "start": 4006.98,
+    "end": 4009.25,
+    "text": "en el sentido alfabético"
+  },
+  {
+    "start": 4009.25,
+    "end": 4011.57,
+    "text": "verdadero, ¿por qué?"
+  },
+  {
+    "start": 4011.57,
+    "end": 4014.48,
+    "text": "porque está antes, está primero"
+  },
+  {
+    "start": 4014.48,
+    "end": 4016.48,
+    "text": "y finalmente cadena 4"
+  },
+  {
+    "start": 4016.48,
+    "end": 4018.91,
+    "text": "¿es mayor que cadena 1?"
+  },
+  {
+    "start": 4018.91,
+    "end": 4020.91,
+    "text": "cadena 4, b, y"
+  },
+  {
+    "start": 4020.91,
+    "end": 4024.35,
+    "text": "¿es mayor que cadena 1 que el otro?"
+  },
+  {
+    "start": 4024.35,
+    "end": 4026.35,
+    "text": "¿por qué? porque el alfabético"
+  },
+  {
+    "start": 4026.35,
+    "end": 4033.94,
+    "text": "está primero"
+  },
+  {
+    "start": 4033.94,
+    "end": 4035.94,
+    "text": "aquí creo que la mayoría ha trabajado"
+  },
+  {
+    "start": 4035.94,
+    "end": 4039.39,
+    "text": "con circuitos, ¿no?"
+  },
+  {
+    "start": 4039.39,
+    "end": 4042.43,
+    "text": "conectando resistencia y cosas así"
+  },
+  {
+    "start": 4042.43,
+    "end": 4046.94,
+    "text": "es que es bonito"
+  },
+  {
+    "start": 4046.94,
+    "end": 4048.94,
+    "text": "que cuando usted tiene un alfabético"
+  },
+  {
+    "start": 4048.94,
+    "end": 4051.65,
+    "text": "y empieza a conectar cosas"
+  },
+  {
+    "start": 4051.65,
+    "end": 4053.65,
+    "text": "siempre quemas cosas"
+  },
+  {
+    "start": 4053.65,
+    "end": 4056.18,
+    "text": "y explota, por ejemplo"
+  },
+  {
+    "start": 4056.18,
+    "end": 4058.74,
+    "text": "lo clásico es los condensadores que son unos chiquititos"
+  },
+  {
+    "start": 4058.74,
+    "end": 4060.74,
+    "text": "cuando le metes mucha volta que hacen"
+  },
+  {
+    "start": 4060.74,
+    "end": 4063.33,
+    "text": "y tiene papel adentro"
+  },
+  {
+    "start": 4063.33,
+    "end": 4065.92,
+    "text": "así que parecen como palomitas de maíz"
+  },
+  {
+    "start": 4065.92,
+    "end": 4068.67,
+    "text": "¿y por qué digo eso?"
+  },
+  {
+    "start": 4068.67,
+    "end": 4070.67,
+    "text": "porque la lógica de circuitos"
+  },
+  {
+    "start": 4070.67,
+    "end": 4072.67,
+    "text": "que es una lógica puliana"
+  },
+  {
+    "start": 4072.67,
+    "end": 4074.67,
+    "text": "de 1 y 0"
+  },
+  {
+    "start": 4074.67,
+    "end": 4076.67,
+    "text": "es la misma lógica"
+  },
+  {
+    "start": 4076.67,
+    "end": 4078.82,
+    "text": "de los operadores AND"
+  },
+  {
+    "start": 4078.82,
+    "end": 4081.95,
+    "text": "y los operadores OR"
+  },
+  {
+    "start": 4081.95,
+    "end": 4085.06,
+    "text": "si tú tienes un TRUE y un TRUE"
+  },
+  {
+    "start": 4085.06,
+    "end": 4087.87,
+    "text": "el resultado de un TRUE y un TRUE"
+  },
+  {
+    "start": 4087.87,
+    "end": 4091.26,
+    "text": "es TRUE"
+  },
+  {
+    "start": 4091.26,
+    "end": 4093.86,
+    "text": "si tú tienes un TRUE y un FALSE"
+  },
+  {
+    "start": 4093.86,
+    "end": 4096.77,
+    "text": "el resultado es FALSE"
+  },
+  {
+    "start": 4096.77,
+    "end": 4099.2,
+    "text": "si tú tienes un FALSE y un TRUE"
+  },
+  {
+    "start": 4099.2,
+    "end": 4101.79,
+    "text": "el resultado es FALSE"
+  },
+  {
+    "start": 4101.79,
+    "end": 4103.79,
+    "text": "y si tú tienes un FALSE y un FALSE"
+  },
+  {
+    "start": 4103.79,
+    "end": 4107.81,
+    "text": "el resultado es FALSE"
+  },
+  {
+    "start": 4107.81,
+    "end": 4110.05,
+    "text": "¿a qué me refiero?"
+  },
+  {
+    "start": 4110.05,
+    "end": 4112.05,
+    "text": "a que yo puedo hacer"
+  },
+  {
+    "start": 4112.05,
+    "end": 4114.05,
+    "text": "se cumple la condición 1"
+  },
+  {
+    "start": 4114.05,
+    "end": 4116.54,
+    "text": "y se cumple la condición 2"
+  },
+  {
+    "start": 4116.54,
+    "end": 4119.58,
+    "text": "es verdadero"
+  },
+  {
+    "start": 4119.58,
+    "end": 4122.19,
+    "text": "es una lógica de circuitos"
+  },
+  {
+    "start": 4122.19,
+    "end": 4124.19,
+    "text": "pero si alguno de ellos"
+  },
+  {
+    "start": 4124.19,
+    "end": 4127.57,
+    "text": "cualquiera"
+  },
+  {
+    "start": 4127.57,
+    "end": 4129.57,
+    "text": "es falso"
+  },
+  {
+    "start": 4129.57,
+    "end": 4131.78,
+    "text": "esta lógica"
+  },
+  {
+    "start": 4131.78,
+    "end": 4133.78,
+    "text": "de AND"
+  },
+  {
+    "start": 4133.78,
+    "end": 4135.78,
+    "text": "de operadores lógicos"
+  },
+  {
+    "start": 4135.78,
+    "end": 4137.78,
+    "text": "es la misma lógica que se ve"
+  },
+  {
+    "start": 4137.78,
+    "end": 4140.08,
+    "text": "cuando se diseñan circuitos físicos"
+  },
+  {
+    "start": 4142.26,
+    "end": 4144.26,
+    "text": "están todos llenos de esto"
+  },
+  {
+    "start": 4144.26,
+    "end": 4146.46,
+    "text": "porque los 10 son 1 y 0"
+  },
+  {
+    "start": 4146.46,
+    "end": 4148.46,
+    "text": "1 0"
+  },
+  {
+    "start": 4148.46,
+    "end": 4152.75,
+    "text": "y así lo que es eso"
+  },
+  {
+    "start": 4152.75,
+    "end": 4155.57,
+    "text": "pero las palabras aguantan todo"
+  },
+  {
+    "start": 4155.57,
+    "end": 4160.42,
+    "text": "veamos cómo hacemos"
+  },
+  {
+    "start": 4160.42,
+    "end": 4162.59,
+    "text": "a igual a 5, b igual a 10"
+  },
+  {
+    "start": 4162.59,
+    "end": 4168.34,
+    "text": "6 igual a 7"
+  },
+  {
+    "start": 4168.34,
+    "end": 4171.14,
+    "text": "y c es mayor que a"
+  },
+  {
+    "start": 4171.14,
+    "end": 4174.46,
+    "text": "c mayor que a esto es verdadero"
+  },
+  {
+    "start": 4174.46,
+    "end": 4177.22,
+    "text": "esto es FALSO y verdadero"
+  },
+  {
+    "start": 4177.22,
+    "end": 4179.65,
+    "text": "FALSO y verdadero es FALSO"
+  },
+  {
+    "start": 4179.65,
+    "end": 4183.07,
+    "text": "me da FALSO"
+  },
+  {
+    "start": 4183.07,
+    "end": 4185.95,
+    "text": "eso es"
+  },
+  {
+    "start": 4185.95,
+    "end": 4190.88,
+    "text": "si alguno de estos operadores es FALSO"
+  },
+  {
+    "start": 4190.88,
+    "end": 4192.88,
+    "text": "todo es FALSO"
+  },
+  {
+    "start": 4192.88,
+    "end": 4196.61,
+    "text": "es mayor que b"
+  },
+  {
+    "start": 4196.61,
+    "end": 4199.1,
+    "text": "a es 5, b es 10"
+  },
+  {
+    "start": 4199.1,
+    "end": 4202.13,
+    "text": "FALSO"
+  },
+  {
+    "start": 4202.13,
+    "end": 4205.68,
+    "text": "c es mayor que a"
+  },
+  {
+    "start": 4205.68,
+    "end": 4208.66,
+    "text": "c es 7, a es 5"
+  },
+  {
+    "start": 4208.66,
+    "end": 4212.03,
+    "text": "FALSO"
+  },
+  {
+    "start": 4212.03,
+    "end": 4215.01,
+    "text": "a es menor que b"
+  },
+  {
+    "start": 4215.01,
+    "end": 4217.01,
+    "text": "a es 5, b es 10"
+  },
+  {
+    "start": 4217.01,
+    "end": 4219.41,
+    "text": "verdadero"
+  },
+  {
+    "start": 4219.41,
+    "end": 4221.84,
+    "text": "c es menor que b"
+  },
+  {
+    "start": 4221.84,
+    "end": 4223.84,
+    "text": "c es 7, b es 10"
+  },
+  {
+    "start": 4223.84,
+    "end": 4225.84,
+    "text": "verdadero"
+  },
+  {
+    "start": 4225.84,
+    "end": 4229.58,
+    "text": "este es este"
+  },
+  {
+    "start": 4229.58,
+    "end": 4235.31,
+    "text": "verdadero"
+  },
+  {
+    "start": 4235.31,
+    "end": 4237.65,
+    "text": "muchas gracias Paul"
+  },
+  {
+    "start": 4237.65,
+    "end": 4239.65,
+    "text": "la lógica es como la misma idea"
+  },
+  {
+    "start": 4239.65,
+    "end": 4242.4,
+    "text": "también lo podemos jugar para la lógica boliana"
+  },
+  {
+    "start": 4245.9,
+    "end": 4248.64,
+    "text": "los AND"
+  },
+  {
+    "start": 4248.64,
+    "end": 4250.64,
+    "text": "sirven"
+  },
+  {
+    "start": 4250.64,
+    "end": 4252.64,
+    "text": "tenemos muchas comparaciones que hacer"
+  },
+  {
+    "start": 4252.64,
+    "end": 4254.98,
+    "text": "se puede extender"
+  },
+  {
+    "start": 4254.98,
+    "end": 4257.22,
+    "text": "si claro que se puede extender"
+  },
+  {
+    "start": 4257.22,
+    "end": 4259.22,
+    "text": "no tengamos una bajo control"
+  },
+  {
+    "start": 4259.22,
+    "end": 4261.22,
+    "text": "la idea es más que suficiente"
+  },
+  {
+    "start": 4261.22,
+    "end": 4263.97,
+    "text": "entonces yo puedo"
+  },
+  {
+    "start": 4263.97,
+    "end": 4267.2,
+    "text": "guardar multirigistros"
+  },
+  {
+    "start": 4267.2,
+    "end": 4269.2,
+    "text": "de bolianos"
+  },
+  {
+    "start": 4269.2,
+    "end": 4271.2,
+    "text": "si esto es verdadero y esto es verdadero"
+  },
+  {
+    "start": 4271.2,
+    "end": 4273.2,
+    "text": "es verdadero"
+  },
+  {
+    "start": 4273.2,
+    "end": 4275.2,
+    "text": "tipo el alumno tiene aprobado"
+  },
+  {
+    "start": 4275.2,
+    "end": 4277.2,
+    "text": "toda su asignatura"
+  },
+  {
+    "start": 4277.2,
+    "end": 4279.2,
+    "text": "si, esta al día con todo el tema de finanzas"
+  },
+  {
+    "start": 4279.2,
+    "end": 4282.11,
+    "text": "si, entonces defiende su tecia"
+  },
+  {
+    "start": 4282.11,
+    "end": 4284.11,
+    "text": "si el alumno tiene aprobado toda su asignatura"
+  },
+  {
+    "start": 4284.11,
+    "end": 4286.38,
+    "text": "si, esta al día con todo el tema de finanzas"
+  },
+  {
+    "start": 4286.38,
+    "end": 4288.38,
+    "text": "no, no puede defender la tecia"
+  },
+  {
+    "start": 4288.38,
+    "end": 4290.38,
+    "text": "necesidad de redigir operaciones"
+  },
+  {
+    "start": 4290.38,
+    "end": 4292.38,
+    "text": "le mandamos correos a los alumnos"
+  },
+  {
+    "start": 4292.38,
+    "end": 4294.88,
+    "text": "le preguntamos"
+  },
+  {
+    "start": 4294.88,
+    "end": 4297.46,
+    "text": "para eso es la lógica"
+  },
+  {
+    "start": 4297.46,
+    "end": 4301.12,
+    "text": "pero también"
+  },
+  {
+    "start": 4301.12,
+    "end": 4303.12,
+    "text": "podemos hacer cosas interesantes"
+  },
+  {
+    "start": 4303.12,
+    "end": 4308.4,
+    "text": "algunas dudas también"
+  },
+  {
+    "start": 4308.4,
+    "end": 4313.73,
+    "text": "perfecto"
+  },
+  {
+    "start": 4313.73,
+    "end": 4315.73,
+    "text": "podemos aplicar algún tipo de restricción"
+  },
+  {
+    "start": 4315.73,
+    "end": 4320.29,
+    "text": "como lo vamos a hacer"
+  },
+  {
+    "start": 4320.29,
+    "end": 4322.29,
+    "text": "digamos que yo quiero comprar un Marauder"
+  },
+  {
+    "start": 4322.29,
+    "end": 4324.43,
+    "text": "pero tengo ciertas restricciones de"
+  },
+  {
+    "start": 4324.43,
+    "end": 4326.43,
+    "text": "minerales y de gas"
+  },
+  {
+    "start": 4326.43,
+    "end": 4328.7,
+    "text": "ya, en este caso tengo"
+  },
+  {
+    "start": 4328.7,
+    "end": 4330.94,
+    "text": "600 minerales"
+  },
+  {
+    "start": 4330.94,
+    "end": 4332.94,
+    "text": "y tengo 200 unidades de gas"
+  },
+  {
+    "start": 4332.94,
+    "end": 4335.31,
+    "text": "ya, y Marauder"
+  },
+  {
+    "start": 4335.31,
+    "end": 4337.31,
+    "text": "voy a tener una cantidad de"
+  },
+  {
+    "start": 4337.31,
+    "end": 4339.55,
+    "text": "ehh"
+  },
+  {
+    "start": 4339.55,
+    "end": 4341.55,
+    "text": "acá está, tengo que juntarlo"
+  },
+  {
+    "start": 4341.55,
+    "end": 4344.3,
+    "text": "acá está, y en este caso"
+  },
+  {
+    "start": 4344.3,
+    "end": 4346.3,
+    "text": "mi Marauder va a tener ciertas características"
+  },
+  {
+    "start": 4346.3,
+    "end": 4348.45,
+    "text": "esto es de la cosa que"
+  },
+  {
+    "start": 4348.45,
+    "end": 4354.78,
+    "text": "declaré anteriormente por la muestra de acá"
+  },
+  {
+    "start": 4354.78,
+    "end": 4369.18,
+    "text": "Marauder, Print"
+  },
+  {
+    "start": 4369.18,
+    "end": 4371.18,
+    "text": "estos son variables"
+  },
+  {
+    "start": 4371.18,
+    "end": 4373.18,
+    "text": "mi Marauder, Terran, Terrestre"
+  },
+  {
+    "start": 4373.18,
+    "end": 4375.18,
+    "text": "cuesta 110 de"
+  },
+  {
+    "start": 4375.18,
+    "end": 4377.18,
+    "text": "minerales y cuesta 30 de gas"
+  },
+  {
+    "start": 4377.18,
+    "end": 4379.66,
+    "text": "ya, eso va a ser mi Marauder"
+  },
+  {
+    "start": 4385.76,
+    "end": 4388.38,
+    "text": "comisión 1, código, comisión 2"
+  },
+  {
+    "start": 4388.38,
+    "end": 4395.68,
+    "text": "entonces voy a hacer esto"
+  },
+  {
+    "start": 4395.68,
+    "end": 4399.92,
+    "text": "la primera condición es"
+  },
+  {
+    "start": 4399.92,
+    "end": 4401.92,
+    "text": "mi Marauder"
+  },
+  {
+    "start": 4401.92,
+    "end": 4404.22,
+    "text": "cuesta menos que los minerales disponibles"
+  },
+  {
+    "start": 4404.22,
+    "end": 4407.39,
+    "text": "en este caso"
+  },
+  {
+    "start": 4407.39,
+    "end": 4409.39,
+    "text": "el costo de mi Marauder"
+  },
+  {
+    "start": 4409.39,
+    "end": 4419.81,
+    "text": "bien, gracias, es 110"
+  },
+  {
+    "start": 4419.81,
+    "end": 4423.44,
+    "text": "los minerales disponibles son"
+  },
+  {
+    "start": 4423.44,
+    "end": 4425.78,
+    "text": "600"
+  },
+  {
+    "start": 4425.78,
+    "end": 4428.18,
+    "text": "entonces la primera condición"
+  },
+  {
+    "start": 4428.18,
+    "end": 4430.18,
+    "text": "esto es menor que esto, me lo devuelvo acá"
+  },
+  {
+    "start": 4430.18,
+    "end": 4432.85,
+    "text": "la condición 1, C"
+  },
+  {
+    "start": 4432.85,
+    "end": 4436.16,
+    "text": "tenemos minerales"
+  },
+  {
+    "start": 4436.16,
+    "end": 4438.75,
+    "text": "segunda condición, el Marauder"
+  },
+  {
+    "start": 4438.75,
+    "end": 4440.96,
+    "text": "cuesta 20 de gas"
+  },
+  {
+    "start": 4440.96,
+    "end": 4442.96,
+    "text": "¿cuánto gas tenemos disponible? 200"
+  },
+  {
+    "start": 4442.96,
+    "end": 4448.26,
+    "text": "estamos bien"
+  },
+  {
+    "start": 4448.26,
+    "end": 4450.26,
+    "text": "alcanza, sería"
+  },
+  {
+    "start": 4450.26,
+    "end": 4452.62,
+    "text": "condición 1 y"
+  },
+  {
+    "start": 4452.62,
+    "end": 4454.62,
+    "text": "condición 2"
+  },
+  {
+    "start": 4454.62,
+    "end": 4457.52,
+    "text": "este es true, y este es true"
+  },
+  {
+    "start": 4457.52,
+    "end": 4459.52,
+    "text": "entonces como esto es una lógica booleana"
+  },
+  {
+    "start": 4459.52,
+    "end": 4461.52,
+    "text": "verdadero, verdadero"
+  },
+  {
+    "start": 4461.52,
+    "end": 4464.3,
+    "text": "verdadero, alcanza por un Marauder"
+  },
+  {
+    "start": 4464.3,
+    "end": 4468.06,
+    "text": "está, esa es la idea"
+  },
+  {
+    "start": 4468.06,
+    "end": 4472.22,
+    "text": "a mi me encanta la lógica de booleanas"
+  },
+  {
+    "start": 4472.22,
+    "end": 4474.22,
+    "text": "me la pasaba multiplicando matrices"
+  },
+  {
+    "start": 4474.22,
+    "end": 4476.22,
+    "text": "booleanas en mezla"
+  },
+  {
+    "start": 4476.22,
+    "end": 4478.22,
+    "text": "y después las sumaba"
+  },
+  {
+    "start": 4478.22,
+    "end": 4480.22,
+    "text": "y las convertía en booleanos en flua"
+  },
+  {
+    "start": 4480.22,
+    "end": 4482.22,
+    "text": "me encanta esa idea"
+  },
+  {
+    "start": 4482.22,
+    "end": 4484.22,
+    "text": "y después las vamos a ver con operaciones matriciales"
+  },
+  {
+    "start": 4487.89,
+    "end": 4490.22,
+    "text": "ahora, ojo, todo esto que hice el tanto paso"
+  },
+  {
+    "start": 4490.22,
+    "end": 4493.7,
+    "text": "se hace así"
+  },
+  {
+    "start": 4493.7,
+    "end": 4495.7,
+    "text": "Marauder menor o igual al costo de minerales disponibles"
+  },
+  {
+    "start": 4495.7,
+    "end": 4497.7,
+    "text": "y Marauder costo gas"
+  },
+  {
+    "start": 4497.7,
+    "end": 4500.78,
+    "text": "es menor a gas disponible"
+  },
+  {
+    "start": 4500.78,
+    "end": 4502.78,
+    "text": "pero mi consejo es el siguiente"
+  },
+  {
+    "start": 4502.78,
+    "end": 4505.92,
+    "text": "no hay de una forma correcta"
+  },
+  {
+    "start": 4505.92,
+    "end": 4510.03,
+    "text": "para hacerlo"
+  },
+  {
+    "start": 4510.03,
+    "end": 4513.09,
+    "text": "esto y esto son lo mismo"
+  },
+  {
+    "start": 4513.09,
+    "end": 4515.09,
+    "text": "esto te va a ocupar más pasos"
+  },
+  {
+    "start": 4515.09,
+    "end": 4517.3,
+    "text": "pero siempre los poderes informativos"
+  },
+  {
+    "start": 4517.3,
+    "end": 4519.3,
+    "text": "es mejor empezando poquito"
+  },
+  {
+    "start": 4519.3,
+    "end": 4521.3,
+    "text": "y cuando ya dominas totalmente la idea"
+  },
+  {
+    "start": 4521.3,
+    "end": 4524.03,
+    "text": "llegamos acá y hacemos"
+  },
+  {
+    "start": 4524.03,
+    "end": 4526.03,
+    "text": "magia"
+  },
+  {
+    "start": 4526.03,
+    "end": 4528.83,
+    "text": "pero eso"
+  },
+  {
+    "start": 4528.83,
+    "end": 4530.83,
+    "text": "cuando veas versiones"
+  },
+  {
+    "start": 4530.83,
+    "end": 4532.83,
+    "text": "como tan complejas de como"
+  },
+  {
+    "start": 4532.83,
+    "end": 4534.83,
+    "text": "aplicar una condición matemática"
+  },
+  {
+    "start": 4534.83,
+    "end": 4536.83,
+    "text": "yo les recomendaría que busquen simplificarla"
+  },
+  {
+    "start": 4536.83,
+    "end": 4538.83,
+    "text": "ya, descomponerla"
+  },
+  {
+    "start": 4538.83,
+    "end": 4540.83,
+    "text": "entender a este es a, este es d"
+  },
+  {
+    "start": 4540.83,
+    "end": 4542.83,
+    "text": "este es c, este es d"
+  },
+  {
+    "start": 4542.83,
+    "end": 4544.83,
+    "text": "después hay un and, hay un or"
+  },
+  {
+    "start": 4544.83,
+    "end": 4547.14,
+    "text": "cualquier operador y puedo ver con eso"
+  },
+  {
+    "start": 4547.14,
+    "end": 4550.7,
+    "text": "hay otro operador"
+  },
+  {
+    "start": 4550.7,
+    "end": 4553.1,
+    "text": "que también se aplica"
+  },
+  {
+    "start": 4553.1,
+    "end": 4555.41,
+    "text": "en este contexto"
+  },
+  {
+    "start": 4555.41,
+    "end": 4558.22,
+    "text": "y ese operador se llama or"
+  },
+  {
+    "start": 4558.22,
+    "end": 4560.22,
+    "text": "es parecido a and pero distinto"
+  },
+  {
+    "start": 4560.22,
+    "end": 4562.46,
+    "text": "es parecido pero no es igual"
+  },
+  {
+    "start": 4562.46,
+    "end": 4565.54,
+    "text": "y or es como el operador buena onda"
+  },
+  {
+    "start": 4565.54,
+    "end": 4568.13,
+    "text": "te dice"
+  },
+  {
+    "start": 4568.13,
+    "end": 4570.75,
+    "text": "si es true y es true"
+  },
+  {
+    "start": 4570.75,
+    "end": 4573.92,
+    "text": "es true, si es true y es false"
+  },
+  {
+    "start": 4573.92,
+    "end": 4575.92,
+    "text": "sabes que es true"
+  },
+  {
+    "start": 4575.92,
+    "end": 4579.06,
+    "text": "igual, si es false"
+  },
+  {
+    "start": 4579.06,
+    "end": 4581.06,
+    "text": "y es true te dice"
+  },
+  {
+    "start": 4581.06,
+    "end": 4583.06,
+    "text": "dale si es true nomás"
+  },
+  {
+    "start": 4583.06,
+    "end": 4585.46,
+    "text": "y si es false y es false"
+  },
+  {
+    "start": 4585.46,
+    "end": 4588.34,
+    "text": "ahí te dice que es false"
+  },
+  {
+    "start": 4588.34,
+    "end": 4592.24,
+    "text": "el and"
+  },
+  {
+    "start": 4592.24,
+    "end": 4594.42,
+    "text": "si solamente, si al menos"
+  },
+  {
+    "start": 4594.42,
+    "end": 4596.62,
+    "text": "alguno de sus componentes era false"
+  },
+  {
+    "start": 4596.62,
+    "end": 4599.47,
+    "text": "todo es false"
+  },
+  {
+    "start": 4599.47,
+    "end": 4601.47,
+    "text": "y el or es el buena onda"
+  },
+  {
+    "start": 4601.47,
+    "end": 4603.97,
+    "text": "si al menos un componente es true"
+  },
+  {
+    "start": 4603.97,
+    "end": 4605.97,
+    "text": "todo es true, solamente te dice false"
+  },
+  {
+    "start": 4605.97,
+    "end": 4608.3,
+    "text": "cuando ambos entradas son falsas"
+  },
+  {
+    "start": 4608.3,
+    "end": 4611.6,
+    "text": "la condición de antes"
+  },
+  {
+    "start": 4611.6,
+    "end": 4614.74,
+    "text": "5, 20, 7"
+  },
+  {
+    "start": 4614.74,
+    "end": 4616.74,
+    "text": "la primera es"
+  },
+  {
+    "start": 4616.74,
+    "end": 4618.74,
+    "text": "a es menor que b, 5 menor que 7"
+  },
+  {
+    "start": 4618.74,
+    "end": 4622.74,
+    "text": "false"
+  },
+  {
+    "start": 4622.74,
+    "end": 4625.2,
+    "text": "or, c es mayor que b"
+  },
+  {
+    "start": 4625.2,
+    "end": 4627.86,
+    "text": "c es 7"
+  },
+  {
+    "start": 4627.86,
+    "end": 4630.64,
+    "text": "y b es 10"
+  },
+  {
+    "start": 4630.64,
+    "end": 4633.94,
+    "text": "es false"
+  },
+  {
+    "start": 4633.94,
+    "end": 4635.94,
+    "text": "a es menor que b, 5 menor que 10"
+  },
+  {
+    "start": 4635.94,
+    "end": 4638.59,
+    "text": "verdadero"
+  },
+  {
+    "start": 4638.59,
+    "end": 4640.59,
+    "text": "c es mayor que b, no"
+  },
+  {
+    "start": 4640.59,
+    "end": 4642.9,
+    "text": "falso, pero como tienes un verdadero"
+  },
+  {
+    "start": 4642.9,
+    "end": 4647.94,
+    "text": "todo es verdadero"
+  },
+  {
+    "start": 4647.94,
+    "end": 4649.94,
+    "text": "de ahí si quieres te pones a volver medio loquito"
+  },
+  {
+    "start": 4649.94,
+    "end": 4651.94,
+    "text": "y mezclar los and con los or"
+  },
+  {
+    "start": 4651.94,
+    "end": 4653.94,
+    "text": "y se hacen cosas interesantes"
+  },
+  {
+    "start": 4653.94,
+    "end": 4655.94,
+    "text": "especialmente cuando estamos"
+  },
+  {
+    "start": 4655.94,
+    "end": 4657.94,
+    "text": "haciendo operaciones matriciales con booleanos"
+  },
+  {
+    "start": 4657.94,
+    "end": 4661.57,
+    "text": "pero esa es la lógica"
+  },
+  {
+    "start": 4661.57,
+    "end": 4663.81,
+    "text": "circuitos"
+  },
+  {
+    "start": 4663.81,
+    "end": 4665.81,
+    "text": "hacer explotar"
+  },
+  {
+    "start": 4665.81,
+    "end": 4667.81,
+    "text": "la experiencia es que no tienes que ir"
+  },
+  {
+    "start": 4667.81,
+    "end": 4669.81,
+    "text": "de ahí a desarrollar los personajes"
+  },
+  {
+    "start": 4669.81,
+    "end": 4672.21,
+    "text": "cuando empiezas a salir un poquito de un circuito"
+  },
+  {
+    "start": 4672.21,
+    "end": 4674.99,
+    "text": "lo hiciste bien"
+  },
+  {
+    "start": 4674.99,
+    "end": 4676.99,
+    "text": "no, lexor, no"
+  },
+  {
+    "start": 4676.99,
+    "end": 4681.82,
+    "text": "no lo quiero"
+  },
+  {
+    "start": 4681.82,
+    "end": 4687.98,
+    "text": "pero sí, es la misma lógica"
+  },
+  {
+    "start": 4687.98,
+    "end": 4692.74,
+    "text": "déjenme ver algo"
+  },
+  {
+    "start": 4692.74,
+    "end": 4694.91,
+    "text": "solamente por"
+  },
+  {
+    "start": 4694.91,
+    "end": 4697.31,
+    "text": "podríamos cubrir esto hoy día"
+  },
+  {
+    "start": 4697.31,
+    "end": 4699.31,
+    "text": "pero por la sobrecarga de conocimiento"
+  },
+  {
+    "start": 4699.31,
+    "end": 4702.11,
+    "text": "yo voy a hacer algo"
+  },
+  {
+    "start": 4702.11,
+    "end": 4704.54,
+    "text": "la parte de 6"
+  },
+  {
+    "start": 4704.54,
+    "end": 4706.54,
+    "text": "en adelante"
+  },
+  {
+    "start": 4706.54,
+    "end": 4709.2,
+    "text": "lex y el if"
+  },
+  {
+    "start": 4709.2,
+    "end": 4711.2,
+    "text": "lo voy a dejar para que lo estudien"
+  },
+  {
+    "start": 4711.2,
+    "end": 4713.7,
+    "text": "y lo podemos abordar la siguiente clase"
+  },
+  {
+    "start": 4713.7,
+    "end": 4715.9,
+    "text": "porque ya ha sido"
+  },
+  {
+    "start": 4715.9,
+    "end": 4717.9,
+    "text": "mucha, mucha cosa"
+  },
+  {
+    "start": 4717.9,
+    "end": 4719.9,
+    "text": "esto está bien explicado"
+  },
+  {
+    "start": 4719.9,
+    "end": 4722.51,
+    "text": "pero sí lo podemos abordar en su momento"
+  },
+  {
+    "start": 4722.51,
+    "end": 4724.51,
+    "text": "pero hay un problema que se llama"
+  },
+  {
+    "start": 4724.51,
+    "end": 4727.95,
+    "text": "la memoria de trabajo"
+  },
+  {
+    "start": 4730.29,
+    "end": 4732.29,
+    "text": "la memoria temporal"
+  },
+  {
+    "start": 4732.29,
+    "end": 4734.62,
+    "text": "o la memoria de trabajo"
+  },
+  {
+    "start": 4734.62,
+    "end": 4736.77,
+    "text": "que tú puedes aceptar cierta cantidad de conocimiento"
+  },
+  {
+    "start": 4736.77,
+    "end": 4738.77,
+    "text": "y después como que el resto"
+  },
+  {
+    "start": 4738.77,
+    "end": 4740.77,
+    "text": "ya fue"
+  },
+  {
+    "start": 4740.77,
+    "end": 4742.77,
+    "text": "y claro, hay que hacer este repaso"
+  },
+  {
+    "start": 4742.77,
+    "end": 4744.77,
+    "text": "continuo"
+  },
+  {
+    "start": 4744.77,
+    "end": 4746.77,
+    "text": "el repitimiento espacial"
+  },
+  {
+    "start": 4746.77,
+    "end": 4748.77,
+    "text": "y otras estrategias"
+  },
+  {
+    "start": 4748.77,
+    "end": 4750.77,
+    "text": "pero desde cien adelante"
+  },
+  {
+    "start": 4750.77,
+    "end": 4752.77,
+    "text": "les voy a solicitar que lo revisen"
+  },
+  {
+    "start": 4752.77,
+    "end": 4754.77,
+    "text": "y los vamos a abordar en detalle"
+  },
+  {
+    "start": 4754.77,
+    "end": 4756.77,
+    "text": "si quieren los voy a extender la siguiente clase"
+  },
+  {
+    "start": 4756.77,
+    "end": 4758.77,
+    "text": "y vamos con más ejemplos"
+  },
+  {
+    "start": 4758.77,
+    "end": 4760.77,
+    "text": "y entramos de hielo, a numpy, a pandas"
+  },
+  {
+    "start": 4760.77,
+    "end": 4762.77,
+    "text": "y vamos a usar un par de imágenes"
+  },
+  {
+    "start": 4762.77,
+    "end": 4765.57,
+    "text": "para que sean cosas interesantes"
+  },
+  {
+    "start": 4765.57,
+    "end": 4767.57,
+    "text": "mi intención era la verdad"
+  },
+  {
+    "start": 4767.57,
+    "end": 4769.57,
+    "text": "yo no dimensioné, quiero hacer tanta cosa"
+  },
+  {
+    "start": 4769.57,
+    "end": 4773.65,
+    "text": "y eso"
+  },
+  {
+    "start": 4773.65,
+    "end": 4782.0,
+    "text": "acá hay un detalle"
+  },
+  {
+    "start": 4782.0,
+    "end": 4785.02,
+    "text": "mira, esto"
+  },
+  {
+    "start": 4785.02,
+    "end": 4787.02,
+    "text": "funciona como un documento de google docs"
+  },
+  {
+    "start": 4787.02,
+    "end": 4790.0,
+    "text": "entonces si ustedes algún día hacen una tarea"
+  },
+  {
+    "start": 4790.0,
+    "end": 4792.21,
+    "text": "y la quieren compartir"
+  },
+  {
+    "start": 4792.21,
+    "end": 4796.02,
+    "text": "vienen aquí a la derecha arriba a compartir"
+  },
+  {
+    "start": 4796.02,
+    "end": 4798.51,
+    "text": "y acá le ponen público"
+  },
+  {
+    "start": 4798.51,
+    "end": 4800.51,
+    "text": "cualquier usuario que tenga el vínculo"
+  },
+  {
+    "start": 4800.51,
+    "end": 4802.51,
+    "text": "o restringido"
+  },
+  {
+    "start": 4802.51,
+    "end": 4804.51,
+    "text": "no tiene que quedar restringido, si no nadie lo ve"
+  },
+  {
+    "start": 4804.51,
+    "end": 4806.69,
+    "text": "tiene que quedar cualquiera que tenga el vínculo"
+  },
+  {
+    "start": 4806.69,
+    "end": 4809.15,
+    "text": "y eso copia el vínculo listo"
+  },
+  {
+    "start": 4809.15,
+    "end": 4811.33,
+    "text": "y lo pega"
+  },
+  {
+    "start": 4811.33,
+    "end": 4813.33,
+    "text": "por ejemplo, vienen pasadas las primeras clases"
+  },
+  {
+    "start": 4813.33,
+    "end": 4815.33,
+    "text": "con los alumnos de pregravo que me montaban el vínculo"
+  },
+  {
+    "start": 4815.33,
+    "end": 4817.33,
+    "text": "pero estaba protegido"
+  },
+  {
+    "start": 4817.33,
+    "end": 4819.33,
+    "text": "porque no lo podía ver"
+  },
+  {
+    "start": 4819.33,
+    "end": 4821.33,
+    "text": "así que era como andar y dejarlo visible"
+  },
+  {
+    "start": 4821.33,
+    "end": 4823.63,
+    "text": "y todo eso"
+  },
+  {
+    "start": 4823.63,
+    "end": 4827.6,
+    "text": "como algo importante de este tipo de cosas"
+  },
+  {
+    "start": 4827.6,
+    "end": 4829.6,
+    "text": "eso"
+  },
+  {
+    "start": 4829.6,
+    "end": 4831.6,
+    "text": "una cosa también como comenté"
+  },
+  {
+    "start": 4831.6,
+    "end": 4833.6,
+    "text": "cuando ustedes cierran esto"
+  },
+  {
+    "start": 4833.6,
+    "end": 4835.84,
+    "text": "cuando cierran google colas"
+  },
+  {
+    "start": 4835.84,
+    "end": 4837.84,
+    "text": "después de como media hora"
+  },
+  {
+    "start": 4837.84,
+    "end": 4839.98,
+    "text": "todo desaparece, se va en la nube"
+  },
+  {
+    "start": 4839.98,
+    "end": 4841.98,
+    "text": "se va en la nube"
+  },
+  {
+    "start": 4841.98,
+    "end": 4843.98,
+    "text": "entonces hay que volver a ejecutar"
+  },
+  {
+    "start": 4843.98,
+    "end": 4847.26,
+    "text": "pero lo que no se va"
+  },
+  {
+    "start": 4847.26,
+    "end": 4849.47,
+    "text": "es lo que ya quedó ejecutado"
+  },
+  {
+    "start": 4849.47,
+    "end": 4851.47,
+    "text": "se va de la ram, pero los mensajes te quedan"
+  },
+  {
+    "start": 4851.47,
+    "end": 4853.47,
+    "text": "por ejemplo, A igual 1"
+  },
+  {
+    "start": 4853.47,
+    "end": 4855.47,
+    "text": "print 1, print A"
+  },
+  {
+    "start": 4855.47,
+    "end": 4857.65,
+    "text": "te dice A igual 1"
+  },
+  {
+    "start": 4857.65,
+    "end": 4859.86,
+    "text": "pero las variables"
+  },
+  {
+    "start": 4859.86,
+    "end": 4862.13,
+    "text": "de acá se van, pero todo lo que"
+  },
+  {
+    "start": 4862.13,
+    "end": 4864.59,
+    "text": "dejaste acá queda"
+  },
+  {
+    "start": 4864.59,
+    "end": 4866.59,
+    "text": "entonces por eso google colas"
+  },
+  {
+    "start": 4866.59,
+    "end": 4868.59,
+    "text": "están simpáticos"
+  },
+  {
+    "start": 4868.59,
+    "end": 4870.77,
+    "text": "porque tú esto lo puedes exportar como pdf"
+  },
+  {
+    "start": 4870.77,
+    "end": 4873.42,
+    "text": "y podrías leer los pdf"
+  },
+  {
+    "start": 4873.42,
+    "end": 4875.42,
+    "text": "y si quieres para las próximas clases"
+  },
+  {
+    "start": 4875.42,
+    "end": 4877.42,
+    "text": "les paso el ipinv"
+  },
+  {
+    "start": 4877.42,
+    "end": 4879.42,
+    "text": "y también el pdf"
+  },
+  {
+    "start": 4879.42,
+    "end": 4881.42,
+    "text": "algunos alumnos me decían que era más fácil leer"
+  },
+  {
+    "start": 4881.42,
+    "end": 4883.97,
+    "text": "lo del documento"
+  },
+  {
+    "start": 4883.97,
+    "end": 4886.43,
+    "text": "pero en realidad es como control p"
+  },
+  {
+    "start": 4886.43,
+    "end": 4889.41,
+    "text": "y listo, lo imprimes"
+  },
+  {
+    "start": 4889.41,
+    "end": 4891.65,
+    "text": "36 páginas"
+  },
+  {
+    "start": 4891.65,
+    "end": 4893.65,
+    "text": "lo único malo es que no imprime los gif"
+  },
+  {
+    "start": 4893.65,
+    "end": 4895.65,
+    "text": "pero bueno, no se puede"
+  },
+  {
+    "start": 4895.65,
+    "end": 4899.1,
+    "text": "eso sería"
+  },
+  {
+    "start": 4899.1,
+    "end": 4901.41,
+    "text": "hoy día"
+  },
+  {
+    "start": 4901.41,
+    "end": 4903.41,
+    "text": "empezamos con una clase medio mal"
+  },
+  {
+    "start": 4903.41,
+    "end": 4905.41,
+    "text": "la digital y todas esas cosas"
+  },
+  {
+    "start": 4905.41,
+    "end": 4907.71,
+    "text": "¿por qué las estamos viendo?"
+  },
+  {
+    "start": 4907.71,
+    "end": 4911.14,
+    "text": "estoy muy preso digamos"
+  },
+  {
+    "start": 4911.14,
+    "end": 4913.14,
+    "text": "como feedback, el micrófono de repente"
+  },
+  {
+    "start": 4913.14,
+    "end": 4915.14,
+    "text": "se le sube el volumen de repente se le baja"
+  },
+  {
+    "start": 4915.14,
+    "end": 4917.66,
+    "text": "por ser así"
+  },
+  {
+    "start": 4917.66,
+    "end": 4920.22,
+    "text": "no sé si a mi no me pasa cuando"
+  },
+  {
+    "start": 4920.22,
+    "end": 4922.56,
+    "text": "hay algún tema de volumen ahí"
+  },
+  {
+    "start": 4922.56,
+    "end": 4924.56,
+    "text": "y luego te quería dar las gracias por el"
+  },
+  {
+    "start": 4924.56,
+    "end": 4926.56,
+    "text": "que me compartió, no estaba viendo"
+  },
+  {
+    "start": 4926.56,
+    "end": 4928.99,
+    "text": "el business to data science"
+  },
+  {
+    "start": 4928.99,
+    "end": 4931.17,
+    "text": "de mature learning"
+  },
+  {
+    "start": 4931.17,
+    "end": 4934.58,
+    "text": "tan bueno, profes, muchas gracias"
+  },
+  {
+    "start": 4934.58,
+    "end": 4936.88,
+    "text": "no hay problema estimado"
+  },
+  {
+    "start": 4936.88,
+    "end": 4938.88,
+    "text": "no hay problema en quedarse de esas clases"
+  },
+  {
+    "start": 4938.88,
+    "end": 4940.88,
+    "text": "son más asas pero vamos a llegar a..."
+  },
+  {
+    "start": 4940.88,
+    "end": 4942.88,
+    "text": "sale el mensaje"
+  },
+  {
+    "start": 4942.88,
+    "end": 4944.88,
+    "text": "que le pedí una pregunta"
+  },
+  {
+    "start": 4944.88,
+    "end": 4947.33,
+    "text": "sobre un tema de econometría"
+  },
+  {
+    "start": 4947.33,
+    "end": 4949.33,
+    "text": "y después lo compartí"
+  },
+  {
+    "start": 4949.33,
+    "end": 4951.33,
+    "text": "gracias profe"
+  },
+  {
+    "start": 4951.33,
+    "end": 4954.3,
+    "text": "eso entonces estamos viendo"
+  },
+  {
+    "start": 4954.3,
+    "end": 4956.3,
+    "text": "de esta forma bien rara"
+  },
+  {
+    "start": 4956.3,
+    "end": 4958.58,
+    "text": "delotar los estructurados y otras cosas"
+  },
+  {
+    "start": 4958.58,
+    "end": 4960.58,
+    "text": "porque necesitamos herramientas para poder procesar esto"
+  },
+  {
+    "start": 4960.58,
+    "end": 4962.72,
+    "text": "entonces la herramienta que vamos a ocupar"
+  },
+  {
+    "start": 4962.72,
+    "end": 4964.72,
+    "text": "durante el curso ya les comenté"
+  },
+  {
+    "start": 4964.72,
+    "end": 4967.25,
+    "text": "por qué es python"
+  },
+  {
+    "start": 4967.25,
+    "end": 4969.49,
+    "text": "python es la luz"
+  },
+  {
+    "start": 4969.49,
+    "end": 4971.49,
+    "text": "por ahora, a futuro quizás sea julia"
+  },
+  {
+    "start": 4971.49,
+    "end": 4973.49,
+    "text": "o alguna otra herramienta"
+  },
+  {
+    "start": 4973.49,
+    "end": 4975.49,
+    "text": "que me llevamos por ahí"
+  },
+  {
+    "start": 4975.49,
+    "end": 4977.49,
+    "text": "y gran parte de este curso"
+  },
+  {
+    "start": 4977.49,
+    "end": 4979.49,
+    "text": "lo vamos a desarrollar en google cloud"
+  },
+  {
+    "start": 4979.49,
+    "end": 4981.76,
+    "text": "también puede instalar"
+  },
+  {
+    "start": 4981.76,
+    "end": 4983.76,
+    "text": "estas cosas locales"
+  },
+  {
+    "start": 4983.76,
+    "end": 4985.76,
+    "text": "creo que quizás a fines del semestre"
+  },
+  {
+    "start": 4985.76,
+    "end": 4987.76,
+    "text": "vamos a abordar cómo instalar localmente"
+  },
+  {
+    "start": 4987.76,
+    "end": 4989.76,
+    "text": "anaconda, visual studio co"
+  },
+  {
+    "start": 4989.76,
+    "end": 4992.3,
+    "text": "y es como muy"
+  },
+  {
+    "start": 4992.3,
+    "end": 4994.3,
+    "text": "muy bueno"
+  },
+  {
+    "start": 4994.3,
+    "end": 4996.3,
+    "text": "ya se puede conectar con el lm"
+  },
+  {
+    "start": 4996.3,
+    "end": 4999.54,
+    "text": "vamos a hacer unas cosas muy locas con esto"
+  },
+  {
+    "start": 4999.54,
+    "end": 5001.54,
+    "text": "les deje una serie de ejercicios también"
+  },
+  {
+    "start": 5001.54,
+    "end": 5004.48,
+    "text": "en un jupiter nuevo"
+  },
+  {
+    "start": 5004.48,
+    "end": 5007.09,
+    "text": "este sería el 2 ya"
+  },
+  {
+    "start": 5007.09,
+    "end": 5009.65,
+    "text": "porque la única forma de aprender esto"
+  },
+  {
+    "start": 5009.65,
+    "end": 5011.65,
+    "text": "es practicando una y otra y otra vez"
+  },
+  {
+    "start": 5011.65,
+    "end": 5013.65,
+    "text": "si tienen alguna duda"
+  },
+  {
+    "start": 5013.65,
+    "end": 5015.65,
+    "text": "me escriben"
+  },
+  {
+    "start": 5015.65,
+    "end": 5017.65,
+    "text": "dentro de plazo acotado"
+  },
+  {
+    "start": 5017.65,
+    "end": 5019.65,
+    "text": "voy a intentar responderles ya"
+  },
+  {
+    "start": 5019.65,
+    "end": 5022.02,
+    "text": "para que ahí no queden con dudas"
+  },
+  {
+    "start": 5022.02,
+    "end": 5024.02,
+    "text": "eso, espero que hayan disfrutado la clase"
+  },
+  {
+    "start": 5024.02,
+    "end": 5026.02,
+    "text": "así yo cierro mi clase"
+  },
+  {
+    "start": 5026.02,
+    "end": 5028.02,
+    "text": "ahora, al parecer es una hermosa acción por hoy"
+  }
+]
