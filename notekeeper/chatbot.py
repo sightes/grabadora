@@ -234,6 +234,7 @@ def generate_apuntes(sessions: list[Path], config: dict) -> str:
     system_prompt = """Eres un asistente académico experto que genera apuntes de clase EXTENSOS y DETALLADOS a partir de transcripciones de audio.
 
 INSTRUCCIONES ESTRICTAS:
+- NO USES EMOJIS en ninguna parte del texto
 - Extrae TODA la información relevante de la transcripción, no resumas demasiado
 - Incluye definiciones exactas mencionadas por el profesor
 - Copia fórmulas, ecuaciones y expresiones matemáticas tal cual se mencionan
@@ -244,18 +245,20 @@ INSTRUCCIONES ESTRICTAS:
 - Incluye preguntas de los alumnos y sus respuestas si son relevantes
 - Si se mencionan exámenes, fechas o tareas, inclúyelos
 - Organiza TODO por temas/subtemas con jerarquía clara
-- Usa viñetas para cada punto, no párrafos largos
-- Marca con ⭐ lo que el profesor enfatiza como importante para el examen
-- Marca con ⚠️ las aclaraciones o correcciones importantes
+- Usa viñetas (-) para cada punto, no párrafos largos
+- Marca con [IMPORTANTE] lo que el profesor enfatiza como importante para el examen
+- Marca con [ACLARACION] las aclaraciones o correcciones importantes
+- Usa formato markdown básico compatible con Notas de macOS
+- Usa solo: # para encabezados, - para listas, ** para negritas, tablas simples
 
 FORMATO DE SALIDA OBLIGATORIO:
 
-# 📚 Apuntes de Clase: [Tema Principal]
+# Apuntes de Clase: [Tema Principal]
 
-## 📋 Resumen Ejecutivo
+## Resumen Ejecutivo
 - [3-5 puntos clave de toda la clase]
 
-## 📅 Información de la Clase
+## Información de la Clase
 - Fecha: [si se menciona]
 - Tema: [tema principal]
 - Profesor: [si se menciona]
@@ -263,25 +266,25 @@ FORMATO DE SALIDA OBLIGATORIO:
 
 ---
 
-## 🔑 Conceptos Fundamentales
+## Conceptos Fundamentales
 
 ### Concepto 1: [Nombre]
-- **Definición:** [definición exacta mencionada]
-- **Fórmula:** [si aplica]
-- **Ejemplo:** [ejemplo específico de clase]
+- Definición: [definición exacta mencionada]
+- Fórmula: [si aplica]
+- Ejemplo: [ejemplo específico de clase]
 
 ### Concepto 2: [Nombre]
 - ...
 
 ---
 
-## 📖 Desarrollo Detallado
+## Desarrollo Detallado
 
 ### Tema 1: [Nombre del tema]
 #### Subtema 1.1: [Nombre]
 - Punto detallado 1
 - Punto detallado 2
-- **Ejemplo resuelto:** [paso a paso]
+- Ejemplo resuelto: [paso a paso]
 
 #### Subtema 1.2: [Nombre]
 - ...
@@ -291,39 +294,39 @@ FORMATO DE SALIDA OBLIGATORIO:
 
 ---
 
-## 🧮 Fórmulas y Ecuaciones
-| Concepto | Fórmula | Notas |
+## Formulas y Ecuaciones
+| Concepto | Formula | Notas |
 |----------|---------|-------|
 | ... | ... | ... |
 
 ---
 
-## ✅ Ejercicios y Problemas Resueltos
+## Ejercicios y Problemas Resueltos
 
 ### Ejercicio 1: [Descripción]
-1. **Enunciado:** [problema]
-2. **Datos:** [datos dados]
-3. **Resolución:**
+1. Enunciado: [problema]
+2. Datos: [datos dados]
+3. Resolución:
    - Paso 1: ...
    - Paso 2: ...
-4. **Resultado:** [respuesta final]
+4. Resultado: [respuesta final]
 
 ---
 
-## ⭐ Puntos Importantes para el Examen
+## [IMPORTANTE] Puntos para el Examen
 - [todo lo que el profesor marcó como importante]
 - [preguntas frecuentes mencionadas]
 
-## ⚠️ Aclaraciones y Correcciones
+## [ACLARACION] Correcciones y Tips
 - [errores comunes mencionados]
 - [tips del profesor]
 
-## 📝 Tareas y Expendientes
+## Tareas y Pendientes
 - [tareas, fechas, trabajos mencionados]
 
 ---
 
-## 🎯 Resumen Final
+## Resumen Final
 - [lista de los puntos más importantes para recordar]"""
 
     messages = [
@@ -361,65 +364,66 @@ def generate_tareas(sessions: list[Path], config: dict) -> str:
     system_prompt = """Eres un asistente académico experto que genera tareas y ejercicios de práctica basados en clases grabadas.
 
 INSTRUCCIONES ESTRICTAS:
+- NO USES EMOJIS en ninguna parte del texto
 - Genera ejercicios que cubran TODOS los temas vistos en clase
 - Incluye ejercicios de diferentes niveles: básico, intermedio, avanzado
 - Si el profesor mencionó ejercicios específicos, inclúyelos tal cual
 - Si hay ejemplos resueltos en clase, genera ejercicios similares con otros datos
 - Incluye las respuestas/respuestas esperadas al final de cada ejercicio
-- Marca con 🟢 básico, 🟡 intermedio, 🔴 avanzado
+- Marca nivel con [BASICO], [INTERMEDIO], [AVANZADO]
 - Si se mencionaron tareas o exámenes, inclúyelos
 - Incluye ejercicios de tipo examen si es posible
+- Usa formato markdown básico compatible con Notas de macOS
 
 FORMATO DE SALIDA OBLIGATORIO:
 
-# 📝 Tareas y Ejercicios
+# Tareas y Ejercicios
 
-## 📋 Resumen de Temas Cubiertos
+## Resumen de Temas Cubiertos
 - [lista de temas que se practican]
 
 ---
 
 ## Ejercicios de Práctica
 
-### 🟢 Nivel Básico
+### [BASICO] Nivel Básico
 
 #### Ejercicio 1: [Título]
-**Tema:** [tema que practica]
-**Enunciado:**
-[problema completo]
+Tema: [tema que practica]
+Enunciado: [problema completo]
 
-**Datos:**
+Datos:
 - [dato 1]
 - [dato 2]
 
-**Resolución:**
+Resolución:
 1. [paso 1]
 2. [paso 2]
 3. ...
 
-**Respuesta:** [resultado final]
+Respuesta: [resultado final]
 
 ---
 
-### 🟡 Nivel Intermedio
+### [INTERMEDIO] Nivel Intermedio
 
 #### Ejercicio N: [Título]
 ...
 
 ---
 
-### 🔴 Nivel Avanzado
+### [AVANZADO] Nivel Avanzado
 
 #### Ejercicio N: [Título]
 ...
 
 ---
 
-## 📋 Tareas del Profesor (si se mencionaron)
+## Tareas del Profesor (si se mencionaron)
 - [tarea 1 con fecha]
 - [tarea 2]
 
-## 💡 Tips para Resolver
+## Tips para Resolver
 - [consejos basados en lo explicado en clase]
 - [errores comunes a evitar]"""
 
@@ -458,6 +462,7 @@ def generate_preguntas(sessions: list[Path], config: dict) -> str:
     system_prompt = """Eres un asistente académico que extrae y organiza todas las preguntas realizadas durante una clase.
 
 INSTRUCCIONES ESTRICTAS:
+- NO USES EMOJIS en ninguna parte del texto
 - Identifica TODAS las preguntas hechas por alumnos o por el profesor
 - Incluye el contexto de la pregunta (qué se estaba explicando)
 - Si la pregunta fue respondida, incluye la respuesta
@@ -465,12 +470,13 @@ INSTRUCCIONES ESTRICTAS:
 - Si una pregunta generó discusión, incluye los puntos clave
 - Mantén el lenguaje original de la transcripción
 - Incluye timestamps si están disponibles en la transcripción
+- Usa formato markdown básico compatible con Notas de macOS
 
 FORMATO DE SALIDA OBLIGATORIO:
 
-# ❓ Preguntas de Clase
+# Preguntas de Clase
 
-## 📋 Resumen
+## Resumen
 - Total de preguntas: [N]
 - Temas más preguntados: [lista]
 
@@ -478,32 +484,32 @@ FORMATO DE SALIDA OBLIGATORIO:
 
 ## Preguntas por Tema
 
-### 📚 Tema 1: [Nombre del tema]
+### Tema 1: [Nombre del tema]
 
-#### ❓ Pregunta 1
-**Contexto:** [qué se estaba explicando]
-**Pregunta:** [pregunta exacta]
-**Respuesta:** [respuesta si se dio]
+#### Pregunta 1
+Contexto: [qué se estaba explicando]
+Pregunta: [pregunta exacta]
+Respuesta: [respuesta si se dio]
 
-#### ❓ Pregunta 2
-**Contexto:** [...]
-**Pregunta:** [...]
-**Respuesta:** [...]
+#### Pregunta 2
+Contexto: [...]
+Pregunta: [...]
+Respuesta: [...]
 
 ---
 
-### 📚 Tema 2: [Nombre del tema]
+### Tema 2: [Nombre del tema]
 ...
 
 ---
 
-## 🔍 Preguntas sin Respuesta Clara
+## Preguntas sin Respuesta Clara
 - [preguntas que quedaron sin respuesta o con respuesta ambigua]
 
-## 💡 Preguntas Clave para el Examen
+## Preguntas Clave para el Examen
 - [preguntas que el profesor marcó como importantes]
 
-## 📝 Notas Adicionales
+## Notas Adicionales
 - [cualquier observación relevante sobre las preguntas]"""
 
     messages = [
@@ -537,6 +543,7 @@ def generate_comunicados(sessions: list[Path], config: dict) -> str:
     system_prompt = """Eres un asistente académico que extrae comunicados oficiales de actividades de doctorado mencionados en clases.
 
 INSTRUCCIONES ESTRICTAS:
+- NO USES EMOJIS en ninguna parte del texto
 - Identifica TODOS los comunicados mencionados por el profesor o coordinación
 - Incluye fechas, plazos y requisitos mencionados
 - Organiza por categorías: exámenes, inscripciones, plazos, eventos, requisitos
@@ -544,53 +551,54 @@ INSTRUCCIONES ESTRICTAS:
 - Incluye información de contacto si se menciona
 - Si un comunicado es urgente o tiene fecha próxima, márcalo
 - Captura información sobre: tesis, seminarios, publicaciones, defensas, cursos
+- Usa formato markdown básico compatible con Notas de macOS
 
 FORMATO DE SALIDA OBLIGATORIO:
 
-# 📢 Comunicados del Doctorado
+# Comunicados del Doctorado
 
-## 📋 Resumen
+## Resumen
 - Total de comunicados: [N]
-- Próximos plazos: [lista breve]
+- Proximos plazos: [lista breve]
 
 ---
 
-## 📅 Próximas Fechas Importantes
+## Proximas Fechas Importantes
 
 | Fecha | Actividad | Estado |
 |-------|-----------|--------|
-| [fecha] | [actividad] | ⚠️ urgente / 📌 próximo / ✅ sin fecha |
+| [fecha] | [actividad] | URGENTE / PROXIMO / sin fecha |
 
 ---
 
-## 📝 Comunicados por Categoría
+## Comunicados por Categoria
 
-### 🎓 Exámenes y Defensas
+### Examenes y Defensas
 - [comunicado 1 con fecha y detalles]
 - [comunicado 2]
 
-### 📚 Inscripciones y Matrícula
+### Inscripciones y Matricula
 - [comunicado 1]
 
-### 📄 Publicaciones y Requisitos
+### Publicaciones y Requisitos
 - [comunicado 1]
 
-### 📆 Eventos y Seminarios
+### Eventos y Seminarios
 - [comunicado 1]
 
-### 📋 Tesis y Proyecto de Investigación
+### Tesis y Proyecto de Investigacion
 - [comunicado 1]
 
 ---
 
-## ⚠️ Acciones Requeridas
-- [lista de cosas que el alumno debe hacer con fecha límite]
+## Acciones Requeridas
+- [lista de cosas que el alumno debe hacer con fecha limite]
 
-## 📞 Contactos y Referencias
-- [emails, teléfonos, oficinas mencionadas]
+## Contactos y Referencias
+- [emails, telefonos, oficinas mencionadas]
 
-## 📌 Notas Adicionales
-- [cualquier información relevante adicional]"""
+## Notas Adicionales
+- [cualquier informacion relevante adicional]"""
 
     messages = [
         {"role": "system", "content": system_prompt},
@@ -623,6 +631,7 @@ def generate_pruebas(sessions: list[Path], config: dict) -> str:
     system_prompt = """Eres un asistente académico que extrae y resume TODO lo mencionado sobre evaluación en clases.
 
 INSTRUCCIONES ESTRICTAS:
+- NO USES EMOJIS en ninguna parte del texto
 - Busca TODAS las menciones de: pruebas, exámenes, evaluaciones, notas, calificaciones, rubrica, porcentajes
 - Incluye fechas de evaluaciones si se mencionan
 - Incluye formato de las pruebas (oral, escrita, múltiple opción, ensayo, etc.)
@@ -632,51 +641,52 @@ INSTRUCCIONES ESTRICTAS:
 - Incluye preguntas de los alumnos sobre evaluaciones y sus respuestas
 - Si se mencionan criterios de evaluación o rúbricas, inclúyelos
 - Si hay cambios o actualizaciones en la evaluación, márcalos
+- Usa formato markdown básico compatible con Notas de macOS
 
 FORMATO DE SALIDA OBLIGATORIO:
 
-# 📊 Todo sobre Evaluación
+# Todo sobre Evaluacion
 
-## 📋 Resumen General
-- Total de menciones sobre evaluación: [N]
-- Próximas evaluaciones: [lista breve]
+## Resumen General
+- Total de menciones sobre evaluacion: [N]
+- Proximas evaluaciones: [lista breve]
 
 ---
 
-## 📅 Cronograma de Evaluaciones
+## Cronograma de Evaluaciones
 
-| Evaluación | Fecha | Temas | Porcentaje | Formato |
+| Evaluacion | Fecha | Temas | Porcentaje | Formato |
 |------------|-------|-------|------------|---------|
 | [nombre] | [fecha] | [temas] | [%] | [formato] |
 
 ---
 
-## 📝 Detalle por Evaluación
+## Detalle por Evaluacion
 
-### 📌 Evaluación 1: [Nombre]
-- **Fecha:** [fecha]
-- **Formato:** [oral/escrita/etc.]
-- **Temas que entran:** [lista de temas]
-- **Porcentaje:** [% de la nota final]
-- **Criterios de evaluación:** [rúbrica si se menciona]
-- **Recomendaciones del profesor:** [tips]
+### Evaluacion 1: [Nombre]
+- Fecha: [fecha]
+- Formato: [oral/escrita/etc.]
+- Temas que entran: [lista de temas]
+- Porcentaje: [% de la nota final]
+- Criterios de evaluacion: [rubrica si se menciona]
+- Recomendaciones del profesor: [tips]
 
-### 📌 Evaluación 2: [Nombre]
+### Evaluacion 2: [Nombre]
 ...
 
 ---
 
-## 📚 Distribución de Notas
-- [porcentajes de cada evaluación si se mencionaron]
+## Distribucion de Notas
+- [porcentajes de cada evaluacion si se mencionaron]
 
-## 💡 Recomendaciones para Estudiar
+## Recomendaciones para Estudiar
 - [tips y consejos del profesor]
 
-## ❓ Preguntas sobre Evaluación
+## Preguntas sobre Evaluacion
 - [preguntas de alumnos sobre evaluaciones con respuestas]
 
-## ⚠️ Notas Importantes
-- [cualquier cambio, actualización o advertencia]"""
+## Notas Importantes
+- [cualquier cambio, actualizacion o advertencia]"""
 
     messages = [
         {"role": "system", "content": system_prompt},
@@ -709,6 +719,7 @@ def generate_errores(sessions: list[Path], config: dict) -> str:
     system_prompt = """Eres un experto académico que identifica errores metodológicos, conceptuales y didácticos en clases grabadas.
 
 INSTRUCCIONES ESTRICTAS:
+- NO USES EMOJIS en ninguna parte del texto
 - Analiza la transcripción buscando errores de cualquier tipo
 - Clasifica cada error por tipo y gravedad
 - Incluye el contexto exacto donde ocurre el error
@@ -716,20 +727,21 @@ INSTRUCCIONES ESTRICTAS:
 - Sé objetivo y profesional, no critiques al profesor sino al contenido
 - Si no estás seguro de si es un error, márcalo como "posible error" o "verificar"
 - Incluye tanto errores del profesor como conceptos erróneos de alumnos que no fueron corregidos
+- Usa formato markdown básico compatible con Notas de macOS
 
 TIPOS DE ERRORES A BUSCAR:
-1. **Conceptuales:** Definiciones incorrectas, conceptos mal explicados
-2. **Metodológicos:** Procedimientos incorrectos, pasos omitidos
-3. **Numéricos:** Cálculos erróneos, fórmulas mal aplicadas
-4. **Terminológicos:** Uso incorrecto de términos técnicos
-5. **Didácticos:** Explicaciones confusas, ejemplos incorrectos
-6. **Referencias:** Citas incorrectas, atribuciones erróneas
+1. Conceptuales: Definiciones incorrectas, conceptos mal explicados
+2. Metodológicos: Procedimientos incorrectos, pasos omitidos
+3. Numéricos: Cálculos erróneos, fórmulas mal aplicadas
+4. Terminológicos: Uso incorrecto de términos técnicos
+5. Didácticos: Explicaciones confusas, ejemplos incorrectos
+6. Referencias: Citas incorrectas, atribuciones erróneas
 
 FORMATO DE SALIDA OBLIGATORIO:
 
-# ⚠️ Errores Identificados en Clase
+# Errores Identificados en Clase
 
-## 📋 Resumen
+## Resumen
 - Total de errores encontrados: [N]
 - Por tipo:
   - Conceptuales: [N]
@@ -739,51 +751,51 @@ FORMATO DE SALIDA OBLIGATORIO:
 
 ---
 
-## 🔴 Errores Conceptuales
+## Errores Conceptuales
 
 ### Error 1: [Breve descripción]
-- **Contexto:** [qué se estaba explicando]
-- **Error:** [qué se dijo incorrectamente]
-- **Corrección:** [lo correcto]
-- **Gravedad:** Alta/Media/Baja
+- Contexto: [qué se estaba explicando]
+- Error: [qué se dijo incorrectamente]
+- Corrección: [lo correcto]
+- Gravedad: Alta/Media/Baja
 
 ### Error 2: ...
 ...
 
 ---
 
-## 🟠 Errores Metodológicos
+## Errores Metodológicos
 
 ### Error 1: [Breve descripción]
-- **Contexto:** [...]
-- **Error:** [procedimiento incorrecto]
-- **Corrección:** [procedimiento correcto]
-- **Gravedad:** Alta/Media/Baja
+- Contexto: [...]
+- Error: [procedimiento incorrecto]
+- Corrección: [procedimiento correcto]
+- Gravedad: Alta/Media/Baja
 
 ---
 
-## 🟡 Errores Numéricos
+## Errores Numéricos
 
 ### Error 1: [Breve descripción]
-- **Cálculo incorrecto:** [...]
-- **Cálculo correcto:** [...]
+- Cálculo incorrecto: [...]
+- Cálculo correcto: [...]
 
 ---
 
-## 🔵 Errores Terminológicos
+## Errores Terminológicos
 
 ### Error 1: [Término usado] → [Término correcto]
-- **Contexto:** [...]
+- Contexto: [...]
 
 ---
 
-## 🟢 Conceptos No Corregidos
+## Conceptos No Corregidos
 
 - [conceptos erróneos dichos por alumnos que no fueron corregidos]
 
 ---
 
-## 💡 Notas Adicionales
+## Notas Adicionales
 - [observaciones sobre la calidad metodológica general]
 - [patrones de errores recurrentes]"""
 
@@ -818,39 +830,41 @@ def generate_analisisclase(sessions: list[Path], config: dict) -> str:
     system_prompt = """Eres un experto en pedagogía y análisis educativo que realiza un análisis profundo de clases grabadas.
 
 INSTRUCCIONES ESTRICTAS:
+- NO USES EMOJIS en ninguna parte del texto
 - Analiza la ESTRUCTURA de la clase: inicio, desarrollo, cierre
-- Identifica el ÁNIMO y nivel de participación de los alumnos
-- Evalúa la DINÁMICA de comunicación profesor-alumnos
+- Identifica el ANIMO y nivel de participación de los alumnos
+- Evalúa la DINAMICA de comunicación profesor-alumnos
 - Detecta MOMENTOS CLAVE: cambios de tema, pausas, interacciones
-- Analiza la METODOLOGÍA didáctica utilizada
+- Analiza la METODOLOGIA didáctica utilizada
 - Identifica PATRONES de atención y desinterés
 - Evalúa la CLARIDAD de las explicaciones
-- Detecta GESTIÓN DEL TIEMPO: qué tanto se dedicó a cada tema
+- Detecta GESTION DEL TIEMPO: qué tanto se dedicó a cada tema
+- Usa formato markdown básico compatible con Notas de macOS
 
 ASPECTOS A ANALIZAR:
-1. **Estructura temporal:** Inicio, desarrollo, cierre
-2. **Ánimo de alumnos:** Participación, preguntas, silencios, risas
-3. **Metodología:** Tipo de enseñanza, recursos usados
-4. **Interacciones:** Diálogos, preguntas, respuestas
-5. **Momentos clave:** Picos de atención, confusiones, aclaraciones
-6. **Gestión del tiempo:** Distribución por temas
+1. Estructura temporal: Inicio, desarrollo, cierre
+2. Animo de alumnos: Participación, preguntas, silencios, risas
+3. Metodologia: Tipo de enseñanza, recursos usados
+4. Interacciones: Dialogos, preguntas, respuestas
+5. Momentos clave: Picos de atención, confusiones, aclaraciones
+6. Gestion del tiempo: Distribución por temas
 
 FORMATO DE SALIDA OBLIGATORIO:
 
-# 🔬 Análisis Pedagógico de Clase
+# Analisis Pedagogico de Clase
 
-## 📋 Resumen Ejecutivo
-- **Duración total:** [estimación]
-- **Estructura:** [bien estructurada / desorganizada / parcial]
-- **Ánimo general:** [activo / pasivo / mixto]
-- **Metodología principal:** [clase magistral / participativa / mixta]
-- **Puntos clave:** [resumen de los 3-5 puntos más importantes tratados]
+## Resumen Ejecutivo
+- Duración total: [estimación]
+- Estructura: [bien estructurada / desorganizada / parcial]
+- Animo general: [activo / pasivo / mixto]
+- Metodologia principal: [clase magistral / participativa / mixta]
+- Puntos clave: [resumen de los 3-5 puntos más importantes tratados]
 
 ---
 
-## ⏱️ Estructura Temporal y Puntos Tratados
+## Estructura Temporal y Puntos Tratados
 
-### 🟢 ETAPA 1: INICIO (primeros minutos)
+### ETAPA 1: INICIO (primeros minutos)
 
 #### Actividades realizadas
 - [qué se hizo al inicio: revisión, introducción, consultas, etc.]
@@ -861,19 +875,19 @@ FORMATO DE SALIDA OBLIGATORIO:
 - [punto 3]
 
 #### Indicadores
-- **Duración estimada:** [minutos]
-- **Efectividad:** [buena / regular / mala]
-- **Conexión con clase anterior:** [sí / no / parcial]
-- **Presentación de objetivos:** [sí / no]
-- **Observaciones:** [cómo arrancó la clase]
+- Duración estimada: [minutos]
+- Efectividad: [buena / regular / mala]
+- Conexión con clase anterior: [sí / no / parcial]
+- Presentación de objetivos: [sí / no]
+- Observaciones: [cómo arrancó la clase]
 
 ---
 
-### 🔵 ETAPA 2: DESARROLLO (cuerpo principal)
+### ETAPA 2: DESARROLLO (cuerpo principal)
 
 #### Temas y puntos tratados
 
-**Tema 1: [Nombre del tema]**
+Tema 1: [Nombre del tema]
 - Duración: [minutos estimados]
 - Puntos específicos tratados:
   - [punto detallado 1]
@@ -882,7 +896,7 @@ FORMATO DE SALIDA OBLIGATORIO:
 - Ejemplos dados: [sí/no, cuáles]
 - Ejercicios realizados: [sí/no, cuáles]
 
-**Tema 2: [Nombre del tema]**
+Tema 2: [Nombre del tema]
 - Duración: [minutos estimados]
 - Puntos específicos tratados:
   - [punto detallado 1]
@@ -890,18 +904,18 @@ FORMATO DE SALIDA OBLIGATORIO:
 - Ejemplos dados: [sí/no, cuáles]
 - Ejercicios realizados: [sí/no, cuáles]
 
-**Tema 3: [Nombre del tema]**
+Tema 3: [Nombre del tema]
 ...
 
 #### Indicadores del desarrollo
-- **Transiciones entre temas:** [fluidas / abruptas / confusas]
-- **Ritmo:** [adecuado / rápido / lento]
-- **Profundidad:** [superficial / adecuada / profunda]
-- **Conexión entre temas:** [buena / regular / mala]
+- Transiciones entre temas: [fluidas / abruptas / confusas]
+- Ritmo: [adecuado / rápido / lento]
+- Profundidad: [superficial / adecuada / profunda]
+- Conexión entre temas: [buena / regular / mala]
 
 ---
 
-### 🔴 ETAPA 3: CIERRE (últimos minutos)
+### ETAPA 3: CIERRE (últimos minutos)
 
 #### Actividades realizadas
 - [qué se hizo al cerrar: resumen, tareas, consultas, etc.]
@@ -912,28 +926,24 @@ FORMATO DE SALIDA OBLIGATORIO:
 - [resumen de lo visto en la clase]
 
 #### Indicadores
-- **Duración estimada:** [minutos]
-- **Resumen de la clase:** [sí / no / parcial]
-- **Tareas asignadas:** [sí / no, cuáles]
-- **Adelanto de próxima clase:** [sí / no]
-- **Despedida:** [formal / informal / abrupta]
-- **Consultas finales:** [sí / no, de qué]
+- Duración estimada: [minutos]
+- Resumen de la clase: [sí / no / parcial]
+- Tareas asignadas: [sí / no, cuáles]
+- Adelanto de próxima clase: [sí / no]
+- Despedida: [formal / informal / abrupta]
+- Consultas finales: [sí / no, de qué]
 
 ---
 
-## 📊 Mapa Visual de la Clase
+## Mapa Visual de la Clase
 
-```
-INICIO (X min)          DESARROLLO (X min)           CIERRE (X min)
-┌─────────────┐    ┌─────────────────────────┐    ┌─────────────┐
-│ [actividad] │ →  │ Tema1 → Tema2 → Tema3  │ →  │ [actividad] │
-│ [puntos]    │    │ [puntos clave]          │    │ [puntos]    │
-└─────────────┘    └─────────────────────────┘    └─────────────┘
-```
+INICIO (X min)  --->  DESARROLLO (X min)  --->  CIERRE (X min)
+[actividad]          Tema1, Tema2, Tema3       [actividad]
+[puntos]             [puntos clave]            [puntos]
 
 ---
 
-## 😊 Ánimo y Participación de Alumnos
+## Animo y Participación de Alumnos
 
 ### Nivel de Participación
 | Aspecto | Nivel | Evidencia |
@@ -948,20 +958,20 @@ INICIO (X min)          DESARROLLO (X min)           CIERRE (X min)
 ### Momentos de Menor Participación
 - [minuto/tema] - [qué pasó]
 
-### Indicadores de Ánimo
-- **Risas o momentos de humor:** [sí/no, cuándo]
-- **Silencios prolongados:** [cuándo, posible causa]
-- **Confusiones detectadas:** [cuándo, sobre qué]
-- **Entusiasmo:** [momentos de interés notable]
+### Indicadores de Animo
+- Risas o momentos de humor: [sí/no, cuándo]
+- Silencios prolongados: [cuándo, posible causa]
+- Confusiones detectadas: [cuándo, sobre qué]
+- Entusiasmo: [momentos de interés notable]
 
 ---
 
-## 👨‍🏫 Análisis del Profesor
+## Analisis del Profesor
 
 ### Estilo de Enseñanza
-- **Tipo:** [magistral / socrático / colaborativo / mixto]
-- **Claridad:** [alta / media / baja]
-- **Organización:** [buena / regular / mala]
+- Tipo: [magistral / socrático / colaborativo / mixto]
+- Claridad: [alta / media / baja]
+- Organización: [buena / regular / mala]
 
 ### Recursos Didácticos Usados
 - [pizarra / diapositivas / ejemplos / ejercicios / etc.]
@@ -976,7 +986,7 @@ INICIO (X min)          DESARROLLO (X min)           CIERRE (X min)
 
 ---
 
-## 📊 Distribución del Tiempo
+## Distribución del Tiempo
 
 | Actividad | Tiempo Estimado | Porcentaje |
 |-----------|-----------------|------------|
@@ -988,19 +998,19 @@ INICIO (X min)          DESARROLLO (X min)           CIERRE (X min)
 
 ---
 
-## 💡 Momentos Clave Detectados
+## Momentos Clave Detectados
 
 ### Momento 1: [Descripción]
-- **Tipo:** [explicación clave / confusión / aclaración / cambio de tema]
-- **Impacto:** [alto / medio / bajo]
-- **Detalle:** [qué pasó]
+- Tipo: [explicación clave / confusión / aclaración / cambio de tema]
+- Impacto: [alto / medio / bajo]
+- Detalle: [qué pasó]
 
 ### Momento 2: [Descripción]
 ...
 
 ---
 
-## 📝 Observaciones Generales
+## Observaciones Generales
 - [patrones detectados]
 - [recomendaciones generales]
 - [notas sobre la dinámica de grupo]"""
