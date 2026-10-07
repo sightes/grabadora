@@ -46,6 +46,8 @@ def _print_header():
 def _print_help():
     cmds = [
         ("/apuntes",   "seleccionar transcripciones y generar apuntes"),
+        ("/tareas",    "generar tareas y ejercicios desde transcripciones"),
+        ("/preguntas", "listar todas las preguntas realizadas en clase"),
         ("/limpiar",   "limpiar historial de conversación"),
         ("/modelo",    "ver modelo configurado"),
         ("/ayuda",     "mostrar esta ayuda"),
@@ -70,7 +72,7 @@ def call_openrouter(messages: list[dict], config: dict) -> str:
         "model": config["model"],
         "messages": messages,
         "temperature": 0.7,
-        "max_tokens": 4096,
+        "max_tokens": 8192,
     }).encode("utf-8")
 
     headers = {
@@ -217,50 +219,291 @@ def generate_apuntes(sessions: list[Path], config: dict) -> str:
                 name = p.stem
                 tags_str = ""
             label = f"{name} ({tags_str})" if tags_str else name
-            contents.append(f"## {label}\n\n{text[:8000]}")
+            contents.append(f"## {label}\n\n{text[:15000]}")
 
     if not contents:
         return "no se encontró contenido en las transcripciones seleccionadas."
 
     context = "\n\n---\n\n".join(contents)
 
-    system_prompt = """Eres un asistente académico experto que genera apuntes de clase estructurados y claros.
+    system_prompt = """Eres un asistente académico experto que genera apuntes de clase EXTENSOS y DETALLADOS a partir de transcripciones de audio.
 
-INSTRUCCIONES:
-- Genera apuntes completos y bien organizados
-- Usa formato Markdown con encabezados, bullets y negritas
-- Incluye los conceptos clave, definiciones y ejemplos mencionados
-- Organiza por temas/subtemas
-- Incluye resumen al final
-- Si hay ejercicios o problemas mencionados, inclúyelos
-- Marca puntos importantes con ⭐
-- Usa español claro y conciso
+INSTRUCCIONES ESTRICTAS:
+- Extrae TODA la información relevante de la transcripción, no resumas demasiado
+- Incluye definiciones exactas mencionadas por el profesor
+- Copia fórmulas, ecuaciones y expresiones matemáticas tal cual se mencionan
+- Incluye ejemplos específicos explicados en clase con sus resultados
+- Anota procedimientos paso a paso cuando se explican
+- Incluye referencias a libros, capítulos o páginas si se mencionan
+- Captura las aclaraciones y "tips" que da el profesor
+- Incluye preguntas de los alumnos y sus respuestas si son relevantes
+- Si se mencionan exámenes, fechas o tareas, inclúyelos
+- Organiza TODO por temas/subtemas con jerarquía clara
+- Usa viñetas para cada punto, no párrafos largos
+- Marca con ⭐ lo que el profesor enfatiza como importante para el examen
+- Marca con ⚠️ las aclaraciones o correcciones importantes
 
-FORMATO DE SALIDA:
-# Apuntes de Clase
+FORMATO DE SALIDA OBLIGATORIO:
 
-## Resumen
-[resumen general]
+# 📚 Apuntes de Clase: [Tema Principal]
 
-## Conceptos Clave
+## 📋 Resumen Ejecutivo
+- [3-5 puntos clave de toda la clase]
+
+## 📅 Información de la Clase
+- Fecha: [si se menciona]
+- Tema: [tema principal]
+- Profesor: [si se menciona]
+- Referencias: [libros, capítulos, páginas si se mencionan]
+
+---
+
+## 🔑 Conceptos Fundamentales
+
+### Concepto 1: [Nombre]
+- **Definición:** [definición exacta mencionada]
+- **Fórmula:** [si aplica]
+- **Ejemplo:** [ejemplo específico de clase]
+
+### Concepto 2: [Nombre]
 - ...
 
-## Desarrollo
-### Tema 1
+---
+
+## 📖 Desarrollo Detallado
+
+### Tema 1: [Nombre del tema]
+#### Subtema 1.1: [Nombre]
+- Punto detallado 1
+- Punto detallado 2
+- **Ejemplo resuelto:** [paso a paso]
+
+#### Subtema 1.2: [Nombre]
 - ...
 
-## Puntos Importantes
+### Tema 2: [Nombre del tema]
 - ...
 
-## Ejercicios/Problemas (si aplica)
-- ...
+---
 
-## Resumen Final
-- ..."""
+## 🧮 Fórmulas y Ecuaciones
+| Concepto | Fórmula | Notas |
+|----------|---------|-------|
+| ... | ... | ... |
+
+---
+
+## ✅ Ejercicios y Problemas Resueltos
+
+### Ejercicio 1: [Descripción]
+1. **Enunciado:** [problema]
+2. **Datos:** [datos dados]
+3. **Resolución:**
+   - Paso 1: ...
+   - Paso 2: ...
+4. **Resultado:** [respuesta final]
+
+---
+
+## ⭐ Puntos Importantes para el Examen
+- [todo lo que el profesor marcó como importante]
+- [preguntas frecuentes mencionadas]
+
+## ⚠️ Aclaraciones y Correcciones
+- [errores comunes mencionados]
+- [tips del profesor]
+
+## 📝 Tareas y Expendientes
+- [tareas, fechas, trabajos mencionados]
+
+---
+
+## 🎯 Resumen Final
+- [lista de los puntos más importantes para recordar]"""
 
     messages = [
         {"role": "system", "content": system_prompt},
         {"role": "user", "content": f"Genera apuntes de clase basados en estas transcripciones:\n\n{context}"}
+    ]
+
+    return call_openrouter(messages, config)
+
+
+def generate_tareas(sessions: list[Path], config: dict) -> str:
+    """Genera tareas/ejercicios desde las transcripciones seleccionadas."""
+    contents = []
+    for p in sessions:
+        text = get_transcript_text(p)
+        if text:
+            if p.is_dir():
+                tags = get_tags(p)
+                tags_str = ", ".join(sorted(tags)) if tags else ""
+                try:
+                    name = p.name[:10]
+                except Exception:
+                    name = p.name
+            else:
+                name = p.stem
+                tags_str = ""
+            label = f"{name} ({tags_str})" if tags_str else name
+            contents.append(f"## {label}\n\n{text[:15000]}")
+
+    if not contents:
+        return "no se encontró contenido en las transcripciones seleccionadas."
+
+    context = "\n\n---\n\n".join(contents)
+
+    system_prompt = """Eres un asistente académico experto que genera tareas y ejercicios de práctica basados en clases grabadas.
+
+INSTRUCCIONES ESTRICTAS:
+- Genera ejercicios que cubran TODOS los temas vistos en clase
+- Incluye ejercicios de diferentes niveles: básico, intermedio, avanzado
+- Si el profesor mencionó ejercicios específicos, inclúyelos tal cual
+- Si hay ejemplos resueltos en clase, genera ejercicios similares con otros datos
+- Incluye las respuestas/respuestas esperadas al final de cada ejercicio
+- Marca con 🟢 básico, 🟡 intermedio, 🔴 avanzado
+- Si se mencionaron tareas o exámenes, inclúyelos
+- Incluye ejercicios de tipo examen si es posible
+
+FORMATO DE SALIDA OBLIGATORIO:
+
+# 📝 Tareas y Ejercicios
+
+## 📋 Resumen de Temas Cubiertos
+- [lista de temas que se practican]
+
+---
+
+## Ejercicios de Práctica
+
+### 🟢 Nivel Básico
+
+#### Ejercicio 1: [Título]
+**Tema:** [tema que practica]
+**Enunciado:**
+[problema completo]
+
+**Datos:**
+- [dato 1]
+- [dato 2]
+
+**Resolución:**
+1. [paso 1]
+2. [paso 2]
+3. ...
+
+**Respuesta:** [resultado final]
+
+---
+
+### 🟡 Nivel Intermedio
+
+#### Ejercicio N: [Título]
+...
+
+---
+
+### 🔴 Nivel Avanzado
+
+#### Ejercicio N: [Título]
+...
+
+---
+
+## 📋 Tareas del Profesor (si se mencionaron)
+- [tarea 1 con fecha]
+- [tarea 2]
+
+## 💡 Tips para Resolver
+- [consejos basados en lo explicado en clase]
+- [errores comunes a evitar]"""
+
+    messages = [
+        {"role": "system", "content": system_prompt},
+        {"role": "user", "content": f"Genera tareas y ejercicios de práctica basados en estas transcripciones de clase:\n\n{context}"}
+    ]
+
+    return call_openrouter(messages, config)
+
+
+def generate_preguntas(sessions: list[Path], config: dict) -> str:
+    """Extrae todas las preguntas realizadas en clase."""
+    contents = []
+    for p in sessions:
+        text = get_transcript_text(p)
+        if text:
+            if p.is_dir():
+                tags = get_tags(p)
+                tags_str = ", ".join(sorted(tags)) if tags else ""
+                try:
+                    name = p.name[:10]
+                except Exception:
+                    name = p.name
+            else:
+                name = p.stem
+                tags_str = ""
+            label = f"{name} ({tags_str})" if tags_str else name
+            contents.append(f"## {label}\n\n{text[:15000]}")
+
+    if not contents:
+        return "no se encontró contenido en las transcripciones seleccionadas."
+
+    context = "\n\n---\n\n".join(contents)
+
+    system_prompt = """Eres un asistente académico que extrae y organiza todas las preguntas realizadas durante una clase.
+
+INSTRUCCIONES ESTRICTAS:
+- Identifica TODAS las preguntas hechas por alumnos o por el profesor
+- Incluye el contexto de la pregunta (qué se estaba explicando)
+- Si la pregunta fue respondida, incluye la respuesta
+- Clasifica las preguntas por tipo: conceptual, procedimental, aclaración
+- Si una pregunta generó discusión, incluye los puntos clave
+- Mantén el lenguaje original de la transcripción
+- Incluye timestamps si están disponibles en la transcripción
+
+FORMATO DE SALIDA OBLIGATORIO:
+
+# ❓ Preguntas de Clase
+
+## 📋 Resumen
+- Total de preguntas: [N]
+- Temas más preguntados: [lista]
+
+---
+
+## Preguntas por Tema
+
+### 📚 Tema 1: [Nombre del tema]
+
+#### ❓ Pregunta 1
+**Contexto:** [qué se estaba explicando]
+**Pregunta:** [pregunta exacta]
+**Respuesta:** [respuesta si se dio]
+
+#### ❓ Pregunta 2
+**Contexto:** [...]
+**Pregunta:** [...]
+**Respuesta:** [...]
+
+---
+
+### 📚 Tema 2: [Nombre del tema]
+...
+
+---
+
+## 🔍 Preguntas sin Respuesta Clara
+- [preguntas que quedaron sin respuesta o con respuesta ambigua]
+
+## 💡 Preguntas Clave para el Examen
+- [preguntas que el profesor marcó como importantes]
+
+## 📝 Notas Adicionales
+- [cualquier observación relevante sobre las preguntas]"""
+
+    messages = [
+        {"role": "system", "content": system_prompt},
+        {"role": "user", "content": f"Extrae y organiza todas las preguntas realizadas en estas clases:\n\n{context}"}
     ]
 
     return call_openrouter(messages, config)
@@ -354,6 +597,86 @@ def run_chatbot():
                     console.print()
                     history.append({"role": "user", "content": "/apuntes"})
                     history.append({"role": "assistant", "content": apuntes})
+                    continue
+
+                elif cmd == "/tareas":
+                    console.print(f"\n  [{YELLOW}]tareas[/]")
+                    console.print(DIVIDER)
+                    sessions = select_transcripts()
+
+                    if not sessions:
+                        continue
+
+                    console.print(f"\n  [{DIM}]generando tareas de {len(sessions)} transcripción(es)...[/]")
+
+                    with console.status(f"  [{VIOLET}]procesando[/]", spinner="dots"):
+                        tareas = generate_tareas(sessions, config)
+
+                    console.print()
+                    console.print(Panel(
+                        Markdown(tareas),
+                        border_style=DIM,
+                        box=MINIMAL,
+                        padding=(1, 2),
+                    ))
+
+                    console.print()
+                    save = _prompt("guardar en archivo? (s/n)")
+                    if save in ("s", "si", "y", "yes", ""):
+                        try:
+                            date_str = datetime.now().strftime("%Y-%m-%d_%H-%M")
+                            filename = f"tareas_{date_str}.md"
+                        except Exception:
+                            filename = "tareas.md"
+
+                        save_dir = sessions[0].parent if sessions and sessions[0].is_dir() else DATA_DIR
+                        filepath = save_dir / filename
+                        filepath.write_text(tareas, encoding="utf-8")
+                        console.print(f"  [{GREEN}]guardado[{DIM}] {filepath}[/]")
+
+                    console.print()
+                    history.append({"role": "user", "content": "/tareas"})
+                    history.append({"role": "assistant", "content": tareas})
+                    continue
+
+                elif cmd == "/preguntas":
+                    console.print(f"\n  [{YELLOW}]preguntas[/]")
+                    console.print(DIVIDER)
+                    sessions = select_transcripts()
+
+                    if not sessions:
+                        continue
+
+                    console.print(f"\n  [{DIM}]extrayendo preguntas de {len(sessions)} transcripción(es)...[/]")
+
+                    with console.status(f"  [{VIOLET}]procesando[/]", spinner="dots"):
+                        preguntas = generate_preguntas(sessions, config)
+
+                    console.print()
+                    console.print(Panel(
+                        Markdown(preguntas),
+                        border_style=DIM,
+                        box=MINIMAL,
+                        padding=(1, 2),
+                    ))
+
+                    console.print()
+                    save = _prompt("guardar en archivo? (s/n)")
+                    if save in ("s", "si", "y", "yes", ""):
+                        try:
+                            date_str = datetime.now().strftime("%Y-%m-%d_%H-%M")
+                            filename = f"preguntas_{date_str}.md"
+                        except Exception:
+                            filename = "preguntas.md"
+
+                        save_dir = sessions[0].parent if sessions and sessions[0].is_dir() else DATA_DIR
+                        filepath = save_dir / filename
+                        filepath.write_text(preguntas, encoding="utf-8")
+                        console.print(f"  [{GREEN}]guardado[{DIM}] {filepath}[/]")
+
+                    console.print()
+                    history.append({"role": "user", "content": "/preguntas"})
+                    history.append({"role": "assistant", "content": preguntas})
                     continue
 
                 else:
