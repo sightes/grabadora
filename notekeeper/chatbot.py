@@ -9,42 +9,41 @@ from datetime import datetime
 from rich.console import Console
 from rich.markdown import Markdown
 from rich.panel import Panel
-from rich.text import Text
 from rich.table import Table
-from rich.box import MINIMAL, SIMPLE, ROUNDED
+from rich.box import MINIMAL, SIMPLE
 
 from notekeeper.config import LLM_API_KEY, LLM_BASE_URL, LLM_MODEL, DATA_DIR
 from notekeeper.storage import list_sessions, load_metadata, get_tags
 
 console = Console()
 
-# ── Colores (estilo opencode: monocromático con acentos) ─────
-C = {
-    "prompt":    "#22D3EE",   # cyan brillante para input
-    "user":      "#22D3EE",   # cyan
-    "assistant": "#A78BFA",   # violeta
-    "system":    "#6B7280",   # gris
-    "accent":    "#F59E0B",   # amarillo
-    "error":     "#EF4444",   # rojo
-    "dim":       "#4B5563",   # gris oscuro
-    "border":    "#374151",   # borde sutil
-    "muted":     "#9CA3AF",   # gris claro
-    "success":   "#34D399",   # verde
-}
+# ── Colores ───────────────────────────────────────────────────
+CYAN = "#22D3EE"
+VIOLET = "#A78BFA"
+GRAY = "#6B7280"
+YELLOW = "#F59E0B"
+RED = "#EF4444"
+DIM = "#4B5563"
+GREEN = "#34D399"
+MUTED = "#9CA3AF"
 
-DIVIDER = f"[{C['dim']}]─────────────────────────────────────────────────────────[/]"
+DIVIDER = f"[{DIM}]─────────────────────────────────────────────────────────[/]"
+
+
+def _prompt(text: str) -> str:
+    """Muestra prompt con Rich y captura input."""
+    console.print(f"  [{CYAN}]{text}[/]", end="")
+    return input(" ").strip()
 
 
 def _print_header():
-    """Header minimalista estilo opencode."""
     console.print()
-    console.print(f"  [{C['assistant']}]apuntes[{C['system']}] v0.1[/]")
-    console.print(f"  [{C['dim']}]genera apuntes desde tus transcripciones[/]")
+    console.print(f"  [{VIOLET}]apuntes[{GRAY}] v0.1[/]")
+    console.print(f"  [{DIM}]genera apuntes desde tus transcripciones[/]")
     console.print()
 
 
 def _print_help():
-    """Ayuda compacta."""
     cmds = [
         ("/apuntes",   "seleccionar transcripciones y generar apuntes"),
         ("/limpiar",   "limpiar historial de conversación"),
@@ -54,7 +53,7 @@ def _print_help():
     ]
     console.print()
     for cmd, desc in cmds:
-        console.print(f"    [{C['accent']}]{cmd:<14}[{C['muted']}]{desc}[/]")
+        console.print(f"    [{YELLOW}]{cmd:<14}[{MUTED}]{desc}[/]")
     console.print()
 
 
@@ -67,7 +66,6 @@ def get_llm_config():
 
 
 def call_openrouter(messages: list[dict], config: dict) -> str:
-    """Llama a la API de OpenRouter."""
     payload = json.dumps({
         "model": config["model"],
         "messages": messages,
@@ -112,32 +110,30 @@ def get_transcript_text(session: Path) -> str | None:
 
 
 def select_transcripts() -> list[Path]:
-    """Menú de selección de transcripciones."""
     sessions = list_sessions()
 
     if not sessions:
-        console.print(f"  [{C['error']}]no hay transcripciones disponibles[/]")
+        console.print(f"  [{RED}]no hay transcripciones disponibles[/]")
         return []
 
     sessions_ok = [s for s in sessions if (s / "transcript.txt").exists()]
 
     if not sessions_ok:
-        console.print(f"  [{C['error']}]no hay transcripciones completadas[/]")
+        console.print(f"  [{RED}]no hay transcripciones completadas[/]")
         return []
 
-    # Tabla compacta
     table = Table(
         box=SIMPLE,
         show_header=True,
-        header_style=f"bold {C['muted']}",
-        border_style=C["dim"],
+        header_style=f"bold {MUTED}",
+        border_style=DIM,
         pad_edge=False,
         padding=(0, 1),
     )
-    table.add_column("#", style=C["accent"], width=3, justify="right")
-    table.add_column("fecha", style=C["user"])
-    table.add_column("tags", style=C["assistant"])
-    table.add_column("dur", style=C["dim"], justify="right")
+    table.add_column("#", style=CYAN, width=3, justify="right")
+    table.add_column("fecha", style=CYAN)
+    table.add_column("tags", style=VIOLET)
+    table.add_column("dur", style=DIM, justify="right")
 
     for i, s in enumerate(sessions_ok, 1):
         meta = load_metadata(s)
@@ -159,11 +155,9 @@ def select_transcripts() -> list[Path]:
     console.print(table)
     console.print()
 
-    selection = input(f"  [{C['prompt']}]selecciona[{C['dim']}] (1,2,3 o 'todas')[/] > ").strip()
-
+    selection = _prompt("selecciona")
     if not selection:
         return []
-
     if selection.lower() == "todas":
         return sessions_ok
 
@@ -174,15 +168,14 @@ def select_transcripts() -> list[Path]:
             if 1 <= idx <= len(sessions_ok):
                 selected.append(sessions_ok[idx - 1])
             else:
-                console.print(f"  [{C['error']}]índice inválido: {idx}[/]")
+                console.print(f"  [{RED}]índice inválido: {idx}[/]")
         return selected
     except ValueError:
-        console.print(f"  [{C['error']}]formato inválido[/]")
+        console.print(f"  [{RED}]formato inválido[/]")
         return []
 
 
 def generate_apuntes(sessions: list[Path], config: dict) -> str:
-    """Genera apuntes desde las transcripciones seleccionadas."""
     contents = []
     for s in sessions:
         text = get_transcript_text(s)
@@ -243,17 +236,16 @@ FORMATO DE SALIDA:
 
 
 def run_chatbot():
-    """Ejecuta el chatbot interactivo."""
     config = get_llm_config()
 
     if not config["api_key"]:
-        console.print(f"\n  [{C['error']}]error:[/] LLM_API_KEY no configurado")
-        console.print(f"  [{C['dim']}]agrega tu api key de openrouter en .env[/]\n")
+        console.print(f"\n  [{RED}]error:[/] LLM_API_KEY no configurado")
+        console.print(f"  [{DIM}]agrega tu api key de openrouter en .env[/]\n")
         return
 
     _print_header()
-    console.print(f"  [{C['dim']}]modelo[{C['system']}] {config['model']}[/]")
-    console.print(f"  [{C['dim']}]escribe[{C['accent']}] /ayuda[{C['dim']}] para ver comandos[/]")
+    console.print(f"  [{DIM}]modelo[{GRAY}] {config['model']}[/]")
+    console.print(f"  [{DIM}]escribe[{YELLOW}] /ayuda[{DIM}] para ver comandos[/]")
     console.print()
 
     history: list[dict] = []
@@ -266,8 +258,7 @@ def run_chatbot():
 
     while True:
         try:
-            # Prompt estilo opencode
-            user_input = input(f"  [{C['prompt']}]>[/] ").strip()
+            user_input = _prompt(">")
 
             if not user_input:
                 continue
@@ -277,7 +268,7 @@ def run_chatbot():
                 cmd = user_input.lower()
 
                 if cmd == "/salir":
-                    console.print(f"\n  [{C['dim']}]bye[/]\n")
+                    console.print(f"\n  [{DIM}]bye[/]\n")
                     break
 
                 elif cmd == "/ayuda":
@@ -286,39 +277,37 @@ def run_chatbot():
 
                 elif cmd == "/limpiar":
                     history.clear()
-                    console.print(f"  [{C['success']}]historial limpiado[/]")
+                    console.print(f"  [{GREEN}]historial limpiado[/]")
                     continue
 
                 elif cmd == "/modelo":
-                    console.print(f"\n  [{C['dim']}]modelo[{C['system']}] {config['model']}[/]")
-                    console.print(f"  [{C['dim']}]url[{C['system']}] {config['base_url']}[/]\n")
+                    console.print(f"\n  [{DIM}]modelo[{GRAY}] {config['model']}[/]")
+                    console.print(f"  [{DIM}]url[{GRAY}] {config['base_url']}[/]\n")
                     continue
 
                 elif cmd == "/apuntes":
-                    console.print(f"\n  [{C['accent']}]apuntes[/]")
+                    console.print(f"\n  [{YELLOW}]apuntes[/]")
                     console.print(DIVIDER)
                     sessions = select_transcripts()
 
                     if not sessions:
                         continue
 
-                    console.print(f"\n  [{C['dim']}]generando apuntes de {len(sessions)} transcripción(es)...[/]")
+                    console.print(f"\n  [{DIM}]generando apuntes de {len(sessions)} transcripción(es)...[/]")
 
-                    with console.status(f"  [{C['assistant']}]procesando[/]", spinner="dots"):
+                    with console.status(f"  [{VIOLET}]procesando[/]", spinner="dots"):
                         apuntes = generate_apuntes(sessions, config)
 
                     console.print()
                     console.print(Panel(
                         Markdown(apuntes),
-                        border_style=C["dim"],
+                        border_style=DIM,
                         box=MINIMAL,
                         padding=(1, 2),
                     ))
 
-                    # Guardar
                     console.print()
-                    save = input(f"  [{C['prompt']}]guardar en archivo?[{C['dim']}] (s/n)[/] > ").strip().lower()
-
+                    save = _prompt("guardar en archivo? (s/n)")
                     if save in ("s", "si", "y", "yes", ""):
                         try:
                             date_str = datetime.now().strftime("%Y-%m-%d_%H-%M")
@@ -329,7 +318,7 @@ def run_chatbot():
                         save_dir = sessions[0].parent if sessions else DATA_DIR
                         filepath = save_dir / filename
                         filepath.write_text(apuntes, encoding="utf-8")
-                        console.print(f"  [{C['success']}]guardado[{C['dim']}] {filepath}[/]")
+                        console.print(f"  [{GREEN}]guardado[{DIM}] {filepath}[/]")
 
                     console.print()
                     history.append({"role": "user", "content": "/apuntes"})
@@ -337,23 +326,23 @@ def run_chatbot():
                     continue
 
                 else:
-                    console.print(f"  [{C['error']}]comando no reconocido:[/] {cmd}")
-                    console.print(f"  [{C['dim']}]escribe[{C['accent']}] /ayuda[/]")
+                    console.print(f"  [{RED}]comando no reconocido:[/] {cmd}")
+                    console.print(f"  [{DIM}]escribe[{YELLOW}] /ayuda[/]")
                     continue
 
-            # ── Conversación normal ───────────────────────────
+            # ── Conversación ──────────────────────────────────
             history.append({"role": "user", "content": user_input})
 
             messages = [{"role": "system", "content": system_prompt}]
             messages.extend(history[-10:])
 
-            with console.status(f"  [{C['assistant']}]pensando[/]", spinner="dots"):
+            with console.status(f"  [{VIOLET}]pensando[/]", spinner="dots"):
                 response = call_openrouter(messages, config)
 
             console.print()
             console.print(Panel(
                 Markdown(response),
-                border_style=C["dim"],
+                border_style=DIM,
                 box=MINIMAL,
                 padding=(0, 2),
             ))
@@ -362,8 +351,8 @@ def run_chatbot():
             history.append({"role": "assistant", "content": response})
 
         except KeyboardInterrupt:
-            console.print(f"\n\n  [{C['dim']}]bye[/]\n")
+            console.print(f"\n\n  [{DIM}]bye[/]\n")
             break
         except EOFError:
-            console.print(f"\n\n  [{C['dim']}]bye[/]\n")
+            console.print(f"\n\n  [{DIM}]bye[/]\n")
             break
