@@ -102,24 +102,41 @@ def call_openrouter(messages: list[dict], config: dict) -> str:
         return f"error: {exc}"
 
 
-def get_transcript_text(session: Path) -> str | None:
-    transcript = session / "transcript.txt"
-    if transcript.exists():
-        return transcript.read_text(encoding="utf-8")
+def get_transcript_text(path: Path) -> str | None:
+    """Lee transcripción: puede ser archivo .txt directo o dentro de sesión."""
+    if path.is_file() and path.suffix == ".txt":
+        return path.read_text(encoding="utf-8")
+    if path.is_dir():
+        transcript = path / "transcript.txt"
+        if transcript.exists():
+            return transcript.read_text(encoding="utf-8")
     return None
 
 
+def _find_transcripts() -> list[Path]:
+    """Busca transcripciones en formato sesión y formato directo."""
+    results = []
+
+    # 1. Formato sesión: recordings/YYYY-MM-DD_HH-MM-SS/transcript.txt
+    for s in list_sessions():
+        if (s / "transcript.txt").exists():
+            results.append(s)
+
+    # 2. Formato directo: recordings/*.txt (junto a .m4a/.wav)
+    data_dir = Path(DATA_DIR)
+    if data_dir.exists():
+        for txt in sorted(data_dir.glob("*.txt"), reverse=True):
+            if txt not in results:
+                results.append(txt)
+
+    return results
+
+
 def select_transcripts() -> list[Path]:
-    sessions = list_sessions()
-
-    if not sessions:
-        console.print(f"  [{RED}]no hay transcripciones disponibles[/]")
-        return []
-
-    sessions_ok = [s for s in sessions if (s / "transcript.txt").exists()]
+    sessions_ok = _find_transcripts()
 
     if not sessions_ok:
-        console.print(f"  [{RED}]no hay transcripciones completadas[/]")
+        console.print(f"  [{RED}]no hay transcripciones disponibles[/]")
         return []
 
     table = Table(
@@ -131,25 +148,32 @@ def select_transcripts() -> list[Path]:
         padding=(0, 1),
     )
     table.add_column("#", style=CYAN, width=3, justify="right")
-    table.add_column("fecha", style=CYAN)
-    table.add_column("tags", style=VIOLET)
+    table.add_column("nombre", style=CYAN)
     table.add_column("dur", style=DIM, justify="right")
 
-    for i, s in enumerate(sessions_ok, 1):
-        meta = load_metadata(s)
-        tags = get_tags(s)
-        tags_str = ", ".join(sorted(tags)) if tags else ""
-        duration = meta.get("duration", 0)
-        dur_str = f"{int(duration // 60)}:{int(duration % 60):02d}" if duration else "?"
+    for i, p in enumerate(sessions_ok, 1):
+        if p.is_dir():
+            # Formato sesión
+            meta = load_metadata(p)
+            duration = meta.get("duration", 0)
+            dur_str = f"{int(duration // 60)}:{int(duration % 60):02d}" if duration else "?"
+            try:
+                display = f"{p.name[:10]} {p.name[11:16].replace('-', ':')}"
+            except Exception:
+                display = p.name
+        else:
+            # Formato directo: archivo .txt
+            display = p.stem
+            # Buscar archivo de audio asociado para duración
+            for ext in (".m4a", ".wav", ".mp3", ".ogg"):
+                audio = p.with_suffix(ext)
+                if audio.exists():
+                    dur_str = f"{audio.stat().st_size // 1000000}MB"
+                    break
+            else:
+                dur_str = "?"
 
-        try:
-            date_str = s.name[:10]
-            time_str = s.name[11:16].replace("-", ":")
-            display_date = f"{date_str} {time_str}"
-        except Exception:
-            display_date = s.name
-
-        table.add_row(str(i), display_date, tags_str, dur_str)
+        table.add_row(str(i), display, dur_str)
 
     console.print()
     console.print(table)
@@ -177,16 +201,23 @@ def select_transcripts() -> list[Path]:
 
 def generate_apuntes(sessions: list[Path], config: dict) -> str:
     contents = []
-    for s in sessions:
-        text = get_transcript_text(s)
+    for p in sessions:
+        text = get_transcript_text(p)
         if text:
-            tags = get_tags(s)
-            tags_str = ", ".join(sorted(tags)) if tags else "sin tags"
-            try:
-                date_str = s.name[:10]
-            except Exception:
-                date_str = s.name
-            contents.append(f"## {date_str} ({tags_str})\n\n{text[:8000]}")
+            if p.is_dir():
+                # Formato sesión
+                tags = get_tags(p)
+                tags_str = ", ".join(sorted(tags)) if tags else "sin tags"
+                try:
+                    name = p.name[:10]
+                except Exception:
+                    name = p.name
+            else:
+                # Formato directo: archivo .txt
+                name = p.stem
+                tags_str = ""
+            label = f"{name} ({tags_str})" if tags_str else name
+            contents.append(f"## {label}\n\n{text[:8000]}")
 
     if not contents:
         return "no se encontró contenido en las transcripciones seleccionadas."
@@ -315,7 +346,7 @@ def run_chatbot():
                         except Exception:
                             filename = "apuntes.md"
 
-                        save_dir = sessions[0].parent if sessions else DATA_DIR
+                        save_dir = sessions[0].parent if sessions and sessions[0].is_dir() else DATA_DIR
                         filepath = save_dir / filename
                         filepath.write_text(apuntes, encoding="utf-8")
                         console.print(f"  [{GREEN}]guardado[{DIM}] {filepath}[/]")
