@@ -844,30 +844,92 @@ FORMATO DE SALIDA OBLIGATORIO:
 - **Estructura:** [bien estructurada / desorganizada / parcial]
 - **Ánimo general:** [activo / pasivo / mixto]
 - **Metodología principal:** [clase magistral / participativa / mixta]
+- **Puntos clave:** [resumen de los 3-5 puntos más importantes tratados]
 
 ---
 
-## ⏱️ Estructura Temporal
+## ⏱️ Estructura Temporal y Puntos Tratados
 
-### 🟢 Inicio (primeros minutos)
-- **Actividad:** [qué se hizo al inicio]
+### 🟢 ETAPA 1: INICIO (primeros minutos)
+
+#### Actividades realizadas
+- [qué se hizo al inicio: revisión, introducción, consultas, etc.]
+
+#### Puntos tratados en esta etapa
+- [punto 1 tratado al inicio de la clase]
+- [punto 2]
+- [punto 3]
+
+#### Indicadores
 - **Duración estimada:** [minutos]
 - **Efectividad:** [buena / regular / mala]
+- **Conexión con clase anterior:** [sí / no / parcial]
+- **Presentación de objetivos:** [sí / no]
 - **Observaciones:** [cómo arrancó la clase]
 
-### 🔵 Desarrollo (cuerpo principal)
-- **Temas cubiertos:**
-  1. [Tema 1] - [tiempo estimado]
-  2. [Tema 2] - [tiempo estimado]
-- **Transiciones:** [fluidas / abruptas / confusas]
+---
+
+### 🔵 ETAPA 2: DESARROLLO (cuerpo principal)
+
+#### Temas y puntos tratados
+
+**Tema 1: [Nombre del tema]**
+- Duración: [minutos estimados]
+- Puntos específicos tratados:
+  - [punto detallado 1]
+  - [punto detallado 2]
+  - [punto detallado 3]
+- Ejemplos dados: [sí/no, cuáles]
+- Ejercicios realizados: [sí/no, cuáles]
+
+**Tema 2: [Nombre del tema]**
+- Duración: [minutos estimados]
+- Puntos específicos tratados:
+  - [punto detallado 1]
+  - [punto detallado 2]
+- Ejemplos dados: [sí/no, cuáles]
+- Ejercicios realizados: [sí/no, cuáles]
+
+**Tema 3: [Nombre del tema]**
+...
+
+#### Indicadores del desarrollo
+- **Transiciones entre temas:** [fluidas / abruptas / confusas]
 - **Ritmo:** [adecuado / rápido / lento]
 - **Profundidad:** [superficial / adecuada / profunda]
+- **Conexión entre temas:** [buena / regular / mala]
 
-### 🔴 Cierre (últimos minutos)
-- **Actividad:** [cómo terminó la clase]
-- **Resumen:** [hizo resumen / no]
-- **Tareas:** [asignó tareas / no]
+---
+
+### 🔴 ETAPA 3: CIERRE (últimos minutos)
+
+#### Actividades realizadas
+- [qué se hizo al cerrar: resumen, tareas, consultas, etc.]
+
+#### Puntos tratados en esta etapa
+- [punto 1 tratado al cierre]
+- [punto 2]
+- [resumen de lo visto en la clase]
+
+#### Indicadores
+- **Duración estimada:** [minutos]
+- **Resumen de la clase:** [sí / no / parcial]
+- **Tareas asignadas:** [sí / no, cuáles]
+- **Adelanto de próxima clase:** [sí / no]
 - **Despedida:** [formal / informal / abrupta]
+- **Consultas finales:** [sí / no, de qué]
+
+---
+
+## 📊 Mapa Visual de la Clase
+
+```
+INICIO (X min)          DESARROLLO (X min)           CIERRE (X min)
+┌─────────────┐    ┌─────────────────────────┐    ┌─────────────┐
+│ [actividad] │ →  │ Tema1 → Tema2 → Tema3  │ →  │ [actividad] │
+│ [puntos]    │    │ [puntos clave]          │    │ [puntos]    │
+└─────────────┘    └─────────────────────────┘    └─────────────┘
+```
 
 ---
 
